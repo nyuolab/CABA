@@ -1,0 +1,41 @@
+{
+  "benchmark": "GOUT-CC",
+  "source_url": [
+    "https://huggingface.co/datasets/YLab-Open/BRIDGE-Open/resolve/41159677fba2454e032574625e24b24d29a17684/README.md",
+    "https://huggingface.co/spaces/YLab-Open/BRIDGE-Medical-Leaderboard/resolve/4701984de19780186fba13f0c61823a361ac57c1/task_information.json"
+  ],
+  "source_type": "suite release (BRIDGE) - but not included in BRIDGE-Open",
+  "revision": "41159677fba2454e032574625e24b24d29a17684",
+  "files": [
+    {
+      "path": "$CABA_DATA/gout_cc/_card/YLab-Open__BRIDGE-Open_README.md",
+      "bytes": 6510,
+      "sha256": "b07ee22ea074c4a1cadd1befae9f643b1ca3894fe7eb63c0a241e2e28a47b097",
+      "url": "https://huggingface.co/datasets/YLab-Open/BRIDGE-Open/resolve/41159677fba2454e032574625e24b24d29a17684/README.md",
+      "role": "dataset card"
+    },
+    {
+      "path": "$CABA_DATA/gout_cc/_card/BRIDGE-Medical-Leaderboard_task_information.json",
+      "bytes": 24776,
+      "sha256": "ab87b76362689a92d4c338f3059fec6dd33e4f358f067402cb0f64e92dd7baca",
+      "url": "https://huggingface.co/spaces/YLab-Open/BRIDGE-Medical-Leaderboard/resolve/4701984de19780186fba13f0c61823a361ac57c1/task_information.json",
+      "role": "BRIDGE leaderboard Space task metadata"
+    }
+  ],
+  "license": "PhysioNet restricted-access data use agreement (original release)",
+  "split": "n/a",
+  "n_items": null,
+  "public": "no: not released openly - GOUT-CC is absent from BRIDGE-Open's 55 task files (BRIDGE metadata lists 'GOUT-CC-Consensus' with Data Access 'Regulated'); the original Gout Emergency Department Chief Complaint Corpora v1.0 (PhysioNet, doi:10.13026/96v3-dw72) is 'Restricted Access: only registered users who sign the specified data use agreement'. BRIDGE-Open itself is also gated.",
+  "english": "yes per BRIDGE task metadata (English); not verified",
+  "text": "yes expected (ED chief-complaint text); not verified",
+  "single_request": "yes expected (BRIDGE text classification: instruction + chief complaint); not verified",
+  "request_fields": "instruction + input (BRIDGE format), not verified",
+  "example_structure": [
+    "example",
+    "fields"
+  ],
+  "notes": "BRIDGE task metadata: {\"Language\": \"English\", \"Task Type\": \"Text Classification\", \"Clinical Context\": \"Endocrinology\", \"Data Access\": \"Regulated\", \"Applications\": \"Diagnosis\", \"Clinical Stage\": \"Diagnosis and Prognosis\"}. PhysioNet page checked (HTML only, no files): https://physionet.org/content/emer-complaint-gout/ . Nothing downloaded.",
+  "hf_repo": "YLab-Open/BRIDGE-Open",
+  "checked_on": "2026-10-04",
+  "in_caba_v1_0": false
+}

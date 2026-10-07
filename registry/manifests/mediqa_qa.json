@@ -1,0 +1,56 @@
+{
+  "benchmark": "MEDIQA-QA",
+  "source_url": [
+    "https://raw.githubusercontent.com/abachaa/MEDIQA2019/32311a139b583a9ccec133b3f8a21873d4ff3561/README.md",
+    "https://raw.githubusercontent.com/abachaa/MEDIQA2019/32311a139b583a9ccec133b3f8a21873d4ff3561/MEDIQA_Task3_QA/Task3_README.txt",
+    "https://raw.githubusercontent.com/abachaa/MEDIQA2019/32311a139b583a9ccec133b3f8a21873d4ff3561/MEDIQA_Task3_QA/MEDIQA2019-Task3-QA-TestSet-wLabels.xml"
+  ],
+  "source_type": "own release",
+  "revision": "32311a139b583a9ccec133b3f8a21873d4ff3561",
+  "files": [
+    {
+      "path": "$CABA_DATA/mediqa_qa/README.md",
+      "bytes": 2293,
+      "sha256": "22a4342625442cd97be5de2d08e39aa538eb691c9cbdb38f7dc3ec0b0e95baeb"
+    },
+    {
+      "path": "$CABA_DATA/mediqa_qa/MEDIQA_Task3_QA/Task3_README.txt",
+      "bytes": 4815,
+      "sha256": "fe91e5614b53a19affb6823a190589cef2757ccd9905ed0521447eceb1771a81"
+    },
+    {
+      "path": "$CABA_DATA/mediqa_qa/MEDIQA_Task3_QA/MEDIQA2019-Task3-QA-TestSet-wLabels.xml",
+      "bytes": 3164376,
+      "sha256": "df9bca894d252279f200ee78e85d871b57a94b224d75467b7fa38a4a0952cc1d"
+    }
+  ],
+  "license": "CC BY 4.0 (README)",
+  "split": "MEDIQA 2019 Task 3 (QA) test set with labels",
+  "n_items": 150,
+  "public": "yes",
+  "english": "yes",
+  "text": "yes",
+  "single_request": "yes",
+  "request_fields": "QuestionText (consumer health question); original task also supplies AnswerList for filtering/re-ranking",
+  "example_structure": [
+    "AnswerList/Answer",
+    "Question@QID",
+    "QuestionText"
+  ],
+  "notes": "150 test questions with 1107 CHiQA-retrieved candidate answers. The shared task is answer classification and re-ranking; suites such as MedHELM use the question as an open QA request with the correct answers as references. single_request=yes on the question-only rendering; in the original re-ranking form it is a ranking task. Training/validation sets not downloaded. Checked 2026-10-04; no LLMs or API keys used.",
+  "rendering": {
+    "rule": "Item text as released: the consumer question alone (candidate answers omitted).",
+    "template_source": "none",
+    "n_usable": 148,
+    "n_sampled": 148,
+    "seed": 20261004,
+    "excluded": {
+      "non_english": 0,
+      "image": 0,
+      "duplicate": 2
+    },
+    "mean_chars": 120.1,
+    "max_chars": 931
+  },
+  "in_caba_v1_0": true
+}

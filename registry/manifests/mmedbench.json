@@ -1,0 +1,90 @@
+{
+  "benchmark": "MMedBench",
+  "source_url": [
+    "https://huggingface.co/datasets/Henrychur/MMedBench/resolve/d817c67d0bca216e63ea784fcf8a642c57bc372b/README.md",
+    "https://huggingface.co/datasets/Henrychur/MMedBench/resolve/d817c67d0bca216e63ea784fcf8a642c57bc372b/MMedBench.zip#MMedBench/Test/Chinese.jsonl",
+    "https://huggingface.co/datasets/Henrychur/MMedBench/resolve/d817c67d0bca216e63ea784fcf8a642c57bc372b/MMedBench.zip#MMedBench/Test/English.jsonl",
+    "https://huggingface.co/datasets/Henrychur/MMedBench/resolve/d817c67d0bca216e63ea784fcf8a642c57bc372b/MMedBench.zip#MMedBench/Test/French.jsonl",
+    "https://huggingface.co/datasets/Henrychur/MMedBench/resolve/d817c67d0bca216e63ea784fcf8a642c57bc372b/MMedBench.zip#MMedBench/Test/Japanese.jsonl",
+    "https://huggingface.co/datasets/Henrychur/MMedBench/resolve/d817c67d0bca216e63ea784fcf8a642c57bc372b/MMedBench.zip#MMedBench/Test/Russian.jsonl",
+    "https://huggingface.co/datasets/Henrychur/MMedBench/resolve/d817c67d0bca216e63ea784fcf8a642c57bc372b/MMedBench.zip#MMedBench/Test/Spanish.jsonl"
+  ],
+  "source_type": "own release",
+  "revision": "d817c67d0bca216e63ea784fcf8a642c57bc372b",
+  "files": [
+    {
+      "path": "$CABA_DATA/mmedbench/_card/Henrychur__MMedBench_README.md",
+      "bytes": 6058,
+      "sha256": "a7ea843f22df74927039de7eb3ca8174d161fd67aff1583fc81c2d8399cf8158",
+      "url": "https://huggingface.co/datasets/Henrychur/MMedBench/resolve/d817c67d0bca216e63ea784fcf8a642c57bc372b/README.md",
+      "role": "dataset card"
+    },
+    {
+      "path": "$CABA_DATA/mmedbench/MMedBench/Test/Chinese.jsonl",
+      "bytes": 3603080,
+      "sha256": "0dde5124af82dc3ec56d62809518f8e6b10af17421a057a1102e38288f6b700d",
+      "url": "https://huggingface.co/datasets/Henrychur/MMedBench/resolve/d817c67d0bca216e63ea784fcf8a642c57bc372b/MMedBench.zip#MMedBench/Test/Chinese.jsonl",
+      "role": "items (extracted from MMedBench.zip by HTTP range request; Train members not downloaded)"
+    },
+    {
+      "path": "$CABA_DATA/mmedbench/MMedBench/Test/English.jsonl",
+      "bytes": 3219042,
+      "sha256": "2f088bfa3cc5f38ab3c809880fece75f979dd2ad4a4b7e578df40e908b57370a",
+      "url": "https://huggingface.co/datasets/Henrychur/MMedBench/resolve/d817c67d0bca216e63ea784fcf8a642c57bc372b/MMedBench.zip#MMedBench/Test/English.jsonl",
+      "role": "items (extracted from MMedBench.zip by HTTP range request; Train members not downloaded)"
+    },
+    {
+      "path": "$CABA_DATA/mmedbench/MMedBench/Test/French.jsonl",
+      "bytes": 763658,
+      "sha256": "4ec889227c58893190ba7e955c95a3cecb5c006cdef84850a9cd183e7bf41110",
+      "url": "https://huggingface.co/datasets/Henrychur/MMedBench/resolve/d817c67d0bca216e63ea784fcf8a642c57bc372b/MMedBench.zip#MMedBench/Test/French.jsonl",
+      "role": "items (extracted from MMedBench.zip by HTTP range request; Train members not downloaded)"
+    },
+    {
+      "path": "$CABA_DATA/mmedbench/MMedBench/Test/Japanese.jsonl",
+      "bytes": 324221,
+      "sha256": "ab3370419dcf281751b63e46feb02f03c3b3e3f4fa127238f8d35a157183ce15",
+      "url": "https://huggingface.co/datasets/Henrychur/MMedBench/resolve/d817c67d0bca216e63ea784fcf8a642c57bc372b/MMedBench.zip#MMedBench/Test/Japanese.jsonl",
+      "role": "items (extracted from MMedBench.zip by HTTP range request; Train members not downloaded)"
+    },
+    {
+      "path": "$CABA_DATA/mmedbench/MMedBench/Test/Russian.jsonl",
+      "bytes": 335068,
+      "sha256": "cec626baed3e4432fc166243ab196db94bad2c4d3c887e491814ad63aa12b87e",
+      "url": "https://huggingface.co/datasets/Henrychur/MMedBench/resolve/d817c67d0bca216e63ea784fcf8a642c57bc372b/MMedBench.zip#MMedBench/Test/Russian.jsonl",
+      "role": "items (extracted from MMedBench.zip by HTTP range request; Train members not downloaded)"
+    },
+    {
+      "path": "$CABA_DATA/mmedbench/MMedBench/Test/Spanish.jsonl",
+      "bytes": 3226840,
+      "sha256": "bdbb723b94726aaa5c8790dee25c6da91ac3c91186c5f4f69ce37fd6fe1e18a9",
+      "url": "https://huggingface.co/datasets/Henrychur/MMedBench/resolve/d817c67d0bca216e63ea784fcf8a642c57bc372b/MMedBench.zip#MMedBench/Test/Spanish.jsonl",
+      "role": "items (extracted from MMedBench.zip by HTTP range request; Train members not downloaded)"
+    }
+  ],
+  "license": "cc-by-nc-4.0",
+  "split": "test (Test/<language>.jsonl inside MMedBench.zip); n_items = English test",
+  "n_items": 1273,
+  "public": "yes",
+  "english": "partly (English test file only: 1,273 items; other files are Chinese, Japanese, French, Russian, Spanish)",
+  "text": "yes",
+  "single_request": "yes",
+  "request_fields": "question + options",
+  "example_structure": [
+    "example",
+    "fields"
+  ],
+  "notes": "Test counts by language: {\"Chinese\": 3426, \"English\": 1273, \"French\": 622, \"Japanese\": 199, \"Russian\": 256, \"Spanish\": 2742} (total 8518). Only the six Test members of the 21.7 MB zip were fetched (central directory + member byte ranges, CRC-checked); zip LFS sha256 fb5b5539031d4f62e1e493a3f52f3f2afa8d8007a07abea33b9f288a9d50e596. The English test is identical to MedQA-USMLE 4-option test (all 1,273 questions match benchmarks/raw/MedQA/GBaker_phrases_no_exclude_test.jsonl), and the Spanish test has the HEAD-QA test size (2,742), so MMedBench English adds no new items beyond MedQA.",
+  "n_items_by_language": {
+    "Chinese": 3426,
+    "English": 1273,
+    "French": 622,
+    "Japanese": 199,
+    "Russian": 256,
+    "Spanish": 2742
+  },
+  "n_items_all_languages": 8518,
+  "hf_repo": "Henrychur/MMedBench",
+  "checked_on": "2026-10-04",
+  "in_caba_v1_0": false
+}

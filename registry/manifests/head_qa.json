@@ -1,0 +1,74 @@
+{
+  "benchmark": "HEAD-QA",
+  "source_url": [
+    "https://huggingface.co/datasets/dvilares/head_qa/resolve/d444ead98dd50d7949703c1662c7880a5c1ea77d/README.md",
+    "https://huggingface.co/datasets/dvilares/head_qa/resolve/d444ead98dd50d7949703c1662c7880a5c1ea77d/data/head-qa-es-en-pdfs.zip#HEAD_EN/test_HEAD_EN.json"
+  ],
+  "source_type": "own release",
+  "revision": "d444ead98dd50d7949703c1662c7880a5c1ea77d",
+  "files": [
+    {
+      "path": "$CABA_DATA/head_qa/_card/dvilares__head_qa_README.md",
+      "bytes": 10505,
+      "sha256": "58cfef0862924ceb055cb452636d5261cc24e8514ed6a605797321ab8dac96c8",
+      "url": "https://huggingface.co/datasets/dvilares/head_qa/resolve/d444ead98dd50d7949703c1662c7880a5c1ea77d/README.md",
+      "role": "dataset card"
+    },
+    {
+      "path": "$CABA_DATA/head_qa/HEAD_EN/test_HEAD_EN.json",
+      "bytes": 1309602,
+      "sha256": "41f9f178b5d363ecd665f56ecca42deff7834c66f491617cc2687bbcfccd03b7",
+      "url": "https://huggingface.co/datasets/dvilares/head_qa/resolve/d444ead98dd50d7949703c1662c7880a5c1ea77d/data/head-qa-es-en-pdfs.zip#HEAD_EN/test_HEAD_EN.json",
+      "role": "items (extracted from data/head-qa-es-en-pdfs.zip by HTTP range request; PDFs, images, Spanish and train/dev files not downloaded)"
+    }
+  ],
+  "license": "mit",
+  "split": "test (HEAD_EN/test_HEAD_EN.json, English version)",
+  "n_items": 2742,
+  "public": "yes",
+  "english": "yes (official English translation by the authors; original Spanish)",
+  "text": "subset (67 test questions reference an image, identifiable by a non-empty 'image' field; 2675 are text-only)",
+  "single_request": "yes",
+  "request_fields": "qtext + answers (list of aid/atext)",
+  "example_structure": [
+    "example",
+    "fields"
+  ],
+  "notes": "Repo is script-based; the 79 MB zip bundles exam PDFs and images, so only the English test JSON member was fetched (CRC-checked); zip LFS sha256 6ec29a3f55153d167f0bdf05395558919ba0b1df9c63e79ffceda2a09884ad8b. 12 exams: 2016 and 2017 papers for biology, nursing, pharmacology, medicine, psychology and chemistry. The card announces HEAD-QA v2 (alesi12/head_qa_v2, revision e62818d085fe22f7021543cd60d09aa223f47024, only a 'train' split of ~91 MB per language) - not downloaded. MedS-Bench also redistributes HEAD-QA (task129) and MMedBench's Spanish test has the same size (2,742).",
+  "n_items_text_only": 2675,
+  "hf_repo": "dvilares/head_qa",
+  "checked_on": "2026-10-04",
+  "rendering": {
+    "rule": "multiple choice: qtext, then answers one per line in aid order lettered A-E (source numbers them 1-5); questions with a non-empty 'image' field are excluded as image items in addition to the regex.",
+    "template_source": "none",
+    "n_usable": 2674,
+    "n_sampled": 200,
+    "seed": 20261004,
+    "excluded": {
+      "non_english": 0,
+      "image": 67,
+      "duplicate": 1
+    },
+    "image_rule": "Structured: non-empty HEAD-QA 'image' field. Plus stem rule: Exclude an item as needing an unreleased picture only if (i) a released image field marks it (HEAD-QA 'image'), or (ii) its question stem (the part that asks the question: MCQ question text, MedCalc 'Question', MedHallu 'Question', Med-HALT reasoning 'question', a patient's own question in HealthCareMagic/iCliniq/MEDIQA-RQE) matches, case-insensitively, any of: (a) shown/seen/depicted/displayed/illustrated/pictured/presented/visualized + in/on/below/above + [the/this] [accompanying/following/attached/adjacent] + figure|image|picture|photo(graph)|(photo)micrograph|exhibit|illustration|diagram|graph; (b) see/refer to + [the/this/these] [accompanying/following/attached] + a word of (a), or look at + [the/this/these/my] [accompanying/following/attached] + a visual word (the list in (a) plus radiograph|x-ray|ECG|EKG|electrocardiogram|tracing|smear|scan); (c) 'the following/accompanying/attached/adjacent' + a visual word, unless preceded by 'which of'; (d) this/these + image|photo(graph)|(photo)micrograph|exhibit|illustration|diagram|graph (not 'figure' or 'picture', which in stems mostly mean numbers or a clinical picture); (e) figure/fig./image + a number, or + a space and a capital letter A-H (e.g. 'Figure 1', 'Figures A-C', 'image # 6'); (f) a visual word + shown|attached|enclosed|below; (g) attached/enclosed/uploaded/sent (or attaching/uploading/sending) + [herewith] [determiner] [one word other than for/to/in/out] + picture|photo(graph)|image|x-ray|radiograph. Documents the item asks about (case reports, patient notes, news articles, abstracts, radiology reports, conversations, MedS-Bench inputs, MedHallu Knowledge, MedCaseReasoning case_prompt, Med-HALT IR fields) are not scanned. Regex: (?:\\b(?:shown|seen|depicted|displayed|illustrated|pictured|presented|visuali[sz]ed)\\s+(?:in|on|below|above)\\s+(?:the\\s+|this\\s+)?(?:accompanying\\s+|following\\s+|attached\\s+|adjacent\\s+)?(?:figures?|fig\\.|images?|pictures?|photos?|photographs?|photomicrographs?|micrographs?|exhibits?|illustrations?|diagrams?|graphs?)\\b)|(?:\\b(?:see|refer\\s+to)\\s+(?:the\\s+|this\\s+|these\\s+)?(?:accompanying\\s+|following\\s+|attached\\s+)?(?:figures?|fig\\.|images?|pictures?|photos?|photographs?|photomicrographs?|micrographs?|exhibits?|illustrations?|diagrams?|graphs?)\\b)|(?:\\blook\\s+at\\s+(?:the\\s+|this\\s+|these\\s+|my\\s+)?(?:accompanying\\s+|following\\s+|attached\\s+)?(?:figures?|fig\\.|images?|pictures?|photos?|photographs?|photomicrographs?|micrographs?|exhibits?|illustrations?|diagrams?|graphs?|radiographs?|x-?rays?|ecgs?|ekgs?|electrocardiograms?|tracings?|smears?|scans?)\\b)|(?:(?<!which of )(?<!which of\\s)\\bthe\\s+(?:following|accompanying|attached|adjacent)\\s+(?:figures?|fig\\.|images?|pictures?|photos?|photographs?|photomicrographs?|micrographs?|exhibits?|illustrations?|diagrams?|graphs?|radiographs?|x-?rays?|ecgs?|ekgs?|electrocardiograms?|tracings?|smears?|scans?)\\b)|(?:\\b(?:this|these)\\s+(?:images?|photos?|photographs?|photomicrographs?|micrographs?|exhibits?|illustrations?|diagrams?|graphs?)\\b)|(?:\\b(?:figures?|figs?\\.|images?)(?:\\s*#?\\s*\\d+|\\s+(?-i:[A-H])(?:\\s*(?:-|–|and|,)\\s*(?-i:[A-H]))?)\\b)|(?:\\b(?:figures?|fig\\.|images?|pictures?|photos?|photographs?|photomicrographs?|micrographs?|exhibits?|illustrations?|diagrams?|graphs?|radiographs?|x-?rays?|ecgs?|ekgs?|electrocardiograms?|tracings?|smears?|scans?)\\s+(?:shown|attached|enclosed|below)\\b)|(?:\\b(?:attached|enclosed|uploaded|sent|sending|attaching|uploading)\\s+(?:herewith\\s+)?(?:(?:this|these|the|a|an|my|his|her|some|few|a\\s+few)\\s+)?(?:(?!for\\b|to\\b|in\\b|out\\b)\\w+\\s+)?(?:pictures?|photos?|photographs?|images?|x-?rays?|radiographs?)\\b)",
+    "mean_chars": 326.5,
+    "max_chars": 1484,
+    "n_released_rendered": 2742,
+    "n_unrenderable": 0,
+    "rendered_file": "$CABA_DATA/rendered/head_qa.jsonl",
+    "version": 2,
+    "v1": {
+      "n_usable": 2672,
+      "n_sampled": 200,
+      "mean_chars": 307.8,
+      "max_chars": 908,
+      "excluded": {
+        "non_english": 0,
+        "image": 69,
+        "duplicate": 1
+      },
+      "template_source": "none"
+    },
+    "sample_vs_v1": "changed (63 of 200 items in common)"
+  },
+  "in_caba_v1_0": true
+}

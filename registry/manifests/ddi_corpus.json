@@ -1,0 +1,987 @@
+{
+  "benchmark": "DDI corpus",
+  "source_url": [
+    "https://raw.githubusercontent.com/isegura/DDICorpus/819b0fa538ed83ab2a8b4f5417bba3c03249b7f3/DDICorpus-2013.zip",
+    "https://raw.githubusercontent.com/isegura/DDICorpus/819b0fa538ed83ab2a8b4f5417bba3c03249b7f3/README"
+  ],
+  "source_type": "own release (DDI Extraction 2013 corpus, authors' GitHub)",
+  "revision": "GitHub isegura/DDICorpus 819b0fa538ed83ab2a8b4f5417bba3c03249b7f3",
+  "files": [
+    {
+      "path": "$CABA_DATA/ddi_corpus/README",
+      "bytes": 966,
+      "sha256": "ce3a7609630ed0efe0842ed6a222e4656fa14a49b532b8bcf599d55154bf8b4e"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Abacavir.xml",
+      "bytes": 6511,
+      "sha256": "63c598d0d920b39fbe660e0e0a3da89c05a16e424b4abbb7ad3b6f43fe7fe7fc"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Ezetimibe.xml",
+      "bytes": 21046,
+      "sha256": "d72bf33c09499615d23c1b24d0b2dd63d19f5998603701284d3ebbc7e41ca506"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Fluconazole.xml",
+      "bytes": 50914,
+      "sha256": "f05ca9c758e97c6b60da5887c0ed227b1514f06d0ecb24bd45447ce8a864a111"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Mazindol.xml",
+      "bytes": 27736,
+      "sha256": "ad3b1fff12ad5b55cc15bce6bae122d8ed5ed14f449106707ba0ee7c8d969a4d"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Mebendazole.xml",
+      "bytes": 1023,
+      "sha256": "b57ac01f373ff328a74551559bc1b8a8988d95b10ee6ea9f143c2e0a9e1c5b9a"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Mecamylamine.xml",
+      "bytes": 1911,
+      "sha256": "535660504d9779552db2a1edc1d6185f8374aba729e2cb6e7079a33bdeb96d32"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Medroxyprogesterone.xml",
+      "bytes": 2397,
+      "sha256": "cc91636c1266ee47796d975b9db3cb80a888ddca3d4494faa65834b88b96008b"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Megestrol.xml",
+      "bytes": 3998,
+      "sha256": "80c20cef2f9866021daefa82e092b40b91e3ffd503280d099c8e7ffddead481e"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Melatonin.xml",
+      "bytes": 20355,
+      "sha256": "375c2e6538312f9545864deaf66d8f278aa08934210e61efa13226da45d42335"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Meloxicam.xml",
+      "bytes": 21958,
+      "sha256": "7e603563e1dff0c40876f03a69c2860f79edbfea7b9aead2174fff1194804119"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Melphalan.xml",
+      "bytes": 2317,
+      "sha256": "802f950997c32d20c4ccebaf4489676373601964aff43692f08ecedce6d8b4ff"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Mepenzolate.xml",
+      "bytes": 19371,
+      "sha256": "90800669fb390392a8a3d6cb94d18717f4547ecea0d07f8b08e8289cae5a9f87"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Meperidine.xml",
+      "bytes": 9091,
+      "sha256": "d7a1cb512f0c108f95584853f939f163c8ddea7ed09af612cf19dfdbea845e56"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Mephenytoin.xml",
+      "bytes": 6048,
+      "sha256": "5274114b8a89d537eda44482364440b49da7559dfe5407b47f01e64b095b4301"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Mequitazine.xml",
+      "bytes": 2845,
+      "sha256": "0c2a190e2f1f725bd3ca4f6b135c864c79183e1e697b3de695262866805de943"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Meropenem.xml",
+      "bytes": 2624,
+      "sha256": "9a2bc59ad5b61a098735b6b397ef32b8f472bac4782d22d15aa1495a7de374ad"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Metaraminol.xml",
+      "bytes": 2172,
+      "sha256": "622871cf4d1161c35942500577c0f033f7d1eeb38a457dd9cb045f39ed234f54"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Metaxalone.xml",
+      "bytes": 1470,
+      "sha256": "d3aeee32ed14d50876976e57626a18ee50f030299bf4aef81fa4ac0ce9a79b86"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Methazolamide.xml",
+      "bytes": 1931,
+      "sha256": "9636a8662ffad83ae70d61482aef13a54275180a7494ed8cc39982d57641f0cd"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Methimazole.xml",
+      "bytes": 3536,
+      "sha256": "75b752636a9d40ed818c16595293120d78060c4757f345e36f07d65b79209b3a"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Methotrimeprazine.xml",
+      "bytes": 6842,
+      "sha256": "4246cb2a60c94983643c11f95d6019bd474d783f647f4f45c9306f31e6ad9016"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Methsuximide.xml",
+      "bytes": 3037,
+      "sha256": "02af21263f668834e1cbac20c88bd3961b69ba8e84c192f4267d3d08d7708024"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Methyclothiazide.xml",
+      "bytes": 4179,
+      "sha256": "1a306ec2a50e70dc49565e4eb7dff5066001b89a183e898e8c18605a526da2df"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Methyldopa.xml",
+      "bytes": 9062,
+      "sha256": "75555302d7c8155474f50f5517e4f9336f9c9491e1df3cf2f768f88f4fd4ebfe"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Methylergonovine.xml",
+      "bytes": 22114,
+      "sha256": "243895d684d318df17ebe33c99439dbbd00df26dbb6a304c6642ce758b94e955"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Methylphenidate.xml",
+      "bytes": 10924,
+      "sha256": "96177aa9eeea0b2e24839db29e0e9626c0cabd07ce96d8bad8fa5b14ea14536a"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Methylprednisolone.xml",
+      "bytes": 8046,
+      "sha256": "54048f5e25e52f94aa2c27577d864b4569c759b3d0ba139b1ab70a209413ad11"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Methylscopolamine.xml",
+      "bytes": 36200,
+      "sha256": "3d17a16f46f75e7c18943f2fc02a7dc70d8e4886313a2ea46429cf89c545de60"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Methyprylon.xml",
+      "bytes": 1346,
+      "sha256": "2126117a0a39e94c36b770cd8552a6dad266f8e957166765ab268cc84e68af02"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Methysergide.xml",
+      "bytes": 2017,
+      "sha256": "27b7e267f7969b39632e82b8ef2c98133dc382bee5ac510bd10e2e204e404355"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Metoclopramide.xml",
+      "bytes": 9337,
+      "sha256": "327e818b9dd8f8942ce1345fc6e9dc7d87ae9ed09affac1bcf64117b24d7e813"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Metolazone.xml",
+      "bytes": 11955,
+      "sha256": "ba5d5bc166935bef105f6e4db9152450200b12adae6c74df75ed897d00c6439b"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Metoprolol.xml",
+      "bytes": 1052,
+      "sha256": "7be5879edeed35eae3a263d3baf227da8b9027adc38b9c4dac5923ff2bfd02e5"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Metronidazole.xml",
+      "bytes": 2068,
+      "sha256": "966c1dc41c6d554cb4556cf0d966af233daf6e6371573b20c653dd45b3184b49"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Metyrapone.xml",
+      "bytes": 2203,
+      "sha256": "f249dded475edada0dd5e096e8eef1be2d0748da83f82b109de7140ae7b3f578"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Metyrosine.xml",
+      "bytes": 2008,
+      "sha256": "c3dbadcf62f79302e37e0ceb56e85a3df3e6c1a88813ba62b1738d6c80762e64"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Mexiletine.xml",
+      "bytes": 20804,
+      "sha256": "7b9e5ae2535579525610443548ab38d1257bc86c3106546b234ffadad1d31181"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Mibefradil.xml",
+      "bytes": 3190,
+      "sha256": "563380df098c0083dae1c91a0d3e485b6e45b7677201a4fda702afc38f869f8c"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Micafungin.xml",
+      "bytes": 16253,
+      "sha256": "9fab9fbb4bfc77038fa1a347d41de57136a57f40b7f2f0649ad2beae1561c783"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Midazolam.xml",
+      "bytes": 22312,
+      "sha256": "ee795763c75f0a639509890b7a6d1bfcb0f154a26f9f84be0aa3eb9c904859e8"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Midodrine.xml",
+      "bytes": 19758,
+      "sha256": "ec23db1270731dce8a3dd27c236f5177e7b0ee2d16dbf20f82ce5b004dd6eff8"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Mifepristone.xml",
+      "bytes": 6653,
+      "sha256": "f00ca14c4f2e788693cbe0a3afab8f5b80e8204925b48ab171789890176e77c3"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Miglustat.xml",
+      "bytes": 1976,
+      "sha256": "f229438d61ddf45b9c889cd8dc8668a94afb6dbdfd3f0dc40825d8027d742c9d"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Minocycline.xml",
+      "bytes": 6284,
+      "sha256": "ccea941f3337f4d690617441a135e0f2e32e0270e9c27ea51405022d90bf4580"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Minoxidil.xml",
+      "bytes": 2005,
+      "sha256": "f9461b741fe0300aea6579dbf99f5c1983b87e3bdbbde120ad34e9a46b445b9e"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Mirtazapine.xml",
+      "bytes": 7744,
+      "sha256": "e3b647ec1907626c8ad5e843efb737b8684e5b3d69a4058b68ca370ec7bae2c4"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Mitotane.xml",
+      "bytes": 2348,
+      "sha256": "0afa4330e0d04e22a31a3298c70f5fc475e877d7c2c3c903a8ce8fa87940b90a"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Mivacurium.xml",
+      "bytes": 45060,
+      "sha256": "69a7d13003a5ac36e1b50c9efed285796256481683d1ddc140ca0aee55218768"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Moexipril.xml",
+      "bytes": 13921,
+      "sha256": "100959924acb6f36cfb219cc712238c9b433bd749d4073cc344d40ebb87a3b7a"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Mometasone.xml",
+      "bytes": 1039,
+      "sha256": "300d273eeee968d62c8a03e39b4f99b114e4deb6a55ef234c8eb3f50cfb6939b"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Montelukast.xml",
+      "bytes": 20163,
+      "sha256": "cb61c0ae007fd677e21b793645ba1bde6b105cb8866eba605caf79670e05cd3c"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Morphine.xml",
+      "bytes": 8579,
+      "sha256": "4343c52a059844c5724d55fdfb782dc9d428cefaa41181bc12a9c1c40e25c94d"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Mycophenolic acid.xml",
+      "bytes": 16869,
+      "sha256": "86adf8270549cdb11c79d7d7f089d09e198ff555dc11bdde76a35408e0361fe5"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Ondansetron.xml",
+      "bytes": 11981,
+      "sha256": "c2c7c355238f953b0eca6aaed90babdcc25c3fb639d89b8c01d3f684d6ce9a70"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Orciprenaline.xml",
+      "bytes": 2677,
+      "sha256": "9b4254e8fecdc2ca76a71f7781959a4aae605fca3f356f1c11ee2d32387db79b"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Orlistat.xml",
+      "bytes": 20161,
+      "sha256": "ca85dc4fc5767949cd5f73ddae07a971f963d4c927fad64719d282244cc5a540"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Oxacillin.xml",
+      "bytes": 1019,
+      "sha256": "b0d09c403af1bfe90717b8ec348c27ad4a28c50af82af3cc7900d56e8dac9129"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Oxaliplatin.xml",
+      "bytes": 1630,
+      "sha256": "f7f3639c9323620e6376ccd8407f0d7ef9dda893a41e68ca26bb6c40a513813a"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Oxandrolone.xml",
+      "bytes": 9184,
+      "sha256": "73cc6149ec033ab17ec271986ff2e761e2b0b2b70a15070183116c4c83ba8c7a"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Oxybutynin.xml",
+      "bytes": 10051,
+      "sha256": "f8ae922ee6897ebb7241034211b7213fe1045bc97508ba14e8550d51405a7eb4"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Oxycodone.xml",
+      "bytes": 632,
+      "sha256": "a4f0f840e0473bff9db25246d0fa927ef36281dc5478e2476baca5601af158f0"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Oxymorphone.xml",
+      "bytes": 9400,
+      "sha256": "7295163bc7e071e7e4b9441a77c3456d101fa94ab7525b4d3b502633e87e4723"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Paliperidone.xml",
+      "bytes": 5970,
+      "sha256": "8d9dac48259e2e837f13cc7a8bf696f563f17ea3e53028fe73d10b58d3625688"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Pantoprazole.xml",
+      "bytes": 48644,
+      "sha256": "7277d420caa4b1fb491063051c7e59f80a1b195d256aa921dc6a110aa523acb9"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Paricalcitol.xml",
+      "bytes": 20082,
+      "sha256": "587ee6b3009325783c459b4a7979d9c01f9301c98c4a1aeec9991b318dc369b1"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Pegfilgrastim.xml",
+      "bytes": 1096,
+      "sha256": "a1059dc16788200ab0e531728b0404d4b9c4fa25632dea45832bd5d4555af85d"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Peginterferon alfa-2b.xml",
+      "bytes": 1550,
+      "sha256": "6b9842fe90f44a298d0d4652fee3b1b5f906f945d10be4e11a990ba37238b0ce"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Pegvisomant.xml",
+      "bytes": 2151,
+      "sha256": "f12ceecfed4640ea9116c0001bbd14ed7e04a3af90573c4dc70e20e4b44304c8"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Pemetrexed.xml",
+      "bytes": 5348,
+      "sha256": "22e9062b087f54424546a8413d34f899aa2e22079bffd26b9744a137b5ecdeba"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Pemoline.xml",
+      "bytes": 1431,
+      "sha256": "1e6fa99f77c44bfa55afdf33cb941bce06331657cab566bbaf39cce8681c008a"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Penicillin G.xml",
+      "bytes": 4107,
+      "sha256": "f3fe6541c351abe4599c0b57b08790e90ef11477d08d0398f17a190a0221c674"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Pentazocine.xml",
+      "bytes": 1033,
+      "sha256": "cd3c216c80f030e15f19e959cf62a43b36a53a1785760f217bceac2067b9c170"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Pentoxifylline.xml",
+      "bytes": 7714,
+      "sha256": "1587538b6109593563911507179d33e1e9dde3b83a46a7fa51a977fd4ccf9081"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Pergolide.xml",
+      "bytes": 5747,
+      "sha256": "01067443c3eb97e9b63512b43f6ca490992e1c9436f458b2739eebaa3a072564"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Perindopril.xml",
+      "bytes": 17060,
+      "sha256": "3f189f0a6dd3011a693f871bead1974c3f58c6702f01b16acb0d6ce119e0e6d7"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Phentermine.xml",
+      "bytes": 615,
+      "sha256": "8e548e94e6a6de453a1a5c3c636d8d4aa9fb66495d887c752f8c4e70895dd0eb"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Phenylephrine.xml",
+      "bytes": 3249,
+      "sha256": "1ef8753b209801457f1f8b5b1e89bcff0df28aa2bfc8a92692323e4b225c7248"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Phenylpropanolamine.xml",
+      "bytes": 3250,
+      "sha256": "237c4f5fd38f05fbf5f7188954df51594e7979375fea1b6aa3c402a2936efd0c"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Pilocarpine.xml",
+      "bytes": 13832,
+      "sha256": "d6562c5531b1a208a9e6f621c873205c37535eb7f4139d5a189d43c65d36a621"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Pindolol.xml",
+      "bytes": 4524,
+      "sha256": "44f2400a1cf2e7eeb6c949a10bc4ef12a39e344c76296498789936c660a19251"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Pirbuterol.xml",
+      "bytes": 709,
+      "sha256": "10f581cca133979612cbc4b6663ae29ac1934f74a95023b6d2c5aa5cea1c4d49"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Piroxicam.xml",
+      "bytes": 8175,
+      "sha256": "dcf49cbb4ecb726a102af99d4ba35715ebe452e853444ce5c1ffdedae75cd80c"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Pralidoxime.xml",
+      "bytes": 5526,
+      "sha256": "c0e17f7079f08e9c9918cc76b8985abaf0e88f3ca41b87345297fa0738cc740d"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Pramipexole.xml",
+      "bytes": 28980,
+      "sha256": "1605ec495b59d1c3f418de8909ed747ef2afc10337314ceba9fd605efb6178f8"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Pramlintide.xml",
+      "bytes": 6128,
+      "sha256": "83977de59865d1fafeb0dd26ddcd2767ccb07f852132cd52b8bd05f3a9277298"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Prednisone.xml",
+      "bytes": 6782,
+      "sha256": "8a72561f9eeaeccbe31d9a51faef3f631db173fc80db295cb18e80db6e6b54ad"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Procaine.xml",
+      "bytes": 9208,
+      "sha256": "32e28c582808c3024271ad10f03b829324404cc36dc3c7c2e63e9da598ed1178"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Procarbazine.xml",
+      "bytes": 6299,
+      "sha256": "5f9ba1503ab2988a08baca561995f08fed36c6e32226ed446f162e1af3ca914e"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Prochlorperazine.xml",
+      "bytes": 1714,
+      "sha256": "8781711ceaae39d093d6769c3da945b519acd880f99804c99f1401dfca657809"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Propofol.xml",
+      "bytes": 11308,
+      "sha256": "a8ea6ee6610d037b7c1599a4983ab14848ea098675ac718c6411ba5be67e68dc"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Propoxyphene.xml",
+      "bytes": 3162,
+      "sha256": "a4a8c76789ba4af9ae7f2fb5aecc52bbef4bf66498a950f20cdbd3fc733732e7"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Pseudoephedrine.xml",
+      "bytes": 3054,
+      "sha256": "ea2e041e7cb15571a0537deebcb1def59c0e97d77fb2ba233e13f782deccc076"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Pyrimethamine.xml",
+      "bytes": 3369,
+      "sha256": "062672dcbe4a2d688d123339f69045540acf421ee711d1b23069e9a28edaf1a1"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Raloxifene.xml",
+      "bytes": 8497,
+      "sha256": "5a5128d7fb967fea679ce495c91c86f769ca6eed32aeaae5fcf0efab96de43ca"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Ranitidine.xml",
+      "bytes": 3738,
+      "sha256": "59ea8683f0e0f53c2d1f358981b7be39f5cbeb6aa9e656f0e2115bd5c5dcd8da"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Retapamulin.xml",
+      "bytes": 2980,
+      "sha256": "ace6881817e851d88fb6ea758200f6c676018239c85c85abe5d58f218ddd29d1"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Reteplase.xml",
+      "bytes": 3288,
+      "sha256": "2be4915d373b7ca3427dc4ac6d108623bd3f97caa9138feb22c11c5bc03489c3"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Riboflavin.xml",
+      "bytes": 2459,
+      "sha256": "8ab41f8489f72700d253118c99294add0d7d54a87dbffd539bfede19dae55859"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Rimantadine.xml",
+      "bytes": 6305,
+      "sha256": "a5e860301476c5c6b42e37eb1fc3224643823d8a48691e0b14122e6951761d48"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Rivastigmine.xml",
+      "bytes": 18842,
+      "sha256": "545e562392ebad644650a0582c4c568c9a2721593e3052247182d0cc5b0f8960"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Rocuronium.xml",
+      "bytes": 4286,
+      "sha256": "ff0f395dd10930a21c4819cd05bf63bb3ca922fc31460e2a6b73e3145ef95be0"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Ropivacaine.xml",
+      "bytes": 5653,
+      "sha256": "ff6b7d26110ac568cc147326d6e83ce768e706d4900d007d394a7f2546611241"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Rosiglitazone.xml",
+      "bytes": 1911,
+      "sha256": "0522250e63ff171bf32034642606effeb7c498608a2b9715c9a806c38dce0574"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Roxithromycin.xml",
+      "bytes": 6865,
+      "sha256": "9077285bd76932e46196a0987826a81f417ed9c2aa9108dfe81e25f7f5ad23c7"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Salmon Calcitonin.xml",
+      "bytes": 1787,
+      "sha256": "68130d9b35123cdedea470da4c90d019d3c88332d977e7b888c9e542ed47c214"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Salsalate.xml",
+      "bytes": 12435,
+      "sha256": "32a43ec8c4a1215646bdf327f6750af2553df081b40d9cc20bf754ccf7dd9ad7"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Sargramostim.xml",
+      "bytes": 1265,
+      "sha256": "662fe2e900a491ab487e8b91f7eb4ebe3a04902d1e26a08ad6b2d7f2985c5d94"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Scopolamine.xml",
+      "bytes": 4332,
+      "sha256": "475047d01aa09e862dfca24faaca919a945c0413dec28d62a3f10712b6d7b620"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Secobarbital.xml",
+      "bytes": 4857,
+      "sha256": "e12e6f587e1f22aacfd5458359ad16fd029d0a9bc2e7a136557183e5e2dce63c"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Selegiline.xml",
+      "bytes": 3956,
+      "sha256": "df26ec6e611350547aff91e68ea5f258a14f5eed2f085c154f98f4c2b9ca7af4"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Sitagliptin.xml",
+      "bytes": 1755,
+      "sha256": "493d90921c7af66f0552fd7757c101a6aa56b35584f66d0b2a4c403600f050c2"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Sodium bicarbonate.xml",
+      "bytes": 2157,
+      "sha256": "7786eb82c69d44bbf2869a1baacf743baeec8c741d85d9c78cd86350ffaa5fbb"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Solifenacin.xml",
+      "bytes": 2677,
+      "sha256": "234b8d49e0ce3fb367e00aebe44a5df9aba809aa0dc344ef640b2633adee571d"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Somatropin recombinant.xml",
+      "bytes": 5032,
+      "sha256": "fbd5ef6534e5609e36955916b66a60d0a8f1f463a5c945baa018a6aa50e63f72"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Sorafenib.xml",
+      "bytes": 2463,
+      "sha256": "1b4668661c15eb840ae381444786c00744c481758114bb48c51ac6de725cfd69"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Stavudine.xml",
+      "bytes": 2403,
+      "sha256": "3780979877a8d76b7a9e586724cdf0d64ff2497975c74b1d6fb0ab7c8b9d2237"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Streptokinase.xml",
+      "bytes": 5339,
+      "sha256": "b6f27d54e44581985be6357034b52fe410d6b3ab26d72da2aaf89868ff5fb0f5"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Streptozocin.xml",
+      "bytes": 2347,
+      "sha256": "f611a1a9078707d951a3e78299e12a01c0e45aa4ccbbcd27111fca207073aabd"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Succimer.xml",
+      "bytes": 1828,
+      "sha256": "3951a0c6268ef12c8402e396a89c3f5e71873fffa8e4ef301b8495133f870bc5"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Sulfamethizole.xml",
+      "bytes": 6322,
+      "sha256": "179fb49fdef3453b15d0ba530d246ea5cb6a3a165f533bd326b8001bb65c9c2e"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Sulfamethoxazole.xml",
+      "bytes": 4577,
+      "sha256": "78e5917b281b20c4f710814e8102169c41f8e7f5867c97c3292dfbf5b9026d40"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Sulfasalazine.xml",
+      "bytes": 3340,
+      "sha256": "eab0ab5ab07a485346a08d281da9a32def3f268437ca7d7389f264adb3ffab93"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Sulfoxone.xml",
+      "bytes": 6311,
+      "sha256": "c65ef7f7d5ad35527ad67c30638b8ba5723a913451df058b03b3a0f5272bafec"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Sumatriptan.xml",
+      "bytes": 9717,
+      "sha256": "fed0aec8309cbf0b6c52e0997a198b46a9206813421c410a0f639bdfb5a9d404"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Sunitinib.xml",
+      "bytes": 19090,
+      "sha256": "ad405737f1eb9030f2dbdb1be3d1e7d6c45168eb324eb0c0867e786821b4b8fb"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Suprofen.xml",
+      "bytes": 2954,
+      "sha256": "1e26f39ab052b8bb03418b5e6326719dcb4d6fe944a8582e2cae45ff0c991cad"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Tamsulosin.xml",
+      "bytes": 3655,
+      "sha256": "d44e9595827a566ddb2a2874dab1ece4acb60a9c7bf1a42c6d12aaefc48258c7"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Temozolomide.xml",
+      "bytes": 1043,
+      "sha256": "cacc5abc5089aabb4f7694581cfc8ce5b2a5ba259bf3c06f72de95d55f31e041"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Tenecteplase.xml",
+      "bytes": 4989,
+      "sha256": "3b13c59bbb2f8b7f3ce962cd046b702a89b32d041c45d6500a2da52d9bb658e5"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Teniposide.xml",
+      "bytes": 3850,
+      "sha256": "1bb88e0fd31cc313d29b8eb9d8413115df27f87abd3ace7bdd17cad54489f1b2"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Terbinafine.xml",
+      "bytes": 12191,
+      "sha256": "dfec427ff0dd5e57cca57ede976a19727953f234c3d8aa47062eefcc893371b6"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Terfenadine.xml",
+      "bytes": 17191,
+      "sha256": "5093bcf1226d148667fdbbf40e33331ff4cbf917408426c0367d0262754f1769"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Testolactone.xml",
+      "bytes": 1283,
+      "sha256": "9d8a3c0f3a01418b0288a14d6e5cf862873f141faff35537feebb8fe4a0c0bcb"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Thalidomide.xml",
+      "bytes": 13074,
+      "sha256": "223bec34af661fcabffa39279a118dcc00782996ce9f1c57dd5389619ba9e639"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Thiabendazole.xml",
+      "bytes": 1437,
+      "sha256": "c1b4747633f24c9acc0b83218d3d381eece485fa9e732f98a19688ce64a3d472"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Thiamine.xml",
+      "bytes": 2926,
+      "sha256": "946ce5613592008f9ca71838a419aa5223e13d368f58a4c95763cae246515e0d"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Thiethylperazine.xml",
+      "bytes": 3373,
+      "sha256": "2dba203e92703d1c9be08570948d61ae993924a1459f3ff2170c0c81cbc637f6"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Thioguanine.xml",
+      "bytes": 3712,
+      "sha256": "47977f238da7eaab6afc997a40d4931ec4fd86512165344cfe8ddf7b2501125e"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Thymalfasin.xml",
+      "bytes": 1095,
+      "sha256": "df4c4eb1529b2c4fe919c1378a895b0a86f433f554efafb9c582f1adedf54ee4"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Tigecycline.xml",
+      "bytes": 1686,
+      "sha256": "a0a871a912d79d3c5d9db6255a5cf3344e1ab5db45f0df9acf77fc23470ef3fb"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Tiludronate.xml",
+      "bytes": 7643,
+      "sha256": "48d5a159e7c57ef2d0eb33a874bf07f47ab03b0cd6dc76eb04e06dc680d3bb41"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Tiotropium.xml",
+      "bytes": 2232,
+      "sha256": "bdec0e125719cb7ed0c6e6c771e7e7090f83bf43e46f244a8e1462e69e374f53"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Tirofiban.xml",
+      "bytes": 2963,
+      "sha256": "3ec91927057be539df9c9b7e3b7fdf78e381d5d4bd352b552422336707b3f7d2"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Tobramycin.xml",
+      "bytes": 8201,
+      "sha256": "c7d660e1a23ac1379c42659c390271501c73d17af825449b1c0e5613315c5fc9"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Tolmetin.xml",
+      "bytes": 5858,
+      "sha256": "ebb6ec78596498ff4504a6b3589adb5964139528096e16adc2439144ce88568a"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Tolterodine.xml",
+      "bytes": 8423,
+      "sha256": "bb1a4afecaeba54f9e0a5c46aa8791a592200b3b670aa7833fc6042a2df8bc3f"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Trastuzumab.xml",
+      "bytes": 1839,
+      "sha256": "1c6437d3956224037f1a1a084f721e47b7c4181c00760670f11299f292bb2a27"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Trilostane.xml",
+      "bytes": 988,
+      "sha256": "9373a978d7eac9ec1d5a7c859c0f04644966eb9c427c02830020f1d4589a5137"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Trimethoprim.xml",
+      "bytes": 1802,
+      "sha256": "92b4fe38ace2675012e695753026a125c459fe007cc2931f1a0ba7aff6bb4ba6"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Trimetrexate.xml",
+      "bytes": 7070,
+      "sha256": "7e18b4156ed988744ae59189700ce66887e7e83f8655b6b1aee528782676016e"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Triprolidine.xml",
+      "bytes": 6626,
+      "sha256": "4526ca143b79c57c9f6c9af45f77f4b1e62a071a48064e4cf69285a3342c53d0"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Trospium.xml",
+      "bytes": 8224,
+      "sha256": "4d0dd98564d4c32e5532998eb9007f052d91ca81f26bffc3deb05594df696c97"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Vancomycin.xml",
+      "bytes": 4442,
+      "sha256": "a3fd62962b41072c10c08d77b4047ec1ca628b950d4033eb1419ccdbd588bd3c"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Vigabatrin.xml",
+      "bytes": 2014,
+      "sha256": "7ea3fb4abcb7a7d8745e9bdd2aea12fab64418ad39dd5d7eaf635486d7559b8d"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Vindesine.xml",
+      "bytes": 4307,
+      "sha256": "7d1acb86d3eab0994274c0cf3f7cf41c2d4120a7275b23fb8a21b1bde9fb4f84"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Vitamin A.xml",
+      "bytes": 624,
+      "sha256": "a566642b421dfe41bef1f2d066aa6e53e9f891d4f1b620955dca796379bd4128"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Vitamin C.xml",
+      "bytes": 639,
+      "sha256": "93eec2bccd5723117177be6c5a8093e5ad779c8371a0fa1bec85aa4663132fec"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/DrugBank/Vorinostat.xml",
+      "bytes": 3272,
+      "sha256": "39622c95394803d4f0a823b5ea625497eac97c704ca2a19919424b3aa001d6ac"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/MedLine/21705423.xml",
+      "bytes": 10318,
+      "sha256": "2233be61de6f353daeaf6500d71be06a2ae3fa7e6f1c45e5039b730949ee9aa8"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/MedLine/21706316.xml",
+      "bytes": 5934,
+      "sha256": "8ce362f630799175b6ccedf0f8a411b02d0b9bcfd7b3d45a475f0f937a89fe51"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/MedLine/21715267.xml",
+      "bytes": 9034,
+      "sha256": "58d17cbb3e4b2231b916943c9cfe85adc7c8633f79a84a404b91be55486c7b4a"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/MedLine/21716267.xml",
+      "bytes": 6947,
+      "sha256": "a2c7b23aba23fa3ed74d13b61cd4d66a555c8457fcf7562bd74a2f9187fba665"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/MedLine/21720561.xml",
+      "bytes": 5702,
+      "sha256": "379f4cae6194d67b4973a21097cac4a8fa05726c832a96e11f7314d00841980e"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/MedLine/21729965.xml",
+      "bytes": 1859,
+      "sha256": "80d6b0bed7bf064a37622c9b1175609a63533fe69e062c8ed948bc0f54f92908"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/MedLine/21731754.xml",
+      "bytes": 8840,
+      "sha256": "e63d292add4fcaf70e75f1becba5425830629f4559c634ab97b9491070af2288"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/MedLine/21741958.xml",
+      "bytes": 7373,
+      "sha256": "93d293c87802340292b73dd3e0963c0fbedbfe9cae2eb3688843e35f97b20e87"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/MedLine/21750604.xml",
+      "bytes": 6183,
+      "sha256": "448e0e9572bfed879428ceaae45e44dbb12dde3555aee7bd03126042f4bdec98"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/MedLine/21751692.xml",
+      "bytes": 3238,
+      "sha256": "26f8595f77945a31ea14ed249ce56820f1e1e186bf7abb11b70487a2c7237294"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/MedLine/21751753.xml",
+      "bytes": 6153,
+      "sha256": "85b5e440dfc82542696875746b1888ebe6d48d325b72d6443d89433ec94fcfc8"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/MedLine/21753255.xml",
+      "bytes": 7037,
+      "sha256": "3f8dcd191cc08b3fa89540abdf13eb4427204b6b85c1417dc9f87ba9284f83bf"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/MedLine/21753749.xml",
+      "bytes": 4841,
+      "sha256": "da975a0b054eca76c1398b0733928e54c89a3d8f8ce04e879e19bd9b8ee619e5"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/MedLine/21762640.xml",
+      "bytes": 5460,
+      "sha256": "64b5eea07a9eed88cc140a7d7e687097a5bec23528a54ef164431d500c887581"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/MedLine/21763710.xml",
+      "bytes": 6763,
+      "sha256": "56a97d47678f2392fc4b42733fe34999a7571527657f1f3dd848c07f1a5355f8"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/MedLine/21771377.xml",
+      "bytes": 5335,
+      "sha256": "cde635e9fa8fd7412e2ff6424478ed3a74faedec5e5fa07f1fdf4bd29c33bbe3"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/MedLine/21772306.xml",
+      "bytes": 3995,
+      "sha256": "47820b2894c86dfbcce12f3ad2eb12e5e55a7aa21ec79ead9c16bdb60fde920e"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/MedLine/21785118.xml",
+      "bytes": 3422,
+      "sha256": "0c90f1ce24566654e467e491b269eec40142d2c890637f35f87cc4b058e8afba"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/MedLine/21795430.xml",
+      "bytes": 8560,
+      "sha256": "fb2b0d1a34c78b39e692b05105c8b8a86cb780dc816b9bb8d3effbf4a5bba56c"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/MedLine/21796416.xml",
+      "bytes": 7292,
+      "sha256": "d39b1381db68a6c10ea1237a560892f3bdd61a2123babcc30a47b534ea56d477"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/MedLine/21800506.xml",
+      "bytes": 5245,
+      "sha256": "bf1a4e071de3f0e3ad317dbd558847b7c144a8d130530b0e78a7827688a2fd69"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/MedLine/21807063.xml",
+      "bytes": 2823,
+      "sha256": "6d1b0013dd6c13dac57e7dd300b0f14342b44063726afcc42347378dc9261f2b"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/MedLine/21809690.xml",
+      "bytes": 4053,
+      "sha256": "cb2886b35ca9e88fcf7e53a42095946c6a360c24c9f8bcf8a9112ac8208f1431"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/MedLine/21813412.xml",
+      "bytes": 8837,
+      "sha256": "0e39f905c1b574268b446627b7342fce204f2b53e6a0d3706c36b1c0ffebdcad"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/MedLine/21825263.xml",
+      "bytes": 2362,
+      "sha256": "c978117aee1dfba98f23bda0f23a757b4410ec9ed1b658d5161a9254b254b107"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/MedLine/21844260.xml",
+      "bytes": 4393,
+      "sha256": "cbe767f7bd32af12dd7476f89651cdc8027d37b19de472332a56b513f75a6c62"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/MedLine/21868520.xml",
+      "bytes": 3635,
+      "sha256": "a2527608d7ac20d0967b5cca5c3b0cdd649bfce4d7bbb1e5c9c1e617a90f95d2"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/MedLine/21868551.xml",
+      "bytes": 5264,
+      "sha256": "3187944c5137917498057f5a4a210d63afab0e0d1e6678194fa9f36e5332e902"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/MedLine/21873163.xml",
+      "bytes": 3629,
+      "sha256": "768222c74912a03d52445162c8bb5e72996eeb8229d4a74634423dbf001f2e12"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/MedLine/21876510.xml",
+      "bytes": 6335,
+      "sha256": "9316aa71c8d2aaa5c7055c8ac00afdfdd2b86e10c219d97577c2a19897aa268c"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/MedLine/21878082.xml",
+      "bytes": 5279,
+      "sha256": "bea16a802b5f6f2d1a8a14c901e88a3df8f23364c9494735d925f379f1cb04c3"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/MedLine/21897348.xml",
+      "bytes": 4418,
+      "sha256": "72037d9867862246ffde7c02ff98c092907d83940eb9a05637e01f13606d3dd6"
+    },
+    {
+      "path": "$CABA_DATA/ddi_corpus/DDICorpus/Test/Test for DDI Extraction task/MedLine/22029226.xml",
+      "bytes": 4639,
+      "sha256": "aba0f6ec887ddf965ab0e4714804cf35175115b3b447340174b08c7415b99362"
+    }
+  ],
+  "license": "CC BY-NC 4.0 (repository README)",
+  "split": "Test / \"Test for DDI Extraction task\" (DrugBank 158 + MedLine 33 documents)",
+  "n_items": 5716,
+  "public": "yes",
+  "english": "yes",
+  "text": "yes",
+  "single_request": "yes (via ClinicBench prompt template; raw corpus is pairwise relation labelling)",
+  "request_fields": "ClinicBench Table 8 DDI prompt: sentence with the two candidate drugs masked as @DRUG$ + instruction to choose mechanism/effect/advice/int/None",
+  "example_structure": [
+    "document@id",
+    "entity",
+    "pair",
+    "sentence@text"
+  ],
+  "notes": "ClinicBench (Liu et al., EMNLP 2024; github.com/AI-in-Health/ClinicBench @57138be8a73f09bef8980f849789baf57570c5cf) releases only its six new datasets; existing datasets are not redistributed, so the own release was used. The official zip (1,545,162 bytes, sha256 87fc63e32ebce20d9841c372e0c594ec72d60882ab5621550ca73c3eaf80ab60) bundles Train and Test; only the DDI-extraction test folder was extracted and the zip was then deleted. Test set: 191 documents, 1,299 sentences, 5,716 candidate drug pairs (1,000 positive: effect 360, mechanism 302, advise 221, int 96), matching the 5,716 in ClinicBench Table 1. Each item = one drug pair in a sentence. Checked 2026-10-04; no LLMs or API keys used.",
+  "in_caba_v1_0": false
+}

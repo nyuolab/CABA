@@ -1,0 +1,82 @@
+{
+  "benchmark": "PubHealthBench",
+  "source_url": [
+    "https://huggingface.co/datasets/Joshua-Harris/PubHealthBench/resolve/3c2d456075ba465a84f94eb1ffc8804e9a655842/data/test-00000-of-00001.parquet",
+    "https://huggingface.co/datasets/Joshua-Harris/PubHealthBench/resolve/3c2d456075ba465a84f94eb1ffc8804e9a655842/data/reviewed-00000-of-00001.parquet",
+    "https://huggingface.co/datasets/Joshua-Harris/PubHealthBench/resolve/3c2d456075ba465a84f94eb1ffc8804e9a655842/README.md"
+  ],
+  "source_type": "own release",
+  "revision": "3c2d456075ba465a84f94eb1ffc8804e9a655842",
+  "files": [
+    {
+      "path": "$CABA_DATA/pubhealthbench/data/test-00000-of-00001.parquet",
+      "bytes": 42985147,
+      "sha256": "83efadf8c5daf86dcb80a07b9b1980798c7228b9d8f5486c74469376fec6437e",
+      "url": "https://huggingface.co/datasets/Joshua-Harris/PubHealthBench/resolve/3c2d456075ba465a84f94eb1ffc8804e9a655842/data/test-00000-of-00001.parquet",
+      "role": "items"
+    },
+    {
+      "path": "$CABA_DATA/pubhealthbench/data/reviewed-00000-of-00001.parquet",
+      "bytes": 3881076,
+      "sha256": "63f14012d715d408798461141b48e1cd79e00b8feef97ef6e5b6d860b878b2ac",
+      "url": "https://huggingface.co/datasets/Joshua-Harris/PubHealthBench/resolve/3c2d456075ba465a84f94eb1ffc8804e9a655842/data/reviewed-00000-of-00001.parquet",
+      "role": "items"
+    },
+    {
+      "path": "$CABA_DATA/pubhealthbench/_card/Joshua-Harris__PubHealthBench_README.md",
+      "bytes": 5102,
+      "sha256": "131d20aafbc40da6b3aaf9ac64e748726a8568f50cefdc420fb55f6339f09f53",
+      "url": "https://huggingface.co/datasets/Joshua-Harris/PubHealthBench/resolve/3c2d456075ba465a84f94eb1ffc8804e9a655842/README.md",
+      "role": "dataset card"
+    }
+  ],
+  "license": "cc-by-4.0 (contains UK public-sector information under the Open Government Licence v3.0)",
+  "split": "test (PubHealthBench-Full); reviewed subset also downloaded",
+  "n_items": 7929,
+  "public": "yes",
+  "english": "yes",
+  "text": "yes",
+  "single_request": "yes",
+  "request_fields": "question + 7 options (MCQA; the FreeForm setting uses the question alone)",
+  "example_structure": [
+    "example",
+    "fields"
+  ],
+  "notes": "Reviewed split (760 items) is a human-reviewed subset of test (all 760 question_ids are in test; 718 Valid, 42 Invalid). Questions were LLM-generated from UK Government guidance. Validation (161) not downloaded.",
+  "n_items_reviewed": 760,
+  "hf_repo": "Joshua-Harris/PubHealthBench",
+  "checked_on": "2026-10-04",
+  "rendering": {
+    "rule": "multiple choice: question, then the seven source-lettered options (bench_options_list_formatted, 'A. ...') one per line.",
+    "template_source": "none",
+    "n_usable": 7928,
+    "n_sampled": 200,
+    "seed": 20261004,
+    "excluded": {
+      "non_english": 0,
+      "image": 1,
+      "duplicate": 0
+    },
+    "image_rule": "Exclude an item as needing an unreleased picture only if (i) a released image field marks it (HEAD-QA 'image'), or (ii) its question stem (the part that asks the question: MCQ question text, MedCalc 'Question', MedHallu 'Question', Med-HALT reasoning 'question', a patient's own question in HealthCareMagic/iCliniq/MEDIQA-RQE) matches, case-insensitively, any of: (a) shown/seen/depicted/displayed/illustrated/pictured/presented/visualized + in/on/below/above + [the/this] [accompanying/following/attached/adjacent] + figure|image|picture|photo(graph)|(photo)micrograph|exhibit|illustration|diagram|graph; (b) see/refer to + [the/this/these] [accompanying/following/attached] + a word of (a), or look at + [the/this/these/my] [accompanying/following/attached] + a visual word (the list in (a) plus radiograph|x-ray|ECG|EKG|electrocardiogram|tracing|smear|scan); (c) 'the following/accompanying/attached/adjacent' + a visual word, unless preceded by 'which of'; (d) this/these + image|photo(graph)|(photo)micrograph|exhibit|illustration|diagram|graph (not 'figure' or 'picture', which in stems mostly mean numbers or a clinical picture); (e) figure/fig./image + a number, or + a space and a capital letter A-H (e.g. 'Figure 1', 'Figures A-C', 'image # 6'); (f) a visual word + shown|attached|enclosed|below; (g) attached/enclosed/uploaded/sent (or attaching/uploading/sending) + [herewith] [determiner] [one word other than for/to/in/out] + picture|photo(graph)|image|x-ray|radiograph. Documents the item asks about (case reports, patient notes, news articles, abstracts, radiology reports, conversations, MedS-Bench inputs, MedHallu Knowledge, MedCaseReasoning case_prompt, Med-HALT IR fields) are not scanned. Regex: (?:\\b(?:shown|seen|depicted|displayed|illustrated|pictured|presented|visuali[sz]ed)\\s+(?:in|on|below|above)\\s+(?:the\\s+|this\\s+)?(?:accompanying\\s+|following\\s+|attached\\s+|adjacent\\s+)?(?:figures?|fig\\.|images?|pictures?|photos?|photographs?|photomicrographs?|micrographs?|exhibits?|illustrations?|diagrams?|graphs?)\\b)|(?:\\b(?:see|refer\\s+to)\\s+(?:the\\s+|this\\s+|these\\s+)?(?:accompanying\\s+|following\\s+|attached\\s+)?(?:figures?|fig\\.|images?|pictures?|photos?|photographs?|photomicrographs?|micrographs?|exhibits?|illustrations?|diagrams?|graphs?)\\b)|(?:\\blook\\s+at\\s+(?:the\\s+|this\\s+|these\\s+|my\\s+)?(?:accompanying\\s+|following\\s+|attached\\s+)?(?:figures?|fig\\.|images?|pictures?|photos?|photographs?|photomicrographs?|micrographs?|exhibits?|illustrations?|diagrams?|graphs?|radiographs?|x-?rays?|ecgs?|ekgs?|electrocardiograms?|tracings?|smears?|scans?)\\b)|(?:(?<!which of )(?<!which of\\s)\\bthe\\s+(?:following|accompanying|attached|adjacent)\\s+(?:figures?|fig\\.|images?|pictures?|photos?|photographs?|photomicrographs?|micrographs?|exhibits?|illustrations?|diagrams?|graphs?|radiographs?|x-?rays?|ecgs?|ekgs?|electrocardiograms?|tracings?|smears?|scans?)\\b)|(?:\\b(?:this|these)\\s+(?:images?|photos?|photographs?|photomicrographs?|micrographs?|exhibits?|illustrations?|diagrams?|graphs?)\\b)|(?:\\b(?:figures?|figs?\\.|images?)(?:\\s*#?\\s*\\d+|\\s+(?-i:[A-H])(?:\\s*(?:-|–|and|,)\\s*(?-i:[A-H]))?)\\b)|(?:\\b(?:figures?|fig\\.|images?|pictures?|photos?|photographs?|photomicrographs?|micrographs?|exhibits?|illustrations?|diagrams?|graphs?|radiographs?|x-?rays?|ecgs?|ekgs?|electrocardiograms?|tracings?|smears?|scans?)\\s+(?:shown|attached|enclosed|below)\\b)|(?:\\b(?:attached|enclosed|uploaded|sent|sending|attaching|uploading)\\s+(?:herewith\\s+)?(?:(?:this|these|the|a|an|my|his|her|some|few|a\\s+few)\\s+)?(?:(?!for\\b|to\\b|in\\b|out\\b)\\w+\\s+)?(?:pictures?|photos?|photographs?|images?|x-?rays?|radiographs?)\\b)",
+    "mean_chars": 647.4,
+    "max_chars": 1283,
+    "n_released_rendered": 7929,
+    "n_unrenderable": 0,
+    "rendered_file": "$CABA_DATA/rendered/pubhealthbench.jsonl",
+    "version": 2,
+    "v1": {
+      "n_usable": 7924,
+      "n_sampled": 200,
+      "mean_chars": 675.2,
+      "max_chars": 1287,
+      "excluded": {
+        "non_english": 0,
+        "image": 5,
+        "duplicate": 0
+      },
+      "template_source": "none"
+    },
+    "sample_vs_v1": "changed (46 of 200 items in common)"
+  },
+  "in_caba_v1_0": true
+}

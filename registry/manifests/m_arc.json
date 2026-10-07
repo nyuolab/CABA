@@ -1,0 +1,73 @@
+{
+  "benchmark": "M-ARC",
+  "source_url": [
+    "https://huggingface.co/datasets/mkieffer/M-ARC/resolve/e69ae5f92b3a5d550cd98adcd5e5bef281daf1c2/data/test-00000-of-00001.parquet",
+    "https://huggingface.co/datasets/mkieffer/M-ARC/resolve/e69ae5f92b3a5d550cd98adcd5e5bef281daf1c2/README.md"
+  ],
+  "source_type": "own release (third-party Hugging Face mirror by mkieffer of the official GitHub release dbernardo05/medARC-QA)",
+  "revision": "e69ae5f92b3a5d550cd98adcd5e5bef281daf1c2",
+  "files": [
+    {
+      "path": "$CABA_DATA/m_arc/data/test-00000-of-00001.parquet",
+      "bytes": 49322,
+      "sha256": "dab7a9afb12f557e17303269cc54aa08cae7b03123517691ae5a98aa4258c71b",
+      "url": "https://huggingface.co/datasets/mkieffer/M-ARC/resolve/e69ae5f92b3a5d550cd98adcd5e5bef281daf1c2/data/test-00000-of-00001.parquet",
+      "role": "items"
+    },
+    {
+      "path": "$CABA_DATA/m_arc/_card/mkieffer__M-ARC_README.md",
+      "bytes": 1961,
+      "sha256": "9b885a9c647554c724e346c7faca08a42beffa3f87c6db12869251544e92628b",
+      "url": "https://huggingface.co/datasets/mkieffer/M-ARC/resolve/e69ae5f92b3a5d550cd98adcd5e5bef281daf1c2/README.md",
+      "role": "dataset card"
+    }
+  ],
+  "license": "apache-2.0",
+  "split": "test",
+  "n_items": 100,
+  "public": "yes",
+  "english": "yes",
+  "text": "yes",
+  "single_request": "yes",
+  "request_fields": "question + options (A-G)",
+  "example_structure": [
+    "example",
+    "fields"
+  ],
+  "notes": "Hugging Face copy is a mirror, not the authors' upload; not cross-checked against GitHub. Up to 7 options per question.",
+  "hf_repo": "mkieffer/M-ARC",
+  "checked_on": "2026-10-04",
+  "rendering": {
+    "rule": "multiple choice: question, then the source's lettered options (A-G) one per line.",
+    "template_source": "none",
+    "n_usable": 99,
+    "n_sampled": 99,
+    "seed": 20261004,
+    "excluded": {
+      "non_english": 0,
+      "image": 0,
+      "duplicate": 1
+    },
+    "image_rule": "Exclude an item as needing an unreleased picture only if (i) a released image field marks it (HEAD-QA 'image'), or (ii) its question stem (the part that asks the question: MCQ question text, MedCalc 'Question', MedHallu 'Question', Med-HALT reasoning 'question', a patient's own question in HealthCareMagic/iCliniq/MEDIQA-RQE) matches, case-insensitively, any of: (a) shown/seen/depicted/displayed/illustrated/pictured/presented/visualized + in/on/below/above + [the/this] [accompanying/following/attached/adjacent] + figure|image|picture|photo(graph)|(photo)micrograph|exhibit|illustration|diagram|graph; (b) see/refer to + [the/this/these] [accompanying/following/attached] + a word of (a), or look at + [the/this/these/my] [accompanying/following/attached] + a visual word (the list in (a) plus radiograph|x-ray|ECG|EKG|electrocardiogram|tracing|smear|scan); (c) 'the following/accompanying/attached/adjacent' + a visual word, unless preceded by 'which of'; (d) this/these + image|photo(graph)|(photo)micrograph|exhibit|illustration|diagram|graph (not 'figure' or 'picture', which in stems mostly mean numbers or a clinical picture); (e) figure/fig./image + a number, or + a space and a capital letter A-H (e.g. 'Figure 1', 'Figures A-C', 'image # 6'); (f) a visual word + shown|attached|enclosed|below; (g) attached/enclosed/uploaded/sent (or attaching/uploading/sending) + [herewith] [determiner] [one word other than for/to/in/out] + picture|photo(graph)|image|x-ray|radiograph. Documents the item asks about (case reports, patient notes, news articles, abstracts, radiology reports, conversations, MedS-Bench inputs, MedHallu Knowledge, MedCaseReasoning case_prompt, Med-HALT IR fields) are not scanned. Regex: (?:\\b(?:shown|seen|depicted|displayed|illustrated|pictured|presented|visuali[sz]ed)\\s+(?:in|on|below|above)\\s+(?:the\\s+|this\\s+)?(?:accompanying\\s+|following\\s+|attached\\s+|adjacent\\s+)?(?:figures?|fig\\.|images?|pictures?|photos?|photographs?|photomicrographs?|micrographs?|exhibits?|illustrations?|diagrams?|graphs?)\\b)|(?:\\b(?:see|refer\\s+to)\\s+(?:the\\s+|this\\s+|these\\s+)?(?:accompanying\\s+|following\\s+|attached\\s+)?(?:figures?|fig\\.|images?|pictures?|photos?|photographs?|photomicrographs?|micrographs?|exhibits?|illustrations?|diagrams?|graphs?)\\b)|(?:\\blook\\s+at\\s+(?:the\\s+|this\\s+|these\\s+|my\\s+)?(?:accompanying\\s+|following\\s+|attached\\s+)?(?:figures?|fig\\.|images?|pictures?|photos?|photographs?|photomicrographs?|micrographs?|exhibits?|illustrations?|diagrams?|graphs?|radiographs?|x-?rays?|ecgs?|ekgs?|electrocardiograms?|tracings?|smears?|scans?)\\b)|(?:(?<!which of )(?<!which of\\s)\\bthe\\s+(?:following|accompanying|attached|adjacent)\\s+(?:figures?|fig\\.|images?|pictures?|photos?|photographs?|photomicrographs?|micrographs?|exhibits?|illustrations?|diagrams?|graphs?|radiographs?|x-?rays?|ecgs?|ekgs?|electrocardiograms?|tracings?|smears?|scans?)\\b)|(?:\\b(?:this|these)\\s+(?:images?|photos?|photographs?|photomicrographs?|micrographs?|exhibits?|illustrations?|diagrams?|graphs?)\\b)|(?:\\b(?:figures?|figs?\\.|images?)(?:\\s*#?\\s*\\d+|\\s+(?-i:[A-H])(?:\\s*(?:-|–|and|,)\\s*(?-i:[A-H]))?)\\b)|(?:\\b(?:figures?|fig\\.|images?|pictures?|photos?|photographs?|photomicrographs?|micrographs?|exhibits?|illustrations?|diagrams?|graphs?|radiographs?|x-?rays?|ecgs?|ekgs?|electrocardiograms?|tracings?|smears?|scans?)\\s+(?:shown|attached|enclosed|below)\\b)|(?:\\b(?:attached|enclosed|uploaded|sent|sending|attaching|uploading)\\s+(?:herewith\\s+)?(?:(?:this|these|the|a|an|my|his|her|some|few|a\\s+few)\\s+)?(?:(?!for\\b|to\\b|in\\b|out\\b)\\w+\\s+)?(?:pictures?|photos?|photographs?|images?|x-?rays?|radiographs?)\\b)",
+    "mean_chars": 1057.9,
+    "max_chars": 4802,
+    "n_released_rendered": 100,
+    "n_unrenderable": 0,
+    "rendered_file": "$CABA_DATA/rendered/m_arc.jsonl",
+    "version": 2,
+    "v1": {
+      "n_usable": 99,
+      "n_sampled": 99,
+      "mean_chars": 1057.9,
+      "max_chars": 4802,
+      "excluded": {
+        "non_english": 0,
+        "image": 0,
+        "duplicate": 1
+      },
+      "template_source": "none"
+    },
+    "sample_vs_v1": "identical items"
+  },
+  "in_caba_v1_0": true
+}

@@ -1,0 +1,81 @@
+{
+  "benchmark": "HealthBench Professional",
+  "source_url": [
+    "https://openaipublic.blob.core.windows.net/simple-evals/healthbench_professional/assets.zip"
+  ],
+  "source_type": "own release (OpenAI blob; reused from benchmarks/raw/HealthBench_Professional, downloaded 2026-09-30)",
+  "revision": "blob Last-Modified 2026-04-22; assets.zip sha256 a5286ead1f03d178c7f7b134a5ac16944998428303012f0921814701e0f3995e",
+  "files": [
+    {
+      "path": "$CABA_DATA/raw/HealthBench_Professional/assets.zip",
+      "bytes": 903935,
+      "sha256": "a5286ead1f03d178c7f7b134a5ac16944998428303012f0921814701e0f3995e"
+    },
+    {
+      "path": "$CABA_DATA/raw/HealthBench_Professional/healthbench_professional_eval.jsonl",
+      "bytes": 2755136,
+      "sha256": "d44b08e6e952e04c945e2c406f02533d9e7a989a84e35820ee7efdff20c9e4e2"
+    },
+    {
+      "path": "$CABA_DATA/raw/HealthBench_Professional/README",
+      "bytes": 2159,
+      "sha256": "4848d6915fc816b96468fcdf392f626c635033440abd892b49eb015a4ea96e1e"
+    },
+    {
+      "path": "$CABA_DATA/raw/HealthBench_Professional/LICENSE",
+      "bytes": 1063,
+      "sha256": "7de1e115d165f176e68f962acdb809b5ab8d8ae78d3981e0701392b2ac50c713"
+    }
+  ],
+  "license": "MIT (c) 2026 OpenAI; README asks that examples not be revealed in plain text or images online",
+  "split": "public eval set (OpenAI keeps a private held-out set)",
+  "n_items": 525,
+  "public": "yes",
+  "english": "partly (no language field; heuristic classes about 471 of 525 first user turns (90%) as English, others mostly Portuguese and Spanish)",
+  "text": "yes",
+  "single_request": "yes",
+  "request_fields": "conversation.messages (410 single-turn; first user turn = first message)",
+  "example_structure": [
+    "canary_string",
+    "conversation",
+    "difficulty",
+    "id",
+    "physician_response",
+    "rubric_items",
+    "specialty",
+    "type",
+    "use_case"
+  ],
+  "notes": "Reused; hashes match benchmarks/raw/SOURCES.md. 525 examples (consult 236, research 147, writing 142; red_teaming 191). No example text in this manifest (OpenAI contamination request). Checked 2026-10-04; no LLMs or API keys used.",
+  "rendering": {
+    "rule": "conversation: the first user turn only; language identified with lingua-language-detector 2.1.1 (LanguageDetectorBuilder.from_all_languages().with_preloaded_language_models().build()); an item is non-English only if compute_language_confidence_values on the first user turn gives a top language other than ENGLISH with confidence >= 0.80, every other item (including short ones) counts as English",
+    "template_source": "none",
+    "n_usable": 461,
+    "n_sampled": 200,
+    "seed": 20261004,
+    "excluded": {
+      "non_english": 64,
+      "image": 0,
+      "duplicate": 0
+    },
+    "mean_chars": 528.9,
+    "max_chars": 15997,
+    "language_id": {
+      "package": "lingua-language-detector",
+      "version": "2.1.1",
+      "rule": "non-English iff top language != ENGLISH and confidence >= 0.80 (first user turn)",
+      "n_excluded_non_english": 64,
+      "non_english_counts": {
+        "portuguese": 26,
+        "estonian": 21,
+        "spanish": 10,
+        "danish": 2,
+        "italian": 2,
+        "latin": 1,
+        "polish": 1,
+        "hindi": 1
+      }
+    }
+  },
+  "in_caba_v1_0": true
+}

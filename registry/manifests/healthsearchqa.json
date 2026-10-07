@@ -1,0 +1,43 @@
+{
+  "benchmark": "HealthSearchQA",
+  "source_url": [
+    "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41586-023-06291-2/MediaObjects/41586_2023_6291_MOESM6_ESM.xlsx"
+  ],
+  "source_type": "own release (Supplementary Data of Singhal et al., Nature 2023)",
+  "revision": "Nature ESM file MOESM6 (article published 2023-07-12)",
+  "files": [
+    {
+      "path": "$CABA_DATA/healthsearchqa/41586_2023_6291_MOESM6_ESM.xlsx",
+      "bytes": 72573,
+      "sha256": "a89f6639ee76717e2a1ea25bbe25c8c69cf396681be76fd8145da7e9c8917e1e"
+    }
+  ],
+  "license": "CC BY 4.0 (article licence)",
+  "split": "sheet \"All HealthSearchQA Questions\" (no split)",
+  "n_items": 3173,
+  "public": "yes",
+  "english": "yes",
+  "text": "yes",
+  "single_request": "yes",
+  "request_fields": "question (single column, no header)",
+  "example_structure": [
+    "140 MultiMedQA Questions[col A]",
+    "All HealthSearchQA Questions[col A]"
+  ],
+  "notes": "Data availability statement: HealthSearchQA is released as this supplementary file. Sheet 1 has 3,173 questions (3,156 unique after case-folding; MEDIC reports 3,156). Sheet 2 is the 140-question MultiMedQA human-evaluation subset (mixes HealthSearchQA, LiveQA and MedicationQA). No answers are provided. Checked 2026-10-04; no LLMs or API keys used.",
+  "rendering": {
+    "rule": "otherwise: the consumer question as released (sheet \"All HealthSearchQA Questions\")",
+    "template_source": "none",
+    "n_usable": 3156,
+    "n_sampled": 200,
+    "seed": 20261004,
+    "excluded": {
+      "non_english": 0,
+      "image": 0,
+      "duplicate": 17
+    },
+    "mean_chars": 36.7,
+    "max_chars": 64
+  },
+  "in_caba_v1_0": true
+}

@@ -1,0 +1,41 @@
+{
+  "benchmark": "MetaMedQA",
+  "source_url": [
+    "https://huggingface.co/datasets/maximegmd/MetaMedQA/resolve/6b4d6ca0c4883fb67926a5eee174c3f5ba9444c7/data/test-00000-of-00001.parquet",
+    "https://huggingface.co/datasets/maximegmd/MetaMedQA/resolve/6b4d6ca0c4883fb67926a5eee174c3f5ba9444c7/README.md"
+  ],
+  "source_type": "own release",
+  "revision": "6b4d6ca0c4883fb67926a5eee174c3f5ba9444c7",
+  "files": [
+    {
+      "path": "$CABA_DATA/metamedqa/data/test-00000-of-00001.parquet",
+      "bytes": 1142170,
+      "sha256": "39d5d2e97d0fff790f696e362dcedd838f3843a26642346fbcbf4ee4ec92b0a8",
+      "url": "https://huggingface.co/datasets/maximegmd/MetaMedQA/resolve/6b4d6ca0c4883fb67926a5eee174c3f5ba9444c7/data/test-00000-of-00001.parquet",
+      "role": "items"
+    },
+    {
+      "path": "$CABA_DATA/metamedqa/_card/maximegmd__MetaMedQA_README.md",
+      "bytes": 3911,
+      "sha256": "0db809694ab0a3d8a4a50294379101c2476ffdcfea0854366e33ec2191d96ff2",
+      "url": "https://huggingface.co/datasets/maximegmd/MetaMedQA/resolve/6b4d6ca0c4883fb67926a5eee174c3f5ba9444c7/README.md",
+      "role": "dataset card"
+    }
+  ],
+  "license": "cc-by-4.0",
+  "split": "test",
+  "n_items": 1373,
+  "public": "yes",
+  "english": "yes",
+  "text": "yes",
+  "single_request": "yes",
+  "request_fields": "question + options",
+  "example_structure": [
+    "example",
+    "fields"
+  ],
+  "notes": "Built on MedQA-USMLE plus 100 Glianorex (fictional) questions; 'kind' counts: {\"Original\": 1097, \"Fictional\": 100, \"Answer removed\": 84, \"Bad\": 52, \"Answer modified\": 27, \"Question modified\": 13}. 1,259 of the 1,373 questions match a MedQA-USMLE test question verbatim (checked against benchmarks/raw/MedQA/GBaker_phrases_no_exclude_test.jsonl).",
+  "hf_repo": "maximegmd/MetaMedQA",
+  "checked_on": "2026-10-04",
+  "in_caba_v1_0": false
+}

@@ -1,0 +1,53 @@
+{
+  "benchmark": "MedicationQA",
+  "source_url": [
+    "https://raw.githubusercontent.com/abachaa/Medication_QA_MedInfo2019/20363d1913d535a5cac017812fdbf335259a0105/README.md",
+    "https://raw.githubusercontent.com/abachaa/Medication_QA_MedInfo2019/20363d1913d535a5cac017812fdbf335259a0105/MedInfo2019-QA-Medications.xlsx"
+  ],
+  "source_type": "own release",
+  "revision": "20363d1913d535a5cac017812fdbf335259a0105",
+  "files": [
+    {
+      "path": "$CABA_DATA/medicationqa/README.md",
+      "bytes": 2095,
+      "sha256": "74c8dc87b566e7950d1cd0a89009e661f8572cfbae654751f201d0f8ccf45bcc"
+    },
+    {
+      "path": "$CABA_DATA/medicationqa/MedInfo2019-QA-Medications.xlsx",
+      "bytes": 163497,
+      "sha256": "4f13d0e3b195bd6a5d72a1872f9118cb5f69fd02c370001695330cfc9e3b5832"
+    }
+  ],
+  "license": "CC BY 4.0 (README)",
+  "split": "whole set (no split)",
+  "n_items": 690,
+  "public": "yes",
+  "english": "yes",
+  "text": "yes",
+  "single_request": "yes",
+  "request_fields": "Question",
+  "example_structure": [
+    "Answer",
+    "Focus (Drug)",
+    "Question",
+    "Question Type",
+    "Section Title",
+    "URL"
+  ],
+  "notes": "690 question-answer rows, 651 unique question strings (some questions have several answer rows). The paper reports 674 QA pairs; MultiMedQA/MedHELM use this file. One row has an empty Answer. Checked 2026-10-04; no LLMs or API keys used.",
+  "rendering": {
+    "rule": "Item text as released: the consumer question.",
+    "template_source": "none",
+    "n_usable": 651,
+    "n_sampled": 200,
+    "seed": 20261004,
+    "excluded": {
+      "non_english": 0,
+      "image": 0,
+      "duplicate": 39
+    },
+    "mean_chars": 39.5,
+    "max_chars": 119
+  },
+  "in_caba_v1_0": true
+}

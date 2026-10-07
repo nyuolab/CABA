@@ -1,0 +1,50 @@
+{
+  "benchmark": "Species-800",
+  "source_url": [
+    "https://huggingface.co/datasets/Henrychur/MedS-Bench/resolve/6945b14e0f408082aecb6a77a185b9ebdd5fb413/NER/task128_test_species800_named_enetity_recognition.json",
+    "https://huggingface.co/datasets/Henrychur/MedS-Bench-SPLIT/resolve/bae9b49bb23ffcd5b1b64345f021d4d5b803b503/NER/task128_test_species800_named_enetity_recognition.json"
+  ],
+  "source_type": "suite release (MedS-Bench, instruction version)",
+  "revision": "HF Henrychur/MedS-Bench 6945b14e0f408082aecb6a77a185b9ebdd5fb413; HF Henrychur/MedS-Bench-SPLIT bae9b49bb23ffcd5b1b64345f021d4d5b803b503 (GitHub MAGIC-AI4Med/MedS-Ins 185cfc04a27023983e48b357a6f2fd525049b9af)",
+  "files": [
+    {
+      "path": "$CABA_DATA/species_800/MedS-Bench/task128_test_species800_named_enetity_recognition.json",
+      "bytes": 408722,
+      "sha256": "19ca395ce80d9c652b325de1d535b3cf40803902fe4abe9926d232d010c06c2d"
+    },
+    {
+      "path": "$CABA_DATA/species_800/MedS-Bench-SPLIT/task128_test_species800_named_enetity_recognition.json",
+      "bytes": 375696,
+      "sha256": "da6f40d7f707585e6d1e7f13303a6bbc261974acfc48593b7fc034768be0c01e"
+    }
+  ],
+  "license": "MedS-Ins/MedS-Bench GitHub LICENSE: \"CC BY-SA\" (MAGIC consortium); HF dataset cards declare no license; task-file Instance License: none given; source huggingface.co/datasets/species_800",
+  "split": "MedS-Bench test file(s); MedS-Bench-SPLIT has 1,500 (random subset)",
+  "n_items": 1630,
+  "public": "yes",
+  "english": "yes",
+  "text": "yes",
+  "single_request": "yes",
+  "request_fields": "Definition (task instruction) + instance input (one sentence)",
+  "example_structure": [
+    "Definition",
+    "Instances[].input",
+    "Instances[].output"
+  ],
+  "notes": "MedS-Bench (Wu et al., npj Digit Med 2024; arXiv 2408.12547) recasts the dataset as an instruction task. Henrychur/MedS-Bench holds the full test files (\"the official benchmark\"); Henrychur/MedS-Bench-SPLIT holds the subsample used for the paper's results. n_items counts the MedS-Bench file. Sentence-level organism NER; 1,539 unique sentences among 1,630 instances. Checked 2026-10-04; no LLMs or API keys used.",
+  "rendering": {
+    "rule": "instruction-style (MedS-Bench): the task Definition, a blank line, then the instance input (few-shot examples and outputs omitted)",
+    "template_source": "none (instruction and input as released in the MedS-Bench task files)",
+    "n_usable": 1539,
+    "n_sampled": 200,
+    "seed": 20261004,
+    "excluded": {
+      "non_english": 0,
+      "image": 0,
+      "duplicate": 91
+    },
+    "mean_chars": 335.3,
+    "max_chars": 611
+  },
+  "in_caba_v1_0": true
+}

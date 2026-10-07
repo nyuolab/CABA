@@ -1,0 +1,58 @@
+{
+  "benchmark": "MEDIQA 2019 Task 2 RQE",
+  "source_url": [
+    "https://huggingface.co/datasets/YLab-Open/BRIDGE-Open/resolve/41159677fba2454e032574625e24b24d29a17684/Dataset/MEDIQA 2019-RQE.SFT.json"
+  ],
+  "source_type": "suite release (BRIDGE-Open)",
+  "revision": "41159677fba2454e032574625e24b24d29a17684",
+  "files": [
+    {
+      "path": "$CABA_DATA/bridge_open/Dataset/MEDIQA 2019-RQE.SFT.json",
+      "bytes": 200929,
+      "sha256": "7f1a1578a483263edd232f8bbc4be821ae75c8061245387e7944c7b8b7974fa4"
+    }
+  ],
+  "license": "see BRIDGE-Open dataset card and the original dataset licence",
+  "split": "test",
+  "n_items": 230,
+  "public": "yes (free registration and terms acceptance on Hugging Face, done by the user; files downloaded by the user with huggingface-cli)",
+  "english": "yes (language field en for every item)",
+  "text": "yes",
+  "single_request": "yes (BRIDGE instruction + input)",
+  "request_fields": "instruction + input",
+  "example_structure": "(field list removed)",
+  "notes": "BRIDGE task files: MEDIQA 2019-RQE.SFT.json",
+  "rendering": {
+    "rule": "instruction-style: the BRIDGE instruction, a blank line, then the input.",
+    "template_source": "none",
+    "n_usable": 230,
+    "n_sampled": 200,
+    "seed": 20261004,
+    "excluded": {
+      "non_english": 0,
+      "image": 0,
+      "duplicate": 0
+    },
+    "image_rule": "Exclude an item as needing an unreleased picture only if (i) a released image field marks it (HEAD-QA 'image'), or (ii) its question stem (the part that asks the question: MCQ question text, MedCalc 'Question', MedHallu 'Question', Med-HALT reasoning 'question', a patient's own question in HealthCareMagic/iCliniq/MEDIQA-RQE) matches, case-insensitively, any of: (a) shown/seen/depicted/displayed/illustrated/pictured/presented/visualized + in/on/below/above + [the/this] [accompanying/following/attached/adjacent] + figure|image|picture|photo(graph)|(photo)micrograph|exhibit|illustration|diagram|graph; (b) see/refer to + [the/this/these] [accompanying/following/attached] + a word of (a), or look at + [the/this/these/my] [accompanying/following/attached] + a visual word (the list in (a) plus radiograph|x-ray|ECG|EKG|electrocardiogram|tracing|smear|scan); (c) 'the following/accompanying/attached/adjacent' + a visual word, unless preceded by 'which of'; (d) this/these + image|photo(graph)|(photo)micrograph|exhibit|illustration|diagram|graph (not 'figure' or 'picture', which in stems mostly mean numbers or a clinical picture); (e) figure/fig./image + a number, or + a space and a capital letter A-H (e.g. 'Figure 1', 'Figures A-C', 'image # 6'); (f) a visual word + shown|attached|enclosed|below; (g) attached/enclosed/uploaded/sent (or attaching/uploading/sending) + [herewith] [determiner] [one word other than for/to/in/out] + picture|photo(graph)|image|x-ray|radiograph. Documents the item asks about (case reports, patient notes, news articles, abstracts, radiology reports, conversations, MedS-Bench inputs, MedHallu Knowledge, MedCaseReasoning case_prompt, Med-HALT IR fields) are not scanned. Regex: (?:\\b(?:shown|seen|depicted|displayed|illustrated|pictured|presented|visuali[sz]ed)\\s+(?:in|on|below|above)\\s+(?:the\\s+|this\\s+)?(?:accompanying\\s+|following\\s+|attached\\s+|adjacent\\s+)?(?:figures?|fig\\.|images?|pictures?|photos?|photographs?|photomicrographs?|micrographs?|exhibits?|illustrations?|diagrams?|graphs?)\\b)|(?:\\b(?:see|refer\\s+to)\\s+(?:the\\s+|this\\s+|these\\s+)?(?:accompanying\\s+|following\\s+|attached\\s+)?(?:figures?|fig\\.|images?|pictures?|photos?|photographs?|photomicrographs?|micrographs?|exhibits?|illustrations?|diagrams?|graphs?)\\b)|(?:\\blook\\s+at\\s+(?:the\\s+|this\\s+|these\\s+|my\\s+)?(?:accompanying\\s+|following\\s+|attached\\s+)?(?:figures?|fig\\.|images?|pictures?|photos?|photographs?|photomicrographs?|micrographs?|exhibits?|illustrations?|diagrams?|graphs?|radiographs?|x-?rays?|ecgs?|ekgs?|electrocardiograms?|tracings?|smears?|scans?)\\b)|(?:(?<!which of )(?<!which of\\s)\\bthe\\s+(?:following|accompanying|attached|adjacent)\\s+(?:figures?|fig\\.|images?|pictures?|photos?|photographs?|photomicrographs?|micrographs?|exhibits?|illustrations?|diagrams?|graphs?|radiographs?|x-?rays?|ecgs?|ekgs?|electrocardiograms?|tracings?|smears?|scans?)\\b)|(?:\\b(?:this|these)\\s+(?:images?|photos?|photographs?|photomicrographs?|micrographs?|exhibits?|illustrations?|diagrams?|graphs?)\\b)|(?:\\b(?:figures?|figs?\\.|images?)(?:\\s*#?\\s*\\d+|\\s+(?-i:[A-H])(?:\\s*(?:-|–|and|,)\\s*(?-i:[A-H]))?)\\b)|(?:\\b(?:figures?|fig\\.|images?|pictures?|photos?|photographs?|photomicrographs?|micrographs?|exhibits?|illustrations?|diagrams?|graphs?|radiographs?|x-?rays?|ecgs?|ekgs?|electrocardiograms?|tracings?|smears?|scans?)\\s+(?:shown|attached|enclosed|below)\\b)|(?:\\b(?:attached|enclosed|uploaded|sent|sending|attaching|uploading)\\s+(?:herewith\\s+)?(?:(?:this|these|the|a|an|my|his|her|some|few|a\\s+few)\\s+)?(?:(?!for\\b|to\\b|in\\b|out\\b)\\w+\\s+)?(?:pictures?|photos?|photographs?|images?|x-?rays?|radiographs?)\\b)",
+    "mean_chars": 654.7,
+    "max_chars": 1372,
+    "n_released_rendered": 230,
+    "n_unrenderable": 0,
+    "rendered_file": "$CABA_DATA/rendered/mediqa_2019_task2_rqe.jsonl",
+    "version": 2,
+    "v1": {
+      "n_usable": 230,
+      "n_sampled": 200,
+      "mean_chars": 654.7,
+      "max_chars": 1372,
+      "excluded": {
+        "non_english": 0,
+        "image": 0,
+        "duplicate": 0
+      },
+      "template_source": "none"
+    },
+    "sample_vs_v1": "identical items"
+  },
+  "in_caba_v1_0": true
+}

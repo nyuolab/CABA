@@ -1,0 +1,89 @@
+{
+  "benchmark": "PMC-Patients basic information extraction",
+  "source_url": [
+    "https://huggingface.co/datasets/Henrychur/MedS-Bench/resolve/6945b14e0f408082aecb6a77a185b9ebdd5fb413/Information_extraction/task74_pmc_patient_case_report_basic_information_extraction.json",
+    "https://huggingface.co/datasets/Henrychur/MedS-Bench-SPLIT/resolve/bae9b49bb23ffcd5b1b64345f021d4d5b803b503/Information_extraction/task74_pmc_patient_case_report_basic_information_extraction.json",
+    "https://huggingface.co/datasets/Henrychur/MedS-Bench/resolve/6945b14e0f408082aecb6a77a185b9ebdd5fb413/README.md"
+  ],
+  "source_type": "suite release (MedS-Bench, Henrychur/MedS-Bench; dataset recast as instruction + input)",
+  "revision": "6945b14e0f408082aecb6a77a185b9ebdd5fb413",
+  "files": [
+    {
+      "path": "$CABA_DATA/pmc_patients_basic_information_extraction/Information_extraction/task74_pmc_patient_case_report_basic_information_extraction.json",
+      "bytes": 42782661,
+      "sha256": "abebfdb544a4e9e81647fe2c7181cd05d8095505cfb71e77d115ac42bffec5c2",
+      "url": "https://huggingface.co/datasets/Henrychur/MedS-Bench/resolve/6945b14e0f408082aecb6a77a185b9ebdd5fb413/Information_extraction/task74_pmc_patient_case_report_basic_information_extraction.json",
+      "role": "items"
+    },
+    {
+      "path": "$CABA_DATA/pmc_patients_basic_information_extraction/MedS-Bench-SPLIT/Information_extraction/task74_pmc_patient_case_report_basic_information_extraction.json",
+      "bytes": 3824467,
+      "sha256": "85cd06e004fc583c8ce3ba2923e91fd61742b9865d13214f8c86f59427946d23",
+      "url": "https://huggingface.co/datasets/Henrychur/MedS-Bench-SPLIT/resolve/bae9b49bb23ffcd5b1b64345f021d4d5b803b503/Information_extraction/task74_pmc_patient_case_report_basic_information_extraction.json",
+      "role": "MedS-Bench-SPLIT copy (paper's sampled cases), for comparison"
+    },
+    {
+      "path": "$CABA_DATA/pmc_patients_basic_information_extraction/_card/Henrychur__MedS-Bench_README.md",
+      "bytes": 3233,
+      "sha256": "3eeb259f606cf10da08d5783f43527f37346d264a09bcffd6f945bbfc3d860ea",
+      "url": "https://huggingface.co/datasets/Henrychur/MedS-Bench/resolve/6945b14e0f408082aecb6a77a185b9ebdd5fb413/README.md",
+      "role": "dataset card"
+    }
+  ],
+  "license": "MedS-Bench card states no license; PMC-Patients is tagged cc-by-nc-sa-4.0 on the Hub.",
+  "split": "test (MedS-Bench test file, all instances)",
+  "n_items": 16704,
+  "public": "yes (MedS-Bench on Hugging Face: public, not gated, no login)",
+  "english": "yes",
+  "text": "yes",
+  "single_request": "yes",
+  "request_fields": "Definition (task instruction, shared by all instances) + Instances[].input",
+  "example_structure": [
+    "example",
+    "fields",
+    "file_keys"
+  ],
+  "notes": "Official url_data zhengyun21/PMC-Patients holds the patient-summary corpus (PMC-Patients-V2.json 837 MB, PMC-Patients.csv 545 MB; both over the 500 MB cap) rather than this extraction task; not downloaded. Used MedS-Bench task74 (extract patient sex and age from a case report). MedS-Bench paper evaluated a 1,500-case sample (SPLIT). Instance counts: main {'task74_pmc_patient_case_report_basic_information_extraction.json': 16704}; MedS-Bench-SPLIT (sampled cases used in the MedS-Bench paper, revision bae9b49bb23ffcd5b1b64345f021d4d5b803b503): {'task74_pmc_patient_case_report_basic_information_extraction.json': 1500}.",
+  "n_items_by_file": {
+    "task74_pmc_patient_case_report_basic_information_extraction.json": 16704
+  },
+  "n_items_medsbench_split": {
+    "task74_pmc_patient_case_report_basic_information_extraction.json": 1500
+  },
+  "revision_medsbench_split": "bae9b49bb23ffcd5b1b64345f021d4d5b803b503",
+  "hf_repo": "Henrychur/MedS-Bench",
+  "checked_on": "2026-10-04",
+  "rendering": {
+    "rule": "instruction-style: the MedS-Bench task Definition (instruction), a blank line, then the instance input.",
+    "template_source": "none",
+    "n_usable": 16704,
+    "n_sampled": 200,
+    "seed": 20261004,
+    "excluded": {
+      "non_english": 0,
+      "image": 0,
+      "duplicate": 0
+    },
+    "image_rule": "Exclude an item as needing an unreleased picture only if (i) a released image field marks it (HEAD-QA 'image'), or (ii) its question stem (the part that asks the question: MCQ question text, MedCalc 'Question', MedHallu 'Question', Med-HALT reasoning 'question', a patient's own question in HealthCareMagic/iCliniq/MEDIQA-RQE) matches, case-insensitively, any of: (a) shown/seen/depicted/displayed/illustrated/pictured/presented/visualized + in/on/below/above + [the/this] [accompanying/following/attached/adjacent] + figure|image|picture|photo(graph)|(photo)micrograph|exhibit|illustration|diagram|graph; (b) see/refer to + [the/this/these] [accompanying/following/attached] + a word of (a), or look at + [the/this/these/my] [accompanying/following/attached] + a visual word (the list in (a) plus radiograph|x-ray|ECG|EKG|electrocardiogram|tracing|smear|scan); (c) 'the following/accompanying/attached/adjacent' + a visual word, unless preceded by 'which of'; (d) this/these + image|photo(graph)|(photo)micrograph|exhibit|illustration|diagram|graph (not 'figure' or 'picture', which in stems mostly mean numbers or a clinical picture); (e) figure/fig./image + a number, or + a space and a capital letter A-H (e.g. 'Figure 1', 'Figures A-C', 'image # 6'); (f) a visual word + shown|attached|enclosed|below; (g) attached/enclosed/uploaded/sent (or attaching/uploading/sending) + [herewith] [determiner] [one word other than for/to/in/out] + picture|photo(graph)|image|x-ray|radiograph. Documents the item asks about (case reports, patient notes, news articles, abstracts, radiology reports, conversations, MedS-Bench inputs, MedHallu Knowledge, MedCaseReasoning case_prompt, Med-HALT IR fields) are not scanned. Regex: (?:\\b(?:shown|seen|depicted|displayed|illustrated|pictured|presented|visuali[sz]ed)\\s+(?:in|on|below|above)\\s+(?:the\\s+|this\\s+)?(?:accompanying\\s+|following\\s+|attached\\s+|adjacent\\s+)?(?:figures?|fig\\.|images?|pictures?|photos?|photographs?|photomicrographs?|micrographs?|exhibits?|illustrations?|diagrams?|graphs?)\\b)|(?:\\b(?:see|refer\\s+to)\\s+(?:the\\s+|this\\s+|these\\s+)?(?:accompanying\\s+|following\\s+|attached\\s+)?(?:figures?|fig\\.|images?|pictures?|photos?|photographs?|photomicrographs?|micrographs?|exhibits?|illustrations?|diagrams?|graphs?)\\b)|(?:\\blook\\s+at\\s+(?:the\\s+|this\\s+|these\\s+|my\\s+)?(?:accompanying\\s+|following\\s+|attached\\s+)?(?:figures?|fig\\.|images?|pictures?|photos?|photographs?|photomicrographs?|micrographs?|exhibits?|illustrations?|diagrams?|graphs?|radiographs?|x-?rays?|ecgs?|ekgs?|electrocardiograms?|tracings?|smears?|scans?)\\b)|(?:(?<!which of )(?<!which of\\s)\\bthe\\s+(?:following|accompanying|attached|adjacent)\\s+(?:figures?|fig\\.|images?|pictures?|photos?|photographs?|photomicrographs?|micrographs?|exhibits?|illustrations?|diagrams?|graphs?|radiographs?|x-?rays?|ecgs?|ekgs?|electrocardiograms?|tracings?|smears?|scans?)\\b)|(?:\\b(?:this|these)\\s+(?:images?|photos?|photographs?|photomicrographs?|micrographs?|exhibits?|illustrations?|diagrams?|graphs?)\\b)|(?:\\b(?:figures?|figs?\\.|images?)(?:\\s*#?\\s*\\d+|\\s+(?-i:[A-H])(?:\\s*(?:-|–|and|,)\\s*(?-i:[A-H]))?)\\b)|(?:\\b(?:figures?|fig\\.|images?|pictures?|photos?|photographs?|photomicrographs?|micrographs?|exhibits?|illustrations?|diagrams?|graphs?|radiographs?|x-?rays?|ecgs?|ekgs?|electrocardiograms?|tracings?|smears?|scans?)\\s+(?:shown|attached|enclosed|below)\\b)|(?:\\b(?:attached|enclosed|uploaded|sent|sending|attaching|uploading)\\s+(?:herewith\\s+)?(?:(?:this|these|the|a|an|my|his|her|some|few|a\\s+few)\\s+)?(?:(?!for\\b|to\\b|in\\b|out\\b)\\w+\\s+)?(?:pictures?|photos?|photographs?|images?|x-?rays?|radiographs?)\\b)",
+    "mean_chars": 3084.9,
+    "max_chars": 7054,
+    "n_released_rendered": 16704,
+    "n_unrenderable": 0,
+    "rendered_file": "$CABA_DATA/rendered/pmc_patients_basic_information_extraction.jsonl",
+    "version": 2,
+    "v1": {
+      "n_usable": 16578,
+      "n_sampled": 200,
+      "mean_chars": 3079.0,
+      "max_chars": 23225,
+      "excluded": {
+        "non_english": 0,
+        "image": 126,
+        "duplicate": 0
+      },
+      "template_source": "none"
+    },
+    "sample_vs_v1": "changed (1 of 200 items in common)"
+  },
+  "in_caba_v1_0": true
+}

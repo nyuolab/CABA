@@ -1,0 +1,45 @@
+{
+  "benchmark": "IU X-ray report summarization",
+  "source_url": [
+    "https://openi.nlm.nih.gov/imgs/collections/NLMCXR_reports.tgz"
+  ],
+  "source_type": "own release (Open-i / NLM, Indiana University Chest X-ray Collection, reports only)",
+  "revision": "Open-i archive, Last-Modified 2017-06-06 (no version id)",
+  "files": [
+    {
+      "path": "$CABA_DATA/iu_x_ray_report_summarization/NLMCXR_reports.tgz",
+      "bytes": 1112632,
+      "sha256": "8fb6de7eec73d8c3665067ad4bb003ccd57f971ae316d2642e1627ac7268667a"
+    }
+  ],
+  "license": "CC BY-NC-ND 4.0 (licenseURL in every report XML)",
+  "split": "whole report set (no official split); ClinicBench uses a 10% test split of 341 reports that is not released",
+  "n_items": 3419,
+  "public": "yes",
+  "english": "yes",
+  "text": "yes (report text only; images not downloaded)",
+  "single_request": "yes",
+  "request_fields": "ClinicBench Table 8 radiology prompt (\"Summarize the findings ...\") + FINDINGS section; reference = IMPRESSION",
+  "example_structure": [
+    "AbstractText@Label",
+    "FINDINGS",
+    "IMPRESSION",
+    "parentImage"
+  ],
+  "notes": "ClinicBench (Liu et al., EMNLP 2024; github.com/AI-in-Health/ClinicBench @57138be8a73f09bef8980f849789baf57570c5cf) releases only its six new datasets; existing datasets are not redistributed, so the own release was used. The archive has 3,955 report XMLs (extracted to ecgen-radiology/); 3,419 have both FINDINGS and IMPRESSION and form the candidate items. ClinicBench says it follows previous work (R2Gen-style split) and uses 341 test reports; that split list is distributed with the images (Google Drive) and was not downloaded. Checked 2026-10-04; no LLMs or API keys used.",
+  "rendering": {
+    "rule": "template: ClinicBench radiology report summarization prompt (paper Table 8, adapted from Tu et al. 2023) filled with the report FINDINGS (whitespace collapsed); reports without FINDINGS and IMPRESSION are not items",
+    "template_source": "https://aclanthology.org/2024.emnlp-main.759.pdf (Table 8, \"Radiology Report Summarization\")",
+    "n_usable": 2627,
+    "n_sampled": 200,
+    "seed": 20261004,
+    "excluded": {
+      "non_english": 0,
+      "image": 0,
+      "duplicate": 792
+    },
+    "mean_chars": 464.6,
+    "max_chars": 813
+  },
+  "in_caba_v1_0": true
+}

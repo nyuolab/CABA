@@ -1,0 +1,55 @@
+doc_id,lab,models,benchmark,quote,section_source
+50e18c541984,Anthropic,Claude Sonnet 5.5,HealthBench Professional,"We evaluated Claude Sonnet 5.5 on HealthBench, HealthBench Professional, and",https://www.anthropic.com/claude-sonnet-5-5-system-card
+50e18c541984,Anthropic,Claude Sonnet 5.5,HealthBench,"We evaluated Claude Sonnet 5.5 on HealthBench, HealthBench Professional, and",https://www.anthropic.com/claude-sonnet-5-5-system-card
+50e18c541984,Anthropic,Claude Sonnet 5.5,PhysicianBench,8.15.3 PhysicianBench​,https://www.anthropic.com/claude-sonnet-5-5-system-card
+0c90c73c08cf,Anthropic,Claude Opus 5.5,HealthBench Professional,8.15.2 HealthBench Professional results​,https://anthropic.com/claude-opus-5-5-system-card
+0c90c73c08cf,Anthropic,Claude Opus 5.5,HealthBench,8.15.1 HealthBench results​,https://anthropic.com/claude-opus-5-5-system-card
+3df5fbd9b803,Anthropic,Claude Fable 5.1,HealthBench Professional,8.17.2 HealthBench Professional results​,https://www.anthropic.com/claude-fable-5-1-mythos-5-1-system-card
+3df5fbd9b803,Anthropic,Claude Fable 5.1,HealthBench,8.17.1 HealthBench results​,https://www.anthropic.com/claude-fable-5-1-mythos-5-1-system-card
+e75df1016aa1,Anthropic,Claude Opus 5,HealthBench Professional,8.15.2 HealthBench Professional results​,https://www.anthropic.com/claude-opus-5-system-card
+e75df1016aa1,Anthropic,Claude Opus 5,HealthBench,8.15.1 HealthBench results​,https://www.anthropic.com/claude-opus-5-system-card
+f1afe25775a0,Alibaba,Qwen 3.8 Max,HealthBench,HealthBench 52.4 -- 55.3 54.5 60.2,https://qwen.ai/blog?id=qwen3.8
+f1afe25775a0,Alibaba,Qwen 3.8 Max,MedXpertQA,MedXpertQA-MM 71.7 80.0 80.7 81.5 71.0 80.4,https://qwen.ai/blog?id=qwen3.8
+147a989f3e59,Anthropic,Claude Mythos 5; Claude Fable 5,HealthBench Professional,8.18.2 HealthBench Professional results​,https://anthropic.com/claude-fable-5-mythos-5-system-card
+147a989f3e59,Anthropic,Claude Mythos 5; Claude Fable 5,HealthBench,8.18.1 HealthBench results​,https://anthropic.com/claude-fable-5-mythos-5-system-card
+147a989f3e59,Anthropic,Claude Mythos 5; Claude Fable 5,HealthAdminBench,8.18.3 HealthAdminBench results​,https://anthropic.com/claude-fable-5-mythos-5-system-card
+147a989f3e59,Anthropic,Claude Mythos 5; Claude Fable 5,LAB-Bench2 (clinical-trial questions),it also led on clinical-trial questions at 91.2% (up from 86.3% for Claude Mythos Preview,https://anthropic.com/claude-fable-5-mythos-5-system-card
+1370d9367537,Alibaba,Qwen3.7-Plus,MedXpertQA,MedXpertQA-MM 77.3 64.4 80.7 68.7 71.0,https://qwen.ai/blog?id=qwen3.7-plus
+918121c45d59,Anthropic,Claude Opus 4.8,HealthBench Professional,[Figure 8.14.A] HealthBench Professional length-adjusted scores. All runs used adaptive thinking at max effort,https://www.anthropic.com/claude-opus-4-8-system-card
+918121c45d59,Anthropic,Claude Opus 4.8,LAB-Bench2 (clinical-trial questions),"and 64.3% for Claude Mythos Preview — and on clinical-trial questions at 85.3%, up from",https://www.anthropic.com/claude-opus-4-8-system-card
+06e5096c48bb,Alibaba,Qwen3.5-Omni-Plus; Qwen3.5-Omni-Flash,MedXpertQA,MedXpertQA-MM,[source: https://arxiv.org/abs/2604.15804; direct]
+06e5096c48bb,Alibaba,Qwen3.5-Omni-Plus; Qwen3.5-Omni-Flash,SLAKE,SLAKE,[source: https://arxiv.org/abs/2604.15804; direct]
+06e5096c48bb,Alibaba,Qwen3.5-Omni-Plus; Qwen3.5-Omni-Flash,PMC-VQA,"PMC-VQA: visual instruction tuning for medical visual question answering. CoRR, abs/2305.10415,",[source: https://arxiv.org/abs/2604.15804; direct]
+05401bde8c81,Alibaba,Qwen3.5 397B-A17B,MedXpertQA,MedXpertQA-MM 73.3 63.6 76.0 47.6 65.3 70.0,https://qwen.ai/blog?id=qwen3.5
+aece40a39113,OpenAI,GPT-5 Pro; GPT-5 nano; GPT-5 mini; GPT-5,HealthBench,"To measure performance and safety in health-related settings, we evaluated the GPT-5 model family on HealthBench [8]. We report scores for HealthBench, HealthBench Hard, and HealthBench",[source: https://cdn.openai.com/gpt-5-system-card.pdf; direct]
+c4370acf3cd0,OpenAI,gpt-oss-120b; gpt-oss-20b,HealthBench,"To measure performance and safety in health-related settings, we evaluated gpt-oss-120b and gptoss-20b on HealthBench [28]. We report scores for HealthBench (realistic health conversations with",[source: https://cdn.openai.com/pdf/419b6906-9da6-406c-a19d-1bb078ac7637/oai_gpt-oss_model_card.pdf; direct]
+50abfd837728,Anthropic,Claude Sonnet 4,HealthBench Professional,"We evaluated Claude Sonnet 5.5 on HealthBench, HealthBench Professional, and",https://www.anthropic.com/claude-sonnet-5-5-system-card
+50abfd837728,Anthropic,Claude Sonnet 4,HealthBench,"We evaluated Claude Sonnet 5.5 on HealthBench, HealthBench Professional, and",https://www.anthropic.com/claude-sonnet-5-5-system-card
+50abfd837728,Anthropic,Claude Sonnet 4,PhysicianBench,8.15.3 PhysicianBench​,https://www.anthropic.com/claude-sonnet-5-5-system-card
+0f14dddf3c3c,Anthropic,Claude Opus 4,HealthBench Professional,8.15.2 HealthBench Professional results​,https://www.anthropic.com/claude-opus-5-5-system-card
+0f14dddf3c3c,Anthropic,Claude Opus 4,HealthBench,8.15.1 HealthBench results​,https://www.anthropic.com/claude-opus-5-5-system-card
+440bf7456409,OpenAI,Computer-Using Agent (CUA),MedQA,"model for 21/22 evaluations, often by a substantial margin. For example, for the popular MedQA",[linked document: https://cdn.openai.com/gpt-4o-system-card.pdf]
+440bf7456409,OpenAI,Computer-Using Agent (CUA),MedMCQA,MedMCQA Dev (0-shot),[linked document: https://cdn.openai.com/gpt-4o-system-card.pdf]
+440bf7456409,OpenAI,Computer-Using Agent (CUA),MMLU (medical subjects),"characterize the clinical knowledge of GPT-4o, we ran 22 text-based evaluations based on 11",[linked document: https://cdn.openai.com/gpt-4o-system-card.pdf]
+cd34b2946e83,NVIDIA,Eagle 2,PathVQA,"AI2D [50], ScienceQA [51], TQA [52], PathVQA [53], SciQA [54], Textbooks-QA, VQA-RAD [55], VisualWebInstruct [56]",[source: arxiv.org/abs/2501.14818; arxiv-export]
+cd34b2946e83,NVIDIA,Eagle 2,VQA-RAD,"AI2D [50], ScienceQA [51], TQA [52], PathVQA [53], SciQA [54], Textbooks-QA, VQA-RAD [55], VisualWebInstruct [56]",[source: arxiv.org/abs/2501.14818; arxiv-export]
+78a8c83cc1e6,NVIDIA,NVILA 15B,SLAKE,"PathVQA [39], SLAKE [145], MedVQA",[source: https://arxiv.org/abs/2412.04468; direct]
+78a8c83cc1e6,NVIDIA,NVILA 15B,PathVQA,"PathVQA [39], and Widget Caption [40].",[source: https://arxiv.org/abs/2412.04468; direct]
+78a8c83cc1e6,NVIDIA,NVILA 15B,CheXpert,CheXpert,[source: https://arxiv.org/abs/2412.04468; direct]
+6e86cb139d09,Anthropic,Claude 3 Sonnet; Claude 3 Opus,MedQA,PubMedQA scores for GPT-4 and GPT-3.5 were reported in [44].,[source: https://www-cdn.anthropic.com/de8ba9b01c9ab7cbabf5c33b80b7bbc618857627/Model_Card_Claude_3.pdf; direct]
+6e86cb139d09,Anthropic,Claude 3 Sonnet; Claude 3 Opus,MedMCQA,"[23], BioASQ [69], USMLE [70], and MedMCQA [71]. The model performed up to around 10% better than",[source: https://www-cdn.anthropic.com/de8ba9b01c9ab7cbabf5c33b80b7bbc618857627/Model_Card_Claude_3.pdf; direct]
+6e86cb139d09,Anthropic,Claude 3 Sonnet; Claude 3 Opus,PubMedQA,PubMedQA scores for GPT-4 and GPT-3.5 were reported in [44].,[source: https://www-cdn.anthropic.com/de8ba9b01c9ab7cbabf5c33b80b7bbc618857627/Model_Card_Claude_3.pdf; direct]
+6e86cb139d09,Anthropic,Claude 3 Sonnet; Claude 3 Opus,BioASQ,"[23], BioASQ [69], USMLE [70], and MedMCQA [71]. The model performed up to around 10% better than",[source: https://www-cdn.anthropic.com/de8ba9b01c9ab7cbabf5c33b80b7bbc618857627/Model_Card_Claude_3.pdf; direct]
+6e86cb139d09,Anthropic,Claude 3 Sonnet; Claude 3 Opus,USMLE practice questions,"[23], BioASQ [69], USMLE [70], and MedMCQA [71]. The model performed up to around 10% better than",[source: https://www-cdn.anthropic.com/de8ba9b01c9ab7cbabf5c33b80b7bbc618857627/Model_Card_Claude_3.pdf; direct]
+a0753dfd9531,Anthropic,Claude 2.1,USMLE practice questions,We tested Claude 2 on the official USMLE multiple-choice practice questions from [35]. The USMLE,https://www-cdn.anthropic.com/5c49cc247484cecf107c699baf29250302e5da70/ModelCardClaudev2_with_appendix_v1.pdf
+d522919387e6,Anthropic,Claude 2,USMLE practice questions,We tested Claude 2 on the official USMLE multiple-choice practice questions from [35]. The USMLE,https://www-cdn.anthropic.com/bd2a28d2535bfb0494cc8e2a3bf135d2e7523226/Model-Card-Claude-2.pdf
+fe6a74baa273,OpenAI,GPT-4 (Jun 2023); GPT-4 (Mar 2023),MKSAP,Medical Knowledge Self-Assessment Program,[source: https://arxiv.org/abs/2303.08774; direct]
+d2f1ead0f3e3,Google,Med-PaLM 2,MedQA,"style questions with a score of 67.2% on the MedQA dataset. However, this and other prior work suggested",[source: https://arxiv.org/abs/2305.09617; direct]
+d2f1ead0f3e3,Google,Med-PaLM 2,MedMCQA,"Multiple-choice questions For evaluation on multiple-choice questions, we used the MedQA [16], MedMCQA [17], PubMedQA [18] and MMLU clinical topics [31] datasets (Table 1).",[source: https://arxiv.org/abs/2305.09617; direct]
+d2f1ead0f3e3,Google,Med-PaLM 2,PubMedQA,"Multiple-choice questions For evaluation on multiple-choice questions, we used the MedQA [16], MedMCQA [17], PubMedQA [18] and MMLU clinical topics [31] datasets (Table 1).",[source: https://arxiv.org/abs/2305.09617; direct]
+d2f1ead0f3e3,Google,Med-PaLM 2,LiveQA,"Sample from HealthSearchQA, LiveQA, MedicationQA [1]",[source: https://arxiv.org/abs/2305.09617; direct]
+d2f1ead0f3e3,Google,Med-PaLM 2,MedicationQA,"Sample from HealthSearchQA, LiveQA, MedicationQA [1]",[source: https://arxiv.org/abs/2305.09617; direct]
+d2f1ead0f3e3,Google,Med-PaLM 2,HealthSearchQA,"Sample from HealthSearchQA, LiveQA, MedicationQA [1]",[source: https://arxiv.org/abs/2305.09617; direct]
+d2f1ead0f3e3,Google,Med-PaLM 2,MMLU (medical subjects),for MedQA to 48.0% on MMLU Medical Genetics. Performance of Med-PaLM 2 was slightly higher on,[source: https://arxiv.org/abs/2305.09617; direct]
+d2f1ead0f3e3,Google,Med-PaLM 2,Med-PaLM 2 adversarial questions,"Table A.3 | Statistical analysis for independent evaluation of long-form answers with physician raters on adversarial questions. For each rating axis, the top row summarizes ratings across all adversarial questions, while the below rows",[source: https://arxiv.org/abs/2305.09617; direct]
+0e792eba0b1c,Meta,LLaMA-65B,MMLU (medical subjects),Clinical Knowledge,[source: https://arxiv.org/abs/2302.13971; direct]

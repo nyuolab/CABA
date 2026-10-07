@@ -1,0 +1,18 @@
+{
+  "benchmark": "Referral QA",
+  "source_url": [],
+  "source_type": "none (not released)",
+  "revision": null,
+  "files": [],
+  "license": null,
+  "split": null,
+  "n_items": null,
+  "public": "no (not released; derived from MIMIC-IV notes, so would need PhysioNet credentialing)",
+  "english": "not checked (items unavailable)",
+  "text": "not checked (items unavailable; paper: referral letters + MCQ)",
+  "single_request": "not checked (paper: multiple-choice question about a referral letter)",
+  "request_fields": "per paper Table 8: instruction + referral letter + question + options",
+  "example_structure": [],
+  "notes": "ClinicBench new dataset (1,057 QA pairs generated with GPT-4 from 1,000 MIMIC-IV referral letters, expert-reviewed). Checked: ClinicBench GitHub (all 8 commits; repo has Drug-Interaction, Hospitalization-Summarization, Patient-Education, Pharmacology-QA, Treatment-Recommendation only), ACL Anthology page (no attachments), arXiv 2405.00716, HF search (only an unofficial third-party upload with Pharmacology-QA). No release found. Checked 2026-10-04; no LLMs or API keys used.",
+  "in_caba_v1_0": false
+}

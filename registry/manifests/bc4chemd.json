@@ -1,0 +1,50 @@
+{
+  "benchmark": "BC4CHEMD",
+  "source_url": [
+    "https://huggingface.co/datasets/Henrychur/MedS-Bench/resolve/6945b14e0f408082aecb6a77a185b9ebdd5fb413/NER/task125_test_bc4chem_named_enetity_recognition.json",
+    "https://huggingface.co/datasets/Henrychur/MedS-Bench-SPLIT/resolve/bae9b49bb23ffcd5b1b64345f021d4d5b803b503/NER/task125_test_bc4chem_named_enetity_recognition.json"
+  ],
+  "source_type": "suite release (MedS-Bench, instruction version)",
+  "revision": "HF Henrychur/MedS-Bench 6945b14e0f408082aecb6a77a185b9ebdd5fb413; HF Henrychur/MedS-Bench-SPLIT bae9b49bb23ffcd5b1b64345f021d4d5b803b503 (GitHub MAGIC-AI4Med/MedS-Ins 185cfc04a27023983e48b357a6f2fd525049b9af)",
+  "files": [
+    {
+      "path": "$CABA_DATA/bc4chemd/MedS-Bench/task125_test_bc4chem_named_enetity_recognition.json",
+      "bytes": 6980624,
+      "sha256": "e8648a0c8c096c35f223ec56748752d7ad32e538cd0ce20a2f0138303f0cd9bb"
+    },
+    {
+      "path": "$CABA_DATA/bc4chemd/MedS-Bench-SPLIT/task125_test_bc4chem_named_enetity_recognition.json",
+      "bytes": 392500,
+      "sha256": "d2ca1827d6472e42dba9c4dae52561153506691e6255745648c396f9aed54647"
+    }
+  ],
+  "license": "MedS-Ins/MedS-Bench GitHub LICENSE: \"CC BY-SA\" (MAGIC consortium); HF dataset cards declare no license; task-file Instance License: none given; source BC4CHEMD/CHEMDNER test via cambridgeltl/MTL-Bioinformatics-2016",
+  "split": "MedS-Bench test file(s); MedS-Bench-SPLIT has 1,500 (random subset)",
+  "n_items": 26363,
+  "public": "yes",
+  "english": "yes",
+  "text": "yes",
+  "single_request": "yes",
+  "request_fields": "Definition (task instruction) + instance input (one sentence)",
+  "example_structure": [
+    "Definition",
+    "Instances[].input",
+    "Instances[].output"
+  ],
+  "notes": "MedS-Bench (Wu et al., npj Digit Med 2024; arXiv 2408.12547) recasts the dataset as an instruction task. Henrychur/MedS-Bench holds the full test files (\"the official benchmark\"); Henrychur/MedS-Bench-SPLIT holds the subsample used for the paper's results. n_items counts the MedS-Bench file. Sentence-level chemical NER phrased as \"recognize the name of the chemical\"; 26,203 unique sentences among 26,363 instances. No few-shot examples in the file. Checked 2026-10-04; no LLMs or API keys used.",
+  "rendering": {
+    "rule": "instruction-style (MedS-Bench): the task Definition, a blank line, then the instance input (few-shot examples and outputs omitted)",
+    "template_source": "none (instruction and input as released in the MedS-Bench task files)",
+    "n_usable": 26203,
+    "n_sampled": 200,
+    "seed": 20261004,
+    "excluded": {
+      "non_english": 0,
+      "image": 0,
+      "duplicate": 160
+    },
+    "mean_chars": 350.3,
+    "max_chars": 724
+  },
+  "in_caba_v1_0": true
+}

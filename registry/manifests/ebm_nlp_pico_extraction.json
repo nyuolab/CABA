@@ -1,0 +1,85 @@
+{
+  "benchmark": "EBM-NLP PICO extraction",
+  "source_url": [
+    "https://huggingface.co/datasets/Henrychur/MedS-Bench/resolve/6945b14e0f408082aecb6a77a185b9ebdd5fb413/Information_extraction/task1_participant_extraction.json",
+    "https://huggingface.co/datasets/Henrychur/MedS-Bench-SPLIT/resolve/bae9b49bb23ffcd5b1b64345f021d4d5b803b503/Information_extraction/task1_participant_extraction.json",
+    "https://huggingface.co/datasets/Henrychur/MedS-Bench/resolve/6945b14e0f408082aecb6a77a185b9ebdd5fb413/Information_extraction/task2_intervention_extraction.json",
+    "https://huggingface.co/datasets/Henrychur/MedS-Bench-SPLIT/resolve/bae9b49bb23ffcd5b1b64345f021d4d5b803b503/Information_extraction/task2_intervention_extraction.json",
+    "https://huggingface.co/datasets/Henrychur/MedS-Bench/resolve/6945b14e0f408082aecb6a77a185b9ebdd5fb413/Information_extraction/task3_outcome_extraction.json",
+    "https://huggingface.co/datasets/Henrychur/MedS-Bench-SPLIT/resolve/bae9b49bb23ffcd5b1b64345f021d4d5b803b503/Information_extraction/task3_outcome_extraction.json"
+  ],
+  "source_type": "suite release (MedS-Bench, instruction version)",
+  "revision": "HF Henrychur/MedS-Bench 6945b14e0f408082aecb6a77a185b9ebdd5fb413; HF Henrychur/MedS-Bench-SPLIT bae9b49bb23ffcd5b1b64345f021d4d5b803b503 (GitHub MAGIC-AI4Med/MedS-Ins 185cfc04a27023983e48b357a6f2fd525049b9af)",
+  "files": [
+    {
+      "path": "$CABA_DATA/ebm_nlp_pico_extraction/MedS-Bench/task1_participant_extraction.json",
+      "bytes": 16681,
+      "sha256": "46202e03b22db5a32ea958aa8bf0b16a691ffa9743949a42895e895c547e0f6f"
+    },
+    {
+      "path": "$CABA_DATA/ebm_nlp_pico_extraction/MedS-Bench-SPLIT/task1_participant_extraction.json",
+      "bytes": 17041,
+      "sha256": "065b6186ccd2b1e4344630bbf1e40b717a71de6e77674d76c89992405c3cda88"
+    },
+    {
+      "path": "$CABA_DATA/ebm_nlp_pico_extraction/MedS-Bench/task2_intervention_extraction.json",
+      "bytes": 17697,
+      "sha256": "f06ca1563af47e4ecbbfd8808293288651e8ccb60ee5edf93e833da8c531115e"
+    },
+    {
+      "path": "$CABA_DATA/ebm_nlp_pico_extraction/MedS-Bench-SPLIT/task2_intervention_extraction.json",
+      "bytes": 18067,
+      "sha256": "bc299d17bf753b2db1ed377c23e12df939bc25758d05d4740f226f90246560ef"
+    },
+    {
+      "path": "$CABA_DATA/ebm_nlp_pico_extraction/MedS-Bench/task3_outcome_extraction.json",
+      "bytes": 17729,
+      "sha256": "6f314dbd02bd40980841512807fc1d3b8462672a47f5ca423fcfc09f608d31d7"
+    },
+    {
+      "path": "$CABA_DATA/ebm_nlp_pico_extraction/MedS-Bench-SPLIT/task3_outcome_extraction.json",
+      "bytes": 18094,
+      "sha256": "20b1fe89d8117a473ed04ed81a91fb089a5866823c36389459702375d1b1a77c"
+    }
+  ],
+  "license": "MedS-Ins/MedS-Bench GitHub LICENSE: \"CC BY-SA\" (MAGIC consortium); HF dataset cards declare no license; task-file Instance License: Unknown; source \"pico\" (github.com/Markus-Zlabinger/pico-annotation, crowd re-annotation of EBM-NLP sentences)",
+  "split": "MedS-Bench test file(s); MedS-Bench-SPLIT has 43 + 43 + 43 (identical)",
+  "n_items": 129,
+  "public": "yes",
+  "english": "yes",
+  "text": "yes",
+  "single_request": "yes",
+  "request_fields": "Definition (task instruction) + instance input (one sentence); files include 2-3 positive/negative few-shot examples",
+  "example_structure": [
+    "Definition",
+    "Instances[].id",
+    "Instances[].input",
+    "Instances[].output"
+  ],
+  "notes": "MedS-Bench (Wu et al., npj Digit Med 2024; arXiv 2408.12547) recasts the dataset as an instruction task. Henrychur/MedS-Bench holds the full test files (\"the official benchmark\"); Henrychur/MedS-Bench-SPLIT holds the subsample used for the paper's results. n_items counts the MedS-Bench file. Three extraction tasks (participants, interventions, outcomes) over the same 43 sentences; n_items counts the 129 instruction instances. The MedS-Bench source field points to Zlabinger et al.'s PICO annotation of EBM-NLP sentences, not the original EBM-NLP token-level release. Checked 2026-10-04; no LLMs or API keys used.",
+  "rendering": {
+    "rule": "instruction-style (MedS-Bench): the task Definition, a blank line, then the instance input (few-shot examples and outputs omitted)",
+    "template_source": "none (instruction and input as released in the MedS-Bench task files)",
+    "n_usable": 129,
+    "n_sampled": 129,
+    "seed": 20261004,
+    "excluded": {
+      "non_english": 0,
+      "image": 0,
+      "duplicate": 0
+    },
+    "mean_chars": 869.7,
+    "max_chars": 1190,
+    "n_usable_by_component": {
+      "task1_participant_extraction": 43,
+      "task2_intervention_extraction": 43,
+      "task3_outcome_extraction": 43
+    },
+    "n_sampled_by_component": {
+      "task1_participant_extraction": 43,
+      "task2_intervention_extraction": 43,
+      "task3_outcome_extraction": 43
+    }
+  },
+  "in_caba_v1_0": true
+}

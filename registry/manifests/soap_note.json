@@ -1,0 +1,38 @@
+{
+  "benchmark": "SOAP Note",
+  "source_url": [
+    "https://huggingface.co/datasets/omi-health/medical-dialogue-to-soap-summary/resolve/9d5d62558de21193e9ba4a7500f42edfe94027c3/test.json",
+    "https://huggingface.co/datasets/omi-health/medical-dialogue-to-soap-summary/resolve/9d5d62558de21193e9ba4a7500f42edfe94027c3/README.md"
+  ],
+  "source_type": "own release (inferred: omi-health synthetic dialogue-to-SOAP test split, built from NoteChat)",
+  "revision": "HF omi-health/medical-dialogue-to-soap-summary 9d5d62558de21193e9ba4a7500f42edfe94027c3",
+  "files": [
+    {
+      "path": "$CABA_DATA/soap_note/omi-health_medical-dialogue-to-soap-summary_test.json",
+      "bytes": 3520596,
+      "sha256": "e8ad10a8456d6bad1fc24b06b97ee72a7bad800894af74c9b43e944cb72d1d27"
+    },
+    {
+      "path": "$CABA_DATA/soap_note/README.md",
+      "bytes": 2148,
+      "sha256": "0738013167e0f18551d26cf10cc65764a809ed8dc5144a51d49b71fea5a7f2f3"
+    }
+  ],
+  "license": "Card terms: use permitted by Omi; further use requires permission from the NoteChat authors (no standard license)",
+  "split": "test",
+  "n_items": 250,
+  "public": "yes",
+  "english": "yes",
+  "text": "yes",
+  "single_request": "yes",
+  "request_fields": "MEDIC SOAP prompt (space template soap+_+response_generation.jinja) + dialogue",
+  "example_structure": [
+    "dialogue",
+    "messages",
+    "messages_nosystem",
+    "prompt",
+    "soap"
+  ],
+  "notes": "MEDIC (arXiv 2409.07314, A.3.12) describes \"the test-split of the ChartNote dataset (Wang et al., 2023a), 250 synthetic patient-doctor conversations\" and its Table 9 links hf.co/datasets/akemiH/NoteChat, which has no splits (10k-160k conversations per CSV). The only public 250-item test split of NoteChat-derived dialogues with SOAP notes is omi-health/medical-dialogue-to-soap-summary, so it was used; the match (count, NoteChat origin, S:/O:/A:/P: output format) is inferred, not confirmed by MEDIC. Flag for review. Checked 2026-10-04; no LLMs or API keys used.",
+  "in_caba_v1_0": false
+}

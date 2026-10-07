@@ -1,0 +1,119 @@
+{
+  "benchmark": "MedExQA",
+  "source_url": [
+    "https://huggingface.co/datasets/bluesky333/MedExQA/resolve/3a9f80d6de2c354956d7e86d323214b92d547d6e/test/biomedical_engineer_test.tsv",
+    "https://huggingface.co/datasets/bluesky333/MedExQA/resolve/3a9f80d6de2c354956d7e86d323214b92d547d6e/test/clinical_laboratory_scientist_test.tsv",
+    "https://huggingface.co/datasets/bluesky333/MedExQA/resolve/3a9f80d6de2c354956d7e86d323214b92d547d6e/test/clinical_psychologist_test.tsv",
+    "https://huggingface.co/datasets/bluesky333/MedExQA/resolve/3a9f80d6de2c354956d7e86d323214b92d547d6e/test/occupational_therapist_test.tsv",
+    "https://huggingface.co/datasets/bluesky333/MedExQA/resolve/3a9f80d6de2c354956d7e86d323214b92d547d6e/test/speech_pathologist_test.tsv",
+    "https://huggingface.co/datasets/bluesky333/MedExQA/resolve/3a9f80d6de2c354956d7e86d323214b92d547d6e/README.md"
+  ],
+  "source_type": "own release",
+  "revision": "3a9f80d6de2c354956d7e86d323214b92d547d6e",
+  "files": [
+    {
+      "path": "$CABA_DATA/medexqa/test/biomedical_engineer_test.tsv",
+      "bytes": 137144,
+      "sha256": "6ab3ab2bac89679798e52b9188af7667f30427f5eb4ad23c1df93fd2afd79e97",
+      "url": "https://huggingface.co/datasets/bluesky333/MedExQA/resolve/3a9f80d6de2c354956d7e86d323214b92d547d6e/test/biomedical_engineer_test.tsv",
+      "role": "items"
+    },
+    {
+      "path": "$CABA_DATA/medexqa/test/clinical_laboratory_scientist_test.tsv",
+      "bytes": 508718,
+      "sha256": "60095a7a0bdc40fe6f0fdf02c6cdb20235d6e1cee03af4f0eff5c644cb30d4e8",
+      "url": "https://huggingface.co/datasets/bluesky333/MedExQA/resolve/3a9f80d6de2c354956d7e86d323214b92d547d6e/test/clinical_laboratory_scientist_test.tsv",
+      "role": "items"
+    },
+    {
+      "path": "$CABA_DATA/medexqa/test/clinical_psychologist_test.tsv",
+      "bytes": 115356,
+      "sha256": "f7b01040285fda5c512695ffb182cd638497aca531a752f6b7298fa511c1f682",
+      "url": "https://huggingface.co/datasets/bluesky333/MedExQA/resolve/3a9f80d6de2c354956d7e86d323214b92d547d6e/test/clinical_psychologist_test.tsv",
+      "role": "items"
+    },
+    {
+      "path": "$CABA_DATA/medexqa/test/occupational_therapist_test.tsv",
+      "bytes": 249027,
+      "sha256": "e7384f5119efaaad998d69f15e68f71705a3e6aeaa8bf83481c7f050421bb6df",
+      "url": "https://huggingface.co/datasets/bluesky333/MedExQA/resolve/3a9f80d6de2c354956d7e86d323214b92d547d6e/test/occupational_therapist_test.tsv",
+      "role": "items"
+    },
+    {
+      "path": "$CABA_DATA/medexqa/test/speech_pathologist_test.tsv",
+      "bytes": 197750,
+      "sha256": "f0d210bfd13ddfdaa8a8c182864beaa9b3199cd984d7899b1d9c31a02255037b",
+      "url": "https://huggingface.co/datasets/bluesky333/MedExQA/resolve/3a9f80d6de2c354956d7e86d323214b92d547d6e/test/speech_pathologist_test.tsv",
+      "role": "items"
+    },
+    {
+      "path": "$CABA_DATA/medexqa/_card/bluesky333__MedExQA_README.md",
+      "bytes": 8399,
+      "sha256": "96555a09f225b33e0f7d354db85577f281abad71b5ab5ecfc2ed9d25be543a16",
+      "url": "https://huggingface.co/datasets/bluesky333/MedExQA/resolve/3a9f80d6de2c354956d7e86d323214b92d547d6e/README.md",
+      "role": "dataset card"
+    }
+  ],
+  "license": "cc-by-nc-sa-4.0",
+  "split": "test (5 specialty TSVs; dev not downloaded)",
+  "n_items": 940,
+  "public": "yes",
+  "english": "yes",
+  "text": "yes",
+  "single_request": "yes",
+  "request_fields": "question + 4 options (TSV columns 0-4; no header)",
+  "example_structure": [
+    "example",
+    "fields"
+  ],
+  "notes": "Counts per specialty file: {\"biomedical_engineer_test.tsv\": 143, \"clinical_laboratory_scientist_test.tsv\": 372, \"clinical_psychologist_test.tsv\": 106, \"occupational_therapist_test.tsv\": 189, \"speech_pathologist_test.tsv\": 130}. Files have no header row.",
+  "n_items_by_file": {
+    "biomedical_engineer_test.tsv": 143,
+    "clinical_laboratory_scientist_test.tsv": 372,
+    "clinical_psychologist_test.tsv": 106,
+    "occupational_therapist_test.tsv": 189,
+    "speech_pathologist_test.tsv": 130
+  },
+  "hf_repo": "bluesky333/MedExQA",
+  "checked_on": "2026-10-04",
+  "rendering": {
+    "rule": "multiple choice: question (column 0), then options (columns 1-4) one per line lettered A-D.",
+    "template_source": "none",
+    "n_usable": 940,
+    "n_sampled": 200,
+    "seed": 20261004,
+    "excluded": {
+      "non_english": 0,
+      "image": 0,
+      "duplicate": 0
+    },
+    "image_rule": "Exclude an item as needing an unreleased picture only if (i) a released image field marks it (HEAD-QA 'image'), or (ii) its question stem (the part that asks the question: MCQ question text, MedCalc 'Question', MedHallu 'Question', Med-HALT reasoning 'question', a patient's own question in HealthCareMagic/iCliniq/MEDIQA-RQE) matches, case-insensitively, any of: (a) shown/seen/depicted/displayed/illustrated/pictured/presented/visualized + in/on/below/above + [the/this] [accompanying/following/attached/adjacent] + figure|image|picture|photo(graph)|(photo)micrograph|exhibit|illustration|diagram|graph; (b) see/refer to + [the/this/these] [accompanying/following/attached] + a word of (a), or look at + [the/this/these/my] [accompanying/following/attached] + a visual word (the list in (a) plus radiograph|x-ray|ECG|EKG|electrocardiogram|tracing|smear|scan); (c) 'the following/accompanying/attached/adjacent' + a visual word, unless preceded by 'which of'; (d) this/these + image|photo(graph)|(photo)micrograph|exhibit|illustration|diagram|graph (not 'figure' or 'picture', which in stems mostly mean numbers or a clinical picture); (e) figure/fig./image + a number, or + a space and a capital letter A-H (e.g. 'Figure 1', 'Figures A-C', 'image # 6'); (f) a visual word + shown|attached|enclosed|below; (g) attached/enclosed/uploaded/sent (or attaching/uploading/sending) + [herewith] [determiner] [one word other than for/to/in/out] + picture|photo(graph)|image|x-ray|radiograph. Documents the item asks about (case reports, patient notes, news articles, abstracts, radiology reports, conversations, MedS-Bench inputs, MedHallu Knowledge, MedCaseReasoning case_prompt, Med-HALT IR fields) are not scanned. Regex: (?:\\b(?:shown|seen|depicted|displayed|illustrated|pictured|presented|visuali[sz]ed)\\s+(?:in|on|below|above)\\s+(?:the\\s+|this\\s+)?(?:accompanying\\s+|following\\s+|attached\\s+|adjacent\\s+)?(?:figures?|fig\\.|images?|pictures?|photos?|photographs?|photomicrographs?|micrographs?|exhibits?|illustrations?|diagrams?|graphs?)\\b)|(?:\\b(?:see|refer\\s+to)\\s+(?:the\\s+|this\\s+|these\\s+)?(?:accompanying\\s+|following\\s+|attached\\s+)?(?:figures?|fig\\.|images?|pictures?|photos?|photographs?|photomicrographs?|micrographs?|exhibits?|illustrations?|diagrams?|graphs?)\\b)|(?:\\blook\\s+at\\s+(?:the\\s+|this\\s+|these\\s+|my\\s+)?(?:accompanying\\s+|following\\s+|attached\\s+)?(?:figures?|fig\\.|images?|pictures?|photos?|photographs?|photomicrographs?|micrographs?|exhibits?|illustrations?|diagrams?|graphs?|radiographs?|x-?rays?|ecgs?|ekgs?|electrocardiograms?|tracings?|smears?|scans?)\\b)|(?:(?<!which of )(?<!which of\\s)\\bthe\\s+(?:following|accompanying|attached|adjacent)\\s+(?:figures?|fig\\.|images?|pictures?|photos?|photographs?|photomicrographs?|micrographs?|exhibits?|illustrations?|diagrams?|graphs?|radiographs?|x-?rays?|ecgs?|ekgs?|electrocardiograms?|tracings?|smears?|scans?)\\b)|(?:\\b(?:this|these)\\s+(?:images?|photos?|photographs?|photomicrographs?|micrographs?|exhibits?|illustrations?|diagrams?|graphs?)\\b)|(?:\\b(?:figures?|figs?\\.|images?)(?:\\s*#?\\s*\\d+|\\s+(?-i:[A-H])(?:\\s*(?:-|–|and|,)\\s*(?-i:[A-H]))?)\\b)|(?:\\b(?:figures?|fig\\.|images?|pictures?|photos?|photographs?|photomicrographs?|micrographs?|exhibits?|illustrations?|diagrams?|graphs?|radiographs?|x-?rays?|ecgs?|ekgs?|electrocardiograms?|tracings?|smears?|scans?)\\s+(?:shown|attached|enclosed|below)\\b)|(?:\\b(?:attached|enclosed|uploaded|sent|sending|attaching|uploading)\\s+(?:herewith\\s+)?(?:(?:this|these|the|a|an|my|his|her|some|few|a\\s+few)\\s+)?(?:(?!for\\b|to\\b|in\\b|out\\b)\\w+\\s+)?(?:pictures?|photos?|photographs?|images?|x-?rays?|radiographs?)\\b)",
+    "mean_chars": 200.5,
+    "max_chars": 536,
+    "n_released_rendered": 940,
+    "n_unrenderable": 0,
+    "rendered_file": "$CABA_DATA/rendered/medexqa.jsonl",
+    "version": 2,
+    "v1": {
+      "n_usable": 939,
+      "n_sampled": 200,
+      "mean_chars": 217.3,
+      "max_chars": 645,
+      "excluded": {
+        "non_english": 0,
+        "image": 1,
+        "duplicate": 0
+      },
+      "template_source": "none"
+    },
+    "sample_vs_v1": "changed (69 of 200 items in common)",
+    "components_sampled": {
+      "clinical_laboratory_scientist": 80,
+      "biomedical_engineer": 25,
+      "occupational_therapist": 48,
+      "clinical_psychologist": 21,
+      "speech_pathologist": 26
+    }
+  },
+  "in_caba_v1_0": true
+}

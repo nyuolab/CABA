@@ -1,0 +1,81 @@
+{
+  "benchmark": "MedQA",
+  "source_url": [
+    "https://huggingface.co/datasets/GBaker/MedQA-USMLE-4-options/resolve/0fb93dd23a7339b6dcd27e241cb9b5eca62d4d18/phrases_no_exclude_test.jsonl",
+    "https://huggingface.co/datasets/bigbio/med_qa/resolve/484a6c066fe8e75c83edea0c88b5169316714fcd/med_qa_en_4options_source/test-00000-of-00001.parquet",
+    "https://raw.githubusercontent.com/jind11/MedQA/27b02f66aac217933c9648a06f82e9f720377925/README.md",
+    "https://raw.githubusercontent.com/jind11/MedQA/27b02f66aac217933c9648a06f82e9f720377925/LICENSE",
+    "https://raw.githubusercontent.com/Teddy-XiongGZ/MIRAGE/392943af99cd94cafd50a0de2e7fca24bbf65494/benchmark.json"
+  ],
+  "source_type": "mirrors of the own release (reused from benchmarks/raw/MedQA, downloaded 2026-09-30) + MIRAGE suite copy as cross-check",
+  "revision": "GitHub jind11/MedQA 27b02f66aac217933c9648a06f82e9f720377925; HF GBaker 0fb93dd23a7339b6dcd27e241cb9b5eca62d4d18; HF bigbio 484a6c066fe8e75c83edea0c88b5169316714fcd; MIRAGE 392943af99cd94cafd50a0de2e7fca24bbf65494",
+  "files": [
+    {
+      "path": "$CABA_DATA/raw/MedQA/GBaker_phrases_no_exclude_test.jsonl",
+      "bytes": 2075679,
+      "sha256": "c3b905ccfa66152dc25afbcb2c10e86c0bdb208824f0658fcdb2c040f60a2beb"
+    },
+    {
+      "path": "$CABA_DATA/raw/MedQA/bigbio_med_qa_en_4options_source_test.parquet",
+      "bytes": 1005239,
+      "sha256": "b50b49fad2642c10ed343c6174d5ab0cb8efad434e7b66465ac471094eb57deb"
+    },
+    {
+      "path": "$CABA_DATA/raw/MedQA/GBaker_README.md",
+      "bytes": 654,
+      "sha256": "c4f44b8111beb0cb7e7894ccbb456be1eceb9acaa3fadff73cd46d2d4309dde7"
+    },
+    {
+      "path": "$CABA_DATA/raw/MedQA/bigbio_README.md",
+      "bytes": 12709,
+      "sha256": "4be11cf628e4c6ee32d52b6f1f37b378f0bc701794a5693f40a77004580898a2"
+    },
+    {
+      "path": "$CABA_DATA/medqa/README.md",
+      "bytes": 4974,
+      "sha256": "793b8e2803e876ab59b3f68dded40a36eb63d0043e1adf49224f34fd8b608797"
+    },
+    {
+      "path": "$CABA_DATA/medqa/LICENSE",
+      "bytes": 1063,
+      "sha256": "8a35478f13bfaa114cd157592ba06b9a27db0f9767ac1cb9b36d435de6157378"
+    },
+    {
+      "path": "$CABA_DATA/bioasq/benchmark.json",
+      "bytes": 4296735,
+      "sha256": "6f7f08c64cd2efe02a5d0c247229813c90db345d9dd6e3a451b5d24146d0f8fa"
+    }
+  ],
+  "license": "MIT (jind11/MedQA LICENSE); GBaker card CC BY 4.0; bigbio card unknown",
+  "split": "US (English) 4-option test",
+  "n_items": 1273,
+  "public": "yes",
+  "english": "yes (US subset; the release also has Simplified and Traditional Chinese subsets)",
+  "text": "yes",
+  "single_request": "yes",
+  "request_fields": "question + options A-D",
+  "example_structure": [
+    "answer",
+    "answer_idx",
+    "meta_info",
+    "metamap_phrases",
+    "options",
+    "question"
+  ],
+  "notes": "The GitHub repo holds code only; its README points to a Google Drive zip (https://drive.google.com/file/d/1ImYUSLk9JbgHXOemfvyiDiirluZHPeQw) that bundles questions with textbooks, so it was not downloaded (as on 2026-09-30). Reused raw mirrors: 1,273 test questions (step1 679, step2&3 594). Cross-check: MIRAGE benchmark.json \"medqa\" (GitHub) has the same 1,273 question strings (exact match). The original 5-option US test version is not separately counted. Checked 2026-10-04; no LLMs or API keys used.",
+  "rendering": {
+    "rule": "Multiple choice: question, then options A-D one per line.",
+    "template_source": "none",
+    "n_usable": 1273,
+    "n_sampled": 200,
+    "seed": 20261004,
+    "excluded": {
+      "non_english": 0,
+      "image": 0,
+      "duplicate": 0
+    },
+    "mean_chars": 890.3,
+    "max_chars": 3653
+  },
+  "in_caba_v1_0": true
+}

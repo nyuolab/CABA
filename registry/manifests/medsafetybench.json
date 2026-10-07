@@ -1,0 +1,158 @@
+{
+  "benchmark": "MedSafetyBench",
+  "source_url": [
+    "https://raw.githubusercontent.com/AI4LIFE-GROUP/med-safety-bench/dc5d88e4c0100deada5a96f065a302959e6523a7/README.md",
+    "https://raw.githubusercontent.com/AI4LIFE-GROUP/med-safety-bench/dc5d88e4c0100deada5a96f065a302959e6523a7/LICENSE",
+    "https://raw.githubusercontent.com/AI4LIFE-GROUP/med-safety-bench/dc5d88e4c0100deada5a96f065a302959e6523a7/datasets/test/gpt4/med_safety_demonstrations_category_1.csv",
+    "https://raw.githubusercontent.com/AI4LIFE-GROUP/med-safety-bench/dc5d88e4c0100deada5a96f065a302959e6523a7/datasets/test/gpt4/med_safety_demonstrations_category_2.csv",
+    "https://raw.githubusercontent.com/AI4LIFE-GROUP/med-safety-bench/dc5d88e4c0100deada5a96f065a302959e6523a7/datasets/test/gpt4/med_safety_demonstrations_category_3.csv",
+    "https://raw.githubusercontent.com/AI4LIFE-GROUP/med-safety-bench/dc5d88e4c0100deada5a96f065a302959e6523a7/datasets/test/gpt4/med_safety_demonstrations_category_4.csv",
+    "https://raw.githubusercontent.com/AI4LIFE-GROUP/med-safety-bench/dc5d88e4c0100deada5a96f065a302959e6523a7/datasets/test/gpt4/med_safety_demonstrations_category_5.csv",
+    "https://raw.githubusercontent.com/AI4LIFE-GROUP/med-safety-bench/dc5d88e4c0100deada5a96f065a302959e6523a7/datasets/test/gpt4/med_safety_demonstrations_category_6.csv",
+    "https://raw.githubusercontent.com/AI4LIFE-GROUP/med-safety-bench/dc5d88e4c0100deada5a96f065a302959e6523a7/datasets/test/gpt4/med_safety_demonstrations_category_7.csv",
+    "https://raw.githubusercontent.com/AI4LIFE-GROUP/med-safety-bench/dc5d88e4c0100deada5a96f065a302959e6523a7/datasets/test/gpt4/med_safety_demonstrations_category_8.csv",
+    "https://raw.githubusercontent.com/AI4LIFE-GROUP/med-safety-bench/dc5d88e4c0100deada5a96f065a302959e6523a7/datasets/test/gpt4/med_safety_demonstrations_category_9.csv",
+    "https://raw.githubusercontent.com/AI4LIFE-GROUP/med-safety-bench/dc5d88e4c0100deada5a96f065a302959e6523a7/datasets/test/llama2/med_safety_demonstrations_category_1.csv",
+    "https://raw.githubusercontent.com/AI4LIFE-GROUP/med-safety-bench/dc5d88e4c0100deada5a96f065a302959e6523a7/datasets/test/llama2/med_safety_demonstrations_category_2.csv",
+    "https://raw.githubusercontent.com/AI4LIFE-GROUP/med-safety-bench/dc5d88e4c0100deada5a96f065a302959e6523a7/datasets/test/llama2/med_safety_demonstrations_category_3.csv",
+    "https://raw.githubusercontent.com/AI4LIFE-GROUP/med-safety-bench/dc5d88e4c0100deada5a96f065a302959e6523a7/datasets/test/llama2/med_safety_demonstrations_category_4.csv",
+    "https://raw.githubusercontent.com/AI4LIFE-GROUP/med-safety-bench/dc5d88e4c0100deada5a96f065a302959e6523a7/datasets/test/llama2/med_safety_demonstrations_category_5.csv",
+    "https://raw.githubusercontent.com/AI4LIFE-GROUP/med-safety-bench/dc5d88e4c0100deada5a96f065a302959e6523a7/datasets/test/llama2/med_safety_demonstrations_category_6.csv",
+    "https://raw.githubusercontent.com/AI4LIFE-GROUP/med-safety-bench/dc5d88e4c0100deada5a96f065a302959e6523a7/datasets/test/llama2/med_safety_demonstrations_category_7.csv",
+    "https://raw.githubusercontent.com/AI4LIFE-GROUP/med-safety-bench/dc5d88e4c0100deada5a96f065a302959e6523a7/datasets/test/llama2/med_safety_demonstrations_category_8.csv",
+    "https://raw.githubusercontent.com/AI4LIFE-GROUP/med-safety-bench/dc5d88e4c0100deada5a96f065a302959e6523a7/datasets/test/llama2/med_safety_demonstrations_category_9.csv"
+  ],
+  "source_type": "own release",
+  "revision": "dc5d88e4c0100deada5a96f065a302959e6523a7",
+  "files": [
+    {
+      "path": "$CABA_DATA/medsafetybench/README.md",
+      "bytes": 3755,
+      "sha256": "1d02db483e245e1cd3661e8bf07ac7495e12311e75a2d3c9592d39af4006baec"
+    },
+    {
+      "path": "$CABA_DATA/medsafetybench/LICENSE",
+      "bytes": 1070,
+      "sha256": "70ecca31b944d14bb22de0e367ce80b8d5ca97373e76db9b1b4f39d2f0a6abb3"
+    },
+    {
+      "path": "$CABA_DATA/medsafetybench/datasets/test/gpt4/med_safety_demonstrations_category_1.csv",
+      "bytes": 22363,
+      "sha256": "026f2fe4d38a8b04f91f23eb84bce4224fa1781120ca93636b93d445ca4392af"
+    },
+    {
+      "path": "$CABA_DATA/medsafetybench/datasets/test/gpt4/med_safety_demonstrations_category_2.csv",
+      "bytes": 21307,
+      "sha256": "821bf621fba655c86849efb59cea9a1abad5984186a0b6e121d378e32a8d91c2"
+    },
+    {
+      "path": "$CABA_DATA/medsafetybench/datasets/test/gpt4/med_safety_demonstrations_category_3.csv",
+      "bytes": 21177,
+      "sha256": "461f3ab94838c5f0b127771022a2e9d38f8c57e78f6e43d8a9b8670edf043294"
+    },
+    {
+      "path": "$CABA_DATA/medsafetybench/datasets/test/gpt4/med_safety_demonstrations_category_4.csv",
+      "bytes": 22622,
+      "sha256": "7d1ff42903d1636dae66e6af647c4405bcd3ff5c7d149ad33d23408d20b964ce"
+    },
+    {
+      "path": "$CABA_DATA/medsafetybench/datasets/test/gpt4/med_safety_demonstrations_category_5.csv",
+      "bytes": 23269,
+      "sha256": "0609d582e9864243706c32c90ee622493f697bda14b69dd9107b2776caeb6aed"
+    },
+    {
+      "path": "$CABA_DATA/medsafetybench/datasets/test/gpt4/med_safety_demonstrations_category_6.csv",
+      "bytes": 24299,
+      "sha256": "447dd9b868080642844c9d07d2a569b95c66d943729c7ad4310167c31f084409"
+    },
+    {
+      "path": "$CABA_DATA/medsafetybench/datasets/test/gpt4/med_safety_demonstrations_category_7.csv",
+      "bytes": 23628,
+      "sha256": "633687172a7dd4f86a805f4efcb88626d92391c724f4ba2f00c3bcb198f88bb1"
+    },
+    {
+      "path": "$CABA_DATA/medsafetybench/datasets/test/gpt4/med_safety_demonstrations_category_8.csv",
+      "bytes": 22896,
+      "sha256": "67a199a57ecd7845e722ac9c512c99ae2270f9b4418341f0efb1b5b0f98cb702"
+    },
+    {
+      "path": "$CABA_DATA/medsafetybench/datasets/test/gpt4/med_safety_demonstrations_category_9.csv",
+      "bytes": 22752,
+      "sha256": "ca743af7aa36ff3acee51188091ce02cabc6089409690d0c4ad2f7f2af02d777"
+    },
+    {
+      "path": "$CABA_DATA/medsafetybench/datasets/test/llama2/med_safety_demonstrations_category_1.csv",
+      "bytes": 23875,
+      "sha256": "dcf8c721446f06c02eb7024828d78e9213e313e3d7cef4e1505fb25129f412c1"
+    },
+    {
+      "path": "$CABA_DATA/medsafetybench/datasets/test/llama2/med_safety_demonstrations_category_2.csv",
+      "bytes": 23092,
+      "sha256": "631d0ed8effa57fcf9e0575f87e3a2692d059894521dc8c01f16c6b821c3b450"
+    },
+    {
+      "path": "$CABA_DATA/medsafetybench/datasets/test/llama2/med_safety_demonstrations_category_3.csv",
+      "bytes": 13081,
+      "sha256": "36174f0f72e1d4a97dd66d957654418b48c2ad487420ef0d0e22dbdf832599ac"
+    },
+    {
+      "path": "$CABA_DATA/medsafetybench/datasets/test/llama2/med_safety_demonstrations_category_4.csv",
+      "bytes": 22288,
+      "sha256": "e951b651c6b9ff52d893f592b6229e15204861cf5cdd6368da30e5a72fb1b0ac"
+    },
+    {
+      "path": "$CABA_DATA/medsafetybench/datasets/test/llama2/med_safety_demonstrations_category_5.csv",
+      "bytes": 19595,
+      "sha256": "46043160bc5c6b2f4a51c2a80586a5edb5d4e9b167093a99a71f3cd76fe9230b"
+    },
+    {
+      "path": "$CABA_DATA/medsafetybench/datasets/test/llama2/med_safety_demonstrations_category_6.csv",
+      "bytes": 11103,
+      "sha256": "80a1278d777a673888f5219446e9ecaf6e066040d8f590524187f8f72cb04eff"
+    },
+    {
+      "path": "$CABA_DATA/medsafetybench/datasets/test/llama2/med_safety_demonstrations_category_7.csv",
+      "bytes": 25778,
+      "sha256": "9685e91571cc066dc7e04be32dede4ed798a513d69b8a1cca0006eea5e5f5bba"
+    },
+    {
+      "path": "$CABA_DATA/medsafetybench/datasets/test/llama2/med_safety_demonstrations_category_8.csv",
+      "bytes": 24889,
+      "sha256": "7ccaf135d5d6f20273dba33bad7c0bb23bc30f8e275d68e7d8e368f9a9b09865"
+    },
+    {
+      "path": "$CABA_DATA/medsafetybench/datasets/test/llama2/med_safety_demonstrations_category_9.csv",
+      "bytes": 20871,
+      "sha256": "ffbdcd8dfed20cea473414f38eda8fae77b58492579a29f23f5372d08052500d"
+    }
+  ],
+  "license": "MIT (LICENSE); README: research use only",
+  "split": "test (MedSafety-Eval): 9 AMA-ethics categories x {GPT-4-generated, Llama-2-jailbreak-generated}",
+  "n_items": 900,
+  "public": "yes",
+  "english": "yes",
+  "text": "yes",
+  "single_request": "yes",
+  "request_fields": "harmful_medical_request",
+  "example_structure": [
+    "Unnamed: 0",
+    "harmful_medical_request",
+    "safe_response"
+  ],
+  "notes": "900 test requests (450 GPT-4, 450 Llama-2-7b-chat), V2 release with GPT-4 safe responses. Training set (900) and the 74,374 Llama-3 requests (datasets/med_harm_llama3) not downloaded. Items are adversarial harmful requests by design. Checked 2026-10-04; no LLMs or API keys used.",
+  "rendering": {
+    "rule": "Item text as released: the harmful medical request.",
+    "template_source": "none",
+    "n_usable": 900,
+    "n_sampled": 200,
+    "seed": 20261004,
+    "excluded": {
+      "non_english": 0,
+      "image": 0,
+      "duplicate": 0
+    },
+    "mean_chars": 117.3,
+    "max_chars": 253
+  },
+  "in_caba_v1_0": true
+}

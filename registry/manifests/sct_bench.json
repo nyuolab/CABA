@@ -1,0 +1,71 @@
+{
+  "benchmark": "SCT-Bench",
+  "source_url": [
+    "https://raw.githubusercontent.com/SCT-Bench/sctpublic/c2843137b36218eac3f47e76eaa559c9fe7973e9/README.md",
+    "https://raw.githubusercontent.com/SCT-Bench/sctpublic/c2843137b36218eac3f47e76eaa559c9fe7973e9/LICENSE",
+    "https://raw.githubusercontent.com/SCT-Bench/sctpublic/c2843137b36218eac3f47e76eaa559c9fe7973e9/data/sct_cleaned_full.csv",
+    "https://raw.githubusercontent.com/SCT-Bench/sctpublic/c2843137b36218eac3f47e76eaa559c9fe7973e9/data/templates/testcase.md",
+    "https://raw.githubusercontent.com/SCT-Bench/sctpublic/c2843137b36218eac3f47e76eaa559c9fe7973e9/data/templates/guideline.md"
+  ],
+  "source_type": "own release",
+  "revision": "c2843137b36218eac3f47e76eaa559c9fe7973e9",
+  "files": [
+    {
+      "path": "$CABA_DATA/sct_bench/README.md",
+      "bytes": 3629,
+      "sha256": "e31ff7c28c00b34570627f86cfe2db3ca78d3a7c49d25359b494077719714113"
+    },
+    {
+      "path": "$CABA_DATA/sct_bench/LICENSE",
+      "bytes": 1067,
+      "sha256": "bd19ac399b25443d31028e6297a249d0f1286fc25c375e990e5d785936f76e1c"
+    },
+    {
+      "path": "$CABA_DATA/sct_bench/data/sct_cleaned_full.csv",
+      "bytes": 83386,
+      "sha256": "1328f30945fd44b1557ebbf163d83d6113fbf0ae64db51149343fb42ea7814d8"
+    },
+    {
+      "path": "$CABA_DATA/sct_bench/data/templates/testcase.md",
+      "bytes": 130,
+      "sha256": "bfa6691b4b722c9054f44fbf5df060129e2a27c279bd6c47e74e106e1e116d94"
+    },
+    {
+      "path": "$CABA_DATA/sct_bench/data/templates/guideline.md",
+      "bytes": 725,
+      "sha256": "ce6fa51be6151534445c9b1d5aadc7577b04d9ce9cace2ba6478109dcfbcddcd"
+    }
+  ],
+  "license": "MIT (LICENSE)",
+  "split": "public subset (Adelaide SCT + Open Medical SCT); remaining 576 of 750 held out",
+  "n_items": 174,
+  "public": "yes (174 open items); held-out 576 not released",
+  "english": "yes",
+  "text": "yes",
+  "single_request": "yes",
+  "request_fields": "sct_stem (scenario) + question (hypothesis) + additional_info (new finding), with guideline asking for a -2..+2 rating",
+  "example_structure": [
+    "-2..2",
+    "additional_info",
+    "question",
+    "question_id",
+    "sct_stem",
+    "source"
+  ],
+  "notes": "174 public items ({'Adelaide SCT': 102, 'Open Medical SCT': 72}). Same 174 items MAST redistributes (benchmarks/raw/MAST/sct). The full 750-item set includes proprietary sources and is evaluated only by submission. Checked 2026-10-04; no LLMs or API keys used.",
+  "rendering": {
+    "rule": "Repository prompt template filled exactly (zero-shot, with-reason variant): guideline.md + testcase.md with scenario, hypothesis and additional information.",
+    "template_source": "https://github.com/SCT-Bench/sctpublic/blob/c2843137b36218eac3f47e76eaa559c9fe7973e9/modeling.py (data/templates/guideline.md + testcase.md)",
+    "n_usable": 174,
+    "n_sampled": 174,
+    "seed": 20261004,
+    "excluded": {
+      "non_english": 0,
+      "image": 0,
+      "duplicate": 0
+    },
+    "mean_chars": 1226.1,
+    "max_chars": 1744
+  },
+  "in_caba_v1_0": true
+}

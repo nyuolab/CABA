@@ -1,0 +1,42 @@
+{
+  "benchmark": "NCBI Disease corpus",
+  "source_url": [
+    "https://www.ncbi.nlm.nih.gov/CBBresearch/Dogan/DISEASE/NCBItestset_corpus.zip",
+    "https://raw.githubusercontent.com/cambridgeltl/MTL-Bioinformatics-2016/df0df02fae6dbb87d88ffcf323b9096528f06f84/data/NCBI-disease-IOB/test.tsv"
+  ],
+  "source_type": "own release (NCBI); sentence-level BLURB/Crichton test file downloaded as a cross-check of the ClinicBench count",
+  "revision": "NCBI zip (no versioning; file dated 2012-11-07); GitHub cambridgeltl/MTL-Bioinformatics-2016 df0df02fae6dbb87d88ffcf323b9096528f06f84",
+  "files": [
+    {
+      "path": "$CABA_DATA/ncbi_disease_corpus/NCBItestset_corpus.zip",
+      "bytes": 60234,
+      "sha256": "b978442f39c739deb6619c70e7b07327d9eb1b71aff64996c02a592435583f46"
+    },
+    {
+      "path": "$CABA_DATA/ncbi_disease_corpus/NCBItestset_corpus.txt",
+      "bytes": 189219,
+      "sha256": "61c8050bf6979ef7b943ec1158dfc03b651ea3367d4c37356f9de4841e85c9a3"
+    },
+    {
+      "path": "$CABA_DATA/ncbi_disease_corpus/crosscheck_MTL-Bioinformatics-2016_NCBI-disease-IOB_test.tsv",
+      "bytes": 205664,
+      "sha256": "8f088ce45dc4746592188f9e69de3d89d87f3bb8f0ed8c4a287d018123fa148d"
+    }
+  ],
+  "license": "US Government work, public domain (NCBI disclaimer page)",
+  "split": "official test set (100 abstracts); 940 sentences in the BLURB/Crichton IOB version",
+  "n_items": 940,
+  "public": "yes",
+  "english": "yes",
+  "text": "yes",
+  "single_request": "yes (via ClinicBench prompt template; raw corpus is token-level NER)",
+  "request_fields": "ClinicBench Table 8 NER prompt (\"Paragraph: <id> | <text> Please extract all diseases...\") + sentence text",
+  "example_structure": [
+    "IOB test.tsv",
+    "PubTator title line",
+    "abstract line",
+    "mention line"
+  ],
+  "notes": "ClinicBench (Liu et al., EMNLP 2024; github.com/AI-in-Health/ClinicBench @57138be8a73f09bef8980f849789baf57570c5cf) releases only its six new datasets; existing datasets are not redistributed, so the own release was used. Official test set: 100 PubMed abstracts with 960 disease mentions. ClinicBench Table 1 reports 940 items, which equals the number of sentences in the BLURB/Crichton IOB test file, so n_items = 940 (sentence-level). Checked 2026-10-04; no LLMs or API keys used.",
+  "in_caba_v1_0": false
+}

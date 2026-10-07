@@ -1,0 +1,18 @@
+{
+  "benchmark": "Clinical trial protocol summarization",
+  "source_url": [],
+  "source_type": "none (not released)",
+  "revision": null,
+  "files": [],
+  "license": null,
+  "split": null,
+  "n_items": null,
+  "public": "no (not released)",
+  "english": "not checked (items unavailable; source protocols are ClinicalTrials.gov records)",
+  "text": "not checked (items unavailable)",
+  "single_request": "not checked (paper: instruction + protocol description to summarize)",
+  "request_fields": "per MEDIC space template: \"As a clinical assistant, generate a concise and objective summary from the description below\" + document",
+  "example_structure": [],
+  "notes": "MEDIC (arXiv 2409.07314) samples 1,629 ClinicalTrials.gov protocols (description 3,000-8,000 tokens, June 2024 snapshot). The source records are public, but the sampled set and preprocessing are not released. Checked: paper Table 9 (data links; summarization links only to ACI-Bench), m42-health/cross-examination-framework (main and cef-paper branches, no data), HF space m42-health/MEDIC-Benchmark @6734f5b4 (templates only), m42-health HF datasets and GitHub org. Checked 2026-10-04; no LLMs or API keys used.",
+  "in_caba_v1_0": false
+}

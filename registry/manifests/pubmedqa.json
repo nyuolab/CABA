@@ -1,0 +1,72 @@
+{
+  "benchmark": "PubMedQA",
+  "source_url": [
+    "https://raw.githubusercontent.com/pubmedqa/pubmedqa/1cbae8e92f72f20c8d3747cbb3bf5bc53554d997/README.md",
+    "https://raw.githubusercontent.com/pubmedqa/pubmedqa/1cbae8e92f72f20c8d3747cbb3bf5bc53554d997/LICENSE",
+    "https://raw.githubusercontent.com/pubmedqa/pubmedqa/1cbae8e92f72f20c8d3747cbb3bf5bc53554d997/data/ori_pqal.json",
+    "https://raw.githubusercontent.com/pubmedqa/pubmedqa/1cbae8e92f72f20c8d3747cbb3bf5bc53554d997/data/test_ground_truth.json",
+    "https://raw.githubusercontent.com/pubmedqa/pubmedqa/1cbae8e92f72f20c8d3747cbb3bf5bc53554d997/preprocess/split_dataset.py"
+  ],
+  "source_type": "own release",
+  "revision": "1cbae8e92f72f20c8d3747cbb3bf5bc53554d997",
+  "files": [
+    {
+      "path": "$CABA_DATA/pubmedqa/README.md",
+      "bytes": 1723,
+      "sha256": "1338affd8530b416358b4ea40e6f1d6c935197352341bca2cf02288985a1fd99"
+    },
+    {
+      "path": "$CABA_DATA/pubmedqa/LICENSE",
+      "bytes": 1065,
+      "sha256": "8e75abc6136be91e5ae66dbb6dda07c8bc9dcc215ed3bc1ba3ae7fab7904777e"
+    },
+    {
+      "path": "$CABA_DATA/pubmedqa/data/ori_pqal.json",
+      "bytes": 2584787,
+      "sha256": "8b3276be8942ebbd77f3ddcda12c1749bf0e490045a736fd8438ee40cf37a41d"
+    },
+    {
+      "path": "$CABA_DATA/pubmedqa/data/test_ground_truth.json",
+      "bytes": 11414,
+      "sha256": "939fe566f09017d13b1ca64d2ddfee0bc2374b366048152997669cccedc44d51"
+    },
+    {
+      "path": "$CABA_DATA/pubmedqa/preprocess/split_dataset.py",
+      "bytes": 3221,
+      "sha256": "06ea7c187f3f4087bd2d2be9788006eae3a75473c8dcbb55e4cfc495ebd1127b"
+    }
+  ],
+  "license": "MIT (LICENSE)",
+  "split": "PQA-L test (500 PMIDs listed in test_ground_truth.json)",
+  "n_items": 500,
+  "public": "yes",
+  "english": "yes",
+  "text": "yes",
+  "single_request": "yes",
+  "request_fields": "CONTEXTS (abstract without conclusion) + QUESTION; answer yes/no/maybe",
+  "example_structure": [
+    "<PMID>.CONTEXTS",
+    "<PMID>.LABELS",
+    "<PMID>.LONG_ANSWER",
+    "<PMID>.MESHES",
+    "<PMID>.QUESTION",
+    "<PMID>.YEAR",
+    "<PMID>.final_decision"
+  ],
+  "notes": "ori_pqal.json holds all 1,000 expert-labelled PQA-L items in one file (500 test + 500 CV/train); it was downloaded whole because the test split is defined only by the 500 PMIDs in test_ground_truth.json (all 500 present). PQA-A/PQA-U (Google Drive, training/unlabelled) were not downloaded. MIRAGE redistributes a context-free variant (PubMedQA*), not used here. Checked 2026-10-04; no LLMs or API keys used.",
+  "rendering": {
+    "rule": "Vignette + question: abstract contexts (one \"Label. text\" line each, as in Lievin et al./MedHELM), a blank line, then the question; no options are released (answers are yes/no/maybe).",
+    "template_source": "none",
+    "n_usable": 500,
+    "n_sampled": 200,
+    "seed": 20261004,
+    "excluded": {
+      "non_english": 0,
+      "image": 0,
+      "duplicate": 0
+    },
+    "mean_chars": 1508.1,
+    "max_chars": 2587
+  },
+  "in_caba_v1_0": true
+}

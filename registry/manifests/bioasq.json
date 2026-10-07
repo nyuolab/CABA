@@ -1,0 +1,58 @@
+{
+  "benchmark": "BioASQ",
+  "source_url": [
+    "https://raw.githubusercontent.com/Teddy-XiongGZ/MIRAGE/392943af99cd94cafd50a0de2e7fca24bbf65494/README.md",
+    "https://raw.githubusercontent.com/Teddy-XiongGZ/MIRAGE/392943af99cd94cafd50a0de2e7fca24bbf65494/LICENSE",
+    "https://raw.githubusercontent.com/Teddy-XiongGZ/MIRAGE/392943af99cd94cafd50a0de2e7fca24bbf65494/benchmark.json"
+  ],
+  "source_type": "suite release (MIRAGE: BioASQ-Y/N)",
+  "revision": "392943af99cd94cafd50a0de2e7fca24bbf65494",
+  "files": [
+    {
+      "path": "$CABA_DATA/bioasq/README.md",
+      "bytes": 8490,
+      "sha256": "796c85c7d94b088bb805018180eb8a9893fda037f08bb630132499028da113a8"
+    },
+    {
+      "path": "$CABA_DATA/bioasq/LICENSE",
+      "bytes": 1132,
+      "sha256": "17c874820509244e3dfdaa06de9d4d3d2f7b4d08000f38630c44e4c3fa0737e2"
+    },
+    {
+      "path": "$CABA_DATA/bioasq/benchmark.json",
+      "bytes": 4296735,
+      "sha256": "6f7f08c64cd2efe02a5d0c247229813c90db345d9dd6e3a451b5d24146d0f8fa"
+    }
+  ],
+  "license": "MIRAGE repo: NCBI public-domain notice; underlying BioASQ Task B data subject to BioASQ terms",
+  "split": "MIRAGE BioASQ-Y/N: yes/no questions from BioASQ Task B gold test sets 2019-2023 (Tasks 7B-11B)",
+  "n_items": 618,
+  "public": "yes",
+  "english": "yes",
+  "text": "yes",
+  "single_request": "yes",
+  "request_fields": "question + options {A: yes, B: no} (MIRAGE removes the gold snippets)",
+  "example_structure": [
+    "PMID",
+    "answer",
+    "id",
+    "options",
+    "question"
+  ],
+  "notes": "The BioASQ own release (participants-area.bioasq.org) requires creating an account, which this check does not do; the todo url_data is MIRAGE, so its redistributed BioASQ-Y/N subset was used (benchmark.json, key \"bioasq\"; the same file also holds medqa/medmcqa/pubmedqa/mmlu). 618 items match the MIRAGE README. Answers: 395 yes / 223 no. The MIRAGE repo also redistributes the raw BioASQ golden JSONs (rawdata/bioasq/Task7B-11B, with snippets); not downloaded. Other BioASQ task types (factoid, list, summary) are not in this version. Checked 2026-10-04; no LLMs or API keys used.",
+  "rendering": {
+    "rule": "Multiple choice: question, then options one per line with their source letters (A. yes / B. no).",
+    "template_source": "none",
+    "n_usable": 617,
+    "n_sampled": 200,
+    "seed": 20261004,
+    "excluded": {
+      "non_english": 0,
+      "image": 0,
+      "duplicate": 1
+    },
+    "mean_chars": 71.4,
+    "max_chars": 172
+  },
+  "in_caba_v1_0": true
+}

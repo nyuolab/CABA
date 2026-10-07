@@ -1,0 +1,55 @@
+{
+  "benchmark": "Drug Interaction for Emerging Drugs",
+  "source_url": [
+    "https://raw.githubusercontent.com/AI-in-Health/ClinicBench/57138be8a73f09bef8980f849789baf57570c5cf/Drug-Interaction-for-Emerging-Drugs.csv",
+    "https://raw.githubusercontent.com/AI-in-Health/ClinicBench/57138be8a73f09bef8980f849789baf57570c5cf/README.md",
+    "https://raw.githubusercontent.com/AI-in-Health/ClinicBench/57138be8a73f09bef8980f849789baf57570c5cf/LICENSE"
+  ],
+  "source_type": "own release (ClinicBench)",
+  "revision": "57138be8a73f09bef8980f849789baf57570c5cf",
+  "files": [
+    {
+      "path": "$CABA_DATA/drug_interaction_for_emerging_drugs/Drug-Interaction-for-Emerging-Drugs.csv",
+      "bytes": 23818,
+      "sha256": "a37e1b253eeb8d2b7f34e36fc8085ee6a19424f9d3cd814bdb431d59d40310e0"
+    },
+    {
+      "path": "$CABA_DATA/drug_interaction_for_emerging_drugs/README.md",
+      "bytes": 6218,
+      "sha256": "c440695a1f61e7e7c1a0f0f8f760e6ffe67f32ca1e83cb337917091825e70731"
+    },
+    {
+      "path": "$CABA_DATA/drug_interaction_for_emerging_drugs/LICENSE",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    }
+  ],
+  "license": "Apache-2.0 (ClinicBench repository LICENSE)",
+  "split": "whole set (no split; evaluation-only dataset)",
+  "n_items": 200,
+  "public": "yes",
+  "english": "yes",
+  "text": "yes",
+  "single_request": "yes",
+  "request_fields": "task prompt (paper Table 8: Moderna COVID-19 vaccine interaction, answer yes/no) + question",
+  "example_structure": [
+    "answer",
+    "question"
+  ],
+  "notes": "Benchmark exists only as part of the ClinicBench release (Liu et al., EMNLP 2024; ClinicBench is the suite and the own release). Prompt text per task is in Table 8 of the paper (https://aclanthology.org/2024.emnlp-main.759.pdf); the release ships items without the prompt. 200 yes/no questions, all about Moderna COVID-19 Vaccine combined with another drug (derived from Drugs.com per the paper); matches the 200 reported in Table 1. Checked 2026-10-04; no LLMs or API keys used.",
+  "rendering": {
+    "rule": "Item text as released (the yes/no question); the ClinicBench Table 8 prompt was not applied because it contains an unpublished placeholder \"(introduce what each Moderna COVID-19 Vaccine is ...)\".",
+    "template_source": "none",
+    "n_usable": 200,
+    "n_sampled": 200,
+    "seed": 20261004,
+    "excluded": {
+      "non_english": 0,
+      "image": 0,
+      "duplicate": 0
+    },
+    "mean_chars": 114.5,
+    "max_chars": 166
+  },
+  "in_caba_v1_0": true
+}

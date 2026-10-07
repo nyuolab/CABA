@@ -1,0 +1,49 @@
+{
+ "_status": "aggregate, from the paper; pending institutional sign-off before public release",
+ "_note": "Aggregate shares from the paper (all are reported in its figures and text). Pending institutional sign-off before public release.",
+ "source": "Real clinical queries (RCQs): first clinician turns of 127,625 annotated conversations with an institutional AI assistant (12 August 2025 to 3 April 2026), labelled with RCQ-Map by GPT-5.6 sol (reasoning effort none) with guidelines v2.1.",
+ "n_queries": 127625,
+ "task_category": {
+  "Documentation & workflow": 0.351083,
+  "Foundational knowledge": 0.147855,
+  "Drug information & pharmacotherapy": 0.141352,
+  "Treatment & management": 0.061853,
+  "Diagnosis & differential": 0.036921,
+  "Test & result interpretation": 0.026594,
+  "Patient education & communication": 0.012121,
+  "Coding & administrative": 0.0105,
+  "Procedural guidance": 0.005461,
+  "Other": 0.206261
+ },
+ "kind_of_work": {
+  "Documentation & administration": 0.361583,
+  "Knowledge retrieval": 0.289207,
+  "Clinical reasoning": 0.14295,
+  "Other": 0.206261
+ },
+ "intent_group": {
+  "Decide or verify": 0.134229,
+  "Look up or understand": 0.319647,
+  "Draft text or code": 0.395361,
+  "Follow a procedure": 0.035048,
+  "Other": 0.115714
+ },
+ "risk": {
+  "Minimal": 0.231538,
+  "Low": 0.294825,
+  "Moderate": 0.341618,
+  "High": 0.115581,
+  "Critical": 0.016439
+ },
+ "safest_response": {
+  "Direct": 0.611518,
+  "Retrieval": 0.119945,
+  "Clarification": 0.267894,
+  "Escalation": 0.000251,
+  "Abstention": 0.000392
+ },
+ "documentation_and_administration": 0.361583,
+ "diagnosis": 0.036921,
+ "even_spread_overlap": 0.55345,
+ "note": "Overlap between a benchmark and real use = sum over the ten task categories of min(benchmark share, RCQ share), i.e. one minus the total variation distance."
+}

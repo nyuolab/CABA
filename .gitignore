@@ -1,0 +1,22 @@
+# Never commit secrets
+.env
+.env.*
+!.env.example
+# Benchmark items, rendered items, fetched reports and annotator output live in $CABA_DATA, never here
+caba_data/
+rendered/
+inputs/
+annotations/
+reports_raw/
+scripts/render/templates/
+*.parquet
+# Python and editors
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+.DS_Store
+.idea/
+.vscode/
+node_modules/

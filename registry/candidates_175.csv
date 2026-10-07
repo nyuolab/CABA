@@ -1,0 +1,176 @@
+benchmark,suites,n_suites,labs,n_labs,n_frontier_documents,names_in_sources,access,language,modality,item_format,url_data,url_paper,excluded_before_download
+ACI-Bench,MEDIC; MedHELM; Medmarks,3,,0,0,ACI-Bench,open,en,text,instruction,https://github.com/wyim/aci-bench,https://www.nature.com/articles/s41597-023-02487-3,
+ADE corpus,BRIDGE; MedS-Bench,2,,0,0,ADE corpus (ADE-Corpus-V2),,en,text,instruction,,,
+ADHD-Behavior,MedHELM,1,,0,0,ADHD-Behavior,private,en,text,mcq,,https://doi.org/10.1093/jamia/ocae001,public: private
+ADHD-MedEffects,MedHELM,1,,0,0,ADHD-MedEffects,private,en,text,mcq,,https://doi.org/10.1542/peds.2024-067223,public: private
+AIME,MEDIC,1,,0,0,AIME 2024/2025,,en,text,,,,health: general-domain or no health content
+AgentClinic,Medmarks,1,,0,0,AgentClinic,open,en,text+image,agentic,https://github.com/SamuelSchmidgall/AgentClinic,https://arxiv.org/abs/2405.07960,single: agent environment
+BARR2,BRIDGE,1,,0,0,BARR2,,es,text,,https://huggingface.co/datasets/YLab-Open/BRIDGE-Open,,english: es
+BC4CHEMD,MedS-Bench,1,,0,0,BC4CHEMD (chemical NER),,en,text,instruction,,,
+BC5CDR,ClinicBench; MedS-Bench,2,,0,0,BC5CDR (BioCreative V CDR),,en,text,other,,,
+BMT-Status,MedHELM,1,,0,0,BMT-Status,private,en,text,mcq,,https://www.nature.com/articles/s41591-025-04151-2,public: private
+BRONCO150,BRIDGE,1,,0,0,BRONCO150,,de,text,,https://huggingface.co/datasets/YLab-Open/BRIDGE-Open,,english: de
+BioASQ,MIRAGE,1,Anthropic,1,1,BioASQ | BioASQ-Y/N (MIRAGE version),open,en,text,mcq,https://github.com/Teddy-XiongGZ/MIRAGE,https://arxiv.org/abs/2402.13178,
+BioLORD concept explanation,MedS-Bench,1,,0,0,BioLORD concept explanation (MedS-Bench),registration,en,text,open_qa,https://huggingface.co/datasets/FremyCompany/BioLORD-Dataset,,
+BrainMRI-AIS,BRIDGE,1,,0,0,BrainMRI-AIS,,en,text,instruction,https://huggingface.co/datasets/YLab-Open/BRIDGE-Open,,
+Brateca,BRIDGE,1,,0,0,Brateca,,pt-BR,text,,https://huggingface.co/datasets/YLab-Open/BRIDGE-Open,,english: pt-BR
+C-EMRS,BRIDGE,1,,0,0,C-EMRS,,zh,text,,https://huggingface.co/datasets/YLab-Open/BRIDGE-Open,,english: zh
+CARDIO:DE,BRIDGE,1,,0,0,CARDIO:DE,,de,text,,https://huggingface.co/datasets/YLab-Open/BRIDGE-Open,,english: de
+CARES,BRIDGE,1,,0,0,CARES,,es,text,,https://huggingface.co/datasets/YLab-Open/BRIDGE-Open,,english: es
+CAS,BRIDGE,1,,0,0,CAS,,fr,text,,https://huggingface.co/datasets/YLab-Open/BRIDGE-Open,,english: fr
+CDI-QA,MedHELM,1,,0,0,CDI-QA,private,en,text,mcq,,https://www.nature.com/articles/s41591-025-04151-2,public: private
+CHIP-CDEE,BRIDGE,1,,0,0,CHIP-CDEE,,zh,text,,https://huggingface.co/datasets/YLab-Open/BRIDGE-Open,,english: zh
+CHIP-CDN,BRIDGE,1,,0,0,CHIP-CDN,,zh,text,,https://huggingface.co/datasets/YLab-Open/BRIDGE-Open,,english: zh
+CHIP-CTC,BRIDGE,1,,0,0,CHIP-CTC,,zh,text,,https://huggingface.co/datasets/YLab-Open/BRIDGE-Open,,english: zh
+CHIP-MDCFNPC,BRIDGE,1,,0,0,CHIP-MDCFNPC,,zh,text,,https://huggingface.co/datasets/YLab-Open/BRIDGE-Open,,english: zh
+CLEAR,MedHELM,1,,0,0,CLEAR,private,en,text,mcq,,https://www.nature.com/articles/s41746-024-01377-1,public: private
+CLEF eHealth 2020 - CodiEsp,BRIDGE,1,,0,0,CLEF eHealth 2020 - CodiEsp,,es,text,,https://huggingface.co/datasets/YLab-Open/BRIDGE-Open,,english: es
+CLINpt,BRIDGE,1,,0,0,CLINpt,,pt,text,,https://huggingface.co/datasets/YLab-Open/BRIDGE-Open,,english: pt
+CLIP,BRIDGE,1,,0,0,CLIP,credentialed,en,text,instruction,,,public: credentialed
+CLISTER,BRIDGE,1,,0,0,CLISTER,,fr,text,,https://huggingface.co/datasets/YLab-Open/BRIDGE-Open,,english: fr
+CPC-Bench,MAST,1,,0,0,CPC-Bench,held_out,en,text+image,vignette,https://cpcbench.com,https://arxiv.org/abs/2509.12194,public: held_out
+Cantemist,BRIDGE,1,,0,0,Cantemist,,es,text,,https://huggingface.co/datasets/YLab-Open/BRIDGE-Open,,english: es
+CareQA,Medmarks,1,,0,0,CareQA,open,en; es,text,mcq,https://huggingface.co/datasets/HPAI-BSC/CareQA,https://arxiv.org/abs/2502.06666,
+CheXpert,,0,NVIDIA,1,1,CheXpert,,,,,,,text: image or non-text items
+ClinicReferral,MedHELM,1,,0,0,ClinicReferral,private,en,text,mcq,,https://www.nature.com/articles/s41591-025-04151-2,public: private
+Clinical trial protocol summarization,MEDIC,1,,0,0,Clinical trial protocol summarization (MEDIC),,en,text,instruction,,https://arxiv.org/abs/2409.07314,
+ClinicalNotes-UPMC,BRIDGE,1,,0,0,ClinicalNotes-UPMC,,en,text,instruction,https://huggingface.co/datasets/YLab-Open/BRIDGE-Open,,
+DDI corpus,ClinicBench,1,,0,0,DDI corpus,,en,text,other,,,
+DDXPlus,MedS-Bench,1,,0,0,DDXPlus,open,en,text,vignette,https://huggingface.co/datasets/Henrychur/MedS-Bench,https://arxiv.org/abs/2205.09148,
+DiSMed,BRIDGE,1,,0,0,DiSMed,,es,text,,https://huggingface.co/datasets/YLab-Open/BRIDGE-Open,,english: es
+DialMed,BRIDGE,1,,0,0,DialMed,,zh,text,,https://huggingface.co/datasets/YLab-Open/BRIDGE-Open,,english: zh
+Discharge Me!,MEDIC; MedHELM,2,,0,0,Discharge Me!,credentialed,en,text,instruction,https://physionet.org/content/discharge-me/1.3/,https://aclanthology.org/2024.bionlp-1.7/,public: credentialed
+Diverse Dermatology Images,MAST,1,,0,0,Diverse Dermatology Images (DDI),registration,,text+image,other,https://ddi-dataset.github.io/,https://www.science.org/doi/10.1126/sciadv.abq6147,text: image or non-text items
+Drug Interaction for Emerging Drugs,ClinicBench,1,,0,0,Drug Interaction for Emerging Drugs (ClinicBench),open,en,text,other,https://github.com/AI-in-Health/ClinicBench,https://aclanthology.org/2024.emnlp-main.759.pdf,
+EBM-NLP PICO extraction,MedS-Bench,1,,0,0,EBM-NLP PICO extraction,,en,text,instruction,,,
+EBMSummariser justification verification,MedS-Bench,1,,0,0,EBMSummariser justification verification,open,en,text,instruction,https://huggingface.co/datasets/Henrychur/MedS-Bench,,
+EHRQA,BRIDGE,1,,0,0,EHRQA,,zh,text,,https://huggingface.co/datasets/YLab-Open/BRIDGE-Open,,english: zh
+EHRSHOT,MedHELM,1,,0,0,EHRSHOT,credentialed,en,structured EHR codes (serialized as text by MedHELM),mcq,https://redivis.com/datasets/53gc-8rhx41kgt,https://arxiv.org/abs/2307.02028,public: credentialed
+EHRSQL,MEDIC; MedHELM,2,,0,0,EHRSQL,open,en,text,instruction,https://github.com/glee4810/EHRSQL,https://arxiv.org/abs/2301.07695,
+ENT-Referral,MedHELM,1,,0,0,ENT-Referral,private,en,text,mcq,,https://www.nature.com/articles/s41591-025-04151-2,public: private
+Ex4CDS,BRIDGE,1,,0,0,Ex4CDS,,de,text,,https://huggingface.co/datasets/YLab-Open/BRIDGE-Open,,english: de
+ExpertQA,MEDIC,1,,0,0,ExpertQA (Healthcare/Medicine subset),open,en,text,open_qa,https://github.com/chaitanyamalaviya/ExpertQA,https://arxiv.org/abs/2309.07852,
+First Do NOHARM,MAST,1,,0,0,First Do NOHARM (NOHARM; MAST uses v2),open,en,text,vignette,https://github.com/ARISENetwork/mast/tree/main/benchmarks/donoharm,https://arxiv.org/abs/2512.01241,
+FrenchMedMCQA,MMedBench; MedS-Bench,2,,0,0,FrenchMedMCQA,open,fr,text,mcq,https://huggingface.co/datasets/qanastek/frenchmedmcqa,,english: fr
+GAD RE,ClinicBench,1,,0,0,GAD (Genetic Association Database) RE,,en,text,other,,,
+GOUT-CC,BRIDGE,1,,0,0,GOUT-CC,,en,text,instruction,https://huggingface.co/datasets/YLab-Open/BRIDGE-Open,,
+GSM8K,MEDIC,1,,0,0,GSM8K,,en,text,,https://huggingface.co/datasets/openai/gsm8k,,health: general-domain or no health content
+GraSSCo_PHI,BRIDGE,1,,0,0,GraSSCo_PHI,,de,text,,https://huggingface.co/datasets/YLab-Open/BRIDGE-Open,,english: de
+HEAD-QA,MMedBench; MedHELM; MedS-Bench; Medmarks,4,,0,0,HEAD-QA | HEAD-QA v2,open,es; en (translation),text (some items include an image; text-only subset used by MedHELM),mcq,https://huggingface.co/datasets/dvilares/head_qa,https://aclanthology.org/P19-1092/,
+Hallmarks of Cancer,ClinicBench; MedS-Bench,2,,0,0,Hallmarks of Cancer (HoC),,en,text,other,,,
+HealthAdminBench,,0,Anthropic,1,1,HealthAdminBench,,,,,,,single: agent environment
+HealthBench,HealthBench; MEDIC; Medmarks,3,Alibaba; Anthropic; OpenAI,3,10,HealthBench | HealthBench Consensus | HealthBench Hard,open,multilingual (49 languages),text,conversation,https://openaipublic.blob.core.windows.net/simple-evals/healthbench/2025-05-07-06-14-12_oss_eval.jsonl,https://arxiv.org/abs/2505.08775,
+HealthBench Professional,HealthBench,1,Anthropic,1,8,HealthBench Professional,open,,text,conversation,https://openaipublic.blob.core.windows.net/simple-evals/healthbench_professional/assets.zip,https://arxiv.org/abs/2604.27470,
+HealthCareMagic-100k,BRIDGE,1,,0,0,HealthCareMagic-100k,,en,text,open_qa,https://huggingface.co/datasets/YLab-Open/BRIDGE-Open,,
+HealthSearchQA,MEDIC; MultiMedQA,2,Google,1,1,HealthSearchQA,open,en,text,open_qa,https://www.nature.com/articles/s41586-023-06291-2,https://www.nature.com/articles/s41586-023-06291-2,
+HospiceReferral,MedHELM,1,,0,0,HospiceReferral,private,en,text,mcq,,https://www.nature.com/articles/s41591-025-04151-2,public: private
+Hospitalization Summarization,ClinicBench,1,,0,0,Hospitalization Summarization (ClinicBench),open,en,text,instruction,https://github.com/AI-in-Health/ClinicBench,https://aclanthology.org/2024.emnlp-main.759.pdf,
+Human Disease Ontology entity explanation,MedS-Bench,1,,0,0,Human Disease Ontology entity explanation (MedS-Bench),open,en,text,open_qa,https://huggingface.co/datasets/Henrychur/MedS-Bench,,
+IFEval,MEDIC,1,,0,0,IFEval,,en,text,,https://huggingface.co/datasets/google/IFEval,,health: general-domain or no health content
+IFMIR,BRIDGE,1,,0,0,IFMIR,,ja,text,,https://huggingface.co/datasets/YLab-Open/BRIDGE-Open,,english: ja
+IMCS-V2,BRIDGE,1,,0,0,IMCS-V2,,zh,text,,https://huggingface.co/datasets/YLab-Open/BRIDGE-Open,,english: zh
+IU X-ray report summarization,ClinicBench,1,,0,0,IU X-ray (Open-i) report summarization,,en,text,instruction,,,
+IgakuQA,MMedBench; MedS-Bench,2,,0,0,IgakuQA,,ja,text,mcq,https://github.com/jungokasai/IgakuQA,,english: ja
+Japanese Case Reports,BRIDGE,1,,0,0,Japanese Case Reports,,ja,text,,https://huggingface.co/datasets/YLab-Open/BRIDGE-Open,,english: ja
+LAB-Bench2,,0,Anthropic,1,2,LAB-Bench2 (clinical-trial questions),,,,,,,health: general-domain or no health content
+LiveQA,MultiMedQA,1,Google,1,1,LiveQA | TREC 2017 LiveQA Medical,open,en,text,open_qa,https://github.com/abachaa/LiveQA_MedicalTask_TREC2017,https://trec.nist.gov/pubs/trec26/papers/Overview-QA.pdf,
+LongHealth,CLUE; Medmarks,2,,0,0,LongHealth,open,en,text,mcq,https://github.com/kbressem/LongHealth,https://arxiv.org/abs/2401.14490,
+M-ARC,Medmarks,1,,0,0,M-ARC,open,en,text,mcq,https://huggingface.co/datasets/mkieffer/M-ARC,https://arxiv.org/abs/2502.04381,
+MEDEC,MEDIC; MedHELM; Medmarks,3,,0,0,MEDEC,open,en,text,instruction,https://github.com/abachaa/MEDEC,https://arxiv.org/abs/2412.19260,
+MEDIQA-QA,MedHELM,1,,0,0,MEDIQA-QA (MEDIQA 2019 question answering task),open,en,text,open_qa,https://github.com/abachaa/MEDIQA2019,https://aclanthology.org/W19-5039/,
+MEDIQA_2019_Task2_RQE,BRIDGE,1,,0,0,MEDIQA_2019_Task2_RQE,open,en,text,other,https://huggingface.co/datasets/YLab-Open/BRIDGE-Open,,
+MIE,BRIDGE,1,,0,0,MIE,,zh,text,,https://huggingface.co/datasets/YLab-Open/BRIDGE-Open,,english: zh
+MIMIC-CXR report summarization,ClinicBench; MedS-Bench,2,,0,0,MIMIC-CXR report summarization (Findings to Impression),credentialed,en,text,instruction,,,public: credentialed
+MIMIC-III Outcome,BRIDGE,1,,0,0,MIMIC-III Outcome,credentialed,en,text,instruction,,,public: credentialed
+MIMIC-IV Billing Code,MedHELM,1,,0,0,MIMIC-IV Billing Code (ICD-10 coding),credentialed,en,text,instruction,https://physionet.org/content/mimiciv/,https://arxiv.org/abs/2304.10909,public: credentialed
+MIMIC-IV CDM,BRIDGE,1,,0,0,MIMIC-IV CDM,credentialed,en,text,vignette,,,public: credentialed
+MIMIC-IV DiReCT,BRIDGE,1,,0,0,MIMIC-IV DiReCT,credentialed,en,text,vignette,,,public: credentialed
+MIMIC-IV radiology report summarization,MedS-Bench,1,,0,0,MIMIC-IV radiology report summarization (MedS-Bench),credentialed,en,text,instruction,,,public: credentialed
+MIMIC-IV-ED benchmark,MedS-Bench,1,,0,0,MIMIC-IV-ED benchmark (MIMIC4ED),credentialed,en,text,instruction,,https://arxiv.org/abs/2111.11017,public: credentialed
+MIMIC-IV-Ext-BHC,BRIDGE; MedHELM,2,,0,0,MIMIC-IV-Ext-BHC (MIMIC-IV-BHC),credentialed,en,text,instruction,https://physionet.org/content/labelled-notes-hospital-course/1.2.0/,https://doi.org/10.1093/jamia/ocae312,public: credentialed
+MIMIC-RRS,MedHELM,1,,0,0,MIMIC-RRS,credentialed,en,text,instruction,,https://aclanthology.org/2023.acl-short.41/,public: credentialed
+MKSAP,,0,OpenAI,1,1,MKSAP,,,,,,,
+MMLU,ClinicBench; MIRAGE; MultiMedQA,3,Google; Meta; OpenAI,3,3,MMLU (medical subjects) | MMLU Anatomy | MMLU Clinical Knowledge | MMLU College Biology | MMLU College Medicine | MMLU Medical Genetics | MMLU Professional Medicine | MMLU-Med (MMLU clinical subjects subset),open,en,text,mcq,https://github.com/hendrycks/test,https://arxiv.org/abs/2009.03300,health: general-domain or no health content
+MMLU-Pro,MEDIC; Medmarks,2,,0,0,MMLU-Pro (health subset),open,en,text,mcq,https://huggingface.co/datasets/TIGER-Lab/MMLU-Pro,https://arxiv.org/abs/2406.01574,health: general-domain or no health content
+MMedBench,MMedBench; MedS-Bench,2,,0,0,MMedBench,open,en; zh; ja; fr; ru; es,text,mcq,https://huggingface.co/datasets/Henrychur/MMedBench,https://www.nature.com/articles/s41467-024-52417-z,
+MRA-MIDAS,MAST,1,,0,0,MRA-MIDAS (Multimodal Image Dataset for AI-based Skin Cancer),,,text+image,other,https://aimi.stanford.edu/datasets/mra-midas-Multimodal-Image-Dataset-for-AI-based-Skin-Cancer,https://ai.nejm.org/doi/full/10.1056/AIdbp2400732,text: image or non-text items
+MTS-Dialog,BRIDGE,1,,0,0,MTS-Dialog-MEDIQA-2023,open,en,text,conversation,https://huggingface.co/datasets/YLab-Open/BRIDGE-Open,,
+MTSamples,BRIDGE; MedHELM; Medmarks,3,,0,0,MTSamples (MedHELM treatment-plan task) | MTSamples Procedures | mtsamples | mtsamples-temporal,open,en,text,instruction,https://github.com/raulista1997/benchmarkdata/tree/main/mtsamples_processed,https://www.nature.com/articles/s41591-025-04151-2,
+MeDiSumCode,CLUE,1,,0,0,MeDiSumCode,credentialed,en,text,instruction,https://github.com/TIO-IKIM/CLUE,https://arxiv.org/abs/2404.04067,public: credentialed
+MeDiSumQA,CLUE,1,,0,0,MeDiSumQA,credentialed,en,text,open_qa,https://github.com/TIO-IKIM/CLUE,https://arxiv.org/abs/2502.03298,public: credentialed
+MeQSum,CLUE; MedS-Bench,2,,0,0,MeQSum,open,en,text,instruction,https://github.com/abachaa/MeQSum,,
+Med-HALT,Medmarks,1,,0,0,Med-HALT,open,en,text,mcq,https://huggingface.co/datasets/openlifescienceai/Med-HALT,https://arxiv.org/abs/2307.15343,
+Med-PaLM 2 adversarial questions,,0,Google,1,1,Med-PaLM 2 adversarial questions,,,,,,,
+MedAgentBench v2,MAST; Medmarks,2,,0,0,MedAgentBench v2,open,en,text,agentic,https://github.com/ARISENetwork/medagentbenchv2,https://psb.stanford.edu/psb-online/proceedings/psb26/chen_eric.pdf,single: agent environment
+MedAlign,MedHELM,1,,0,0,MedAlign,credentialed,en,text (longitudinal EHR),instruction,https://redivis.com/datasets/48nr-frxd97exb,https://arxiv.org/abs/2308.14089,public: credentialed
+MedBench,MedBench,1,,0,0,MedBench (Cai et al.) | MedBench (OpenCompass platform),,zh,text,mcq,,https://arxiv.org/abs/2312.12806,english: zh
+MedCalc-Bench,MEDIC; MedHELM; Medmarks,3,,0,0,MedCalc-Bench,open,en,text,open_qa,https://huggingface.co/datasets/ncbi/MedCalc-Bench,https://arxiv.org/abs/2406.12036,
+MedCaseReasoning,Medmarks,1,,0,0,MedCaseReasoning,open,en,text,vignette,https://huggingface.co/datasets/zou-lab/MedCaseReasoning,https://arxiv.org/abs/2505.11733,
+MedConceptsQA,Medmarks,1,,0,0,MedConceptsQA,open,en,text,mcq,https://huggingface.co/datasets/ofir408/MedConceptsQA,https://arxiv.org/abs/2405.07348,
+MedConfInfo,MedHELM,1,,0,0,MedConfInfo,private,en,text,mcq,,https://jamanetwork.com/journals/jamapediatrics/fullarticle/2814109,public: private
+MedDG,BRIDGE,1,,0,0,MedDG,,zh,text,,https://huggingface.co/datasets/YLab-Open/BRIDGE-Open,,english: zh
+MedDialog,MedHELM; Medmarks,2,,0,0,MedDialog,open,en; zh,text,instruction,https://worksheets.codalab.org/rest/bundles/0x82f0c47f6d3e4462ae9ef8ea39eebe64/,https://aclanthology.org/2020.emnlp-main.743/,
+MedExQA,Medmarks,1,,0,0,MedExQA,open,en,text,mcq,https://huggingface.co/datasets/bluesky333/MedExQA,https://arxiv.org/abs/2406.06331,
+MedHallu,MedHELM; Medmarks,2,,0,0,MedHallu,open,en,text,other,https://huggingface.co/datasets/UTAustin-AIHealth/MedHallu,https://arxiv.org/abs/2502.14302,
+MedMCQA,ClinicBench; MEDIC; MIRAGE; MedHELM; MedS-Bench; Medmarks; MultiMedQA,7,Anthropic; Google; OpenAI,3,3,MedMCQA,open,en,text,mcq,https://huggingface.co/datasets/openlifescienceai/medmcqa,https://proceedings.mlr.press/v174/pal22a.html,
+MedNLI,BRIDGE; CLUE; MedS-Bench,3,,0,0,MedNLI,credentialed,en,text,other,,https://arxiv.org/abs/1808.06752,public: credentialed
+MedQA,ClinicBench; MEDIC; MIRAGE; MMedBench; MedHELM; MedS-Bench; Medmarks; MultiMedQA,8,Anthropic; Google; OpenAI,3,3,MedQA,open,en; zh,text,mcq,https://github.com/jind11/MedQA,https://arxiv.org/abs/2009.13081,
+MedR-Bench,Medmarks,1,,0,0,MedR-Bench,open,en,text,vignette,https://github.com/MAGIC-AI4Med/MedRBench,https://arxiv.org/abs/2503.04691,
+MedSTS,BRIDGE,1,,0,0,MedSTS,request,en,text,other,,,public: request
+MedSafetyBench,MEDIC,1,,0,0,MedSafetyBench,open,en,text,instruction,https://github.com/AI4LIFE-GROUP/med-safety-bench,https://arxiv.org/abs/2403.03744,
+MedXpertQA,Medmarks,1,Alibaba,1,4,MedXpertQA | MedXpertQA Text,open,en,text,mcq,https://huggingface.co/datasets/TsinghuaC3I/MedXpertQA,https://arxiv.org/abs/2501.18362,
+Medbullets,MedHELM; Medmarks,2,,0,0,Medbullets,open,en,text,mcq,https://github.com/HanjieChen/ChallengeClinicalQA,https://arxiv.org/abs/2402.18060,
+MedicationQA,MEDIC; MedHELM; Medmarks; MultiMedQA,4,Google,1,1,MedicationQA,open,en,text,open_qa,https://github.com/abachaa/Medication_QA_MedInfo2019,https://ebooks.iospress.nl/publication/51941,
+MentalHealth,MedHELM,1,,0,0,MentalHealth (MedHELM),private,en,text,conversation,,https://www.nature.com/articles/s41591-025-04151-2,public: private
+MetaMedQA,Medmarks,1,,0,0,MetaMedQA,open,en,text,mcq,https://huggingface.co/datasets/maximegmd/MetaMedQA,,
+Mexican Clinical Records,BRIDGE,1,,0,0,Mexican Clinical Records,,es,text,,https://huggingface.co/datasets/YLab-Open/BRIDGE-Open,,english: es
+NCBI Disease corpus,ClinicBench,1,,0,0,NCBI Disease corpus,,en,text,other,,,
+NOHARM-Mind,MAST,1,,0,0,NOHARM-Mind,,,,,,,public: not released
+NUBES,BRIDGE,1,,0,0,NUBES,,es,text,,https://huggingface.co/datasets/YLab-Open/BRIDGE-Open,,english: es
+NorSynthClinical,BRIDGE,1,,0,0,NorSynthClinical,,no,text,,https://huggingface.co/datasets/YLab-Open/BRIDGE-Open,,english: no
+NorSynthClinical-PHI,BRIDGE,1,,0,0,NorSynthClinical-PHI,,no,text,,https://huggingface.co/datasets/YLab-Open/BRIDGE-Open,,english: no
+NoteExtract,MedHELM,1,,0,0,NoteExtract,private,en,text,instruction,,https://www.nature.com/articles/s41591-025-04151-2,public: private
+PACT,MAST,1,,0,0,PACT (Physician-AI Collaboration Teaming),,,,,,,public: not released
+PMC-Patients basic information extraction,MedS-Bench,1,,0,0,PMC-Patients basic information extraction,open,en,text,instruction,https://huggingface.co/datasets/zhengyun21/PMC-Patients,https://arxiv.org/abs/2202.13876,
+PMC-VQA,,0,Alibaba,1,1,PMC-VQA,,,,,,,text: image or non-text items
+PUBHEALTH,MedS-Bench,1,,0,0,PUBHEALTH,open,en,text,instruction,https://huggingface.co/datasets/ImperialCollegeLondon/health_fact,https://arxiv.org/abs/2010.09926,
+PathVQA,,0,NVIDIA,1,2,PathVQA,,,,,,,text: image or non-text items
+Patient Education,ClinicBench,1,,0,0,Patient Education (ClinicBench),open,en,text,instruction,https://github.com/AI-in-Health/ClinicBench,https://aclanthology.org/2024.emnlp-main.759.pdf,
+PatientInstruct,MedHELM,1,,0,0,PatientInstruct,private,en,text,instruction,,https://www.nature.com/articles/s41591-025-04151-2,public: private
+Pharmacology QA for Emerging Drugs,ClinicBench,1,,0,0,Pharmacology QA for Emerging Drugs (ClinicBench),open,en,text,mcq,https://github.com/AI-in-Health/ClinicBench,https://aclanthology.org/2024.emnlp-main.759.pdf,
+PhysicianBench,MAST,1,Anthropic,1,2,PhysicianBench,request,en,text,agentic,https://github.com/HealthRex/PhysicianBench,https://arxiv.org/abs/2605.02240,single: agent environment
+PrivacyDetection,MedHELM,1,,0,0,PrivacyDetection,private,en,text,mcq,,https://doi.org/10.1001/jamapediatrics.2024.4438,public: private
+ProbSum,CLUE; MEDIC,2,,0,0,Problem Summary / ProbSum (problem list summarization),credentialed,en,text,instruction,,https://arxiv.org/abs/2208.08408,public: credentialed
+ProxySender,MedHELM,1,,0,0,ProxySender,private,en,text,mcq,,https://doi.org/10.1001/jamapediatrics.2024.4438,public: private
+PubHealthBench,Medmarks,1,,0,0,PubHealthBench,open,en,text,mcq,https://huggingface.co/datasets/Joshua-Harris/PubHealthBench,https://arxiv.org/abs/2505.06046,
+PubMedQA,ClinicBench; MEDIC; MIRAGE; MedHELM; MedS-Bench; Medmarks; MultiMedQA,7,Anthropic; Google,2,2,PubMedQA,open,en,text,mcq,https://github.com/pubmedqa/pubmedqa,https://aclanthology.org/D19-1259/,
+RCT-Text,MedS-Bench,1,,0,0,RCT-Text (RCT evidence summarization),,en,text,instruction,,https://arxiv.org/abs/2008.11293,
+RaceBias,MedHELM,1,,0,0,RaceBias,open,en,text,mcq,https://www.nature.com/articles/s41746-023-00939-z,https://www.nature.com/articles/s41746-023-00939-z,
+ReXrank Mini,MAST,1,,0,0,ReXrank Mini (subset of ReXrank),,en,text+image,instruction,https://github.com/rajpurkarlab/ReXrank,https://arxiv.org/abs/2411.15122,text: image or non-text items
+Referral QA,ClinicBench,1,,0,0,Referral QA (ClinicBench),,en,text,open_qa,,https://aclanthology.org/2024.emnlp-main.759.pdf,
+RuCCoN,BRIDGE,1,,0,0,RuCCoN,,ru,text,,https://huggingface.co/datasets/YLab-Open/BRIDGE-Open,,english: ru
+RuDReC,BRIDGE,1,,0,0,RuDReC,,ru,text,,https://huggingface.co/datasets/YLab-Open/BRIDGE-Open,,english: ru
+RuMedBench,MMedBench; MedS-Bench,2,,0,0,RuMedBench,,ru,text,mcq,,https://arxiv.org/abs/2201.06499,english: ru
+RuMedDaNet,BRIDGE,1,,0,0,RuMedDaNet,,ru,text,,https://huggingface.co/datasets/YLab-Open/BRIDGE-Open,,english: ru
+RuMedNLI,BRIDGE,1,,0,0,RuMedNLI,,ru,text,,https://huggingface.co/datasets/YLab-Open/BRIDGE-Open,,english: ru
+SCT-Bench,MAST; Medmarks,2,,0,0,SCT-Bench (Script Concordance Test benchmark; concor.dance),open,en,text,vignette,https://github.com/SCT-Bench/sctpublic,https://ai.nejm.org/doi/full/10.1056/AIdbp2500120,
+SEER breast cancer treatment planning,MedS-Bench,1,,0,0,SEER breast cancer treatment planning (MedS-Bench),open,en,text,instruction,https://huggingface.co/datasets/Henrychur/MedS-Bench,,
+SLAKE,,0,Alibaba; NVIDIA,2,2,SLAKE,,,,,,,text: image or non-text items
+SOAP Note,MEDIC,1,,0,0,"SOAP Note (ChartNote test split, MEDIC)",,en,text,conversation,,,
+Species-800,MedS-Bench,1,,0,0,Species-800 (S800),,en,text,instruction,,,
+SuperGPQA,Medmarks,1,,0,0,SuperGPQA (medicine subset),open,en,text,mcq,https://huggingface.co/datasets/m-a-p/SuperGPQA,https://arxiv.org/abs/2502.14739,health: general-domain or no health content
+ToxiGen,MEDIC,1,,0,0,ToxiGen,,en,text,,https://huggingface.co/datasets/toxigen/toxigen-data,,health: general-domain or no health content
+Treatment Recommendation,ClinicBench,1,,0,0,Treatment Recommendation (ClinicBench),open,en,text,conversation,https://github.com/AI-in-Health/ClinicBench,https://aclanthology.org/2024.emnlp-main.759.pdf,
+USMLE practice questions,,0,Anthropic,1,3,USMLE practice questions,,,,,,,
+VQA-RAD,,0,NVIDIA,1,1,VQA-RAD,,,,,,,text: image or non-text items
+cMedQA,BRIDGE,1,,0,0,cMedQA,,zh,text,,https://huggingface.co/datasets/YLab-Open/BRIDGE-Open,,english: zh
+i2b2 2009,BRIDGE,1,,0,0,i2b2 2009,credentialed,en,text,instruction,,,public: credentialed
+i2b2 2010,BRIDGE,1,,0,0,i2b2 2010,credentialed,en,text,instruction,,,public: credentialed
+iCorpus,BRIDGE,1,,0,0,iCorpus,,ja,text,,https://huggingface.co/datasets/YLab-Open/BRIDGE-Open,,english: ja
+icliniq-10k,BRIDGE,1,,0,0,icliniq-10k,,en,text,open_qa,https://huggingface.co/datasets/YLab-Open/BRIDGE-Open,,
+meddocan,BRIDGE,1,,0,0,meddocan,,es,text,,https://huggingface.co/datasets/YLab-Open/BRIDGE-Open,,english: es
+n2c2 2006,BRIDGE,1,,0,0,n2c2 2006,credentialed,en,text,other,,,public: credentialed
+n2c2 2014 - De-identification,BRIDGE,1,,0,0,n2c2 2014 - De-identification,credentialed,en,text,other,,,public: credentialed
+n2c2 2014 - Heart Disease Challenge,BRIDGE,1,,0,0,n2c2 2014 - Heart Disease Challenge,credentialed,en,text,instruction,,,public: credentialed
+n2c2 2018 Track 1 cohort selection,MedHELM,1,,0,0,n2c2 2018 Track 1 cohort selection (MedHELM: N2C2-CT Matching),credentialed,en,text,mcq,https://portal.dbmi.hms.harvard.edu/projects/n2c2-nlp/,https://doi.org/10.1093/jamia/ocz163,public: credentialed
+n2c2 2018 Track2,BRIDGE,1,,0,0,n2c2 2018 Track2,credentialed,en,text,instruction,,,public: credentialed

@@ -1,0 +1,57 @@
+{
+  "benchmark": "ExpertQA",
+  "source_url": [
+    "https://raw.githubusercontent.com/chaitanyamalaviya/ExpertQA/1aa7ba81bd4c083c12ef1aa2fee338f6cb60fa87/README.md",
+    "https://raw.githubusercontent.com/chaitanyamalaviya/ExpertQA/1aa7ba81bd4c083c12ef1aa2fee338f6cb60fa87/LICENSE",
+    "https://raw.githubusercontent.com/chaitanyamalaviya/ExpertQA/1aa7ba81bd4c083c12ef1aa2fee338f6cb60fa87/.gitattributes",
+    "https://raw.githubusercontent.com/chaitanyamalaviya/ExpertQA/1aa7ba81bd4c083c12ef1aa2fee338f6cb60fa87/prompts/qa_prompt.txt",
+    "https://raw.githubusercontent.com/chaitanyamalaviya/ExpertQA/1aa7ba81bd4c083c12ef1aa2fee338f6cb60fa87/data/r2_compiled_anon.jsonl"
+  ],
+  "source_type": "own release",
+  "revision": "1aa7ba81bd4c083c12ef1aa2fee338f6cb60fa87",
+  "files": [
+    {
+      "path": "$CABA_DATA/expertqa/README.md",
+      "bytes": 6344,
+      "sha256": "8d9579b95b73e69bddb0b5261be378374d9435efe62bedbfd964bbcec809b570"
+    },
+    {
+      "path": "$CABA_DATA/expertqa/LICENSE",
+      "bytes": 1075,
+      "sha256": "f4cfd6d73ba579cc5e6d24ab9da9ba0665e00fd3f42e5cb8bb2a8d4ce35d11ea"
+    },
+    {
+      "path": "$CABA_DATA/expertqa/.gitattributes",
+      "bytes": 116,
+      "sha256": "609d7752c2cb1306fd2d364a9edc0b1e839690c56a98928656345cb7a1f3ba0c"
+    },
+    {
+      "path": "$CABA_DATA/expertqa/prompts/qa_prompt.txt",
+      "bytes": 1176,
+      "sha256": "0267a8fc77ee480707d98192fb09efa70b90624ea5276f7111b96be591c5a6e0"
+    },
+    {
+      "path": "$CABA_DATA/expertqa/data/r2_compiled_anon.jsonl",
+      "bytes": 30057501,
+      "sha256": "b5e3070acb1f1df36bd404db720c3961ccd661531886ecc79d416da85d748ac5"
+    }
+  ],
+  "license": "MIT (LICENSE)",
+  "split": "main dataset r2_compiled_anon.jsonl (no test split), filtered to metadata.field == \"Healthcare / Medicine\"",
+  "n_items": 504,
+  "public": "yes",
+  "english": "yes",
+  "text": "yes",
+  "single_request": "yes",
+  "request_fields": "question",
+  "example_structure": [
+    "annotator_id",
+    "answers",
+    "metadata.field",
+    "metadata.question_type",
+    "metadata.specific_field",
+    "question"
+  ],
+  "notes": "Full ExpertQA has 2177 expert-written questions across 32 fields; the Healthcare / Medicine field (the subset MEDIC uses) has 504 unique questions. The file also carries model answers and claim annotations. data/lfqa/ holds train/val/test splits for long-form QA fine-tuning (random and domain), not used. Note for criterion 4: ExpertQA is a general multi-domain benchmark; only its health field is counted here. Checked 2026-10-04; no LLMs or API keys used.",
+  "in_caba_v1_0": false
+}

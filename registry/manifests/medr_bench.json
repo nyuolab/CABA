@@ -1,0 +1,85 @@
+{
+  "benchmark": "MedR-Bench",
+  "source_url": [
+    "https://raw.githubusercontent.com/MAGIC-AI4Med/MedRBench/ff60ab440afd2f2bc0c603b3a65d715ec83138a7/README.md",
+    "https://raw.githubusercontent.com/MAGIC-AI4Med/MedRBench/ff60ab440afd2f2bc0c603b3a65d715ec83138a7/LICENSE",
+    "https://raw.githubusercontent.com/MAGIC-AI4Med/MedRBench/ff60ab440afd2f2bc0c603b3a65d715ec83138a7/data/MedRBench/diagnosis_957_cases_with_rare_disease_491.json",
+    "https://raw.githubusercontent.com/MAGIC-AI4Med/MedRBench/ff60ab440afd2f2bc0c603b3a65d715ec83138a7/data/MedRBench/treatment_496_cases_with_rare_disease_165.json",
+    "https://raw.githubusercontent.com/MAGIC-AI4Med/MedRBench/ff60ab440afd2f2bc0c603b3a65d715ec83138a7/src/Inference/instructions/oracle_diagnose.txt",
+    "https://raw.githubusercontent.com/MAGIC-AI4Med/MedRBench/ff60ab440afd2f2bc0c603b3a65d715ec83138a7/src/Inference/instructions/treatment_plan_prompt.txt",
+    "https://raw.githubusercontent.com/MAGIC-AI4Med/MedRBench/ff60ab440afd2f2bc0c603b3a65d715ec83138a7/src/Inference/instructions/1turn_prompt_examination_recommend.txt"
+  ],
+  "source_type": "own release",
+  "revision": "ff60ab440afd2f2bc0c603b3a65d715ec83138a7",
+  "files": [
+    {
+      "path": "$CABA_DATA/medr_bench/README.md",
+      "bytes": 5162,
+      "sha256": "de092c9098d817551375e8d8826c176b1f371338fb3f141ae98ff49da61c40bf"
+    },
+    {
+      "path": "$CABA_DATA/medr_bench/LICENSE",
+      "bytes": 87,
+      "sha256": "d3ececd912065939a5b5b24c392976e0cf2edc58e665e297dbf9d6c83015ba63"
+    },
+    {
+      "path": "$CABA_DATA/medr_bench/data/MedRBench/diagnosis_957_cases_with_rare_disease_491.json",
+      "bytes": 15110933,
+      "sha256": "8639e6966b647a01a54a41f8aac2216255209641c6e452eb052a170702bb4bb1"
+    },
+    {
+      "path": "$CABA_DATA/medr_bench/data/MedRBench/treatment_496_cases_with_rare_disease_165.json",
+      "bytes": 8456764,
+      "sha256": "b95b922cdcce9564446d74fdd9c9beb3d7b889ed022eb590ba16bdb84f4a9673"
+    },
+    {
+      "path": "$CABA_DATA/medr_bench/src/Inference/instructions/oracle_diagnose.txt",
+      "bytes": 553,
+      "sha256": "815d6c4b54b4cdec97ba2282e8b667f4b8643e5f364d60bd76386001f21ee2be"
+    },
+    {
+      "path": "$CABA_DATA/medr_bench/src/Inference/instructions/treatment_plan_prompt.txt",
+      "bytes": 652,
+      "sha256": "f584f2ba742d6aa1d0a4fa1820a1218e49b499222cf78bc2d4413b7b30223ac0"
+    },
+    {
+      "path": "$CABA_DATA/medr_bench/src/Inference/instructions/1turn_prompt_examination_recommend.txt",
+      "bytes": 1820,
+      "sha256": "bf666a137a2193d94623ecfdb84280df532013b6bfde3fefe4bc8faa7934a72d"
+    }
+  ],
+  "license": "CC BY-SA (LICENSE, \"Copyright (c) 2024 MAGIC\")",
+  "split": "whole benchmark: diagnosis (957 cases) + treatment (496 cases)",
+  "n_items": 1453,
+  "public": "yes",
+  "english": "yes",
+  "text": "yes",
+  "single_request": "yes",
+  "request_fields": "instruction template (oracle_diagnose.txt or treatment_plan_prompt.txt) + generate_case.case_summary",
+  "example_structure": [
+    "body_category",
+    "case_id",
+    "checked_rare_disease",
+    "disorder_category",
+    "generate_case.case_summary",
+    "generate_case.diagnosis_results",
+    "generate_case.differential_diagnosis",
+    "raw_case"
+  ],
+  "notes": "957 diagnosis + 496 treatment cases = 1453 (matches the 1,453 in the paper), built from PMC-OA case reports (raw_case is the full report). Oracle diagnosis and treatment planning are single requests. The 1-turn and free-turn diagnosis settings run an examination-recommendation dialogue with a simulated patient agent over the same diagnosis cases (multi-turn); they do not add items. No figure references in case summaries. Checked 2026-10-04; no LLMs or API keys used.",
+  "rendering": {
+    "rule": "Repository prompt template filled exactly: oracle_diagnose.txt (diagnosis cases) or treatment_plan_prompt.txt (treatment cases) with {case} = generate_case.case_summary.",
+    "template_source": "https://github.com/MAGIC-AI4Med/MedRBench/tree/ff60ab440afd2f2bc0c603b3a65d715ec83138a7/src/Inference/instructions/oracle_diagnose.txt and /treatment_plan_prompt.txt",
+    "n_usable": 1453,
+    "n_sampled": 200,
+    "seed": 20261004,
+    "excluded": {
+      "non_english": 0,
+      "image": 0,
+      "duplicate": 0
+    },
+    "mean_chars": 1974.6,
+    "max_chars": 3267
+  },
+  "in_caba_v1_0": true
+}

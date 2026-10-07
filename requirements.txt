@@ -1,0 +1,11 @@
+# Reproduce the paper's comparison (scripts/compare.py) and rebuild the site data
+numpy>=1.24
+pandas>=2.0
+# Rebuild items from the original sources (scripts/render/)
+pyarrow>=14
+openpyxl>=3.1
+python-docx>=1.1
+lingua-language-detector==2.1.1
+# Re-fetch the frontier model reports (scripts/registry/frontier_reports.py); also needs pdftotext (poppler)
+requests>=2.31
+# Relabel items: pip install rcqmap (see https://github.com/[org]/rcq-map)

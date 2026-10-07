@@ -1,0 +1,55 @@
+{
+  "benchmark": "MEDEC",
+  "source_url": [
+    "https://raw.githubusercontent.com/abachaa/MEDEC/e9173f861b39706946b6a127394992c00535b1e3/README.md",
+    "https://raw.githubusercontent.com/abachaa/MEDEC/e9173f861b39706946b6a127394992c00535b1e3/MEDEC-MS/MEDEC-MS-TestSet-with-GroundTruth-and-ErrorType.csv"
+  ],
+  "source_type": "own release",
+  "revision": "e9173f861b39706946b6a127394992c00535b1e3",
+  "files": [
+    {
+      "path": "$CABA_DATA/medec/README.md",
+      "bytes": 5680,
+      "sha256": "663afe79541be0549abb5f0d301bc2e3ff76bf38634c5d6d64e235eba3221ba3"
+    },
+    {
+      "path": "$CABA_DATA/medec/MEDEC-MS/MEDEC-MS-TestSet-with-GroundTruth-and-ErrorType.csv",
+      "bytes": 1298473,
+      "sha256": "f35e2c3c1e4d98ca900394c4fcff14c2a84752e48ddc83698401da6a360c707e"
+    }
+  ],
+  "license": "CC BY 4.0 (README)",
+  "split": "MEDEC-MS test (597); MEDEC-UW test (328) is request-only",
+  "n_items": 597,
+  "public": "yes (MS test set); MEDEC-UW validation/test: no (request + UW-approved DUA)",
+  "english": "yes",
+  "text": "yes",
+  "single_request": "yes",
+  "request_fields": "instruction (detect error flag / error sentence / correction) + Sentences (sentence-numbered clinical text)",
+  "example_structure": [
+    "Corrected Sentence",
+    "Error Flag",
+    "Error Sentence",
+    "Error Sentence ID",
+    "Error Type",
+    "Sentences",
+    "Text",
+    "Text ID"
+  ],
+  "notes": "The CSV has 925 lines but 328 are empty placeholder rows (the 328-text UW test set is not released); 597 MS texts. MEDEC-UW access needs an emailed request and a UW Data Use Agreement, so it was not attempted. MS texts are MedQA-style vignettes with one inserted error or none. Checked 2026-10-04; no LLMs or API keys used.",
+  "rendering": {
+    "rule": "Full MedHELM prompt exactly as HELM builds it (generation adapter, zero-shot): instructions, blank line, \"Clinical Note: \" + sentence-numbered text, newline, final cue \"Answer:\" (test CSV identical to HELM-pinned commit 49c59dc).",
+    "template_source": "https://github.com/stanford-crfm/helm/blob/63754d05db6f874e41a395880fb573890a13e791/src/helm/benchmark/run_specs/medhelm_run_specs.py (get_medec_run_spec) and src/helm/benchmark/scenarios/medec_scenario.py",
+    "n_usable": 597,
+    "n_sampled": 200,
+    "seed": 20261004,
+    "excluded": {
+      "non_english": 0,
+      "image": 0,
+      "duplicate": 0
+    },
+    "mean_chars": 1418.1,
+    "max_chars": 2378
+  },
+  "in_caba_v1_0": true
+}

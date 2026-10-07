@@ -1,0 +1,88 @@
+{
+  "benchmark": "MedCaseReasoning",
+  "source_url": [
+    "https://huggingface.co/datasets/zou-lab/MedCaseReasoning/resolve/469a5365bc534b5b2b9cfbc52b2ef2a10f43a339/data/test-00000-of-00001.parquet",
+    "https://huggingface.co/datasets/zou-lab/MedCaseReasoning/resolve/469a5365bc534b5b2b9cfbc52b2ef2a10f43a339/README.md"
+  ],
+  "source_type": "own release",
+  "revision": "469a5365bc534b5b2b9cfbc52b2ef2a10f43a339",
+  "files": [
+    {
+      "path": "$CABA_DATA/medcasereasoning/data/test-00000-of-00001.parquet",
+      "bytes": 7346727,
+      "sha256": "353b33113cd504a870430f59d4149f1cc9e1c5561523ba745031719548b1c643",
+      "url": "https://huggingface.co/datasets/zou-lab/MedCaseReasoning/resolve/469a5365bc534b5b2b9cfbc52b2ef2a10f43a339/data/test-00000-of-00001.parquet",
+      "role": "items"
+    },
+    {
+      "path": "$CABA_DATA/medcasereasoning/_card/zou-lab__MedCaseReasoning_README.md",
+      "bytes": 897,
+      "sha256": "4917a67288da93c265f557e223685658fbc5ada5b91212e893e55e22cf73c393",
+      "url": "https://huggingface.co/datasets/zou-lab/MedCaseReasoning/resolve/469a5365bc534b5b2b9cfbc52b2ef2a10f43a339/README.md",
+      "role": "dataset card"
+    }
+  ],
+  "license": "mit",
+  "split": "test (data/test parquet; train, val and the 205 MB core files not downloaded)",
+  "n_items": 897,
+  "public": "yes",
+  "english": "yes",
+  "text": "yes",
+  "single_request": "yes",
+  "request_fields": "case_prompt (case presentation; model asked for the final diagnosis)",
+  "example_structure": [
+    "example",
+    "fields"
+  ],
+  "notes": "Items are case presentations from PMC open-access case reports; 'text' holds the full article text, 'diagnostic_reasoning' and 'final_diagnosis' are the references.",
+  "hf_repo": "zou-lab/MedCaseReasoning",
+  "checked_on": "2026-10-04",
+  "rendering": {
+    "rule": "template-defined: MedCaseReasoning's published Diagnostic Question Template (zero-shot) with case_prompt as {case_presentation}.",
+    "template_source": "https://github.com/kevinwu23/Stanford-MedCaseReasoning/blob/a64ec5ff1cb1fde7914a7bab3b1d9ab2b0546794/Supplemental_Material.pdf (Prompt 6: Diagnostic Question Template, pp. 9-10; transcribed from the PDF text layer: blank lines from the PDF layout, indentation removed); commit a64ec5ff1cb1fde7914a7bab3b1d9ab2b0546794. The repository's prompts.py is listed in its README but not present at this commit.",
+    "n_usable": 897,
+    "n_sampled": 200,
+    "seed": 20261004,
+    "excluded": {
+      "non_english": 0,
+      "image": 0,
+      "duplicate": 0
+    },
+    "image_rule": "Exclude an item as needing an unreleased picture only if (i) a released image field marks it (HEAD-QA 'image'), or (ii) its question stem (the part that asks the question: MCQ question text, MedCalc 'Question', MedHallu 'Question', Med-HALT reasoning 'question', a patient's own question in HealthCareMagic/iCliniq/MEDIQA-RQE) matches, case-insensitively, any of: (a) shown/seen/depicted/displayed/illustrated/pictured/presented/visualized + in/on/below/above + [the/this] [accompanying/following/attached/adjacent] + figure|image|picture|photo(graph)|(photo)micrograph|exhibit|illustration|diagram|graph; (b) see/refer to + [the/this/these] [accompanying/following/attached] + a word of (a), or look at + [the/this/these/my] [accompanying/following/attached] + a visual word (the list in (a) plus radiograph|x-ray|ECG|EKG|electrocardiogram|tracing|smear|scan); (c) 'the following/accompanying/attached/adjacent' + a visual word, unless preceded by 'which of'; (d) this/these + image|photo(graph)|(photo)micrograph|exhibit|illustration|diagram|graph (not 'figure' or 'picture', which in stems mostly mean numbers or a clinical picture); (e) figure/fig./image + a number, or + a space and a capital letter A-H (e.g. 'Figure 1', 'Figures A-C', 'image # 6'); (f) a visual word + shown|attached|enclosed|below; (g) attached/enclosed/uploaded/sent (or attaching/uploading/sending) + [herewith] [determiner] [one word other than for/to/in/out] + picture|photo(graph)|image|x-ray|radiograph. Documents the item asks about (case reports, patient notes, news articles, abstracts, radiology reports, conversations, MedS-Bench inputs, MedHallu Knowledge, MedCaseReasoning case_prompt, Med-HALT IR fields) are not scanned. Regex: (?:\\b(?:shown|seen|depicted|displayed|illustrated|pictured|presented|visuali[sz]ed)\\s+(?:in|on|below|above)\\s+(?:the\\s+|this\\s+)?(?:accompanying\\s+|following\\s+|attached\\s+|adjacent\\s+)?(?:figures?|fig\\.|images?|pictures?|photos?|photographs?|photomicrographs?|micrographs?|exhibits?|illustrations?|diagrams?|graphs?)\\b)|(?:\\b(?:see|refer\\s+to)\\s+(?:the\\s+|this\\s+|these\\s+)?(?:accompanying\\s+|following\\s+|attached\\s+)?(?:figures?|fig\\.|images?|pictures?|photos?|photographs?|photomicrographs?|micrographs?|exhibits?|illustrations?|diagrams?|graphs?)\\b)|(?:\\blook\\s+at\\s+(?:the\\s+|this\\s+|these\\s+|my\\s+)?(?:accompanying\\s+|following\\s+|attached\\s+)?(?:figures?|fig\\.|images?|pictures?|photos?|photographs?|photomicrographs?|micrographs?|exhibits?|illustrations?|diagrams?|graphs?|radiographs?|x-?rays?|ecgs?|ekgs?|electrocardiograms?|tracings?|smears?|scans?)\\b)|(?:(?<!which of )(?<!which of\\s)\\bthe\\s+(?:following|accompanying|attached|adjacent)\\s+(?:figures?|fig\\.|images?|pictures?|photos?|photographs?|photomicrographs?|micrographs?|exhibits?|illustrations?|diagrams?|graphs?|radiographs?|x-?rays?|ecgs?|ekgs?|electrocardiograms?|tracings?|smears?|scans?)\\b)|(?:\\b(?:this|these)\\s+(?:images?|photos?|photographs?|photomicrographs?|micrographs?|exhibits?|illustrations?|diagrams?|graphs?)\\b)|(?:\\b(?:figures?|figs?\\.|images?)(?:\\s*#?\\s*\\d+|\\s+(?-i:[A-H])(?:\\s*(?:-|–|and|,)\\s*(?-i:[A-H]))?)\\b)|(?:\\b(?:figures?|fig\\.|images?|pictures?|photos?|photographs?|photomicrographs?|micrographs?|exhibits?|illustrations?|diagrams?|graphs?|radiographs?|x-?rays?|ecgs?|ekgs?|electrocardiograms?|tracings?|smears?|scans?)\\s+(?:shown|attached|enclosed|below)\\b)|(?:\\b(?:attached|enclosed|uploaded|sent|sending|attaching|uploading)\\s+(?:herewith\\s+)?(?:(?:this|these|the|a|an|my|his|her|some|few|a\\s+few)\\s+)?(?:(?!for\\b|to\\b|in\\b|out\\b)\\w+\\s+)?(?:pictures?|photos?|photographs?|images?|x-?rays?|radiographs?)\\b)",
+    "mean_chars": 2110.6,
+    "max_chars": 3392,
+    "n_released_rendered": 897,
+    "n_unrenderable": 0,
+    "rendered_file": "$CABA_DATA/rendered/medcasereasoning.jsonl",
+    "version": 2,
+    "v1": {
+      "n_usable": 897,
+      "n_sampled": 200,
+      "mean_chars": 1562.6,
+      "max_chars": 2844,
+      "excluded": {
+        "non_english": 0,
+        "image": 0,
+        "duplicate": 0
+      },
+      "template_source": "none used (authors' evaluation prompt in the MedCaseReasoning paper/repository, arXiv:2505.11733; not fetched because this task was restricted to local files)"
+    },
+    "sample_vs_v1": "identical items",
+    "template_files": [
+      {
+        "path": "$CABA_DATA/medcasereasoning/_template/Supplemental_Material.pdf",
+        "bytes": 217003,
+        "sha256": "e36f81087fcef4868d5e8cf1201f3e337b8014c320bfb90fffd05e3f3b826a9f",
+        "url": "https://raw.githubusercontent.com/kevinwu23/Stanford-MedCaseReasoning/a64ec5ff1cb1fde7914a7bab3b1d9ab2b0546794/Supplemental_Material.pdf"
+      },
+      {
+        "path": "$CABA_DATA/medcasereasoning/_template/prompt6_diagnostic_question_template.txt",
+        "bytes": 567,
+        "sha256": "d01adc78670e452fb6bae498c70e530fb7ec5f0645945ec666aa8eeea69ab060",
+        "note": "transcription of Prompt 6 from the PDF above, as used for rendering"
+      }
+    ],
+    "template_commit": "a64ec5ff1cb1fde7914a7bab3b1d9ab2b0546794"
+  },
+  "in_caba_v1_0": true
+}

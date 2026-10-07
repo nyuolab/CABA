@@ -1,0 +1,75 @@
+{
+  "benchmark": "EHRSQL",
+  "source_url": [
+    "https://raw.githubusercontent.com/glee4810/EHRSQL/01241a3c55bda895561c76923251ea2421d2e892/README.md",
+    "https://raw.githubusercontent.com/glee4810/EHRSQL/01241a3c55bda895561c76923251ea2421d2e892/LICENSE",
+    "https://raw.githubusercontent.com/glee4810/EHRSQL/01241a3c55bda895561c76923251ea2421d2e892/dataset/ehrsql/CHANGELOG.md",
+    "https://raw.githubusercontent.com/glee4810/EHRSQL/01241a3c55bda895561c76923251ea2421d2e892/dataset/ehrsql/mimic_iii/test.json",
+    "https://raw.githubusercontent.com/glee4810/EHRSQL/01241a3c55bda895561c76923251ea2421d2e892/dataset/ehrsql/eicu/test.json"
+  ],
+  "source_type": "own release",
+  "revision": "01241a3c55bda895561c76923251ea2421d2e892",
+  "files": [
+    {
+      "path": "$CABA_DATA/ehrsql/README.md",
+      "bytes": 9460,
+      "sha256": "a48a00d624a7277b43c7b9fcec9edd9938dec1173983ff459813d55d836bfa24"
+    },
+    {
+      "path": "$CABA_DATA/ehrsql/LICENSE",
+      "bytes": 18649,
+      "sha256": "95df2e9564862e51d69683a899b6dcc8218d577057bdf67322880769ff85f29e"
+    },
+    {
+      "path": "$CABA_DATA/ehrsql/dataset/ehrsql/CHANGELOG.md",
+      "bytes": 4594,
+      "sha256": "cf4d1a5c7fe8991e6bdae5d1e81074715987a2c6608eab12397c4ee63a0c7666"
+    },
+    {
+      "path": "$CABA_DATA/ehrsql/dataset/ehrsql/mimic_iii/test.json",
+      "bytes": 2183393,
+      "sha256": "fdf73447c55a18c0ea201d8a19cdf645539715add49046d41fa394d3acfe51f3"
+    },
+    {
+      "path": "$CABA_DATA/ehrsql/dataset/ehrsql/eicu/test.json",
+      "bytes": 2225519,
+      "sha256": "64dae91d50ab88140b10e994cb0f690286e8b62272101f9d911e75a588e757fa"
+    }
+  ],
+  "license": "CC BY 4.0 (LICENSE); databases derived from MIMIC-III and eICU (PhysioNet credentialed)",
+  "split": "test (mimic_iii/test.json + eicu/test.json), dataset v1.5.1",
+  "n_items": 3578,
+  "public": "yes",
+  "english": "yes",
+  "text": "yes",
+  "single_request": "yes",
+  "request_fields": "question (+ database schema from tables.json / prompt template in the evaluating suite); target is a SQL query or abstention",
+  "example_structure": [
+    "db_id",
+    "department",
+    "id",
+    "importance",
+    "is_impossible",
+    "para_type",
+    "query",
+    "question",
+    "split",
+    "template"
+  ],
+  "notes": "MIMIC-III test 1786 + eICU test 1792 = 3578 questions, of which 1176 are unanswerable (is_impossible, expected abstention). Questions and gold SQL are public; executing SQL needs the preprocessed SQLite databases (Google Drive links in README; not downloaded, they are databases not items) or credentialed PhysioNet access to rebuild them. Repo HEAD is dataset v1.5.1 (2026-04-28; question text edited since the NeurIPS 2022 release and since suites such as MedHELM pulled it). single_request=yes because each item is a natural-language data request from hospital staff answered in one turn, but the answer is SQL (text-to-SQL); could be read as structured prediction. Flag. Checked 2026-10-04; no LLMs or API keys used.",
+  "rendering": {
+    "rule": "Item text as released: the natural-language question only (no schema, no SQL).",
+    "template_source": "none",
+    "n_usable": 3499,
+    "n_sampled": 200,
+    "seed": 20261004,
+    "excluded": {
+      "non_english": 0,
+      "image": 0,
+      "duplicate": 79
+    },
+    "mean_chars": 82.0,
+    "max_chars": 202
+  },
+  "in_caba_v1_0": true
+}

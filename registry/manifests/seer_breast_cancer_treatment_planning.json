@@ -1,0 +1,57 @@
+{
+  "benchmark": "SEER breast cancer treatment planning",
+  "source_url": [
+    "https://huggingface.co/datasets/Henrychur/MedS-Bench/resolve/6945b14e0f408082aecb6a77a185b9ebdd5fb413/Treatment_planning/task131_SEER_text_classification_test.json",
+    "https://huggingface.co/datasets/Henrychur/MedS-Bench-SPLIT/resolve/bae9b49bb23ffcd5b1b64345f021d4d5b803b503/Treatment_planning/task131_SEER_text_classification_test.json",
+    "https://huggingface.co/datasets/Henrychur/MedS-Bench/resolve/6945b14e0f408082aecb6a77a185b9ebdd5fb413/README.md"
+  ],
+  "source_type": "suite release (MedS-Bench, Henrychur/MedS-Bench; dataset recast as instruction + input)",
+  "revision": "6945b14e0f408082aecb6a77a185b9ebdd5fb413",
+  "files": [
+    {
+      "path": "$CABA_DATA/seer_breast_cancer_treatment_planning/Treatment_planning/task131_SEER_text_classification_test.json",
+      "bytes": 2544354,
+      "sha256": "278006b61b0c8a9e30e9599fefd67913404898bf427bc51ccc1b3a5c9c0202a7",
+      "url": "https://huggingface.co/datasets/Henrychur/MedS-Bench/resolve/6945b14e0f408082aecb6a77a185b9ebdd5fb413/Treatment_planning/task131_SEER_text_classification_test.json",
+      "role": "items"
+    },
+    {
+      "path": "$CABA_DATA/seer_breast_cancer_treatment_planning/MedS-Bench-SPLIT/Treatment_planning/task131_SEER_text_classification_test.json",
+      "bytes": 1084266,
+      "sha256": "f0d82ad2c90a65e7a0d97154093acd7648b1b78c2b4c937f5c0b7922121e1a02",
+      "url": "https://huggingface.co/datasets/Henrychur/MedS-Bench-SPLIT/resolve/bae9b49bb23ffcd5b1b64345f021d4d5b803b503/Treatment_planning/task131_SEER_text_classification_test.json",
+      "role": "MedS-Bench-SPLIT copy (paper's sampled cases), for comparison"
+    },
+    {
+      "path": "$CABA_DATA/seer_breast_cancer_treatment_planning/_card/Henrychur__MedS-Bench_README.md",
+      "bytes": 3233,
+      "sha256": "3eeb259f606cf10da08d5783f43527f37346d264a09bcffd6f945bbfc3d860ea",
+      "url": "https://huggingface.co/datasets/Henrychur/MedS-Bench/resolve/6945b14e0f408082aecb6a77a185b9ebdd5fb413/README.md",
+      "role": "dataset card"
+    }
+  ],
+  "license": "MedS-Bench card states no license; SEER data use terms apply to the underlying data (not verified for this derivative).",
+  "split": "test (MedS-Bench test file, all instances)",
+  "n_items": 3535,
+  "public": "yes (MedS-Bench on Hugging Face: public, not gated, no login)",
+  "english": "yes",
+  "text": "yes",
+  "single_request": "yes",
+  "request_fields": "Definition (task instruction, shared by all instances) + Instances[].input",
+  "example_structure": [
+    "example",
+    "fields",
+    "file_keys"
+  ],
+  "notes": "Used MedS-Bench task131_SEER_text_classification_test (Treatment planning; structured SEER breast-cancer case summary -> treatment class). The main file's Source/URL metadata wrongly say DDXPlus/figshare (copy error); the SPLIT file says SEER. Underlying SEER research data normally require a SEER Research Data Agreement; MedS-Bench redistributes these derived case summaries without one. MedS-Bench paper evaluated 1,500 cases (SPLIT). Instance counts: main {'task131_SEER_text_classification_test.json': 3535}; MedS-Bench-SPLIT (sampled cases used in the MedS-Bench paper, revision bae9b49bb23ffcd5b1b64345f021d4d5b803b503): {'task131_SEER_text_classification_test.json': 1500}.",
+  "n_items_by_file": {
+    "task131_SEER_text_classification_test.json": 3535
+  },
+  "n_items_medsbench_split": {
+    "task131_SEER_text_classification_test.json": 1500
+  },
+  "revision_medsbench_split": "bae9b49bb23ffcd5b1b64345f021d4d5b803b503",
+  "hf_repo": "Henrychur/MedS-Bench",
+  "checked_on": "2026-10-04",
+  "in_caba_v1_0": false
+}

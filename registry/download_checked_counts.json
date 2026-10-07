@@ -1,0 +1,12 @@
+{
+ "download_check": 73,
+ "status": {
+  "include": 58,
+  "exclude:public": 8,
+  "exclude:single": 4,
+  "exclude:health": 1,
+  "merge": 2
+ },
+ "included": 58,
+ "items_to_annotate": 10801
+}

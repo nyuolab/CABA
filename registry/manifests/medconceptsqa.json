@@ -1,0 +1,81 @@
+{
+  "benchmark": "MedConceptsQA",
+  "source_url": [
+    "https://huggingface.co/datasets/ofir408/MedConceptsQA/resolve/98c30d83762e51a397c9a7b0eeee6722e751da17/all/test-00000-of-00002.parquet",
+    "https://huggingface.co/datasets/ofir408/MedConceptsQA/resolve/98c30d83762e51a397c9a7b0eeee6722e751da17/all/test-00001-of-00002.parquet",
+    "https://huggingface.co/datasets/ofir408/MedConceptsQA/resolve/98c30d83762e51a397c9a7b0eeee6722e751da17/README.md"
+  ],
+  "source_type": "own release",
+  "revision": "98c30d83762e51a397c9a7b0eeee6722e751da17",
+  "files": [
+    {
+      "path": "$CABA_DATA/medconceptsqa/all/test-00000-of-00002.parquet",
+      "bytes": 123801096,
+      "sha256": "ce2b8649f9ac1c598858a5ddb4392a735cf65e08fe4c34375992a89de041984e",
+      "url": "https://huggingface.co/datasets/ofir408/MedConceptsQA/resolve/98c30d83762e51a397c9a7b0eeee6722e751da17/all/test-00000-of-00002.parquet",
+      "role": "items"
+    },
+    {
+      "path": "$CABA_DATA/medconceptsqa/all/test-00001-of-00002.parquet",
+      "bytes": 123717489,
+      "sha256": "529316419aa5d5a4c91457dde5bfa769fb29921b749289784a167d7c2e5dc6d4",
+      "url": "https://huggingface.co/datasets/ofir408/MedConceptsQA/resolve/98c30d83762e51a397c9a7b0eeee6722e751da17/all/test-00001-of-00002.parquet",
+      "role": "items"
+    },
+    {
+      "path": "$CABA_DATA/medconceptsqa/_card/ofir408__MedConceptsQA_README.md",
+      "bytes": 12265,
+      "sha256": "839c51282b44479ca46efd96dea5e3a835f3475fb0681c258df6a9ebe2c26b19",
+      "url": "https://huggingface.co/datasets/ofir408/MedConceptsQA/resolve/98c30d83762e51a397c9a7b0eeee6722e751da17/README.md",
+      "role": "dataset card"
+    }
+  ],
+  "license": "apache-2.0",
+  "split": "test (config 'all', 2 parquet shards; dev few-shot files not downloaded)",
+  "n_items": 819772,
+  "public": "yes",
+  "english": "yes",
+  "text": "yes",
+  "single_request": "yes",
+  "request_fields": "question (the field already contains the four lettered options; option1-4 also given separately)",
+  "example_structure": [
+    "example",
+    "fields"
+  ],
+  "notes": "Auto-generated code-description MCQs over ICD-9-CM, ICD-10-CM, ICD-9-PCS, ICD-10-PCS and ATC at easy/medium/hard levels; the 15 per-vocabulary configs are subsets of 'all'.",
+  "hf_repo": "ofir408/MedConceptsQA",
+  "checked_on": "2026-10-04",
+  "rendering": {
+    "rule": "multiple choice as released: the question field already holds the stem and the four options one per line lettered A-D.",
+    "template_source": "none",
+    "n_usable": 819772,
+    "n_sampled": 200,
+    "seed": 20261004,
+    "excluded": {
+      "non_english": 0,
+      "image": 0,
+      "duplicate": 0
+    },
+    "image_rule": "Exclude an item as needing an unreleased picture only if (i) a released image field marks it (HEAD-QA 'image'), or (ii) its question stem (the part that asks the question: MCQ question text, MedCalc 'Question', MedHallu 'Question', Med-HALT reasoning 'question', a patient's own question in HealthCareMagic/iCliniq/MEDIQA-RQE) matches, case-insensitively, any of: (a) shown/seen/depicted/displayed/illustrated/pictured/presented/visualized + in/on/below/above + [the/this] [accompanying/following/attached/adjacent] + figure|image|picture|photo(graph)|(photo)micrograph|exhibit|illustration|diagram|graph; (b) see/refer to + [the/this/these] [accompanying/following/attached] + a word of (a), or look at + [the/this/these/my] [accompanying/following/attached] + a visual word (the list in (a) plus radiograph|x-ray|ECG|EKG|electrocardiogram|tracing|smear|scan); (c) 'the following/accompanying/attached/adjacent' + a visual word, unless preceded by 'which of'; (d) this/these + image|photo(graph)|(photo)micrograph|exhibit|illustration|diagram|graph (not 'figure' or 'picture', which in stems mostly mean numbers or a clinical picture); (e) figure/fig./image + a number, or + a space and a capital letter A-H (e.g. 'Figure 1', 'Figures A-C', 'image # 6'); (f) a visual word + shown|attached|enclosed|below; (g) attached/enclosed/uploaded/sent (or attaching/uploading/sending) + [herewith] [determiner] [one word other than for/to/in/out] + picture|photo(graph)|image|x-ray|radiograph. Documents the item asks about (case reports, patient notes, news articles, abstracts, radiology reports, conversations, MedS-Bench inputs, MedHallu Knowledge, MedCaseReasoning case_prompt, Med-HALT IR fields) are not scanned. Regex: (?:\\b(?:shown|seen|depicted|displayed|illustrated|pictured|presented|visuali[sz]ed)\\s+(?:in|on|below|above)\\s+(?:the\\s+|this\\s+)?(?:accompanying\\s+|following\\s+|attached\\s+|adjacent\\s+)?(?:figures?|fig\\.|images?|pictures?|photos?|photographs?|photomicrographs?|micrographs?|exhibits?|illustrations?|diagrams?|graphs?)\\b)|(?:\\b(?:see|refer\\s+to)\\s+(?:the\\s+|this\\s+|these\\s+)?(?:accompanying\\s+|following\\s+|attached\\s+)?(?:figures?|fig\\.|images?|pictures?|photos?|photographs?|photomicrographs?|micrographs?|exhibits?|illustrations?|diagrams?|graphs?)\\b)|(?:\\blook\\s+at\\s+(?:the\\s+|this\\s+|these\\s+|my\\s+)?(?:accompanying\\s+|following\\s+|attached\\s+)?(?:figures?|fig\\.|images?|pictures?|photos?|photographs?|photomicrographs?|micrographs?|exhibits?|illustrations?|diagrams?|graphs?|radiographs?|x-?rays?|ecgs?|ekgs?|electrocardiograms?|tracings?|smears?|scans?)\\b)|(?:(?<!which of )(?<!which of\\s)\\bthe\\s+(?:following|accompanying|attached|adjacent)\\s+(?:figures?|fig\\.|images?|pictures?|photos?|photographs?|photomicrographs?|micrographs?|exhibits?|illustrations?|diagrams?|graphs?|radiographs?|x-?rays?|ecgs?|ekgs?|electrocardiograms?|tracings?|smears?|scans?)\\b)|(?:\\b(?:this|these)\\s+(?:images?|photos?|photographs?|photomicrographs?|micrographs?|exhibits?|illustrations?|diagrams?|graphs?)\\b)|(?:\\b(?:figures?|figs?\\.|images?)(?:\\s*#?\\s*\\d+|\\s+(?-i:[A-H])(?:\\s*(?:-|–|and|,)\\s*(?-i:[A-H]))?)\\b)|(?:\\b(?:figures?|fig\\.|images?|pictures?|photos?|photographs?|photomicrographs?|micrographs?|exhibits?|illustrations?|diagrams?|graphs?|radiographs?|x-?rays?|ecgs?|ekgs?|electrocardiograms?|tracings?|smears?|scans?)\\s+(?:shown|attached|enclosed|below)\\b)|(?:\\b(?:attached|enclosed|uploaded|sent|sending|attaching|uploading)\\s+(?:herewith\\s+)?(?:(?:this|these|the|a|an|my|his|her|some|few|a\\s+few)\\s+)?(?:(?!for\\b|to\\b|in\\b|out\\b)\\w+\\s+)?(?:pictures?|photos?|photographs?|images?|x-?rays?|radiographs?)\\b)",
+    "mean_chars": 388.3,
+    "max_chars": 606,
+    "n_released_rendered": 819772,
+    "n_unrenderable": 0,
+    "rendered_file": "$CABA_DATA/rendered/medconceptsqa.jsonl",
+    "version": 2,
+    "v1": {
+      "n_usable": 819772,
+      "n_sampled": 200,
+      "mean_chars": 388.3,
+      "max_chars": 606,
+      "excluded": {
+        "non_english": 0,
+        "image": 0,
+        "duplicate": 0
+      },
+      "template_source": "none"
+    },
+    "sample_vs_v1": "identical items"
+  },
+  "in_caba_v1_0": true
+}

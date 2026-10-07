@@ -1,0 +1,50 @@
+{
+  "benchmark": "MeQSum",
+  "source_url": [
+    "https://raw.githubusercontent.com/abachaa/MeQSum/51e36cf65c12602333b6fdc3ae8ecf10430529f7/README.md",
+    "https://raw.githubusercontent.com/abachaa/MeQSum/51e36cf65c12602333b6fdc3ae8ecf10430529f7/MeQSum_ACL2019_BenAbacha_Demner-Fushman.xlsx"
+  ],
+  "source_type": "own release",
+  "revision": "51e36cf65c12602333b6fdc3ae8ecf10430529f7",
+  "files": [
+    {
+      "path": "$CABA_DATA/meqsum/README.md",
+      "bytes": 2158,
+      "sha256": "e9bb48a127beeca4cf80bd4c04880a718c022a6e39f892589f8aa8794bc2da36"
+    },
+    {
+      "path": "$CABA_DATA/meqsum/MeQSum_ACL2019_BenAbacha_Demner-Fushman.xlsx",
+      "bytes": 216310,
+      "sha256": "abedd939d5014306ca576522416bf69103e85dc8fcf1668a4099e8b84a39eeea"
+    }
+  ],
+  "license": "CC BY 4.0 (README)",
+  "split": "whole set (no official split)",
+  "n_items": 1000,
+  "public": "yes",
+  "english": "yes",
+  "text": "yes",
+  "single_request": "yes",
+  "request_fields": "instruction (summarise the consumer health question) + CHQ (SUBJECT + MESSAGE)",
+  "example_structure": [
+    "CHQ",
+    "File",
+    "Summary"
+  ],
+  "notes": "1,000 consumer health questions (NLM) with expert one-line summaries; the release has no train/test split. Suites define their own test subsets (e.g., MedS-Bench redistributes a MeQSum test file on Hugging Face; not downloaded here because the own release is complete and public). Checked 2026-10-04; no LLMs or API keys used.",
+  "rendering": {
+    "rule": "Instruction-style via the CLUE suite template (zero-shot): CLUE system prompt, blank line, then the user turn wrapping the consumer health question (CHQ).",
+    "template_source": "https://github.com/TIO-IKIM/CLUE/blob/2de4314cfaf2651a362a2df2ac8336ca0937ea52/eval/eval_meqsum.py",
+    "n_usable": 1000,
+    "n_sampled": 200,
+    "seed": 20261004,
+    "excluded": {
+      "non_english": 0,
+      "image": 0,
+      "duplicate": 0
+    },
+    "mean_chars": 777.3,
+    "max_chars": 2426
+  },
+  "in_caba_v1_0": true
+}

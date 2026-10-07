@@ -1,0 +1,60 @@
+{
+  "benchmark": "Medbullets",
+  "source_url": [
+    "https://raw.githubusercontent.com/HanjieChen/ChallengeClinicalQA/013b9447f2a2426155c0de02a42e03d4540a3501/README.md",
+    "https://raw.githubusercontent.com/HanjieChen/ChallengeClinicalQA/013b9447f2a2426155c0de02a42e03d4540a3501/medbullets/medbullets_op4.csv",
+    "https://raw.githubusercontent.com/HanjieChen/ChallengeClinicalQA/013b9447f2a2426155c0de02a42e03d4540a3501/medbullets/medbullets_op5.csv"
+  ],
+  "source_type": "own release",
+  "revision": "013b9447f2a2426155c0de02a42e03d4540a3501",
+  "files": [
+    {
+      "path": "$CABA_DATA/medbullets/README.md",
+      "bytes": 3422,
+      "sha256": "8cf70d09b6d3cf2949eee95e8f22471c7ee5444652bbdeabb53445d7398c5ada"
+    },
+    {
+      "path": "$CABA_DATA/medbullets/medbullets/medbullets_op4.csv",
+      "bytes": 1209737,
+      "sha256": "f35c24c7940fd3fd28594a4081e66bded3718cd98b4491d0f307d34ceb945893"
+    },
+    {
+      "path": "$CABA_DATA/medbullets/medbullets/medbullets_op5.csv",
+      "bytes": 1217131,
+      "sha256": "7da4b1397418b4bd15074066ea6a377ac44a599794a959cd8ebc76937ea597e6"
+    }
+  ],
+  "license": "none stated (no LICENSE file in repo)",
+  "split": "whole set (308 questions; op4 and op5 versions of the same questions)",
+  "n_items": 308,
+  "public": "yes",
+  "english": "yes",
+  "text": "subset (194 text-only; 114 refer to \"Figure X\" images not included in the release, identifiable by regex)",
+  "single_request": "yes",
+  "request_fields": "question + opa..ope (op5) or opa..opd (op4)",
+  "example_structure": [
+    "answer",
+    "answer_idx",
+    "explanation",
+    "link",
+    "opa",
+    "question"
+  ],
+  "notes": "308 USMLE Step 2/3-style questions from Medbullets (298 unique question strings; 10 duplicates). 114 questions refer to a figure (\"Figure A\" etc.) that is not in the release, so they are not fully answerable from text; MedHELM uses all 308. The companion JAMA Clinical Challenge set is not released (scraper only; requires JAMA access) and is not part of this benchmark row. Checked 2026-10-04; no LLMs or API keys used.",
+  "rendering": {
+    "rule": "Multiple choice (op5 file, as MedHELM uses): question, then options A-E one per line.",
+    "template_source": "none",
+    "n_usable": 185,
+    "n_sampled": 185,
+    "seed": 20261004,
+    "excluded": {
+      "non_english": 0,
+      "image": 116,
+      "duplicate": 7
+    },
+    "image_rule": "question text matches \\bFigures?\\s+[A-Z]\\b (a lettered figure such as \"Figure A\" or \"Figures A-E\"; Medbullets releases no images)",
+    "mean_chars": 1068.4,
+    "max_chars": 1651
+  },
+  "in_caba_v1_0": true
+}

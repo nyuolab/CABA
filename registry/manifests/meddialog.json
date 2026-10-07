@@ -1,0 +1,64 @@
+{
+  "benchmark": "MedDialog",
+  "source_url": [
+    "https://worksheets.codalab.org/rest/bundles/0x82f0c47f6d3e4462ae9ef8ea39eebe64/contents/blob/healthcaremagic/test.json",
+    "https://worksheets.codalab.org/rest/bundles/0x82f0c47f6d3e4462ae9ef8ea39eebe64/contents/blob/icliniq/test.json",
+    "https://raw.githubusercontent.com/stanford-crfm/helm/63754d05db6f874e41a395880fb573890a13e791/src/helm/benchmark/scenarios/med_dialog_scenario.py"
+  ],
+  "source_type": "suite release (MedHELM/HELM CodaLab bundle of MedDialog-EN with BioBART preprocessing)",
+  "revision": "CodaLab bundle 0x82f0c47f6d3e4462ae9ef8ea39eebe64 (immutable, created 2022-08-23); HELM 63754d05db6f874e41a395880fb573890a13e791",
+  "files": [
+    {
+      "path": "$CABA_DATA/meddialog/healthcaremagic/test.json",
+      "bytes": 24975977,
+      "sha256": "b28e61822973fcbf845ff69f0b7ded4a7180659016e3b3ab342163befeb00f5a"
+    },
+    {
+      "path": "$CABA_DATA/meddialog/icliniq/test.json",
+      "bytes": 3991691,
+      "sha256": "4154dfceee3a7fc9df6b62174f1ac58f26f219cbb474e39122f54918789e211b"
+    },
+    {
+      "path": "$CABA_DATA/meddialog/helm_med_dialog_scenario.py",
+      "bytes": 8615,
+      "sha256": "30a0e564b24452ad670d1ce59079694d63b11f0820856317710bc725c3362cfd"
+    }
+  ],
+  "license": "none stated on the bundle; MedDialog notes all copyrights of the dialogues belong to healthcaremagic.com and icliniq.com",
+  "split": "test (healthcaremagic 22,642 + icliniq 3,108)",
+  "n_items": 25750,
+  "public": "yes",
+  "english": "yes (English MedDialog only; the Chinese MedDialog is not in this bundle)",
+  "text": "yes",
+  "single_request": "yes",
+  "request_fields": "HELM instruction \"Generate a one sentence summary of this patient-doctor conversation.\" + src (Patient: ... Doctor: ... dialogue)",
+  "example_structure": [
+    "id",
+    "src",
+    "tgt"
+  ],
+  "notes": "url_data in todo.csv is this CodaLab bundle, which HELM's MedDialogScenario downloads (test split only; train 200 MB + 32 MB and valid files not downloaded). The task is dialogue-to-question summarization (tgt = the patient's question title). Checked 2026-10-04; no LLMs or API keys used.",
+  "rendering": {
+    "rule": "template: MedHELM med_dialog prompt (HELM generation adapter: instruction, blank line, \"Patient-Doctor: <dialogue>\", then the output cue \"Summary:\"); healthcaremagic and icliniq pooled",
+    "template_source": "https://github.com/stanford-crfm/helm/blob/63754d05db6f874e41a395880fb573890a13e791/src/helm/benchmark/run_specs/medhelm_run_specs.py (get_med_dialog_spec) + src/helm/benchmark/adaptation/common_adapter_specs.py and prompt.py at the same commit",
+    "n_usable": 24711,
+    "n_sampled": 200,
+    "seed": 20261004,
+    "excluded": {
+      "non_english": 0,
+      "image": 0,
+      "duplicate": 1039
+    },
+    "mean_chars": 1085.5,
+    "max_chars": 5401,
+    "n_usable_by_component": {
+      "healthcaremagic": 22642,
+      "icliniq": 2069
+    },
+    "n_sampled_by_component": {
+      "healthcaremagic": 178,
+      "icliniq": 22
+    }
+  },
+  "in_caba_v1_0": true
+}

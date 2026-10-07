@@ -1,0 +1,60 @@
+{
+  "benchmark": "Pharmacology QA for Emerging Drugs",
+  "source_url": [
+    "https://raw.githubusercontent.com/AI-in-Health/ClinicBench/57138be8a73f09bef8980f849789baf57570c5cf/Pharmacology-QA.xlsx",
+    "https://raw.githubusercontent.com/AI-in-Health/ClinicBench/57138be8a73f09bef8980f849789baf57570c5cf/README.md",
+    "https://raw.githubusercontent.com/AI-in-Health/ClinicBench/57138be8a73f09bef8980f849789baf57570c5cf/LICENSE"
+  ],
+  "source_type": "own release (ClinicBench)",
+  "revision": "57138be8a73f09bef8980f849789baf57570c5cf",
+  "files": [
+    {
+      "path": "$CABA_DATA/pharmacology_qa_for_emerging_drugs/Pharmacology-QA.xlsx",
+      "bytes": 38665,
+      "sha256": "ad9346a63ed54cbe81a8057bf043e3eb147ea89c87de03808ccb4164dda326bb"
+    },
+    {
+      "path": "$CABA_DATA/pharmacology_qa_for_emerging_drugs/README.md",
+      "bytes": 6218,
+      "sha256": "c440695a1f61e7e7c1a0f0f8f760e6ffe67f32ca1e83cb337917091825e70731"
+    },
+    {
+      "path": "$CABA_DATA/pharmacology_qa_for_emerging_drugs/LICENSE",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    }
+  ],
+  "license": "Apache-2.0 (ClinicBench repository LICENSE)",
+  "split": "whole set (sheet \"selected\"; no split)",
+  "n_items": 213,
+  "public": "yes",
+  "english": "yes",
+  "text": "yes",
+  "single_request": "yes",
+  "request_fields": "task prompt (paper Table 8) + question + option_A..option_D",
+  "example_structure": [
+    "answer",
+    "description",
+    "explanation",
+    "name",
+    "option_A",
+    "question",
+    "type"
+  ],
+  "notes": "Benchmark exists only as part of the ClinicBench release (Liu et al., EMNLP 2024; ClinicBench is the suite and the own release). Prompt text per task is in Table 8 of the paper (https://aclanthology.org/2024.emnlp-main.759.pdf); the release ships items without the prompt. 213 four-option MCQs on drugs released Oct 2023-Apr 2024 (DrugBank-derived); matches 213 in Table 1. One row has type \"Ω\" (data-entry artefact; the question itself is normal). Checked 2026-10-04; no LLMs or API keys used.",
+  "rendering": {
+    "rule": "Multiple choice: question, then options A-D one per line.",
+    "template_source": "none",
+    "n_usable": 213,
+    "n_sampled": 200,
+    "seed": 20261004,
+    "excluded": {
+      "non_english": 0,
+      "image": 0,
+      "duplicate": 0
+    },
+    "mean_chars": 151.4,
+    "max_chars": 559
+  },
+  "in_caba_v1_0": true
+}

@@ -1,0 +1,14 @@
+{
+ "benchmarks_named": 175,
+ "from_suites_only": 153,
+ "from_frontier_only": 10,
+ "from_both": 12,
+ "excluded_before_download": {
+  "public": 42,
+  "health": 8,
+  "single": 4,
+  "english": 40,
+  "text": 8
+ },
+ "to_download_check": 73
+}

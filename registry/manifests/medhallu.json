@@ -1,0 +1,102 @@
+{
+  "benchmark": "MedHallu",
+  "source_url": [
+    "https://huggingface.co/datasets/UTAustin-AIHealth/MedHallu/resolve/515060458a945c633debc6fd5baac7764416b724/pqa_labeled/train-00000-of-00001.parquet",
+    "https://huggingface.co/datasets/UTAustin-AIHealth/MedHallu/resolve/515060458a945c633debc6fd5baac7764416b724/pqa_artificial/train-00000-of-00001.parquet",
+    "https://huggingface.co/datasets/UTAustin-AIHealth/MedHallu/resolve/515060458a945c633debc6fd5baac7764416b724/README.md"
+  ],
+  "source_type": "own release",
+  "revision": "515060458a945c633debc6fd5baac7764416b724",
+  "files": [
+    {
+      "path": "$CABA_DATA/medhallu/pqa_labeled/train-00000-of-00001.parquet",
+      "bytes": 1116475,
+      "sha256": "ac963f9aaeb163f494edd4dbfec04086c3e35c7cc55e3f9c8b1d7b31188fa34c",
+      "url": "https://huggingface.co/datasets/UTAustin-AIHealth/MedHallu/resolve/515060458a945c633debc6fd5baac7764416b724/pqa_labeled/train-00000-of-00001.parquet",
+      "role": "items"
+    },
+    {
+      "path": "$CABA_DATA/medhallu/pqa_artificial/train-00000-of-00001.parquet",
+      "bytes": 10283429,
+      "sha256": "70de8ce7f89a38314fa231a12e45168f3ee1aa591e8a38f6556b89aa8b1ca513",
+      "url": "https://huggingface.co/datasets/UTAustin-AIHealth/MedHallu/resolve/515060458a945c633debc6fd5baac7764416b724/pqa_artificial/train-00000-of-00001.parquet",
+      "role": "items"
+    },
+    {
+      "path": "$CABA_DATA/medhallu/_card/UTAustin-AIHealth__MedHallu_README.md",
+      "bytes": 3744,
+      "sha256": "889d01a47df55b63c4330c56580796fabec0e472156439590c44f66b0b34613a",
+      "url": "https://huggingface.co/datasets/UTAustin-AIHealth/MedHallu/resolve/515060458a945c633debc6fd5baac7764416b724/README.md",
+      "role": "dataset card"
+    }
+  ],
+  "license": "MIT (stated in the dataset card; no license tag on the Hub)",
+  "split": "pqa_labeled + pqa_artificial (both named 'train' on the Hub; the dataset is evaluation-only)",
+  "n_items": 10000,
+  "public": "yes",
+  "english": "yes",
+  "text": "yes",
+  "single_request": "yes",
+  "request_fields": "Question + Knowledge + one candidate answer (Ground Truth or Hallucinated Answer), wrapped in the authors' hallucination-detection prompt (prompt not in the Hub files)",
+  "example_structure": [
+    "example",
+    "fields"
+  ],
+  "notes": "pqa_labeled 1000 high-quality items (from PubMedQA pqa_labeled) + pqa_artificial 9000 (from PubMedQA pqa_artificial). Each item can yield two requests (ground-truth vs hallucinated answer). If only the high-quality subset is wanted, use pqa_labeled (1,000).",
+  "n_items_by_config": {
+    "pqa_labeled": 1000,
+    "pqa_artificial": 9000
+  },
+  "hf_repo": "UTAustin-AIHealth/MedHallu",
+  "checked_on": "2026-10-04",
+  "rendering": {
+    "rule": "template-defined: MedHallu's published detection prompt with world knowledge, filled exactly as in the script (system prompt, a space, then 'World Knowledge: <Knowledge list>', 'Question:', 'Answer: <candidate>' and the judgement cue). The candidate answer is the Ground Truth or the Hallucinated Answer, chosen per item by random.Random(20261004).randint(0, 1) in file order (the script uses an unseeded random.randint(0, 1)).",
+    "template_source": "https://github.com/MedHallu/MedHallu/blob/3c49c8ba80e47720333e508821967167ba048d49/Detection/detection_vllm_notsurecase.py (system_prompt + create_prompt_withknowledge, sent as one user message f'{system_prompt} {user_prompt}'); commit 3c49c8ba80e47720333e508821967167ba048d49",
+    "n_usable": 10000,
+    "n_sampled": 200,
+    "seed": 20261004,
+    "excluded": {
+      "non_english": 0,
+      "image": 0,
+      "duplicate": 0
+    },
+    "image_rule": "Exclude an item as needing an unreleased picture only if (i) a released image field marks it (HEAD-QA 'image'), or (ii) its question stem (the part that asks the question: MCQ question text, MedCalc 'Question', MedHallu 'Question', Med-HALT reasoning 'question', a patient's own question in HealthCareMagic/iCliniq/MEDIQA-RQE) matches, case-insensitively, any of: (a) shown/seen/depicted/displayed/illustrated/pictured/presented/visualized + in/on/below/above + [the/this] [accompanying/following/attached/adjacent] + figure|image|picture|photo(graph)|(photo)micrograph|exhibit|illustration|diagram|graph; (b) see/refer to + [the/this/these] [accompanying/following/attached] + a word of (a), or look at + [the/this/these/my] [accompanying/following/attached] + a visual word (the list in (a) plus radiograph|x-ray|ECG|EKG|electrocardiogram|tracing|smear|scan); (c) 'the following/accompanying/attached/adjacent' + a visual word, unless preceded by 'which of'; (d) this/these + image|photo(graph)|(photo)micrograph|exhibit|illustration|diagram|graph (not 'figure' or 'picture', which in stems mostly mean numbers or a clinical picture); (e) figure/fig./image + a number, or + a space and a capital letter A-H (e.g. 'Figure 1', 'Figures A-C', 'image # 6'); (f) a visual word + shown|attached|enclosed|below; (g) attached/enclosed/uploaded/sent (or attaching/uploading/sending) + [herewith] [determiner] [one word other than for/to/in/out] + picture|photo(graph)|image|x-ray|radiograph. Documents the item asks about (case reports, patient notes, news articles, abstracts, radiology reports, conversations, MedS-Bench inputs, MedHallu Knowledge, MedCaseReasoning case_prompt, Med-HALT IR fields) are not scanned. Regex: (?:\\b(?:shown|seen|depicted|displayed|illustrated|pictured|presented|visuali[sz]ed)\\s+(?:in|on|below|above)\\s+(?:the\\s+|this\\s+)?(?:accompanying\\s+|following\\s+|attached\\s+|adjacent\\s+)?(?:figures?|fig\\.|images?|pictures?|photos?|photographs?|photomicrographs?|micrographs?|exhibits?|illustrations?|diagrams?|graphs?)\\b)|(?:\\b(?:see|refer\\s+to)\\s+(?:the\\s+|this\\s+|these\\s+)?(?:accompanying\\s+|following\\s+|attached\\s+)?(?:figures?|fig\\.|images?|pictures?|photos?|photographs?|photomicrographs?|micrographs?|exhibits?|illustrations?|diagrams?|graphs?)\\b)|(?:\\blook\\s+at\\s+(?:the\\s+|this\\s+|these\\s+|my\\s+)?(?:accompanying\\s+|following\\s+|attached\\s+)?(?:figures?|fig\\.|images?|pictures?|photos?|photographs?|photomicrographs?|micrographs?|exhibits?|illustrations?|diagrams?|graphs?|radiographs?|x-?rays?|ecgs?|ekgs?|electrocardiograms?|tracings?|smears?|scans?)\\b)|(?:(?<!which of )(?<!which of\\s)\\bthe\\s+(?:following|accompanying|attached|adjacent)\\s+(?:figures?|fig\\.|images?|pictures?|photos?|photographs?|photomicrographs?|micrographs?|exhibits?|illustrations?|diagrams?|graphs?|radiographs?|x-?rays?|ecgs?|ekgs?|electrocardiograms?|tracings?|smears?|scans?)\\b)|(?:\\b(?:this|these)\\s+(?:images?|photos?|photographs?|photomicrographs?|micrographs?|exhibits?|illustrations?|diagrams?|graphs?)\\b)|(?:\\b(?:figures?|figs?\\.|images?)(?:\\s*#?\\s*\\d+|\\s+(?-i:[A-H])(?:\\s*(?:-|–|and|,)\\s*(?-i:[A-H]))?)\\b)|(?:\\b(?:figures?|fig\\.|images?|pictures?|photos?|photographs?|photomicrographs?|micrographs?|exhibits?|illustrations?|diagrams?|graphs?|radiographs?|x-?rays?|ecgs?|ekgs?|electrocardiograms?|tracings?|smears?|scans?)\\s+(?:shown|attached|enclosed|below)\\b)|(?:\\b(?:attached|enclosed|uploaded|sent|sending|attaching|uploading)\\s+(?:herewith\\s+)?(?:(?:this|these|the|a|an|my|his|her|some|few|a\\s+few)\\s+)?(?:(?!for\\b|to\\b|in\\b|out\\b)\\w+\\s+)?(?:pictures?|photos?|photographs?|images?|x-?rays?|radiographs?)\\b)",
+    "mean_chars": 3541.5,
+    "max_chars": 4718,
+    "n_released_rendered": 10000,
+    "n_unrenderable": 0,
+    "rendered_file": "$CABA_DATA/rendered/medhallu.jsonl",
+    "version": 2,
+    "v1": {
+      "n_usable": 9994,
+      "n_sampled": 200,
+      "mean_chars": 1475.8,
+      "max_chars": 2573,
+      "excluded": {
+        "non_english": 0,
+        "image": 5,
+        "duplicate": 1
+      },
+      "template_source": "none used (authors' detection prompt in the MedHallu repository, arXiv:2502.14302; not fetched because this task was restricted to local files)"
+    },
+    "sample_vs_v1": "changed (3 of 200 items in common)",
+    "components_sampled": {
+      "pqa_artificial": 181,
+      "pqa_labeled": 19
+    },
+    "candidates_sampled": {
+      "hallucinated": 104,
+      "ground_truth": 96
+    },
+    "template_files": [
+      {
+        "path": "$CABA_DATA/medhallu/_template/detection_vllm_notsurecase.py",
+        "bytes": 13706,
+        "sha256": "88af15d177ba59084743e820fddf5240eafa59c384bf7d8a0a36e4fcfce74a20",
+        "url": "https://raw.githubusercontent.com/MedHallu/MedHallu/3c49c8ba80e47720333e508821967167ba048d49/Detection/detection_vllm_notsurecase.py"
+      }
+    ],
+    "template_commit": "3c49c8ba80e47720333e508821967167ba048d49"
+  },
+  "in_caba_v1_0": true
+}

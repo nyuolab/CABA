@@ -1,0 +1,196 @@
+{
+  "benchmark": "Med-HALT",
+  "source_url": [
+    "https://huggingface.co/datasets/openlifescienceai/Med-HALT/resolve/d1e8d04295742df7abc485062344fe328e141395/IR_abstract2pubmedlink/IR_abstract2pubmedlink.csv",
+    "https://huggingface.co/datasets/openlifescienceai/Med-HALT/resolve/d1e8d04295742df7abc485062344fe328e141395/IR_pmid2title/IR_pmid2title.csv",
+    "https://huggingface.co/datasets/openlifescienceai/Med-HALT/resolve/d1e8d04295742df7abc485062344fe328e141395/IR_pubmedlink2title/IR_pubmedlink2title.csv",
+    "https://huggingface.co/datasets/openlifescienceai/Med-HALT/resolve/d1e8d04295742df7abc485062344fe328e141395/IR_title2pubmedlink/IR_title2pubmedlink.csv",
+    "https://huggingface.co/datasets/openlifescienceai/Med-HALT/resolve/d1e8d04295742df7abc485062344fe328e141395/reasoning_FCT/reasoning_FCT.csv",
+    "https://huggingface.co/datasets/openlifescienceai/Med-HALT/resolve/d1e8d04295742df7abc485062344fe328e141395/reasoning_fake/reasoning_fake.csv",
+    "https://huggingface.co/datasets/openlifescienceai/Med-HALT/resolve/d1e8d04295742df7abc485062344fe328e141395/reasoning_nota/reasoning_nota.csv",
+    "https://huggingface.co/datasets/openlifescienceai/Med-HALT/resolve/d1e8d04295742df7abc485062344fe328e141395/README.md"
+  ],
+  "source_type": "own release",
+  "revision": "d1e8d04295742df7abc485062344fe328e141395",
+  "files": [
+    {
+      "path": "$CABA_DATA/med_halt/IR_abstract2pubmedlink/IR_abstract2pubmedlink.csv",
+      "bytes": 10839494,
+      "sha256": "9256581a69c6c41f3b20217070def9924423a50c49f62ad8602a934bd981cada",
+      "url": "https://huggingface.co/datasets/openlifescienceai/Med-HALT/resolve/d1e8d04295742df7abc485062344fe328e141395/IR_abstract2pubmedlink/IR_abstract2pubmedlink.csv",
+      "role": "items"
+    },
+    {
+      "path": "$CABA_DATA/med_halt/IR_pmid2title/IR_pmid2title.csv",
+      "bytes": 10586234,
+      "sha256": "6eb6adf071c2b5ce0de30219d15bb9e469df66c05ccad68a9122019e78611282",
+      "url": "https://huggingface.co/datasets/openlifescienceai/Med-HALT/resolve/d1e8d04295742df7abc485062344fe328e141395/IR_pmid2title/IR_pmid2title.csv",
+      "role": "items"
+    },
+    {
+      "path": "$CABA_DATA/med_halt/IR_pubmedlink2title/IR_pubmedlink2title.csv",
+      "bytes": 10586234,
+      "sha256": "9c135d0b4a1c584bfc47460485b877b0101564a39d7b2a3fc2cde93fae47a7f8",
+      "url": "https://huggingface.co/datasets/openlifescienceai/Med-HALT/resolve/d1e8d04295742df7abc485062344fe328e141395/IR_pubmedlink2title/IR_pubmedlink2title.csv",
+      "role": "items"
+    },
+    {
+      "path": "$CABA_DATA/med_halt/IR_title2pubmedlink/IR_title2pubmedlink.csv",
+      "bytes": 10839494,
+      "sha256": "596e32a5d52fe2a8790688412018104a6dcab8167d5fda9bcef9de51e308fa95",
+      "url": "https://huggingface.co/datasets/openlifescienceai/Med-HALT/resolve/d1e8d04295742df7abc485062344fe328e141395/IR_title2pubmedlink/IR_title2pubmedlink.csv",
+      "role": "items"
+    },
+    {
+      "path": "$CABA_DATA/med_halt/reasoning_FCT/reasoning_FCT.csv",
+      "bytes": 9925083,
+      "sha256": "3d50b9024069a3df0a275d57858dccec6a31ac0126d812a503a6962307e796ab",
+      "url": "https://huggingface.co/datasets/openlifescienceai/Med-HALT/resolve/d1e8d04295742df7abc485062344fe328e141395/reasoning_FCT/reasoning_FCT.csv",
+      "role": "items"
+    },
+    {
+      "path": "$CABA_DATA/med_halt/reasoning_fake/reasoning_fake.csv",
+      "bytes": 2369332,
+      "sha256": "dda54bf6dd053854af5878acd44ed3ff8ae57dcfa8b202c3164cf853ad0faefe",
+      "url": "https://huggingface.co/datasets/openlifescienceai/Med-HALT/resolve/d1e8d04295742df7abc485062344fe328e141395/reasoning_fake/reasoning_fake.csv",
+      "role": "items"
+    },
+    {
+      "path": "$CABA_DATA/med_halt/reasoning_nota/reasoning_nota.csv",
+      "bytes": 7908595,
+      "sha256": "d063dea45a586d9465bb675de9b4c2f45ab72d7b6927dbcf1f5d382db6be2e54",
+      "url": "https://huggingface.co/datasets/openlifescienceai/Med-HALT/resolve/d1e8d04295742df7abc485062344fe328e141395/reasoning_nota/reasoning_nota.csv",
+      "role": "items"
+    },
+    {
+      "path": "$CABA_DATA/med_halt/_card/openlifescienceai__Med-HALT_README.md",
+      "bytes": 4797,
+      "sha256": "70fdcb29cf75f044197da31b1387b1cf95f8674588116fffd8afcccc4e6aebe2",
+      "url": "https://huggingface.co/datasets/openlifescienceai/Med-HALT/resolve/d1e8d04295742df7abc485062344fe328e141395/README.md",
+      "role": "dataset card"
+    }
+  ],
+  "license": "apache-2.0",
+  "split": "none (whole set: 3 reasoning + 4 memory test configs)",
+  "n_items": 59254,
+  "public": "yes",
+  "english": "yes (all configs English; sources include English versions of HEAD-QA and MedQA-Taiwan)",
+  "text": "yes",
+  "single_request": "yes",
+  "request_fields": "reasoning_FCT/NOTA/fake: question + options (FCT also the proposed student_answer to judge); IR_*: one field (PMID, PubMed URL, title or abstract) inserted into Med-HALT's prompt template (templates are in github.com/medhalt/medhalt, not in the Hub files)",
+  "example_structure": [
+    "example",
+    "fields"
+  ],
+  "notes": "Counts per config: {\"IR_abstract2pubmedlink\": 4916, \"IR_pmid2title\": 4916, \"IR_pubmedlink2title\": 4916, \"IR_title2pubmedlink\": 4916, \"reasoning_FCT\": 18866, \"reasoning_fake\": 1858, \"reasoning_nota\": 18866}. reasoning_FCT and reasoning_nota are built on the same 18,866 source MCQs (MedMCQA, HEAD-QA en, MedQA-Taiwan en, MedQA India); rows keep the source dataset's split_type (test/val/dev/train), Med-HALT itself has no split. IR configs contain 2,927 real and 1,989 fake PubMed records each.",
+  "n_items_by_config": {
+    "IR_abstract2pubmedlink": 4916,
+    "IR_pmid2title": 4916,
+    "IR_pubmedlink2title": 4916,
+    "IR_title2pubmedlink": 4916,
+    "reasoning_FCT": 18866,
+    "reasoning_fake": 1858,
+    "reasoning_nota": 18866
+  },
+  "hf_repo": "openlifescienceai/Med-HALT",
+  "checked_on": "2026-10-04",
+  "rendering": {
+    "rule": "template-defined: Med-HALT's published prompt for the item's test (version v0, the version used by the repository's inference), zero-shot (the repository's 2 few-shot examples are drawn with an unseeded random.sample and are omitted), filled exactly as the repository's prompt utilities do: instruction + '\\n' + output format + '\\n' + 'Input: ' + Python dict of the item fields + '\\nOutput: '.",
+    "template_source": "https://github.com/medhalt/medhalt/tree/2fed21ed696a1949b1fd6dfdbd7a08d792e0e05f/medhalt/prompts (prompts.json of each test, id 'v0'); assembly per https://github.com/medhalt/medhalt/blob/2fed21ed696a1949b1fd6dfdbd7a08d792e0e05f/medhalt/prompts/utils.py (get_full_prompt with n_shots=0, then the *_format functions); commit 2fed21ed696a1949b1fd6dfdbd7a08d792e0e05f",
+    "n_usable": 58747,
+    "n_sampled": 200,
+    "seed": 20261004,
+    "excluded": {
+      "non_english": 0,
+      "image": 309,
+      "duplicate": 198
+    },
+    "image_rule": "Exclude an item as needing an unreleased picture only if (i) a released image field marks it (HEAD-QA 'image'), or (ii) its question stem (the part that asks the question: MCQ question text, MedCalc 'Question', MedHallu 'Question', Med-HALT reasoning 'question', a patient's own question in HealthCareMagic/iCliniq/MEDIQA-RQE) matches, case-insensitively, any of: (a) shown/seen/depicted/displayed/illustrated/pictured/presented/visualized + in/on/below/above + [the/this] [accompanying/following/attached/adjacent] + figure|image|picture|photo(graph)|(photo)micrograph|exhibit|illustration|diagram|graph; (b) see/refer to + [the/this/these] [accompanying/following/attached] + a word of (a), or look at + [the/this/these/my] [accompanying/following/attached] + a visual word (the list in (a) plus radiograph|x-ray|ECG|EKG|electrocardiogram|tracing|smear|scan); (c) 'the following/accompanying/attached/adjacent' + a visual word, unless preceded by 'which of'; (d) this/these + image|photo(graph)|(photo)micrograph|exhibit|illustration|diagram|graph (not 'figure' or 'picture', which in stems mostly mean numbers or a clinical picture); (e) figure/fig./image + a number, or + a space and a capital letter A-H (e.g. 'Figure 1', 'Figures A-C', 'image # 6'); (f) a visual word + shown|attached|enclosed|below; (g) attached/enclosed/uploaded/sent (or attaching/uploading/sending) + [herewith] [determiner] [one word other than for/to/in/out] + picture|photo(graph)|image|x-ray|radiograph. Documents the item asks about (case reports, patient notes, news articles, abstracts, radiology reports, conversations, MedS-Bench inputs, MedHallu Knowledge, MedCaseReasoning case_prompt, Med-HALT IR fields) are not scanned. Regex: (?:\\b(?:shown|seen|depicted|displayed|illustrated|pictured|presented|visuali[sz]ed)\\s+(?:in|on|below|above)\\s+(?:the\\s+|this\\s+)?(?:accompanying\\s+|following\\s+|attached\\s+|adjacent\\s+)?(?:figures?|fig\\.|images?|pictures?|photos?|photographs?|photomicrographs?|micrographs?|exhibits?|illustrations?|diagrams?|graphs?)\\b)|(?:\\b(?:see|refer\\s+to)\\s+(?:the\\s+|this\\s+|these\\s+)?(?:accompanying\\s+|following\\s+|attached\\s+)?(?:figures?|fig\\.|images?|pictures?|photos?|photographs?|photomicrographs?|micrographs?|exhibits?|illustrations?|diagrams?|graphs?)\\b)|(?:\\blook\\s+at\\s+(?:the\\s+|this\\s+|these\\s+|my\\s+)?(?:accompanying\\s+|following\\s+|attached\\s+)?(?:figures?|fig\\.|images?|pictures?|photos?|photographs?|photomicrographs?|micrographs?|exhibits?|illustrations?|diagrams?|graphs?|radiographs?|x-?rays?|ecgs?|ekgs?|electrocardiograms?|tracings?|smears?|scans?)\\b)|(?:(?<!which of )(?<!which of\\s)\\bthe\\s+(?:following|accompanying|attached|adjacent)\\s+(?:figures?|fig\\.|images?|pictures?|photos?|photographs?|photomicrographs?|micrographs?|exhibits?|illustrations?|diagrams?|graphs?|radiographs?|x-?rays?|ecgs?|ekgs?|electrocardiograms?|tracings?|smears?|scans?)\\b)|(?:\\b(?:this|these)\\s+(?:images?|photos?|photographs?|photomicrographs?|micrographs?|exhibits?|illustrations?|diagrams?|graphs?)\\b)|(?:\\b(?:figures?|figs?\\.|images?)(?:\\s*#?\\s*\\d+|\\s+(?-i:[A-H])(?:\\s*(?:-|–|and|,)\\s*(?-i:[A-H]))?)\\b)|(?:\\b(?:figures?|fig\\.|images?|pictures?|photos?|photographs?|photomicrographs?|micrographs?|exhibits?|illustrations?|diagrams?|graphs?|radiographs?|x-?rays?|ecgs?|ekgs?|electrocardiograms?|tracings?|smears?|scans?)\\s+(?:shown|attached|enclosed|below)\\b)|(?:\\b(?:attached|enclosed|uploaded|sent|sending|attaching|uploading)\\s+(?:herewith\\s+)?(?:(?:this|these|the|a|an|my|his|her|some|few|a\\s+few)\\s+)?(?:(?!for\\b|to\\b|in\\b|out\\b)\\w+\\s+)?(?:pictures?|photos?|photographs?|images?|x-?rays?|radiographs?)\\b)",
+    "mean_chars": 1147.2,
+    "max_chars": 2750,
+    "n_released_rendered": 59254,
+    "n_unrenderable": 0,
+    "rendered_file": "$CABA_DATA/rendered/med_halt.jsonl",
+    "version": 2,
+    "v1": {
+      "n_usable": 58765,
+      "n_sampled": 200,
+      "mean_chars": 380.7,
+      "max_chars": 2375,
+      "excluded": {
+        "non_english": 0,
+        "image": 290,
+        "duplicate": 199
+      },
+      "template_source": "none used (published Med-HALT prompt templates are in https://github.com/medhalt/medhalt; not fetched because this task was restricted to local files)"
+    },
+    "sample_vs_v1": "changed (4 of 200 items in common)",
+    "components_sampled": {
+      "IR_pubmedlink2title": 19,
+      "IR_abstract2pubmedlink": 14,
+      "reasoning_nota": 63,
+      "reasoning_FCT": 60,
+      "IR_title2pubmedlink": 19,
+      "IR_pmid2title": 16,
+      "reasoning_fake": 9
+    },
+    "template_files": [
+      {
+        "path": "$CABA_DATA/med_halt/_template/prompts/IR_abstract2pubmedlink/prompts.json",
+        "bytes": 1575,
+        "sha256": "5695ade37ae2d324ccafb1f25040bc189dff9e9ffdc36da9943c662a6ecf58f8",
+        "url": "https://raw.githubusercontent.com/medhalt/medhalt/2fed21ed696a1949b1fd6dfdbd7a08d792e0e05f/medhalt/prompts/IR_abstract2pubmedlink/prompts.json"
+      },
+      {
+        "path": "$CABA_DATA/med_halt/_template/prompts/IR_pmid2title/prompts.json",
+        "bytes": 1568,
+        "sha256": "095055e8f66b1d5a8e56f004b22a544f620525ecfc3d1777f36c2c080e776d6e",
+        "url": "https://raw.githubusercontent.com/medhalt/medhalt/2fed21ed696a1949b1fd6dfdbd7a08d792e0e05f/medhalt/prompts/IR_pmid2title/prompts.json"
+      },
+      {
+        "path": "$CABA_DATA/med_halt/_template/prompts/IR_pubmedlink2title/prompts.json",
+        "bytes": 1584,
+        "sha256": "b3f089cd5335508442dd0d2d53c9a86d3dc36f97e35461a340c7a19d27f1c535",
+        "url": "https://raw.githubusercontent.com/medhalt/medhalt/2fed21ed696a1949b1fd6dfdbd7a08d792e0e05f/medhalt/prompts/IR_pubmedlink2title/prompts.json"
+      },
+      {
+        "path": "$CABA_DATA/med_halt/_template/prompts/IR_title2pubmedlink/prompts.json",
+        "bytes": 1558,
+        "sha256": "833eac91ee128a777e360c2f94522189d9f139a5a8e6853abea2278ed70685e3",
+        "url": "https://raw.githubusercontent.com/medhalt/medhalt/2fed21ed696a1949b1fd6dfdbd7a08d792e0e05f/medhalt/prompts/IR_title2pubmedlink/prompts.json"
+      },
+      {
+        "path": "$CABA_DATA/med_halt/_template/prompts/Reasoning_Nota/prompts.json",
+        "bytes": 2148,
+        "sha256": "2d770ab4385e92913c67617c9b2f3feccd4c26c84f20774af7bdefd754c33194",
+        "url": "https://raw.githubusercontent.com/medhalt/medhalt/2fed21ed696a1949b1fd6dfdbd7a08d792e0e05f/medhalt/prompts/Reasoning_Nota/prompts.json"
+      },
+      {
+        "path": "$CABA_DATA/med_halt/_template/prompts/reasoning_FCT/prompts.json",
+        "bytes": 2042,
+        "sha256": "7cca99c89d84bd4ec34c4e651d9e8d62d8588bd2092e5c0bbcdb4eaa845a4bcc",
+        "url": "https://raw.githubusercontent.com/medhalt/medhalt/2fed21ed696a1949b1fd6dfdbd7a08d792e0e05f/medhalt/prompts/reasoning_FCT/prompts.json"
+      },
+      {
+        "path": "$CABA_DATA/med_halt/_template/prompts/reasoning_Fake/prompts.json",
+        "bytes": 2206,
+        "sha256": "974d135adae8b6578c4705cc209283ba8d4ee7c1e62e282e042aa9c15a72ca67",
+        "url": "https://raw.githubusercontent.com/medhalt/medhalt/2fed21ed696a1949b1fd6dfdbd7a08d792e0e05f/medhalt/prompts/reasoning_Fake/prompts.json"
+      },
+      {
+        "path": "$CABA_DATA/med_halt/_template/utils.py",
+        "bytes": 1555,
+        "sha256": "882d83c6b7ac3bd053e2c1ae4298489493ad86e29d089b8e3411e07c6fd96baa",
+        "url": "https://raw.githubusercontent.com/medhalt/medhalt/2fed21ed696a1949b1fd6dfdbd7a08d792e0e05f/medhalt/prompts/utils.py"
+      },
+      {
+        "path": "$CABA_DATA/med_halt/_template/models_utils.py",
+        "bytes": 1555,
+        "sha256": "882d83c6b7ac3bd053e2c1ae4298489493ad86e29d089b8e3411e07c6fd96baa",
+        "url": "https://raw.githubusercontent.com/medhalt/medhalt/2fed21ed696a1949b1fd6dfdbd7a08d792e0e05f/medhalt/models/utils.py"
+      }
+    ],
+    "template_commit": "2fed21ed696a1949b1fd6dfdbd7a08d792e0e05f"
+  },
+  "in_caba_v1_0": true
+}

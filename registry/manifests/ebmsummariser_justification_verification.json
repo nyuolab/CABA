@@ -1,0 +1,89 @@
+{
+  "benchmark": "EBMSummariser justification verification",
+  "source_url": [
+    "https://huggingface.co/datasets/Henrychur/MedS-Bench/resolve/6945b14e0f408082aecb6a77a185b9ebdd5fb413/Fact_verication/task100_ebms_answer_vertification.json",
+    "https://huggingface.co/datasets/Henrychur/MedS-Bench-SPLIT/resolve/bae9b49bb23ffcd5b1b64345f021d4d5b803b503/Fact_verication/task100_ebms_answer_vertification.json",
+    "https://huggingface.co/datasets/Henrychur/MedS-Bench/resolve/6945b14e0f408082aecb6a77a185b9ebdd5fb413/README.md"
+  ],
+  "source_type": "suite release (MedS-Bench, Henrychur/MedS-Bench; dataset recast as instruction + input)",
+  "revision": "6945b14e0f408082aecb6a77a185b9ebdd5fb413",
+  "files": [
+    {
+      "path": "$CABA_DATA/ebmsummariser_justification_verification/Fact_verication/task100_ebms_answer_vertification.json",
+      "bytes": 193567,
+      "sha256": "54dde30271baedf63e81bb703627abdd0d7926ae5ec7c4da987306596a0e2a1f",
+      "url": "https://huggingface.co/datasets/Henrychur/MedS-Bench/resolve/6945b14e0f408082aecb6a77a185b9ebdd5fb413/Fact_verication/task100_ebms_answer_vertification.json",
+      "role": "items"
+    },
+    {
+      "path": "$CABA_DATA/ebmsummariser_justification_verification/MedS-Bench-SPLIT/Fact_verication/task100_ebms_answer_vertification.json",
+      "bytes": 194811,
+      "sha256": "6f3aac1a29024f9ed439153f502623d10642ce6a14fe738b127c685430684b2d",
+      "url": "https://huggingface.co/datasets/Henrychur/MedS-Bench-SPLIT/resolve/bae9b49bb23ffcd5b1b64345f021d4d5b803b503/Fact_verication/task100_ebms_answer_vertification.json",
+      "role": "MedS-Bench-SPLIT copy (paper's sampled cases), for comparison"
+    },
+    {
+      "path": "$CABA_DATA/ebmsummariser_justification_verification/_card/Henrychur__MedS-Bench_README.md",
+      "bytes": 3233,
+      "sha256": "3eeb259f606cf10da08d5783f43527f37346d264a09bcffd6f945bbfc3d860ea",
+      "url": "https://huggingface.co/datasets/Henrychur/MedS-Bench/resolve/6945b14e0f408082aecb6a77a185b9ebdd5fb413/README.md",
+      "role": "dataset card"
+    }
+  ],
+  "license": "MedS-Bench card states no license; EBMSummariser corpus license not checked.",
+  "split": "test (MedS-Bench test file, all instances)",
+  "n_items": 304,
+  "public": "yes (MedS-Bench on Hugging Face: public, not gated, no login)",
+  "english": "yes",
+  "text": "yes",
+  "single_request": "yes",
+  "request_fields": "Definition (task instruction, shared by all instances) + Instances[].input",
+  "example_structure": [
+    "example",
+    "fields",
+    "file_keys"
+  ],
+  "notes": "Used MedS-Bench task100_ebms_answer_vertification (folder Fact_verication; file Categories says 'Question Answering'). Source: EBMSummariser corpus (SourceForge, not downloaded). Main and SPLIT have the same 304 instances. Instance counts: main {'task100_ebms_answer_vertification.json': 304}; MedS-Bench-SPLIT (sampled cases used in the MedS-Bench paper, revision bae9b49bb23ffcd5b1b64345f021d4d5b803b503): {'task100_ebms_answer_vertification.json': 304}.",
+  "n_items_by_file": {
+    "task100_ebms_answer_vertification.json": 304
+  },
+  "n_items_medsbench_split": {
+    "task100_ebms_answer_vertification.json": 304
+  },
+  "revision_medsbench_split": "bae9b49bb23ffcd5b1b64345f021d4d5b803b503",
+  "hf_repo": "Henrychur/MedS-Bench",
+  "checked_on": "2026-10-04",
+  "rendering": {
+    "rule": "instruction-style: the MedS-Bench task Definition (instruction), a blank line, then the instance input.",
+    "template_source": "none",
+    "n_usable": 110,
+    "n_sampled": 110,
+    "seed": 20261004,
+    "excluded": {
+      "non_english": 0,
+      "image": 0,
+      "duplicate": 194
+    },
+    "image_rule": "Exclude an item as needing an unreleased picture only if (i) a released image field marks it (HEAD-QA 'image'), or (ii) its question stem (the part that asks the question: MCQ question text, MedCalc 'Question', MedHallu 'Question', Med-HALT reasoning 'question', a patient's own question in HealthCareMagic/iCliniq/MEDIQA-RQE) matches, case-insensitively, any of: (a) shown/seen/depicted/displayed/illustrated/pictured/presented/visualized + in/on/below/above + [the/this] [accompanying/following/attached/adjacent] + figure|image|picture|photo(graph)|(photo)micrograph|exhibit|illustration|diagram|graph; (b) see/refer to + [the/this/these] [accompanying/following/attached] + a word of (a), or look at + [the/this/these/my] [accompanying/following/attached] + a visual word (the list in (a) plus radiograph|x-ray|ECG|EKG|electrocardiogram|tracing|smear|scan); (c) 'the following/accompanying/attached/adjacent' + a visual word, unless preceded by 'which of'; (d) this/these + image|photo(graph)|(photo)micrograph|exhibit|illustration|diagram|graph (not 'figure' or 'picture', which in stems mostly mean numbers or a clinical picture); (e) figure/fig./image + a number, or + a space and a capital letter A-H (e.g. 'Figure 1', 'Figures A-C', 'image # 6'); (f) a visual word + shown|attached|enclosed|below; (g) attached/enclosed/uploaded/sent (or attaching/uploading/sending) + [herewith] [determiner] [one word other than for/to/in/out] + picture|photo(graph)|image|x-ray|radiograph. Documents the item asks about (case reports, patient notes, news articles, abstracts, radiology reports, conversations, MedS-Bench inputs, MedHallu Knowledge, MedCaseReasoning case_prompt, Med-HALT IR fields) are not scanned. Regex: (?:\\b(?:shown|seen|depicted|displayed|illustrated|pictured|presented|visuali[sz]ed)\\s+(?:in|on|below|above)\\s+(?:the\\s+|this\\s+)?(?:accompanying\\s+|following\\s+|attached\\s+|adjacent\\s+)?(?:figures?|fig\\.|images?|pictures?|photos?|photographs?|photomicrographs?|micrographs?|exhibits?|illustrations?|diagrams?|graphs?)\\b)|(?:\\b(?:see|refer\\s+to)\\s+(?:the\\s+|this\\s+|these\\s+)?(?:accompanying\\s+|following\\s+|attached\\s+)?(?:figures?|fig\\.|images?|pictures?|photos?|photographs?|photomicrographs?|micrographs?|exhibits?|illustrations?|diagrams?|graphs?)\\b)|(?:\\blook\\s+at\\s+(?:the\\s+|this\\s+|these\\s+|my\\s+)?(?:accompanying\\s+|following\\s+|attached\\s+)?(?:figures?|fig\\.|images?|pictures?|photos?|photographs?|photomicrographs?|micrographs?|exhibits?|illustrations?|diagrams?|graphs?|radiographs?|x-?rays?|ecgs?|ekgs?|electrocardiograms?|tracings?|smears?|scans?)\\b)|(?:(?<!which of )(?<!which of\\s)\\bthe\\s+(?:following|accompanying|attached|adjacent)\\s+(?:figures?|fig\\.|images?|pictures?|photos?|photographs?|photomicrographs?|micrographs?|exhibits?|illustrations?|diagrams?|graphs?|radiographs?|x-?rays?|ecgs?|ekgs?|electrocardiograms?|tracings?|smears?|scans?)\\b)|(?:\\b(?:this|these)\\s+(?:images?|photos?|photographs?|photomicrographs?|micrographs?|exhibits?|illustrations?|diagrams?|graphs?)\\b)|(?:\\b(?:figures?|figs?\\.|images?)(?:\\s*#?\\s*\\d+|\\s+(?-i:[A-H])(?:\\s*(?:-|–|and|,)\\s*(?-i:[A-H]))?)\\b)|(?:\\b(?:figures?|fig\\.|images?|pictures?|photos?|photographs?|photomicrographs?|micrographs?|exhibits?|illustrations?|diagrams?|graphs?|radiographs?|x-?rays?|ecgs?|ekgs?|electrocardiograms?|tracings?|smears?|scans?)\\s+(?:shown|attached|enclosed|below)\\b)|(?:\\b(?:attached|enclosed|uploaded|sent|sending|attaching|uploading)\\s+(?:herewith\\s+)?(?:(?:this|these|the|a|an|my|his|her|some|few|a\\s+few)\\s+)?(?:(?!for\\b|to\\b|in\\b|out\\b)\\w+\\s+)?(?:pictures?|photos?|photographs?|images?|x-?rays?|radiographs?)\\b)",
+    "mean_chars": 250.5,
+    "max_chars": 733,
+    "n_released_rendered": 304,
+    "n_unrenderable": 0,
+    "rendered_file": "$CABA_DATA/rendered/ebmsummariser_justification_verification.jsonl",
+    "version": 2,
+    "v1": {
+      "n_usable": 110,
+      "n_sampled": 110,
+      "mean_chars": 250.5,
+      "max_chars": 733,
+      "excluded": {
+        "non_english": 0,
+        "image": 0,
+        "duplicate": 194
+      },
+      "template_source": "none"
+    },
+    "sample_vs_v1": "identical items"
+  },
+  "in_caba_v1_0": true
+}

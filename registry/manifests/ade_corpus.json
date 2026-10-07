@@ -1,0 +1,51 @@
+{
+  "benchmark": "ADE corpus",
+  "source_url": [
+    "https://huggingface.co/datasets/Henrychur/MedS-Bench/resolve/6945b14e0f408082aecb6a77a185b9ebdd5fb413/Information_extraction/task29_drug_dose_extraction.json",
+    "https://huggingface.co/datasets/Henrychur/MedS-Bench-SPLIT/resolve/bae9b49bb23ffcd5b1b64345f021d4d5b803b503/Information_extraction/task29_drug_dose_extraction.json"
+  ],
+  "source_type": "suite release (MedS-Bench, instruction version)",
+  "revision": "HF Henrychur/MedS-Bench 6945b14e0f408082aecb6a77a185b9ebdd5fb413; HF Henrychur/MedS-Bench-SPLIT bae9b49bb23ffcd5b1b64345f021d4d5b803b503 (GitHub MAGIC-AI4Med/MedS-Ins 185cfc04a27023983e48b357a6f2fd525049b9af)",
+  "files": [
+    {
+      "path": "$CABA_DATA/ade_corpus/MedS-Bench/task29_drug_dose_extraction.json",
+      "bytes": 10367,
+      "sha256": "102ead79ab17be553daea396566a36d43c5b503f9532208470d3af3f447f88f2"
+    },
+    {
+      "path": "$CABA_DATA/ade_corpus/MedS-Bench-SPLIT/task29_drug_dose_extraction.json",
+      "bytes": 10589,
+      "sha256": "8a1b2b68f1c88d609c178a7af2eff0c942525f2761ec814ae5eb18bb74e993c1"
+    }
+  ],
+  "license": "MedS-Ins/MedS-Bench GitHub LICENSE: \"CC BY-SA\" (MAGIC consortium); HF dataset cards declare no license; task-file Instance License: Unknown; source ADE-Corpus-V2 (Gurulingappa et al. 2012)",
+  "split": "MedS-Bench test file(s); MedS-Bench-SPLIT has 23 (identical)",
+  "n_items": 23,
+  "public": "yes",
+  "english": "yes",
+  "text": "yes",
+  "single_request": "yes",
+  "request_fields": "Definition (task instruction) + instance input (sentence, tab, drug name); file also has 2 positive and 1 negative few-shot examples",
+  "example_structure": [
+    "Definition",
+    "Instances[].id",
+    "Instances[].input",
+    "Instances[].output"
+  ],
+  "notes": "MedS-Bench (Wu et al., npj Digit Med 2024; arXiv 2408.12547) recasts the dataset as an instruction task. Henrychur/MedS-Bench holds the full test files (\"the official benchmark\"); Henrychur/MedS-Bench-SPLIT holds the subsample used for the paper's results. n_items counts the MedS-Bench file. The only ADE-derived MedS-Bench task is drug-dose extraction (Source \"ade_corpus_v2\"; instance ids prefixed task1451, i.e. taken from Super-NaturalInstructions). MedS-Ins has a separate ADE drug-extraction training task (task26), not downloaded. BRIDGE also lists the ADE corpus; MedS-Bench was used because it redistributes the items. Checked 2026-10-04; no LLMs or API keys used.",
+  "rendering": {
+    "rule": "instruction-style (MedS-Bench): the task Definition, a blank line, then the instance input (few-shot examples and outputs omitted)",
+    "template_source": "none (instruction and input as released in the MedS-Bench task files)",
+    "n_usable": 23,
+    "n_sampled": 23,
+    "seed": 20261004,
+    "excluded": {
+      "non_english": 0,
+      "image": 0,
+      "duplicate": 0
+    },
+    "mean_chars": 456.2,
+    "max_chars": 550
+  },
+  "in_caba_v1_0": true
+}

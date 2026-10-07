@@ -1,0 +1,82 @@
+{
+  "benchmark": "USMLE practice questions",
+  "source_url": [
+    "https://www.usmle.org/sites/default/files/2021-10/Step_1_Sample_Items.pdf",
+    "https://www.usmle.org/sites/default/files/2021-10/Step2_CK_Sample_Questions.pdf",
+    "https://www.usmle.org/sites/default/files/2021-10/Step3_Sample_Items.pdf"
+  ],
+  "source_type": "own release (official USMLE sample test question booklets, usmle.org)",
+  "revision": "booklet versions: Step 1 updated April 2026; Step 2 CK updated July 2023; Step 3 updated June 2026 (files served under /sites/default/files/2021-10/)",
+  "files": [
+    {
+      "path": "$CABA_DATA/usmle_practice_questions/Step_1_Sample_Items.pdf",
+      "bytes": 2053723,
+      "sha256": "7ec75c445d800fcc975782510b466a06eafa7c9099852f586bfd2d59a72a7429"
+    },
+    {
+      "path": "$CABA_DATA/usmle_practice_questions/Step2_CK_Sample_Questions.pdf",
+      "bytes": 2217819,
+      "sha256": "52af2c02c6d1bab8635470ea6200678957c7c30c6f21609c9dcc5cc521e3dda8"
+    },
+    {
+      "path": "$CABA_DATA/usmle_practice_questions/Step3_Sample_Items.pdf",
+      "bytes": 2143090,
+      "sha256": "44d239bdcd6708589a88457ec6b6634f38da1dbb8882fb5423c0e1cd8fb7b7c7"
+    },
+    {
+      "path": "$CABA_DATA/usmle_practice_questions/Step_1_Sample_Items.txt",
+      "bytes": 139412,
+      "sha256": "039831ca035aa0223acd2015f9b47d78e1974651f855ba3b969b9af4f6c9c992"
+    },
+    {
+      "path": "$CABA_DATA/usmle_practice_questions/Step2_CK_Sample_Questions.txt",
+      "bytes": 193948,
+      "sha256": "cfa0dc6fdd66d6e7ac6420d62f0a348f00fb69afd17808ea864e9c936d203409"
+    },
+    {
+      "path": "$CABA_DATA/usmle_practice_questions/Step3_Sample_Items.txt",
+      "bytes": 250377,
+      "sha256": "91d00146d36a9dc225e8d789ba234b7378f07ba3146dbb256e7dadaf2d2ea1d6"
+    }
+  ],
+  "license": "Copyright FSMB and NBME, all rights reserved; booklets marked \"For Public Release\"",
+  "split": "all sample items (Step 1 119, Step 2 CK 120, Step 3 137)",
+  "n_items": 376,
+  "public": "yes (free PDFs, no registration)",
+  "english": "yes",
+  "text": "subset (about 54 items sit on pages with figures and reference an image such as a photograph, radiograph or ECG; identifiable from the stem, list needs a manual check)",
+  "single_request": "yes",
+  "request_fields": "vignette/question stem + lettered options (some stems include lab tables); answer key at end of each booklet",
+  "example_structure": [
+    "answer key",
+    "item",
+    "txt files"
+  ],
+  "notes": "Official URLs from usmle.org/exam-resources/step-1-materials/step-1-sample-test-questions, .../step-2-ck-materials/step-2-ck-sample-test-questions and usmle.org/prepare-your-exam/step-3-materials/step-3-sample-test-questions. Text is downloadable (text-layer PDFs; extracted with pdftotext). Item counts parsed from the booklets match their block tables. Image-item flag: items on PDF pages containing embedded images whose stem mentions a figure/photograph/x-ray etc. (Step 1 ~22, Step 2 CK ~19, Step 3 ~13). Booklets are revised over time, so the versions labs used may differ from these. Step 3 CCS cases are not included. Checked 2026-10-04; no LLMs or API keys used.",
+  "rendering": {
+    "rule": "multiple choice: the question stem (preceded by the shared abstract or vignette, then a blank line, for items in a set) then the options one per line as \"A. ...\" (source letters)",
+    "template_source": "none",
+    "n_usable": 325,
+    "n_sampled": 200,
+    "seed": 20261004,
+    "excluded": {
+      "non_english": 0,
+      "image": 51,
+      "duplicate": 0
+    },
+    "image_rule": "exclude an item if its stem, shared stimulus or set notice matches any of: \\b(photographs?|photomicrographs?|micrographs?|drawings?|diagrams?|figures?|illustrations?|images?|pedigree|plot|graphs?|curves|advertisement displayed)\\b | \\b(x-rays?|radiographs?|CT scans?|MRIs?|ECGs?|electrocardiograms?|tracings?|scans?|smears?|findings?|lesions?|rash|\\w+graphy|\\w+grams?)\\b[^.;:]{0,80}?(\\b(is|are)\\s+shown\\b|:\\s*shown\\b) | \\b(findings?|lesions?|appearance)\\s+(as\\s+)?shown\\b | \\bas shown\\b(?!\\s+in\\s+the\\s+table) (case-insensitive); these refer to a picture (photograph, x-ray, ECG, drawing, pedigree, advertisement, plot) that is not in the text layer",
+    "mean_chars": 1140.6,
+    "max_chars": 4664,
+    "n_usable_by_component": {
+      "Step_1_Sample_Items": 98,
+      "Step2_CK_Sample_Questions": 106,
+      "Step3_Sample_Items": 121
+    },
+    "n_sampled_by_component": {
+      "Step_1_Sample_Items": 60,
+      "Step2_CK_Sample_Questions": 72,
+      "Step3_Sample_Items": 68
+    }
+  },
+  "in_caba_v1_0": true
+}

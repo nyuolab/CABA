@@ -1,0 +1,214 @@
+{
+  "benchmark": "First Do NOHARM",
+  "source_url": [
+    "https://codeload.github.com/ARISENetwork/mast/tar.gz/57a12c5490f3a7a6b0a6ce4e0d49f8e393ff49ee"
+  ],
+  "source_type": "suite release (MAST, NOHARM v2 open subset); reused from benchmarks/raw/MAST (downloaded 2026-09-30)",
+  "revision": "57a12c5490f3a7a6b0a6ce4e0d49f8e393ff49ee",
+  "files": [
+    {
+      "path": "$CABA_DATA/raw/MAST/donoharm/dataset/items.jsonl",
+      "bytes": 217458,
+      "sha256": "a31f0c3aee400d071c16766f7b58cbcfce56a7f899b57bf89428195752b806bd"
+    },
+    {
+      "path": "$CABA_DATA/raw/MAST/donoharm/DATA.md",
+      "bytes": 3893,
+      "sha256": "d8dce8123191d3e60d2f360f2869c0c9fa9dba82258f8300897e19c75a64cc2a"
+    },
+    {
+      "path": "$CABA_DATA/raw/MAST/donoharm/README.md",
+      "bytes": 8899,
+      "sha256": "228f948e3acf3434ad2ba4da48ab33fd0b47e0e8246681fb64bafcd964781eda"
+    },
+    {
+      "path": "$CABA_DATA/raw/MAST/donoharm/LICENSE-DATA",
+      "bytes": 17822,
+      "sha256": "97a1a09f6867369d848800631f819dd1a67f1d4a24da44350c6515314e1d8e98"
+    },
+    {
+      "path": "$CABA_DATA/raw/MAST/donoharm/LICENSE",
+      "bytes": 1070,
+      "sha256": "4b3dbbc69c0bac9e01502b56bbc1d1293606e01b3e30c0f6cf355c107e238149"
+    },
+    {
+      "path": "$CABA_DATA/raw/MAST/donoharm/dataset/rubrics/All001.json",
+      "bytes": 8231,
+      "sha256": "fba49e84bb56a49ddbe5b559beb56ce1f3fb3b14488814acb886b5b1fb98a249"
+    },
+    {
+      "path": "$CABA_DATA/raw/MAST/donoharm/dataset/rubrics/All006.json",
+      "bytes": 9838,
+      "sha256": "07e890f1136d3f62140299239828b0733d2f8378167e7bfba7f30b42fb72cf73"
+    },
+    {
+      "path": "$CABA_DATA/raw/MAST/donoharm/dataset/rubrics/All008.json",
+      "bytes": 8025,
+      "sha256": "ba4e1ace8ae2010b710dea745f3e8a927f6789689c8363a1cd43b69ca94a423c"
+    },
+    {
+      "path": "$CABA_DATA/raw/MAST/donoharm/dataset/rubrics/Card001.json",
+      "bytes": 10149,
+      "sha256": "66898adb1270e5f7ae44666966eba59bc681c49aefa263febed5252c793ffba6"
+    },
+    {
+      "path": "$CABA_DATA/raw/MAST/donoharm/dataset/rubrics/Card002.json",
+      "bytes": 10104,
+      "sha256": "518d9b5c5a3972b443011267da9a853c79901f83ea7e7f66459345dbc3803a93"
+    },
+    {
+      "path": "$CABA_DATA/raw/MAST/donoharm/dataset/rubrics/Card005.json",
+      "bytes": 9473,
+      "sha256": "60bf1750c60f0e8ded00c989d66fcbd13b80eae6524bdfb44d38b5bfd633954a"
+    },
+    {
+      "path": "$CABA_DATA/raw/MAST/donoharm/dataset/rubrics/Derm001.json",
+      "bytes": 11276,
+      "sha256": "3b1f96453363600c9488811ba492a22795d52a1cdf725f6ca7a72489ed54961a"
+    },
+    {
+      "path": "$CABA_DATA/raw/MAST/donoharm/dataset/rubrics/Derm006.json",
+      "bytes": 8858,
+      "sha256": "6f1ae44c2a9ed384853d0921758bbdb1d849bc2e0dc524093b870c03578e646d"
+    },
+    {
+      "path": "$CABA_DATA/raw/MAST/donoharm/dataset/rubrics/Derm009.json",
+      "bytes": 11925,
+      "sha256": "90b01ebf055de3291f56fbb887bc0b0ebdd2f2c7706d5b97d2e319c8b25289dd"
+    },
+    {
+      "path": "$CABA_DATA/raw/MAST/donoharm/dataset/rubrics/Endo002.json",
+      "bytes": 11783,
+      "sha256": "a6412b0fd5b6f80c080b12fb55e17933899a84ed4d7ab10ff7a0c0b8f95638dd"
+    },
+    {
+      "path": "$CABA_DATA/raw/MAST/donoharm/dataset/rubrics/Endo007.json",
+      "bytes": 11544,
+      "sha256": "0c5a74ce087979aacbe253a4eba4dad68e44615185f801a84aeea4735496709a"
+    },
+    {
+      "path": "$CABA_DATA/raw/MAST/donoharm/dataset/rubrics/Endo009.json",
+      "bytes": 12326,
+      "sha256": "e0277fa19d75c32033361e574f764ae6484d32246d02a09e2ffbdae5f0b64f73"
+    },
+    {
+      "path": "$CABA_DATA/raw/MAST/donoharm/dataset/rubrics/GI002.json",
+      "bytes": 9293,
+      "sha256": "5c1355dabe71ed33b626b6dc7851832b541e457ac6acb4a873038af2945fa679"
+    },
+    {
+      "path": "$CABA_DATA/raw/MAST/donoharm/dataset/rubrics/GI004.json",
+      "bytes": 10503,
+      "sha256": "2ea02764068100fe642f3559c80313c83333d908c23e2261f02c032f3981c9ae"
+    },
+    {
+      "path": "$CABA_DATA/raw/MAST/donoharm/dataset/rubrics/GI007.json",
+      "bytes": 10344,
+      "sha256": "f03aa460e7cd8d6dabf6405493eafa5777210933c82cdd2b43cd7ef794e1f502"
+    },
+    {
+      "path": "$CABA_DATA/raw/MAST/donoharm/dataset/rubrics/Heme002.json",
+      "bytes": 10680,
+      "sha256": "282028584df15693f031030b8693411988101a56fbafb027ff6046ca3c5f0929"
+    },
+    {
+      "path": "$CABA_DATA/raw/MAST/donoharm/dataset/rubrics/Heme004.json",
+      "bytes": 10956,
+      "sha256": "76a8c01065d1433594507d3bd28e94377e578d46cecfb5fdc828f849e2f9f73e"
+    },
+    {
+      "path": "$CABA_DATA/raw/MAST/donoharm/dataset/rubrics/Heme010.json",
+      "bytes": 11478,
+      "sha256": "855a08a70bb6d67db4a84cb42b054db5046d1176790e6f74ff5e424bfbfe348e"
+    },
+    {
+      "path": "$CABA_DATA/raw/MAST/donoharm/dataset/rubrics/ID003.json",
+      "bytes": 12210,
+      "sha256": "7b2caf00338500f2852694ff38247980de9453f6ed3a0802e0c2d313128d561b"
+    },
+    {
+      "path": "$CABA_DATA/raw/MAST/donoharm/dataset/rubrics/ID006.json",
+      "bytes": 12862,
+      "sha256": "3ec46544d3b9ee4eece7f1877155179f30b6228f11e635d160f2819fceb09066"
+    },
+    {
+      "path": "$CABA_DATA/raw/MAST/donoharm/dataset/rubrics/ID008.json",
+      "bytes": 12377,
+      "sha256": "476e53fe9ce8be0c42968c3c1a57015b16a613b9c24da5a37cc11d21abf67cca"
+    },
+    {
+      "path": "$CABA_DATA/raw/MAST/donoharm/dataset/rubrics/Nephro003.json",
+      "bytes": 10802,
+      "sha256": "c1862c6049b692ede67e2376dec057ad5e1604f317f290c35e6e69996158bbed"
+    },
+    {
+      "path": "$CABA_DATA/raw/MAST/donoharm/dataset/rubrics/Nephro005.json",
+      "bytes": 10471,
+      "sha256": "b0c8535dd53521666380d00a431514b75d9a0c7e9e3218fd84ace8d5a5bdf69e"
+    },
+    {
+      "path": "$CABA_DATA/raw/MAST/donoharm/dataset/rubrics/Nephro009.json",
+      "bytes": 10405,
+      "sha256": "c8e828a89f29e2bebe6944ea4c4af91996225eb5e185db5666133fd912037427"
+    },
+    {
+      "path": "$CABA_DATA/raw/MAST/donoharm/dataset/rubrics/Neuro003.json",
+      "bytes": 9802,
+      "sha256": "db2a143abce7642f09b6b6da3938e342c8a5a724d93b880037a1d496ec06735d"
+    },
+    {
+      "path": "$CABA_DATA/raw/MAST/donoharm/dataset/rubrics/Neuro004.json",
+      "bytes": 15304,
+      "sha256": "03156b46dbd45ef54a54cecdb979c4e9167933d0ab71020ad251b1338f3b2814"
+    },
+    {
+      "path": "$CABA_DATA/raw/MAST/donoharm/dataset/rubrics/Neuro007.json",
+      "bytes": 9542,
+      "sha256": "59727e6baa4fb48217ee92fdf64fd40f868d567aecb997482dc4facc46384d3b"
+    },
+    {
+      "path": "$CABA_DATA/raw/MAST/donoharm/dataset/rubrics/Pulm001.json",
+      "bytes": 10745,
+      "sha256": "e5506cbd97d3d02e711065c8110a5c4dc441c75d1a62451f3692e08b2036eff1"
+    },
+    {
+      "path": "$CABA_DATA/raw/MAST/donoharm/dataset/rubrics/Pulm005.json",
+      "bytes": 12045,
+      "sha256": "f1f6cc2d04ae066f7b60f7f7d67a4b3360fa36ad08509754046d736916d2edc8"
+    },
+    {
+      "path": "$CABA_DATA/raw/MAST/donoharm/dataset/rubrics/Pulm009.json",
+      "bytes": 12221,
+      "sha256": "2b6c9d3fe11d0ea688c3358640691f78eb366cd75de13802d559f23a5061ef51"
+    }
+  ],
+  "license": "Data CC BY 4.0 (donoharm/LICENSE-DATA); code MIT",
+  "split": "open subset: 30 base cases x 11 variants (1 base + 10 perturbations)",
+  "n_items": 330,
+  "public": "yes",
+  "english": "yes",
+  "text": "yes",
+  "single_request": "yes",
+  "request_fields": "prompt (case text only; protocol is unprompted, empty template)",
+  "example_structure": [
+    "id",
+    "metadata",
+    "prompt"
+  ],
+  "notes": "Not re-downloaded: reused benchmarks/raw/MAST (see raw/SOURCES.md, commit tarball sha256 edbac9f5...). 330 items = 30 open base cases x 11 variants; NOHARM held-out cases are not released (leaderboard only). For RCQ-Map sampling, the 30 base cases (category=baseline) are the distinct requests; perturbations are rewrites of the same case. Rubrics (30 JSON, 1,128 scored management options) listed in files. No separate NOHARM-only GitHub release was found via the todo URL. Checked 2026-10-04; no LLMs or API keys used.",
+  "rendering": {
+    "rule": "Item text as released: the case prompt (MAST NOHARM protocol is unprompted, empty template).",
+    "template_source": "none",
+    "n_usable": 330,
+    "n_sampled": 200,
+    "seed": 20261004,
+    "excluded": {
+      "non_english": 0,
+      "image": 0,
+      "duplicate": 0
+    },
+    "mean_chars": 516.9,
+    "max_chars": 899
+  },
+  "in_caba_v1_0": true
+}

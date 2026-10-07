@@ -1,0 +1,81 @@
+{
+  "benchmark": "ACI-Bench",
+  "source_url": [
+    "https://raw.githubusercontent.com/wyim/aci-bench/b909b2bb9cf1d19de08df15cddde7bd0179665e4/README.md",
+    "https://raw.githubusercontent.com/wyim/aci-bench/b909b2bb9cf1d19de08df15cddde7bd0179665e4/data/challenge_data/clinicalnlp_taskB_test1.csv",
+    "https://raw.githubusercontent.com/wyim/aci-bench/b909b2bb9cf1d19de08df15cddde7bd0179665e4/data/challenge_data/clinicalnlp_taskB_test1_metadata.csv",
+    "https://raw.githubusercontent.com/wyim/aci-bench/b909b2bb9cf1d19de08df15cddde7bd0179665e4/data/challenge_data/clinicalnlp_taskC_test2.csv",
+    "https://raw.githubusercontent.com/wyim/aci-bench/b909b2bb9cf1d19de08df15cddde7bd0179665e4/data/challenge_data/clinicalnlp_taskC_test2_metadata.csv",
+    "https://raw.githubusercontent.com/wyim/aci-bench/b909b2bb9cf1d19de08df15cddde7bd0179665e4/data/challenge_data/clef_taskC_test3.csv",
+    "https://raw.githubusercontent.com/wyim/aci-bench/b909b2bb9cf1d19de08df15cddde7bd0179665e4/data/challenge_data/clef_taskC_test3_metadata.csv"
+  ],
+  "source_type": "own release",
+  "revision": "b909b2bb9cf1d19de08df15cddde7bd0179665e4",
+  "files": [
+    {
+      "path": "$CABA_DATA/aci_bench/README.md",
+      "bytes": 2363,
+      "sha256": "5f46940cd96205df2f57af683aa018e728fd6503108d64eeb28f5ee2bd34b1ee"
+    },
+    {
+      "path": "$CABA_DATA/aci_bench/data/challenge_data/clinicalnlp_taskB_test1.csv",
+      "bytes": 349998,
+      "sha256": "5cc4008e68545f84913744a8e493a58bdf17ba7e1b7a0be46d6943d6bfca9471"
+    },
+    {
+      "path": "$CABA_DATA/aci_bench/data/challenge_data/clinicalnlp_taskB_test1_metadata.csv",
+      "bytes": 3195,
+      "sha256": "6960581701816c6dbe1aea8a53df6cff2f1ca92b24b036f6303242ca681cbafd"
+    },
+    {
+      "path": "$CABA_DATA/aci_bench/data/challenge_data/clinicalnlp_taskC_test2.csv",
+      "bytes": 385979,
+      "sha256": "599e3330a14e25a0e056aee1365ffac7ebe50058f15821eae42a5513c2bb5a4f"
+    },
+    {
+      "path": "$CABA_DATA/aci_bench/data/challenge_data/clinicalnlp_taskC_test2_metadata.csv",
+      "bytes": 3423,
+      "sha256": "60e799ee5033767e9f5c2e9c3d84f64366628e2aae8637cd5d96ca29ba01b83c"
+    },
+    {
+      "path": "$CABA_DATA/aci_bench/data/challenge_data/clef_taskC_test3.csv",
+      "bytes": 381908,
+      "sha256": "d3c18362a42124ea2bd1b2b4b66ba76a11bb123dfdb416471ae3b5924d1428ec"
+    },
+    {
+      "path": "$CABA_DATA/aci_bench/data/challenge_data/clef_taskC_test3_metadata.csv",
+      "bytes": 3438,
+      "sha256": "e1bec9323b2bed8e544ead77fae6251c4709bc9ffe2d0de346d843334760736b"
+    }
+  ],
+  "license": "CC BY 4.0 (README)",
+  "split": "test1 + test2 + test3 (MEDIQA-CHAT 2023 Task B, Task C; MEDIQA-SUM 2023 Task C), 40 encounters each",
+  "n_items": 120,
+  "public": "yes",
+  "english": "yes",
+  "text": "yes",
+  "single_request": "yes",
+  "request_fields": "instruction (generate clinical note) + dialogue (doctor-patient transcript)",
+  "example_structure": [
+    "dataset",
+    "dialogue",
+    "encounter_id",
+    "note"
+  ],
+  "notes": "120 test encounters from data/challenge_data (train 67 and valid 20 not downloaded). The README also links the full corpus on figshare (https://figshare.com/articles/dataset/aci-bench-corpus_zip/22494601); not needed because the GitHub copy holds the test splits. data/src_experiment_data holds alternative transcript versions (ASR / ASR-corrected / human) of the same test encounters; not downloaded. The repo has no LICENSE file; the CC BY 4.0 statement is in README.md. Checked 2026-10-04; no LLMs or API keys used.",
+  "rendering": {
+    "rule": "Full MedHELM prompt exactly as HELM builds it (generation adapter, zero-shot): instructions, blank line, \"Conversation: Doctor-patient dialogue:\" + dialogue, newline, final cue \"Clinical Note:\" (dialogues verified identical to HELM-pinned challenge_data_json at e75b383).",
+    "template_source": "https://github.com/stanford-crfm/helm/blob/63754d05db6f874e41a395880fb573890a13e791/src/helm/benchmark/run_specs/medhelm_run_specs.py (get_aci_bench_run_spec) and src/helm/benchmark/scenarios/aci_bench_scenario.py",
+    "n_usable": 120,
+    "n_sampled": 120,
+    "seed": 20261004,
+    "excluded": {
+      "non_english": 0,
+      "image": 0,
+      "duplicate": 0
+    },
+    "mean_chars": 6816.1,
+    "max_chars": 13281
+  },
+  "in_caba_v1_0": true
+}

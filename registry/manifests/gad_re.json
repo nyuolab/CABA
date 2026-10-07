@@ -1,0 +1,36 @@
+{
+  "benchmark": "GAD RE",
+  "source_url": [
+    "https://huggingface.co/datasets/bigbio/gad/resolve/8950f534f8012eef317e1b90b2a8b13fbec8746d/data/REdata.zip",
+    "https://huggingface.co/datasets/bigbio/gad/resolve/8950f534f8012eef317e1b90b2a8b13fbec8746d/README.md"
+  ],
+  "source_type": "own release via mirror (BioBERT-preprocessed GAD, re-hosted by BigBIO; the BLURB/BioBERT Google Drive original is dead)",
+  "revision": "HF bigbio/gad 8950f534f8012eef317e1b90b2a8b13fbec8746d",
+  "files": [
+    {
+      "path": "$CABA_DATA/gad_re/GAD/1/test.tsv",
+      "bytes": 102294,
+      "sha256": "68fe2b2bddefac2cd5d35b4bc8a13bceee95ee9a582a623632981e893cdb512e"
+    },
+    {
+      "path": "$CABA_DATA/gad_re/bigbio_gad_README.md",
+      "bytes": 1578,
+      "sha256": "720b07baa6fd7f69c9405189fbafb7577238b4fa5ac06a72332ca5594d83a271"
+    }
+  ],
+  "license": "CC BY 4.0 (BigBIO card); original GAD corpus (Bravo et al. 2015) homepage unreachable",
+  "split": "fold 1 test.tsv (the BLURB test split)",
+  "n_items": 534,
+  "public": "yes",
+  "english": "yes",
+  "text": "yes",
+  "single_request": "yes (via ClinicBench prompt template; raw data is binary sentence classification)",
+  "request_fields": "ClinicBench Table 8 GAD prompt (gene/disease relation yes/no) + sentence with @GENE$ and @DISEASE$ masks",
+  "example_structure": [
+    "index",
+    "label",
+    "sentence"
+  ],
+  "notes": "ClinicBench (Liu et al., EMNLP 2024; github.com/AI-in-Health/ClinicBench @57138be8a73f09bef8980f849789baf57570c5cf) releases only its six new datasets; existing datasets are not redistributed, so the own release was used. ClinicBench takes GAD from BLURB (test 534). BLURB's download script fetches REdata.zip from Google Drive (id 1-jDKGcXREb2X9xTFnuiJ36PvsqoyHWcw), which now returns 404; BigBIO hosts the same REdata.zip (2,973,735 bytes, sha256 b3317c119db6a8c5895e8c7464590e4a2e5f00ae7078745cf6adc9cbef42bd2e). The zip bundles 10 CV folds with train files; only GAD/1/test.tsv was extracted, then the zip was deleted. 534 sentences (281 positive, 253 negative), matching ClinicBench Table 1. Checked 2026-10-04; no LLMs or API keys used.",
+  "in_caba_v1_0": false
+}

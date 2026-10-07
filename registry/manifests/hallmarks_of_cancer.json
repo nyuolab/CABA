@@ -1,0 +1,50 @@
+{
+  "benchmark": "Hallmarks of Cancer",
+  "source_url": [
+    "https://huggingface.co/datasets/Henrychur/MedS-Bench/resolve/6945b14e0f408082aecb6a77a185b9ebdd5fb413/Text_classification/task106_hoc_text_classification.json",
+    "https://huggingface.co/datasets/Henrychur/MedS-Bench-SPLIT/resolve/bae9b49bb23ffcd5b1b64345f021d4d5b803b503/Text_classification/task106_hoc_text_classification.json"
+  ],
+  "source_type": "suite release (MedS-Bench, instruction version)",
+  "revision": "HF Henrychur/MedS-Bench 6945b14e0f408082aecb6a77a185b9ebdd5fb413; HF Henrychur/MedS-Bench-SPLIT bae9b49bb23ffcd5b1b64345f021d4d5b803b503 (GitHub MAGIC-AI4Med/MedS-Ins 185cfc04a27023983e48b357a6f2fd525049b9af)",
+  "files": [
+    {
+      "path": "$CABA_DATA/hallmarks_of_cancer/MedS-Bench/task106_hoc_text_classification.json",
+      "bytes": 260541,
+      "sha256": "4893da02dc1259526ca7e074550c9b48e47f85da3907d3ad978afb2d656bf10d"
+    },
+    {
+      "path": "$CABA_DATA/hallmarks_of_cancer/MedS-Bench-SPLIT/task106_hoc_text_classification.json",
+      "bytes": 261201,
+      "sha256": "98c5b143e3747a0c3ebc55295ec07f420bb92bc528d0d7566ba59daed49bb47b"
+    }
+  ],
+  "license": "MedS-Ins/MedS-Bench GitHub LICENSE: \"CC BY-SA\" (MAGIC consortium); HF dataset cards declare no license; task-file Instance License: none given; source github.com/sb895/Hallmarks-of-Cancer",
+  "split": "MedS-Bench test file(s); MedS-Bench-SPLIT has 158 (identical)",
+  "n_items": 158,
+  "public": "yes",
+  "english": "yes",
+  "text": "yes",
+  "single_request": "yes",
+  "request_fields": "Definition (task instruction listing the 10 hallmarks) + instance input (abstract)",
+  "example_structure": [
+    "Definition",
+    "Instances[].input",
+    "Instances[].output"
+  ],
+  "notes": "MedS-Bench (Wu et al., npj Digit Med 2024; arXiv 2408.12547) recasts the dataset as an instruction task. Henrychur/MedS-Bench holds the full test files (\"the official benchmark\"); Henrychur/MedS-Bench-SPLIT holds the subsample used for the paper's results. n_items counts the MedS-Bench file. Multi-label abstract classification over the 10 hallmarks. ClinicBench also uses HoC (315 test documents, BLURB split) but does not redistribute items; the 158 MedS-Bench items come from the sb895 release. Checked 2026-10-04; no LLMs or API keys used.",
+  "rendering": {
+    "rule": "instruction-style (MedS-Bench): the task Definition, a blank line, then the instance input (few-shot examples and outputs omitted)",
+    "template_source": "none (instruction and input as released in the MedS-Bench task files)",
+    "n_usable": 158,
+    "n_sampled": 158,
+    "seed": 20261004,
+    "excluded": {
+      "non_english": 0,
+      "image": 0,
+      "duplicate": 0
+    },
+    "mean_chars": 2009.1,
+    "max_chars": 3301
+  },
+  "in_caba_v1_0": true
+}

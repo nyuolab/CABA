@@ -1,0 +1,15 @@
+# Checks that the summary and the flat label table reproduce from the labels and that the registry rebuilds byte for byte.
+name: Check
+on: [push, pull_request]
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install numpy pandas
+      - run: python scripts/compare.py && python scripts/flatten_labels.py
+      - run: python scripts/registry/build_candidates.py && python scripts/registry/finalize.py
+      - run: git diff --exit-code -- registry summary labels

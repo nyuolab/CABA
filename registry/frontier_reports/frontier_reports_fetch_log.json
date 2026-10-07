@@ -1,0 +1,1269 @@
+[
+ {
+  "doc_id": "975f57653267",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+  "status": "direct",
+  "chars": 15709,
+  "linked_documents": []
+ },
+ {
+  "doc_id": "f8bd68ff7b9a",
+  "url": "https://openai.com/index/introducing-gpt-6-1-sol/",
+  "status": "archive",
+  "chars": 9351,
+  "linked_documents": []
+ },
+ {
+  "doc_id": "50e18c541984",
+  "url": "https://www.anthropic.com/claude-sonnet-5-5",
+  "status": "direct",
+  "chars": 238436,
+  "linked_documents": [
+   "https://www.anthropic.com/claude-sonnet-5-5-system-card"
+  ]
+ },
+ {
+  "doc_id": "dfc615803e71",
+  "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
+  "status": "archive",
+  "chars": 14206,
+  "linked_documents": []
+ },
+ {
+  "doc_id": "0c90c73c08cf",
+  "url": "https://www.anthropic.com/claude-opus-5-5",
+  "status": "direct",
+  "chars": 447105,
+  "linked_documents": [
+   "https://anthropic.com/claude-opus-5-5-system-card"
+  ]
+ },
+ {
+  "doc_id": "81104d8861cf",
+  "url": "https://x.ai/news/grok-4-7",
+  "status": "direct",
+  "chars": 4956,
+  "linked_documents": []
+ },
+ {
+  "doc_id": "567e6ed88aae",
+  "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash/blob/main/DeepSeek_V41_Tech_Report.pdf",
+  "status": "direct",
+  "chars": 298806,
+  "linked_documents": [
+   "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash/blob/main/DeepSeek_V41_Tech_Report.pdf",
+   "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash/resolve/main/DeepSeek_V41_Tech_Report.pdf?download=true",
+   "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash/commits/main/DeepSeek_V41_Tech_Report.pdf"
+  ]
+ },
+ {
+  "doc_id": "c5723bb99be0",
+  "url": "https://research.meta.ai/blog/introducing-muse-spark-1-3",
+  "status": "direct",
+  "chars": 11132,
+  "linked_documents": []
+ },
+ {
+  "doc_id": "9a86aa67f096",
+  "url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.8-flash",
+  "status": "direct",
+  "chars": 19707,
+  "linked_documents": [
+   "https://deepmind.google/models/model-cards/gemini-3-8-flash/"
+  ]
+ },
+ {
+  "doc_id": "3df5fbd9b803",
+  "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
+  "status": "direct",
+  "chars": 1140418,
+  "linked_documents": [
+   "https://www.anthropic.com/claude-fable-5-1-mythos-5-1-system-card",
+   "https://www.anthropic.com/claude-fable-5-1-mythos-5-1-system-card",
+   "https://www.anthropic.com/claude-fable-5-1-mythos-5-1-system-card"
+  ]
+ },
+ {
+  "doc_id": "05f53b90b474",
+  "url": "https://z.ai/blog/glm-5.3-flash",
+  "status": "failed"
+ },
+ {
+  "doc_id": "e6c53596b4a8",
+  "url": "https://z.ai/blog/glm-5.3",
+  "status": "failed"
+ },
+ {
+  "doc_id": "e60e99f01d84",
+  "url": "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows/",
+  "status": "archive",
+  "chars": 15501,
+  "linked_documents": []
+ },
+ {
+  "doc_id": "f9e1ef66ab3d",
+  "url": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B",
+  "status": "direct",
+  "chars": 131406,
+  "linked_documents": [
+   "https://huggingface.co/docs/hub/model-cards#specifying-a-base-model"
+  ]
+ },
+ {
+  "doc_id": "51d818462738",
+  "url": "https://research.meta.ai/blog/introducing-muse-code-and-muse-spark-1-2",
+  "status": "direct",
+  "chars": 6138,
+  "linked_documents": []
+ },
+ {
+  "doc_id": "e75df1016aa1",
+  "url": "https://www.anthropic.com/news/claude-opus-5",
+  "status": "direct",
+  "chars": 345754,
+  "linked_documents": [
+   "https://www.anthropic.com/claude-opus-5-system-card"
+  ]
+ },
+ {
+  "doc_id": "f1afe25775a0",
+  "url": "https://qwen.ai/blog?id=qwen3.8",
+  "status": "direct",
+  "chars": 6,
+  "linked_documents": []
+ },
+ {
+  "doc_id": "7372d8cb937a",
+  "url": "https://huggingface.co/moonshotai/Kimi-K3",
+  "status": "direct",
+  "chars": 301819,
+  "linked_documents": [
+   "https://github.com/MoonshotAI/Kimi-K3/blob/main/k3_tech_report.pdf",
+   "https://huggingface.co/docs/hub/model-cards#specifying-a-base-model"
+  ]
+ },
+ {
+  "doc_id": "147a989f3e59",
+  "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+  "status": "direct",
+  "chars": 1668832,
+  "linked_documents": [
+   "https://anthropic.com/claude-fable-5-mythos-5-system-card",
+   "https://anthropic.com/claude-fable-5-mythos-5-system-card",
+   "https://anthropic.com/claude-fable-5-mythos-5-system-card"
+  ]
+ },
+ {
+  "doc_id": "020e3fcd860f",
+  "url": "https://arxiv.org/abs/2512.20856",
+  "status": "direct",
+  "chars": 37514,
+  "linked_documents": []
+ },
+ {
+  "doc_id": "1370d9367537",
+  "url": "https://qwen.ai/blog?id=qwen3.7-plus",
+  "status": "direct",
+  "chars": 6,
+  "linked_documents": []
+ },
+ {
+  "doc_id": "616b3e293b58",
+  "url": "https://microsoft.ai/news/introducingmai-code-1-flash/",
+  "status": "direct",
+  "chars": 9930,
+  "linked_documents": []
+ },
+ {
+  "doc_id": "a616952f77f5",
+  "url": "https://www.minimax.io/blog/minimax-m3",
+  "status": "direct",
+  "chars": 23943,
+  "linked_documents": []
+ },
+ {
+  "doc_id": "918121c45d59",
+  "url": "https://www.anthropic.com/news/claude-opus-4-8",
+  "status": "direct",
+  "chars": 1249276,
+  "linked_documents": [
+   "https://www.anthropic.com/claude-opus-4-8-system-card",
+   "https://www.anthropic.com/claude-opus-4-8-system-card",
+   "https://www.anthropic.com/claude-opus-4-8-system-card"
+  ]
+ },
+ {
+  "doc_id": "5cbf6a0a48be",
+  "url": "https://deepmind.google/models/model-cards/gemini-3-5-flash/",
+  "status": "direct",
+  "chars": 13839,
+  "linked_documents": []
+ },
+ {
+  "doc_id": "d7cca4fd4b6b",
+  "url": "https://openai.com/index/gpt-5-5-instant/",
+  "status": "archive",
+  "chars": 16052,
+  "linked_documents": []
+ },
+ {
+  "doc_id": "d61d7c939823",
+  "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf",
+  "status": "archive-retry",
+  "chars": 4865
+ },
+ {
+  "doc_id": "6659803055f3",
+  "url": "https://openai.com/index/introducing-gpt-5-5/",
+  "status": "archive",
+  "chars": 29323,
+  "linked_documents": []
+ },
+ {
+  "doc_id": "fa2c1c05394b",
+  "url": "https://www.kimi.com/ai-models/kimi-k2-6",
+  "status": "direct",
+  "chars": 4393,
+  "linked_documents": []
+ },
+ {
+  "doc_id": "8ffed2502175",
+  "url": "https://www.anthropic.com/news/claude-opus-4-7",
+  "status": "direct",
+  "chars": 457132,
+  "linked_documents": [
+   "https://anthropic.com/claude-opus-4-7-system-card"
+  ]
+ },
+ {
+  "doc_id": "fb672c6ba5e6",
+  "url": "https://openai.com/index/scaling-trusted-access-for-cyber-defense/",
+  "status": "archive",
+  "chars": 12254,
+  "linked_documents": []
+ },
+ {
+  "doc_id": "f46da8bae972",
+  "url": "https://ai.meta.com/blog/introducing-muse-spark-msl/",
+  "status": "direct",
+  "chars": 9103,
+  "linked_documents": []
+ },
+ {
+  "doc_id": "64a003065548",
+  "url": "https://z.ai/blog/glm-5.1",
+  "status": "failed"
+ },
+ {
+  "doc_id": "388f69c2183d",
+  "url": "https://www-cdn.anthropic.com/7624816413e9b4d2e3ba620c5a5e091b98b190a5/Claude%20Mythos%20Preview%20System%20Card.pdf",
+  "status": "direct",
+  "chars": 458512,
+  "linked_documents": []
+ },
+ {
+  "doc_id": "6d4ef448fe28",
+  "url": "https://qwen.ai/blog?id=qwen3.6",
+  "status": "direct",
+  "chars": 6,
+  "linked_documents": []
+ },
+ {
+  "doc_id": "06e5096c48bb",
+  "url": "https://arxiv.org/abs/2604.15804",
+  "status": "direct",
+  "chars": 101222,
+  "linked_documents": []
+ },
+ {
+  "doc_id": "79a35749283e",
+  "url": "https://developer.nvidia.com/blog/introducing-nemotron-3-super-an-open-hybrid-mamba-transformer-moe-for-agentic-reasoning/",
+  "status": "direct",
+  "chars": 178557,
+  "linked_documents": [
+   "https://research.nvidia.com/labs/nemotron/files/NVIDIA-Nemotron-3-Super-Technical-Report.pdf"
+  ]
+ },
+ {
+  "doc_id": "1df3c91e850c",
+  "url": "https://openai.com/index/introducing-gpt-5-4/",
+  "status": "archive",
+  "chars": 27440,
+  "linked_documents": []
+ },
+ {
+  "doc_id": "f953fe042381",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-lite/",
+  "status": "direct",
+  "chars": 8915,
+  "linked_documents": []
+ },
+ {
+  "doc_id": "c640afebac35",
+  "url": "https://github.com/QwenLM/Qwen3.5?tab=readme-ov-file",
+  "status": "direct",
+  "chars": 13804,
+  "linked_documents": []
+ },
+ {
+  "doc_id": "a684e4a70605",
+  "url": "https://docs.x.ai/developers/models",
+  "status": "direct",
+  "chars": 5498,
+  "linked_documents": []
+ },
+ {
+  "doc_id": "05401bde8c81",
+  "url": "https://qwen.ai/blog?id=qwen3.5",
+  "status": "direct",
+  "chars": 6,
+  "linked_documents": []
+ },
+ {
+  "doc_id": "6dd6c72f5e16",
+  "url": "https://openai.com/index/introducing-gpt-5-3-codex-spark/",
+  "status": "archive",
+  "chars": 8776,
+  "linked_documents": []
+ },
+ {
+  "doc_id": "56bd5055a374",
+  "url": "https://arxiv.org/pdf/2602.15763",
+  "status": "direct",
+  "chars": 137807,
+  "linked_documents": []
+ },
+ {
+  "doc_id": "cb66305ae99c",
+  "url": "https://openai.com/index/introducing-gpt-5-3-codex/",
+  "status": "archive-retry",
+  "chars": 23729
+ },
+ {
+  "doc_id": "5059de01d104",
+  "url": "https://qwen.ai/blog?id=qwen3-coder-next",
+  "status": "direct",
+  "chars": 6,
+  "linked_documents": []
+ },
+ {
+  "doc_id": "6b62f3f4ed94",
+  "url": "https://arxiv.org/abs/2602.02276",
+  "status": "direct",
+  "chars": 110748,
+  "linked_documents": []
+ },
+ {
+  "doc_id": "2ae63d7cabe0",
+  "url": "https://qwen.ai/blog?id=qwen3-max-thinking",
+  "status": "direct",
+  "chars": 6,
+  "linked_documents": []
+ },
+ {
+  "doc_id": "215a576a7c6e",
+  "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2.1",
+  "status": "direct",
+  "chars": 104033,
+  "linked_documents": [
+   "https://huggingface.co/docs/hub/model-cards#specifying-a-base-model"
+  ]
+ },
+ {
+  "doc_id": "1f9296a9499f",
+  "url": "https://z.ai/blog/glm-4.7",
+  "status": "failed"
+ },
+ {
+  "doc_id": "f3dfc43e46bd",
+  "url": "https://openai.com/index/introducing-gpt-5-2-codex/",
+  "status": "archive",
+  "chars": 11056,
+  "linked_documents": []
+ },
+ {
+  "doc_id": "d1c25beeb548",
+  "url": "https://research.nvidia.com/labs/nemotron/files/NVIDIA-Nemotron-3-Nano-Technical-Report.pdf",
+  "status": "direct",
+  "chars": 120045,
+  "linked_documents": []
+ },
+ {
+  "doc_id": "5b57e497bda4",
+  "url": "https://openai.com/index/introducing-gpt-5-2/",
+  "status": "failed"
+ },
+ {
+  "doc_id": "ebe2dbb983e1",
+  "url": "https://arxiv.org/abs/2511.22570",
+  "status": "direct",
+  "chars": 48179,
+  "linked_documents": []
+ },
+ {
+  "doc_id": "3c1a80a7da08",
+  "url": "https://www.anthropic.com/news/claude-opus-4-5",
+  "status": "direct",
+  "chars": 790073,
+  "linked_documents": [
+   "https://www.anthropic.com/claude-opus-4-5-system-card",
+   "https://www.anthropic.com/claude-opus-4-5-system-card",
+   "https://www.anthropic.com/claude-opus-4-5-system-card"
+  ]
+ },
+ {
+  "doc_id": "4f0dc3b05402",
+  "url": "https://x.ai/news/grok-4-1-fast",
+  "status": "direct",
+  "chars": 7403,
+  "linked_documents": []
+ },
+ {
+  "doc_id": "90a3db01451c",
+  "url": "https://openai.com/index/gpt-5-1-codex-max/",
+  "status": "failed"
+ },
+ {
+  "doc_id": "6800db8e7517",
+  "url": "https://blog.google/products/gemini/gemini-3/",
+  "status": "direct",
+  "chars": 34525,
+  "linked_documents": [
+   "http://deepmind.google/models/model-cards/gemini-3-pro"
+  ]
+ },
+ {
+  "doc_id": "746e2ce6afae",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-deep-think/",
+  "status": "direct",
+  "chars": 9636,
+  "linked_documents": []
+ },
+ {
+  "doc_id": "f862cdc60e6e",
+  "url": "https://x.ai/news/grok-4-1",
+  "status": "direct",
+  "chars": 30732,
+  "linked_documents": [
+   "https://data.x.ai/2025-11-17-grok-4-1-model-card.pdf"
+  ]
+ },
+ {
+  "doc_id": "ca5b46f04b6d",
+  "url": "https://openai.com/index/gpt-5-1/",
+  "status": "failed"
+ },
+ {
+  "doc_id": "b8d8282bea68",
+  "url": "https://moonshotai.github.io/Kimi-K2/thinking",
+  "status": "failed"
+ },
+ {
+  "doc_id": "52e9854efd6b",
+  "url": "https://arxiv.org/abs/2510.24701",
+  "status": "direct",
+  "chars": 76372,
+  "linked_documents": []
+ },
+ {
+  "doc_id": "a219e39d2e39",
+  "url": "https://www.minimax.io/news/minimax-m2",
+  "status": "direct",
+  "chars": 8352,
+  "linked_documents": []
+ },
+ {
+  "doc_id": "a5a84a8c004b",
+  "url": "https://www.anthropic.com/news/claude-haiku-4-5",
+  "status": "direct",
+  "chars": 279935,
+  "linked_documents": [
+   "https://www.anthropic.com/claude-haiku-4-5-system-card",
+   "https://www.anthropic.com/claude-haiku-4-5-system-card",
+   "https://cdn.openai.com/gpt-5-system-card.pdf"
+  ]
+ },
+ {
+  "doc_id": "aece40a39113",
+  "url": "https://cdn.openai.com/gpt-5-system-card.pdf",
+  "status": "direct",
+  "chars": 132949,
+  "linked_documents": []
+ },
+ {
+  "doc_id": "ec25ad7a8dc9",
+  "url": "https://z.ai/blog/glm-4.6",
+  "status": "failed"
+ },
+ {
+  "doc_id": "1ccc22f7699c",
+  "url": "https://www.anthropic.com/news/claude-sonnet-4-5",
+  "status": "direct",
+  "chars": 775239,
+  "linked_documents": [
+   "https://www.anthropic.com/claude-sonnet-4-5-system-card",
+   "https://www.anthropic.com/claude-sonnet-4-5-system-card",
+   "https://www.anthropic.com/claude-sonnet-4-5-system-card"
+  ]
+ },
+ {
+  "doc_id": "845eeb5a9e37",
+  "url": "https://deepmind.google/discover/blog/gemini-robotics-15-brings-ai-agents-into-the-physical-world/",
+  "status": "direct",
+  "chars": 17887,
+  "linked_documents": []
+ },
+ {
+  "doc_id": "cff1391884f8",
+  "url": "https://arxiv.org/abs/2509.17765",
+  "status": "direct",
+  "chars": 92548,
+  "linked_documents": []
+ },
+ {
+  "doc_id": "2403fdf52afc",
+  "url": "https://arxiv.org/abs/2509.13310",
+  "status": "direct",
+  "chars": 94427,
+  "linked_documents": []
+ },
+ {
+  "doc_id": "1cb20830c01b",
+  "url": "https://modelstudio.console.alibabacloud.com/?tab=doc#/doc/?type=model&url=2840914_2&modelId=qwen3-max-preview",
+  "status": "direct",
+  "chars": 47,
+  "linked_documents": []
+ },
+ {
+  "doc_id": "c4370acf3cd0",
+  "url": "https://cdn.openai.com/pdf/419b6906-9da6-406c-a19d-1bb078ac7637/oai_gpt-oss_model_card.pdf",
+  "status": "direct",
+  "chars": 75510,
+  "linked_documents": []
+ },
+ {
+  "doc_id": "b01d048ee753",
+  "url": "https://www.anthropic.com/news/claude-opus-4-1",
+  "status": "direct",
+  "chars": 107358,
+  "linked_documents": [
+   "https://www.anthropic.com/claude-opus-4-1-system-card",
+   "https://cdn.openai.com/pdf/2221c875-02dc-4789-800b-e7758f3722c1/o3-and-o4-mini-system-card.pdf"
+  ]
+ },
+ {
+  "doc_id": "f9179a0c9b65",
+  "url": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Deep-Think-Model-Card.pdf",
+  "status": "direct",
+  "chars": 42134,
+  "linked_documents": []
+ },
+ {
+  "doc_id": "ecaaa7958447",
+  "url": "https://arxiv.org/abs/2508.06471",
+  "status": "direct",
+  "chars": 85571,
+  "linked_documents": []
+ },
+ {
+  "doc_id": "32b8158ff23a",
+  "url": "https://qwenlm.github.io/blog/qwen3/",
+  "status": "direct",
+  "chars": 16968,
+  "linked_documents": []
+ },
+ {
+  "doc_id": "e943dab9e065",
+  "url": "https://qwenlm.github.io/blog/qwen3-coder/",
+  "status": "direct",
+  "chars": 8217,
+  "linked_documents": []
+ },
+ {
+  "doc_id": "d05ab48436eb",
+  "url": "https://arxiv.org/abs/2503.07891",
+  "status": "direct",
+  "chars": 58370,
+  "linked_documents": []
+ },
+ {
+  "doc_id": "54443ed185b0",
+  "url": "https://moonshotai.github.io/Kimi-K2/",
+  "status": "failed"
+ },
+ {
+  "doc_id": "2db767bb8e7d",
+  "url": "https://x.ai/news/grok-4",
+  "status": "direct",
+  "chars": 10406,
+  "linked_documents": []
+ },
+ {
+  "doc_id": "a1f761007ae3",
+  "url": "https://arxiv.org/abs/2506.05176v1",
+  "status": "direct",
+  "chars": 42294,
+  "linked_documents": []
+ },
+ {
+  "doc_id": "fd620457e2e3",
+  "url": "https://blog.google/technology/google-deepmind/gemini-model-thinking-updates-march-2025/#gemini-2-5-thinking",
+  "status": "direct",
+  "chars": 8741,
+  "linked_documents": []
+ },
+ {
+  "doc_id": "df28cd964ef3",
+  "url": "https://api-docs.deepseek.com/news/news250120",
+  "status": "direct",
+  "chars": 2285,
+  "linked_documents": []
+ },
+ {
+  "doc_id": "50abfd837728",
+  "url": "https://www.anthropic.com/claude/sonnet",
+  "status": "direct",
+  "chars": 228710,
+  "linked_documents": [
+   "https://www.anthropic.com/claude-sonnet-5-5-system-card"
+  ]
+ },
+ {
+  "doc_id": "0f14dddf3c3c",
+  "url": "https://www.anthropic.com/claude/opus",
+  "status": "direct",
+  "chars": 423792,
+  "linked_documents": [
+   "https://www.anthropic.com/claude-opus-5-5-system-card"
+  ]
+ },
+ {
+  "doc_id": "3b403d4e34dc",
+  "url": "https://ai.meta.com/blog/llama-4-multimodal-intelligence/",
+  "status": "direct",
+  "chars": 23183,
+  "linked_documents": []
+ },
+ {
+  "doc_id": "cb6abc3bd12f",
+  "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+  "status": "archive",
+  "chars": 214887,
+  "linked_documents": [
+   "https://cdn.openai.com/pdf/8124a3ce-ab78-4f06-96eb-49ea29ffb52f/gpt5-system-card-aug7.pdf"
+  ]
+ },
+ {
+  "doc_id": "d7650744d57d",
+  "url": "https://arxiv.org/abs/2412.19437",
+  "status": "direct",
+  "chars": 151673,
+  "linked_documents": []
+ },
+ {
+  "doc_id": "93c4a9aac2d7",
+  "url": "https://openai.com/index/introducing-chatgpt-pro/",
+  "status": "failed"
+ },
+ {
+  "doc_id": "409b9f2b100c",
+  "url": "https://qwenlm.github.io/blog/qwq-32b/",
+  "status": "direct",
+  "chars": 6736,
+  "linked_documents": []
+ },
+ {
+  "doc_id": "fee2e15d9b39",
+  "url": "https://mistral.ai/news/mistral-ocr",
+  "status": "direct",
+  "chars": 10170,
+  "linked_documents": []
+ },
+ {
+  "doc_id": "e4a0df6e9c4e",
+  "url": "https://openai.com/index/introducing-gpt-4-5/",
+  "status": "failed"
+ },
+ {
+  "doc_id": "80d76661dadf",
+  "url": "https://www.anthropic.com/news/claude-3-7-sonnet",
+  "status": "direct",
+  "chars": 359410,
+  "linked_documents": [
+   "https://www.anthropic.com/claude-3-7-sonnet-system-card",
+   "https://www.anthropic.com/claude-3-7-sonnet-system-card",
+   "https://www.anthropic.com/claude-3-7-sonnet-system-card"
+  ]
+ },
+ {
+  "doc_id": "ebd2cf2442c2",
+  "url": "https://x.ai/blog/grok-3",
+  "status": "archive",
+  "chars": 16453,
+  "linked_documents": []
+ },
+ {
+  "doc_id": "548f6b55e486",
+  "url": "https://openai.com/index/openai-o3-mini/",
+  "status": "failed"
+ },
+ {
+  "doc_id": "deb166954d2b",
+  "url": "https://help.openai.com/en/articles/9624314-model-release-notes",
+  "status": "failed"
+ },
+ {
+  "doc_id": "440bf7456409",
+  "url": "https://openai.com/index/computer-using-agent/",
+  "status": "failed"
+ },
+ {
+  "doc_id": "8a1417b66d41",
+  "url": "https://arxiv.org/abs/2501.12599v1",
+  "status": "direct",
+  "chars": 96255,
+  "linked_documents": []
+ },
+ {
+  "doc_id": "cd34b2946e83",
+  "url": "arxiv.org/abs/2501.14818",
+  "status": "direct",
+  "chars": 108165
+ },
+ {
+  "doc_id": "24cd9dd18b7f",
+  "url": "https://openai.com/index/introducing-o3-and-o4-mini/",
+  "status": "failed"
+ },
+ {
+  "doc_id": "1d12ed6f5467",
+  "url": "https://arxiv.org/abs/2412.10360",
+  "status": "direct",
+  "chars": 122322,
+  "linked_documents": []
+ },
+ {
+  "doc_id": "3f403eac3274",
+  "url": "https://deepmind.google/technologies/gemini/pro/",
+  "status": "direct",
+  "chars": 9533,
+  "linked_documents": []
+ },
+ {
+  "doc_id": "090a0264a879",
+  "url": "https://www.llama.com/docs/model-cards-and-prompt-formats/llama3_3/",
+  "status": "direct",
+  "chars": 197,
+  "linked_documents": []
+ },
+ {
+  "doc_id": "78a8c83cc1e6",
+  "url": "https://arxiv.org/abs/2412.04468",
+  "status": "direct",
+  "chars": 86714,
+  "linked_documents": []
+ },
+ {
+  "doc_id": "5f1845575777",
+  "url": "https://research.nvidia.com/publication/2024-11_fugatto-1-foundational-generative-audio-transformer-opus-1",
+  "status": "direct",
+  "chars": 3385,
+  "linked_documents": []
+ },
+ {
+  "doc_id": "608d9a4f2afd",
+  "url": "https://mistral.ai/news/pixtral-large/",
+  "status": "direct",
+  "chars": 7371,
+  "linked_documents": []
+ },
+ {
+  "doc_id": "cc0e4aaca726",
+  "url": "https://web.archive.org/web/20250124103542/https://www.globaltimes.cn/page/202411/1323248.shtml",
+  "status": "direct",
+  "chars": 3000,
+  "linked_documents": []
+ },
+ {
+  "doc_id": "c34c287d6790",
+  "url": "https://www.tomsguide.com/ai/google-gemini/google-drops-new-gemini-model-and-it-goes-straight-to-the-top-of-the-llm-leaderboard",
+  "status": "direct",
+  "chars": 17698,
+  "linked_documents": []
+ },
+ {
+  "doc_id": "756e71833785",
+  "url": "https://arxiv.org/abs/2409.11402",
+  "status": "direct",
+  "chars": 125457,
+  "linked_documents": []
+ },
+ {
+  "doc_id": "7148c3445502",
+  "url": "https://catalog.ngc.nvidia.com/orgs/nim/teams/nvidia/containers/llama-3.1-nemotron-70b-instruct",
+  "status": "direct",
+  "chars": 6574,
+  "linked_documents": []
+ },
+ {
+  "doc_id": "1771a14db80a",
+  "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+  "status": "direct",
+  "chars": 16901,
+  "linked_documents": []
+ },
+ {
+  "doc_id": "386c6f9991a4",
+  "url": "https://qwenlm.github.io/blog/qwen2.5/",
+  "status": "direct",
+  "chars": 13912,
+  "linked_documents": []
+ },
+ {
+  "doc_id": "c97ee3466cd9",
+  "url": "https://openai.com/index/introducing-openai-o1-preview/",
+  "status": "archive",
+  "chars": 7240,
+  "linked_documents": []
+ },
+ {
+  "doc_id": "35480cf490f5",
+  "url": "https://openai.com/index/learning-to-reason-with-llms/",
+  "status": "archive",
+  "chars": 137369,
+  "linked_documents": [
+   "https://cdn.openai.com/o1-system-card.pdf#page=16"
+  ]
+ },
+ {
+  "doc_id": "52ba80fc0505",
+  "url": "https://huggingface.co/deepseek-ai/DeepSeek-V2.5",
+  "status": "direct",
+  "chars": 60480,
+  "linked_documents": [
+   "https://huggingface.co/docs/hub/model-cards#specifying-a-base-model"
+  ]
+ },
+ {
+  "doc_id": "551a609de67a",
+  "url": "https://bigmodel.cn/dev/howuse/glm-4",
+  "status": "direct",
+  "chars": 2189,
+  "linked_documents": []
+ },
+ {
+  "doc_id": "4e67dff19fe5",
+  "url": "https://x.ai/blog/grok-2",
+  "status": "archive",
+  "chars": 7130,
+  "linked_documents": []
+ },
+ {
+  "doc_id": "7cbdda698b3e",
+  "url": "https://mistral.ai/news/mistral-large-2407/",
+  "status": "direct",
+  "chars": 8942,
+  "linked_documents": []
+ },
+ {
+  "doc_id": "6445360ae433",
+  "url": "https://ai.meta.com/research/publications/the-llama-3-herd-of-models/",
+  "status": "direct",
+  "chars": 3352,
+  "linked_documents": []
+ },
+ {
+  "doc_id": "b9491733dfe0",
+  "url": "https://openai.com/index/gpt-4o-mini-advancing-cost-efficient-intelligence/",
+  "status": "archive",
+  "chars": 8787,
+  "linked_documents": []
+ },
+ {
+  "doc_id": "13f6fe03934e",
+  "url": "https://huggingface.co/mistralai/Mathstral-7B-v0.1",
+  "status": "direct",
+  "chars": 92967,
+  "linked_documents": [
+   "https://huggingface.co/mistralai/Mathstral-7B-v0.1#model-card-for-mathstral-7b-v01",
+   "https://huggingface.co/mistralai/Mathstral-7B-v0.1#model-card-for-mathstral-7b-v01",
+   "https://huggingface.co/docs/hub/model-cards#specifying-a-base-model"
+  ]
+ },
+ {
+  "doc_id": "4ed7ea770710",
+  "url": "https://www-cdn.anthropic.com/fed9cc193a14b84131812372d8d5857f8f304c52/Model_Card_Claude_3_Addendum.pdf",
+  "status": "direct",
+  "chars": 19246,
+  "linked_documents": []
+ },
+ {
+  "doc_id": "04cfbe972993",
+  "url": "https://github.com/deepseek-ai/DeepSeek-Coder-V2",
+  "status": "direct",
+  "chars": 14663,
+  "linked_documents": []
+ },
+ {
+  "doc_id": "0904f6539e5b",
+  "url": "https://blogs.nvidia.com/blog/nemotron-4-synthetic-data-generation-llm-training/",
+  "status": "direct",
+  "chars": 6696,
+  "linked_documents": []
+ },
+ {
+  "doc_id": "70e6350fb5b9",
+  "url": "https://openvla.github.io/",
+  "status": "direct",
+  "chars": 12330,
+  "linked_documents": []
+ },
+ {
+  "doc_id": "7545943511c8",
+  "url": "https://qwenlm.github.io/blog/qwen2/",
+  "status": "direct",
+  "chars": 21285,
+  "linked_documents": []
+ },
+ {
+  "doc_id": "4643614d41ad",
+  "url": "https://arxiv.org/abs/2406.12793",
+  "status": "direct",
+  "chars": 68108,
+  "linked_documents": []
+ },
+ {
+  "doc_id": "13c06a9201dd",
+  "url": "https://openai.com/index/hello-gpt-4o/",
+  "status": "archive",
+  "chars": 12913,
+  "linked_documents": []
+ },
+ {
+  "doc_id": "445cc903ed35",
+  "url": "https://huggingface.co/Efficient-Large-Model/VILA1.5-13b",
+  "status": "direct",
+  "chars": 32230,
+  "linked_documents": [
+   "https://huggingface.co/Efficient-Large-Model/VILA1.5-13b#vila-model-card",
+   "https://huggingface.co/Efficient-Large-Model/VILA1.5-13b#vila-model-card",
+   "https://github.com/facebookresearch/llama/blob/main/MODEL_CARD.md"
+  ]
+ },
+ {
+  "doc_id": "a1b4ecba8dbe",
+  "url": "https://ai.meta.com/blog/meta-llama-3/",
+  "status": "direct",
+  "chars": 39795,
+  "linked_documents": [
+   "https://github.com/meta-llama/llama3/blob/main/MODEL_CARD.md"
+  ]
+ },
+ {
+  "doc_id": "a34ffc29de0b",
+  "url": "https://x.com/OpenAI/status/1778574613813006610",
+  "status": "direct",
+  "chars": 1976,
+  "linked_documents": []
+ },
+ {
+  "doc_id": "6e86cb139d09",
+  "url": "https://www-cdn.anthropic.com/de8ba9b01c9ab7cbabf5c33b80b7bbc618857627/Model_Card_Claude_3.pdf",
+  "status": "direct",
+  "chars": 92762,
+  "linked_documents": []
+ },
+ {
+  "doc_id": "599f11ef4d2e",
+  "url": "https://mistral.ai/news/mistral-large/",
+  "status": "direct",
+  "chars": 8731,
+  "linked_documents": []
+ },
+ {
+  "doc_id": "49ab4305f7af",
+  "url": "https://storage.googleapis.com/deepmind-media/gemini/gemini_v1_5_report.pdf",
+  "status": "direct",
+  "chars": 426420,
+  "linked_documents": []
+ },
+ {
+  "doc_id": "88ac314ddcdc",
+  "url": "https://qwenlm.github.io/blog/qwen1.5/",
+  "status": "direct",
+  "chars": 21133,
+  "linked_documents": []
+ },
+ {
+  "doc_id": "efc243fcbe7a",
+  "url": "https://qwenlm.github.io/blog/qwen-vl/",
+  "status": "direct",
+  "chars": 18511,
+  "linked_documents": []
+ },
+ {
+  "doc_id": "131d4639853e",
+  "url": "https://www.53ai.com/news/LargeLanguageModel/2024101137012.html",
+  "status": "archive",
+  "chars": 7520,
+  "linked_documents": []
+ },
+ {
+  "doc_id": "c30811197f4a",
+  "url": "https://arxiv.org/abs/2305.13245",
+  "status": "direct",
+  "chars": 23638,
+  "linked_documents": []
+ },
+ {
+  "doc_id": "4c13734dbfa6",
+  "url": "https://arxiv.org/abs/2312.11805",
+  "status": "direct",
+  "chars": 223825,
+  "linked_documents": []
+ },
+ {
+  "doc_id": "e3f93b0f895e",
+  "url": "https://www.nature.com/articles/s41586-023-06924-6",
+  "status": "direct",
+  "chars": 75818,
+  "linked_documents": []
+ },
+ {
+  "doc_id": "19e9d83c4396",
+  "url": "https://arxiv.org/abs/2312.08914",
+  "status": "direct",
+  "chars": 66820,
+  "linked_documents": []
+ },
+ {
+  "doc_id": "b5a332991fa3",
+  "url": "https://arxiv.org/abs/2312.07533",
+  "status": "direct",
+  "chars": 68802,
+  "linked_documents": []
+ },
+ {
+  "doc_id": "573d76ac8bd4",
+  "url": "https://mistral.ai/news/mixtral-of-experts/",
+  "status": "direct",
+  "chars": 6949,
+  "linked_documents": []
+ },
+ {
+  "doc_id": "e471810d993b",
+  "url": "https://arxiv.org/abs/2312.06674",
+  "status": "direct",
+  "chars": 48358,
+  "linked_documents": []
+ },
+ {
+  "doc_id": "0453ae158a21",
+  "url": "https://storage.googleapis.com/deepmind-media/gemini/gemini_1_report.pdf",
+  "status": "direct",
+  "chars": 223790,
+  "linked_documents": []
+ },
+ {
+  "doc_id": "85d4fb0369c1",
+  "url": "https://huggingface.co/Qwen/Qwen-72B",
+  "status": "direct",
+  "chars": 33339,
+  "linked_documents": [
+   "https://huggingface.co/docs/hub/model-cards#specifying-a-base-model"
+  ]
+ },
+ {
+  "doc_id": "a0753dfd9531",
+  "url": "https://www.anthropic.com/index/claude-2-1",
+  "status": "direct",
+  "chars": 47841,
+  "linked_documents": [
+   "https://www-cdn.anthropic.com/5c49cc247484cecf107c699baf29250302e5da70/ModelCardClaudev2_with_appendix_v1.pdf"
+  ]
+ },
+ {
+  "doc_id": "bc43590ac757",
+  "url": "https://developer.nvidia.com/blog/nvidia-ai-foundation-models-build-custom-enterprise-chatbots-and-co-pilots-with-production-ready-llms/",
+  "status": "direct",
+  "chars": 22229,
+  "linked_documents": []
+ },
+ {
+  "doc_id": "304bf96e48e2",
+  "url": "https://arxiv.org/abs/2311.07919",
+  "status": "direct",
+  "chars": 58517,
+  "linked_documents": []
+ },
+ {
+  "doc_id": "e9b0b2df7967",
+  "url": "https://arxiv.org/abs/2311.04257",
+  "status": "direct",
+  "chars": 77388,
+  "linked_documents": []
+ },
+ {
+  "doc_id": "2e54493f29ce",
+  "url": "https://openai.com/blog/new-models-and-developer-products-announced-at-devday",
+  "status": "archive",
+  "chars": 16026,
+  "linked_documents": []
+ },
+ {
+  "doc_id": "a86a6f45815a",
+  "url": "https://arxiv.org/abs/2311.03079",
+  "status": "direct",
+  "chars": 65026,
+  "linked_documents": []
+ },
+ {
+  "doc_id": "98d38a5f86c4",
+  "url": "https://arxiv.org/abs/2310.03744",
+  "status": "direct",
+  "chars": 70321,
+  "linked_documents": []
+ },
+ {
+  "doc_id": "1c4fe327e69f",
+  "url": "https://x.ai/model-card/",
+  "status": "archive",
+  "chars": 4813,
+  "linked_documents": [
+   "https://x.ai/news/grok/model-card"
+  ]
+ },
+ {
+  "doc_id": "83a1f9904aae",
+  "url": "https://www.zhipuai.cn/en/news/76",
+  "status": "archive",
+  "chars": 4083,
+  "linked_documents": []
+ },
+ {
+  "doc_id": "39546cddf2d4",
+  "url": "https://arxiv.org/abs/2310.17680",
+  "status": "failed"
+ },
+ {
+  "doc_id": "5a1d64f4e85a",
+  "url": "https://arxiv.org/abs/2310.09199",
+  "status": "direct",
+  "chars": 55940,
+  "linked_documents": []
+ },
+ {
+  "doc_id": "eab9ed418ba2",
+  "url": "https://platform.openai.com/docs/models/gpt-3.5-turbo",
+  "status": "direct",
+  "chars": 15373,
+  "linked_documents": []
+ },
+ {
+  "doc_id": "212ca209bf51",
+  "url": "https://cdn.openai.com/papers/GPTV_System_Card.pdf",
+  "status": "direct",
+  "chars": 38797,
+  "linked_documents": []
+ },
+ {
+  "doc_id": "bebac1b94736",
+  "url": "https://arxiv.org/abs/2308.12966",
+  "status": "direct",
+  "chars": 60528,
+  "linked_documents": []
+ },
+ {
+  "doc_id": "9eb1f6a3bb01",
+  "url": "https://ai.meta.com/research/publications/llama-2-open-foundation-and-fine-tuned-chat-models/",
+  "status": "direct",
+  "chars": 3787,
+  "linked_documents": []
+ },
+ {
+  "doc_id": "d522919387e6",
+  "url": "https://www.anthropic.com/index/claude-2",
+  "status": "direct",
+  "chars": 44945,
+  "linked_documents": [
+   "https://www-cdn.anthropic.com/bd2a28d2535bfb0494cc8e2a3bf135d2e7523226/Model-Card-Claude-2.pdf"
+  ]
+ },
+ {
+  "doc_id": "fe6a74baa273",
+  "url": "https://arxiv.org/abs/2303.08774",
+  "status": "direct",
+  "chars": 285888,
+  "linked_documents": []
+ },
+ {
+  "doc_id": "d4320773a93f",
+  "url": "https://arxiv.org/abs/2305.18565",
+  "status": "direct",
+  "chars": 98218,
+  "linked_documents": []
+ },
+ {
+  "doc_id": "bf645a94de0e",
+  "url": "https://arxiv.org/abs/2305.11172v1",
+  "status": "direct",
+  "chars": 98828,
+  "linked_documents": []
+ },
+ {
+  "doc_id": "d2f1ead0f3e3",
+  "url": "https://arxiv.org/abs/2305.09617",
+  "status": "direct",
+  "chars": 106966,
+  "linked_documents": []
+ },
+ {
+  "doc_id": "55377cff8676",
+  "url": "https://arxiv.org/abs/2305.10403",
+  "status": "direct",
+  "chars": 257561,
+  "linked_documents": []
+ },
+ {
+  "doc_id": "60089d02a457",
+  "url": "https://arxiv.org/abs/2305.05665",
+  "status": "direct",
+  "chars": 72861,
+  "linked_documents": []
+ },
+ {
+  "doc_id": "0b4c16631391",
+  "url": "https://arxiv.org/abs/2304.08485",
+  "status": "direct",
+  "chars": 91018,
+  "linked_documents": []
+ },
+ {
+  "doc_id": "052b93dc9766",
+  "url": "https://www.anthropic.com/index/introducing-claude",
+  "status": "direct",
+  "chars": 8821,
+  "linked_documents": []
+ },
+ {
+  "doc_id": "622deb41456c",
+  "url": "https://arxiv.org/abs/2303.03378",
+  "status": "direct",
+  "chars": 74584,
+  "linked_documents": []
+ },
+ {
+  "doc_id": "0e792eba0b1c",
+  "url": "https://arxiv.org/abs/2302.13971",
+  "status": "direct",
+  "chars": 88038,
+  "linked_documents": []
+ },
+ {
+  "doc_id": "7e060a4b1420",
+  "url": "https://arxiv.org/abs/2302.04611",
+  "status": "direct",
+  "chars": 115959,
+  "linked_documents": []
+ }
+]

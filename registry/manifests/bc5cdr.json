@@ -1,0 +1,70 @@
+{
+  "benchmark": "BC5CDR",
+  "source_url": [
+    "https://huggingface.co/datasets/Henrychur/MedS-Bench/resolve/6945b14e0f408082aecb6a77a185b9ebdd5fb413/NER/task126_test_bc5chem_named_enetity_recognition.json",
+    "https://huggingface.co/datasets/Henrychur/MedS-Bench-SPLIT/resolve/bae9b49bb23ffcd5b1b64345f021d4d5b803b503/NER/task126_test_bc5chem_named_enetity_recognition.json",
+    "https://huggingface.co/datasets/Henrychur/MedS-Bench/resolve/6945b14e0f408082aecb6a77a185b9ebdd5fb413/NER/task127_test_bc5disease_named_enetity_recognition.json",
+    "https://huggingface.co/datasets/Henrychur/MedS-Bench-SPLIT/resolve/bae9b49bb23ffcd5b1b64345f021d4d5b803b503/NER/task127_test_bc5disease_named_enetity_recognition.json"
+  ],
+  "source_type": "suite release (MedS-Bench, instruction version)",
+  "revision": "HF Henrychur/MedS-Bench 6945b14e0f408082aecb6a77a185b9ebdd5fb413; HF Henrychur/MedS-Bench-SPLIT bae9b49bb23ffcd5b1b64345f021d4d5b803b503 (GitHub MAGIC-AI4Med/MedS-Ins 185cfc04a27023983e48b357a6f2fd525049b9af)",
+  "files": [
+    {
+      "path": "$CABA_DATA/bc5cdr/MedS-Bench/task126_test_bc5chem_named_enetity_recognition.json",
+      "bytes": 1156977,
+      "sha256": "0f60748a0bf5aec2290a84fe0cfc495df9014cf199bf5bbae169f86022719d91"
+    },
+    {
+      "path": "$CABA_DATA/bc5cdr/MedS-Bench-SPLIT/task126_test_bc5chem_named_enetity_recognition.json",
+      "bytes": 366381,
+      "sha256": "361b7f7b846d0492f6d847c3ef446ca1ac559fe934f55592f06c1634180c1efa"
+    },
+    {
+      "path": "$CABA_DATA/bc5cdr/MedS-Bench/task127_test_bc5disease_named_enetity_recognition.json",
+      "bytes": 1169817,
+      "sha256": "93431513909a1cda5f68f5b1d226086e591a4685cefb926c94e9e432ce34d05a"
+    },
+    {
+      "path": "$CABA_DATA/bc5cdr/MedS-Bench-SPLIT/task127_test_bc5disease_named_enetity_recognition.json",
+      "bytes": 369715,
+      "sha256": "f857be090a2142b34cf9b9c508bc88ff19e310fe5c025d11cd5f7a618ecbb75f"
+    }
+  ],
+  "license": "MedS-Ins/MedS-Bench GitHub LICENSE: \"CC BY-SA\" (MAGIC consortium); HF dataset cards declare no license; task-file Instance License: none given; source BC5CDR test via cambridgeltl/MTL-Bioinformatics-2016",
+  "split": "MedS-Bench test file(s); MedS-Bench-SPLIT has 1,500 + 1,500 (random subsets)",
+  "n_items": 9592,
+  "public": "yes",
+  "english": "yes",
+  "text": "yes",
+  "single_request": "yes",
+  "request_fields": "Definition (task instruction: chemical or disease NER) + instance input (one sentence)",
+  "example_structure": [
+    "Definition",
+    "Instances[].input",
+    "Instances[].output"
+  ],
+  "notes": "MedS-Bench (Wu et al., npj Digit Med 2024; arXiv 2408.12547) recasts the dataset as an instruction task. Henrychur/MedS-Bench holds the full test files (\"the official benchmark\"); Henrychur/MedS-Bench-SPLIT holds the subsample used for the paper's results. n_items counts the MedS-Bench file. Two MedS-Bench tasks over the same 4,796 test sentences: chemical NER (4,796) and disease NER (4,796); n_items counts both. ClinicBench also uses BC5-Disease (4,797 sentences, BLURB split) but does not redistribute items. Checked 2026-10-04; no LLMs or API keys used.",
+  "rendering": {
+    "rule": "instruction-style (MedS-Bench): the task Definition, a blank line, then the instance input (few-shot examples and outputs omitted)",
+    "template_source": "none (instruction and input as released in the MedS-Bench task files)",
+    "n_usable": 9574,
+    "n_sampled": 200,
+    "seed": 20261004,
+    "excluded": {
+      "non_english": 0,
+      "image": 0,
+      "duplicate": 18
+    },
+    "mean_chars": 324.5,
+    "max_chars": 542,
+    "n_usable_by_component": {
+      "task126_bc5chem": 4787,
+      "task127_bc5disease": 4787
+    },
+    "n_sampled_by_component": {
+      "task126_bc5chem": 99,
+      "task127_bc5disease": 101
+    }
+  },
+  "in_caba_v1_0": true
+}

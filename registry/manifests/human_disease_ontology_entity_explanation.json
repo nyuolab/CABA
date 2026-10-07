@@ -1,0 +1,89 @@
+{
+  "benchmark": "Human Disease Ontology entity explanation",
+  "source_url": [
+    "https://huggingface.co/datasets/Henrychur/MedS-Bench/resolve/6945b14e0f408082aecb6a77a185b9ebdd5fb413/Explanation/task46_do_entity_explanation.json",
+    "https://huggingface.co/datasets/Henrychur/MedS-Bench-SPLIT/resolve/bae9b49bb23ffcd5b1b64345f021d4d5b803b503/Explanation/task46_do_entity_explanation.json",
+    "https://huggingface.co/datasets/Henrychur/MedS-Bench/resolve/6945b14e0f408082aecb6a77a185b9ebdd5fb413/README.md"
+  ],
+  "source_type": "suite release (MedS-Bench, Henrychur/MedS-Bench; dataset recast as instruction + input)",
+  "revision": "6945b14e0f408082aecb6a77a185b9ebdd5fb413",
+  "files": [
+    {
+      "path": "$CABA_DATA/human_disease_ontology_entity_explanation/Explanation/task46_do_entity_explanation.json",
+      "bytes": 261568,
+      "sha256": "f12844b2b1e6fde8d8ca5a387c4bf0e756760d7ad4ac0c17e4840f29462b7ab7",
+      "url": "https://huggingface.co/datasets/Henrychur/MedS-Bench/resolve/6945b14e0f408082aecb6a77a185b9ebdd5fb413/Explanation/task46_do_entity_explanation.json",
+      "role": "items"
+    },
+    {
+      "path": "$CABA_DATA/human_disease_ontology_entity_explanation/MedS-Bench-SPLIT/Explanation/task46_do_entity_explanation.json",
+      "bytes": 266057,
+      "sha256": "891af42199656c1a5f7a68b287f6818c6c239db375346b732cde22372cdb9d7b",
+      "url": "https://huggingface.co/datasets/Henrychur/MedS-Bench-SPLIT/resolve/bae9b49bb23ffcd5b1b64345f021d4d5b803b503/Explanation/task46_do_entity_explanation.json",
+      "role": "MedS-Bench-SPLIT copy (paper's sampled cases), for comparison"
+    },
+    {
+      "path": "$CABA_DATA/human_disease_ontology_entity_explanation/_card/Henrychur__MedS-Bench_README.md",
+      "bytes": 3233,
+      "sha256": "3eeb259f606cf10da08d5783f43527f37346d264a09bcffd6f945bbfc3d860ea",
+      "url": "https://huggingface.co/datasets/Henrychur/MedS-Bench/resolve/6945b14e0f408082aecb6a77a185b9ebdd5fb413/README.md",
+      "role": "dataset card"
+    }
+  ],
+  "license": "MedS-Bench card states no license; Underlying Human Disease Ontology license not checked here.",
+  "split": "test (MedS-Bench test file, all instances)",
+  "n_items": 1115,
+  "public": "yes (MedS-Bench on Hugging Face: public, not gated, no login)",
+  "english": "yes",
+  "text": "yes",
+  "single_request": "yes",
+  "request_fields": "Definition (task instruction, shared by all instances) + Instances[].input",
+  "example_structure": [
+    "example",
+    "fields",
+    "file_keys"
+  ],
+  "notes": "Used MedS-Bench task46_do_entity_explanation (Explanation category). Inputs are Disease Ontology term names; outputs are DO definitions. Main and SPLIT both 1,115 instances. Instance counts: main {'task46_do_entity_explanation.json': 1115}; MedS-Bench-SPLIT (sampled cases used in the MedS-Bench paper, revision bae9b49bb23ffcd5b1b64345f021d4d5b803b503): {'task46_do_entity_explanation.json': 1115}.",
+  "n_items_by_file": {
+    "task46_do_entity_explanation.json": 1115
+  },
+  "n_items_medsbench_split": {
+    "task46_do_entity_explanation.json": 1115
+  },
+  "revision_medsbench_split": "bae9b49bb23ffcd5b1b64345f021d4d5b803b503",
+  "hf_repo": "Henrychur/MedS-Bench",
+  "checked_on": "2026-10-04",
+  "rendering": {
+    "rule": "instruction-style: the MedS-Bench task Definition (instruction), a blank line, then the instance input.",
+    "template_source": "none",
+    "n_usable": 1115,
+    "n_sampled": 200,
+    "seed": 20261004,
+    "excluded": {
+      "non_english": 0,
+      "image": 0,
+      "duplicate": 0
+    },
+    "image_rule": "Exclude an item as needing an unreleased picture only if (i) a released image field marks it (HEAD-QA 'image'), or (ii) its question stem (the part that asks the question: MCQ question text, MedCalc 'Question', MedHallu 'Question', Med-HALT reasoning 'question', a patient's own question in HealthCareMagic/iCliniq/MEDIQA-RQE) matches, case-insensitively, any of: (a) shown/seen/depicted/displayed/illustrated/pictured/presented/visualized + in/on/below/above + [the/this] [accompanying/following/attached/adjacent] + figure|image|picture|photo(graph)|(photo)micrograph|exhibit|illustration|diagram|graph; (b) see/refer to + [the/this/these] [accompanying/following/attached] + a word of (a), or look at + [the/this/these/my] [accompanying/following/attached] + a visual word (the list in (a) plus radiograph|x-ray|ECG|EKG|electrocardiogram|tracing|smear|scan); (c) 'the following/accompanying/attached/adjacent' + a visual word, unless preceded by 'which of'; (d) this/these + image|photo(graph)|(photo)micrograph|exhibit|illustration|diagram|graph (not 'figure' or 'picture', which in stems mostly mean numbers or a clinical picture); (e) figure/fig./image + a number, or + a space and a capital letter A-H (e.g. 'Figure 1', 'Figures A-C', 'image # 6'); (f) a visual word + shown|attached|enclosed|below; (g) attached/enclosed/uploaded/sent (or attaching/uploading/sending) + [herewith] [determiner] [one word other than for/to/in/out] + picture|photo(graph)|image|x-ray|radiograph. Documents the item asks about (case reports, patient notes, news articles, abstracts, radiology reports, conversations, MedS-Bench inputs, MedHallu Knowledge, MedCaseReasoning case_prompt, Med-HALT IR fields) are not scanned. Regex: (?:\\b(?:shown|seen|depicted|displayed|illustrated|pictured|presented|visuali[sz]ed)\\s+(?:in|on|below|above)\\s+(?:the\\s+|this\\s+)?(?:accompanying\\s+|following\\s+|attached\\s+|adjacent\\s+)?(?:figures?|fig\\.|images?|pictures?|photos?|photographs?|photomicrographs?|micrographs?|exhibits?|illustrations?|diagrams?|graphs?)\\b)|(?:\\b(?:see|refer\\s+to)\\s+(?:the\\s+|this\\s+|these\\s+)?(?:accompanying\\s+|following\\s+|attached\\s+)?(?:figures?|fig\\.|images?|pictures?|photos?|photographs?|photomicrographs?|micrographs?|exhibits?|illustrations?|diagrams?|graphs?)\\b)|(?:\\blook\\s+at\\s+(?:the\\s+|this\\s+|these\\s+|my\\s+)?(?:accompanying\\s+|following\\s+|attached\\s+)?(?:figures?|fig\\.|images?|pictures?|photos?|photographs?|photomicrographs?|micrographs?|exhibits?|illustrations?|diagrams?|graphs?|radiographs?|x-?rays?|ecgs?|ekgs?|electrocardiograms?|tracings?|smears?|scans?)\\b)|(?:(?<!which of )(?<!which of\\s)\\bthe\\s+(?:following|accompanying|attached|adjacent)\\s+(?:figures?|fig\\.|images?|pictures?|photos?|photographs?|photomicrographs?|micrographs?|exhibits?|illustrations?|diagrams?|graphs?|radiographs?|x-?rays?|ecgs?|ekgs?|electrocardiograms?|tracings?|smears?|scans?)\\b)|(?:\\b(?:this|these)\\s+(?:images?|photos?|photographs?|photomicrographs?|micrographs?|exhibits?|illustrations?|diagrams?|graphs?)\\b)|(?:\\b(?:figures?|figs?\\.|images?)(?:\\s*#?\\s*\\d+|\\s+(?-i:[A-H])(?:\\s*(?:-|–|and|,)\\s*(?-i:[A-H]))?)\\b)|(?:\\b(?:figures?|fig\\.|images?|pictures?|photos?|photographs?|photomicrographs?|micrographs?|exhibits?|illustrations?|diagrams?|graphs?|radiographs?|x-?rays?|ecgs?|ekgs?|electrocardiograms?|tracings?|smears?|scans?)\\s+(?:shown|attached|enclosed|below)\\b)|(?:\\b(?:attached|enclosed|uploaded|sent|sending|attaching|uploading)\\s+(?:herewith\\s+)?(?:(?:this|these|the|a|an|my|his|her|some|few|a\\s+few)\\s+)?(?:(?!for\\b|to\\b|in\\b|out\\b)\\w+\\s+)?(?:pictures?|photos?|photographs?|images?|x-?rays?|radiographs?)\\b)",
+    "mean_chars": 123.4,
+    "max_chars": 180,
+    "n_released_rendered": 1115,
+    "n_unrenderable": 0,
+    "rendered_file": "$CABA_DATA/rendered/human_disease_ontology_entity_explanation.jsonl",
+    "version": 2,
+    "v1": {
+      "n_usable": 1115,
+      "n_sampled": 200,
+      "mean_chars": 123.4,
+      "max_chars": 180,
+      "excluded": {
+        "non_english": 0,
+        "image": 0,
+        "duplicate": 0
+      },
+      "template_source": "none"
+    },
+    "sample_vs_v1": "identical items"
+  },
+  "in_caba_v1_0": true
+}

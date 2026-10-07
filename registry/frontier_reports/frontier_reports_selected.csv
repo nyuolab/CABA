@@ -1,0 +1,210 @@
+model,lab,organization,date,link,doc_id
+Gemini 4 Argon,Google,Google DeepMind,2026-09-30,https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/,975f57653267
+GPT-6.1 Sol,OpenAI,OpenAI,2026-09-29,https://openai.com/index/introducing-gpt-6-1-sol/,f8bd68ff7b9a
+Claude Sonnet 5.5,Anthropic,Anthropic,2026-09-28,https://www.anthropic.com/claude-sonnet-5-5,50e18c541984
+GPT-6 Sol,OpenAI,OpenAI,2026-09-22,https://openai.com/index/introducing-gpt-6-sol-and-luna/,dfc615803e71
+GPT-6 Luna,OpenAI,OpenAI,2026-09-22,https://openai.com/index/introducing-gpt-6-sol-and-luna/,dfc615803e71
+Claude Opus 5.5,Anthropic,Anthropic,2026-09-22,https://www.anthropic.com/claude-opus-5-5,0c90c73c08cf
+Grok 4.7,xAI,xAI,2026-09-21,https://x.ai/news/grok-4-7,81104d8861cf
+DeepSeek V4.1 Flash,DeepSeek,DeepSeek,2026-09-09,https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash/blob/main/DeepSeek_V41_Tech_Report.pdf,567e6ed88aae
+GPT-6 Astra,OpenAI,OpenAI,2026-09-03,,
+Muse Spark 1.3,Meta,Meta AI,2026-09-02,https://research.meta.ai/blog/introducing-muse-spark-1-3,c5723bb99be0
+Gemini 3.8 Flash,Google,Google DeepMind,2026-09-02,https://ai.google.dev/gemini-api/docs/models/gemini-3.8-flash,9a86aa67f096
+Claude Fable 5.1,Anthropic,Anthropic,2026-09-01,https://www.anthropic.com/claude-fable-and-mythos-5-1,3df5fbd9b803
+GLM-5.3-Flash,Zhipu,Z.ai (Zhipu AI),2026-08-20,https://z.ai/blog/glm-5.3-flash,05f53b90b474
+GLM-5.3,Zhipu,Z.ai (Zhipu AI),2026-08-14,https://z.ai/blog/glm-5.3,e6c53596b4a8
+GPT-5.6 Cyber,OpenAI,OpenAI,2026-08-11,https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows/,e60e99f01d84
+Qwen3.8-2.4T-A95B,Alibaba,Alibaba,2026-08-08,https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B,f9e1ef66ab3d
+Muse Spark 1.2,Meta,Meta AI,2026-08-05,https://research.meta.ai/blog/introducing-muse-code-and-muse-spark-1-2,51d818462738
+Claude Opus 5,Anthropic,Anthropic,2026-07-24,https://www.anthropic.com/news/claude-opus-5,e75df1016aa1
+Qwen 3.8 Max,Alibaba,Alibaba,2026-07-19,https://qwen.ai/blog?id=qwen3.8,f1afe25775a0
+Kimi K3,Moonshot,Moonshot,2026-07-16,https://huggingface.co/moonshotai/Kimi-K3,7372d8cb937a
+Claude Mythos 5,Anthropic,Anthropic,2026-06-09,https://www.anthropic.com/news/claude-fable-5-mythos-5,147a989f3e59
+Claude Fable 5,Anthropic,Anthropic,2026-06-09,https://www.anthropic.com/news/claude-fable-5-mythos-5,147a989f3e59
+Nemotron 3 Ultra,NVIDIA,Nvidia,2026-06-04,https://arxiv.org/abs/2512.20856,020e3fcd860f
+Qwen3.7-Plus,Alibaba,Alibaba,2026-06-03,https://qwen.ai/blog?id=qwen3.7-plus,1370d9367537
+MAI-Code-1-Flash,Microsoft,Microsoft,2026-06-02,https://microsoft.ai/news/introducingmai-code-1-flash/,616b3e293b58
+MiniMax-M3,MiniMax,MiniMax,2026-06-01,https://www.minimax.io/blog/minimax-m3,a616952f77f5
+Claude Opus 4.8,Anthropic,Anthropic,2026-05-28,https://www.anthropic.com/news/claude-opus-4-8,918121c45d59
+Gemini 3.5 Flash,Google,Google DeepMind,2026-05-19,https://deepmind.google/models/model-cards/gemini-3-5-flash/,5cbf6a0a48be
+GPT-5.5 Instant,OpenAI,OpenAI,2026-05-05,https://openai.com/index/gpt-5-5-instant/,d7cca4fd4b6b
+DeepSeek-V4-Pro,DeepSeek,DeepSeek,2026-04-24,https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf,d61d7c939823
+DeepSeek-V4-Flash,DeepSeek,DeepSeek,2026-04-24,https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf,d61d7c939823
+GPT-5.5 Pro,OpenAI,OpenAI,2026-04-23,https://openai.com/index/introducing-gpt-5-5/,6659803055f3
+GPT-5.5,OpenAI,OpenAI,2026-04-23,https://openai.com/index/introducing-gpt-5-5/,6659803055f3
+Kimi K2.6,Moonshot,Moonshot,2026-04-20,https://www.kimi.com/ai-models/kimi-k2-6,fa2c1c05394b
+Claude Opus 4.7,Anthropic,Anthropic,2026-04-16,https://www.anthropic.com/news/claude-opus-4-7,8ffed2502175
+GPT-5.4-Cyber,OpenAI,OpenAI,2026-04-14,https://openai.com/index/scaling-trusted-access-for-cyber-defense/,fb672c6ba5e6
+Muse Spark,Meta,Meta AI,2026-04-08,https://ai.meta.com/blog/introducing-muse-spark-msl/,f46da8bae972
+GLM-5.1,Zhipu,Z.ai (Zhipu AI),2026-04-07,https://z.ai/blog/glm-5.1,64a003065548
+Claude Mythos Preview,Anthropic,Anthropic,2026-04-07,https://www-cdn.anthropic.com/7624816413e9b4d2e3ba620c5a5e091b98b190a5/Claude%20Mythos%20Preview%20System%20Card.pdf,388f69c2183d
+Qwen 3.6 Plus,Alibaba,Alibaba,2026-04-01,https://qwen.ai/blog?id=qwen3.6,6d4ef448fe28
+Qwen3.5-Omni-Plus,Alibaba,Alibaba,2026-03-29,https://arxiv.org/abs/2604.15804,06e5096c48bb
+Qwen3.5-Omni-Flash,Alibaba,Alibaba,2026-03-29,https://arxiv.org/abs/2604.15804,06e5096c48bb
+Nemotron 3 Super,NVIDIA,Nvidia,2026-03-11,https://developer.nvidia.com/blog/introducing-nemotron-3-super-an-open-hybrid-mamba-transformer-moe-for-agentic-reasoning/,79a35749283e
+GPT-5.4 Pro,OpenAI,OpenAI,2026-03-05,https://openai.com/index/introducing-gpt-5-4/,1df3c91e850c
+GPT-5.4,OpenAI,OpenAI,2026-03-05,https://openai.com/index/introducing-gpt-5-4/,1df3c91e850c
+Gemini 3.0 Flash-lite,Google,Google DeepMind,2026-03-03,https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-lite/,f953fe042381
+Qwen3.5-122B-A10B,Alibaba,Alibaba,2026-02-24,https://github.com/QwenLM/Qwen3.5?tab=readme-ov-file,c640afebac35
+Grok 4.20,xAI,xAI,2026-02-17,https://docs.x.ai/developers/models,a684e4a70605
+Qwen3.5 397B-A17B,Alibaba,Alibaba,2026-02-15,https://qwen.ai/blog?id=qwen3.5,05401bde8c81
+GPT-5.3-Codex-Spark,OpenAI,OpenAI,2026-02-12,https://openai.com/index/introducing-gpt-5-3-codex-spark/,6dd6c72f5e16
+GLM-5,Zhipu,Z.ai (Zhipu AI),2026-02-12,https://arxiv.org/pdf/2602.15763,56bd5055a374
+GPT-5.3 Codex,OpenAI,OpenAI,2026-02-05,https://openai.com/index/introducing-gpt-5-3-codex/,cb66305ae99c
+Qwen3-Coder-Next,Alibaba,Alibaba,2026-02-02,https://qwen.ai/blog?id=qwen3-coder-next,5059de01d104
+Kimi K2.5,Moonshot,Moonshot,2026-02-02,https://arxiv.org/abs/2602.02276,6b62f3f4ed94
+Qwen3-Max-Thinking,Alibaba,Alibaba,2026-01-25,https://qwen.ai/blog?id=qwen3-max-thinking,2ae63d7cabe0
+MiniMax-M2.1,MiniMax,MiniMax,2025-12-23,https://huggingface.co/MiniMaxAI/MiniMax-M2.1,215a576a7c6e
+GLM-4.7,Zhipu,Z.ai (Zhipu AI),2025-12-22,https://z.ai/blog/glm-4.7,1f9296a9499f
+GPT-5.2 Codex,OpenAI,OpenAI,2025-12-18,https://openai.com/index/introducing-gpt-5-2-codex/,f3dfc43e46bd
+Nemotron 3-Nano-30B-A3B,NVIDIA,Nvidia,2025-12-15,https://research.nvidia.com/labs/nemotron/files/NVIDIA-Nemotron-3-Nano-Technical-Report.pdf,d1c25beeb548
+GPT-5.2 Pro,OpenAI,OpenAI,2025-12-11,https://openai.com/index/introducing-gpt-5-2/,5b57e497bda4
+DeepSeekMath-V2,DeepSeek,DeepSeek,2025-11-27,https://arxiv.org/abs/2511.22570,ebe2dbb983e1
+Claude Opus 4.5,Anthropic,Anthropic,2025-11-24,https://www.anthropic.com/news/claude-opus-4-5,3c1a80a7da08
+Grok 4.1 Fast,xAI,xAI,2025-11-19,https://x.ai/news/grok-4-1-fast,4f0dc3b05402
+GPT-5.1-Codex-Max,OpenAI,OpenAI,2025-11-19,https://openai.com/index/gpt-5-1-codex-max/,90a3db01451c
+Gemini 3 Pro,Google,Google DeepMind,2025-11-18,https://blog.google/products/gemini/gemini-3/,6800db8e7517
+Gemini 3 Deep Think,Google,Google DeepMind,2025-11-18,https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-deep-think/,746e2ce6afae
+Grok 4.1,xAI,xAI,2025-11-17,https://x.ai/news/grok-4-1,f862cdc60e6e
+GPT-5.1 Instant,OpenAI,OpenAI,2025-11-13,https://openai.com/index/gpt-5-1/,ca5b46f04b6d
+GPT-5.1,OpenAI,OpenAI,2025-11-13,https://openai.com/index/gpt-5-1/,ca5b46f04b6d
+GPT-5.1-Codex,OpenAI,OpenAI,2025-11-12,,
+Kimi K2 Thinking,Moonshot,Moonshot,2025-11-06,https://moonshotai.github.io/Kimi-K2/thinking,b8d8282bea68
+Tongyi DeepResearch,Alibaba,Alibaba,2025-10-28,https://arxiv.org/abs/2510.24701,52e9854efd6b
+MiniMax-M2,MiniMax,MiniMax,2025-10-27,https://www.minimax.io/news/minimax-m2,a219e39d2e39
+Claude Haiku 4.5,Anthropic,Anthropic,2025-10-15,https://www.anthropic.com/news/claude-haiku-4-5,a5a84a8c004b
+GPT-5 Pro,OpenAI,OpenAI,2025-10-07,https://cdn.openai.com/gpt-5-system-card.pdf,aece40a39113
+GLM-4.6,Zhipu,"Z.ai (Zhipu AI),Tsinghua University",2025-09-30,https://z.ai/blog/glm-4.6,ec25ad7a8dc9
+Claude Sonnet 4.5,Anthropic,Anthropic,2025-09-29,https://www.anthropic.com/news/claude-sonnet-4-5,1ccc22f7699c
+Gemini Robotics-ER 1.5,Google,Google DeepMind,2025-09-25,https://deepmind.google/discover/blog/gemini-robotics-15-brings-ai-agents-into-the-physical-world/,845eeb5a9e37
+Qwen3-Omni-30B-A3B,Alibaba,Alibaba,2025-09-22,https://arxiv.org/abs/2509.17765,cff1391884f8
+AgentFounder-30B,Alibaba,Alibaba,2025-09-16,https://arxiv.org/abs/2509.13310,2403fdf52afc
+Qwen3-Max,Alibaba,Alibaba,2025-09-05,https://modelstudio.console.alibabacloud.com/?tab=doc#/doc/?type=model&url=2840914_2&modelId=qwen3-max-preview,1cb20830c01b
+GPT-5 nano,OpenAI,OpenAI,2025-08-07,https://cdn.openai.com/gpt-5-system-card.pdf,aece40a39113
+GPT-5 mini,OpenAI,OpenAI,2025-08-07,https://cdn.openai.com/gpt-5-system-card.pdf,aece40a39113
+GPT-5,OpenAI,OpenAI,2025-08-07,https://cdn.openai.com/gpt-5-system-card.pdf,aece40a39113
+gpt-oss-120b,OpenAI,OpenAI,2025-08-05,https://cdn.openai.com/pdf/419b6906-9da6-406c-a19d-1bb078ac7637/oai_gpt-oss_model_card.pdf,c4370acf3cd0
+gpt-oss-20b,OpenAI,OpenAI,2025-08-05,https://cdn.openai.com/pdf/419b6906-9da6-406c-a19d-1bb078ac7637/oai_gpt-oss_model_card.pdf,c4370acf3cd0
+Claude Opus 4.1,Anthropic,Anthropic,2025-08-05,https://www.anthropic.com/news/claude-opus-4-1,b01d048ee753
+Gemini 2.5 Deep Think,Google,"Google,Google DeepMind",2025-08-01,https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Deep-Think-Model-Card.pdf,f9179a0c9b65
+GLM-4.5,Zhipu,"Z.ai (Zhipu AI),Tsinghua University",2025-07-28,https://arxiv.org/abs/2508.06471,ecaaa7958447
+Qwen3-235B-A22B-Thinking (Jul 2025),Alibaba,Alibaba,2025-07-25,https://qwenlm.github.io/blog/qwen3/,32b8158ff23a
+Qwen3-235B-A22B (Jul 2025),Alibaba,Alibaba,2025-07-25,https://qwenlm.github.io/blog/qwen3/,32b8158ff23a
+Qwen3-Coder-480B-A35B,Alibaba,Alibaba,2025-07-22,https://qwenlm.github.io/blog/qwen3-coder/,e943dab9e065
+Gemini Embedding,Google,Google DeepMind,2025-07-14,https://arxiv.org/abs/2503.07891,d05ab48436eb
+Kimi K2,Moonshot,Moonshot,2025-07-11,https://moonshotai.github.io/Kimi-K2/,54443ed185b0
+Grok 4 Heavy,xAI,xAI,2025-07-10,https://x.ai/news/grok-4,2db767bb8e7d
+Grok 4,xAI,xAI,2025-07-09,https://x.ai/news/grok-4,2db767bb8e7d
+Qwen3 Embedding,Alibaba,Alibaba,2025-06-05,https://arxiv.org/abs/2506.05176v1,a1f761007ae3
+Gemini 2.5 Pro (Jun 2025),Google,Google DeepMind,2025-06-05,https://blog.google/technology/google-deepmind/gemini-model-thinking-updates-march-2025/#gemini-2-5-thinking,fd620457e2e3
+DeepSeek-R1 (May 2025),DeepSeek,DeepSeek,2025-05-28,https://api-docs.deepseek.com/news/news250120,df28cd964ef3
+Claude Sonnet 4,Anthropic,Anthropic,2025-05-22,https://www.anthropic.com/claude/sonnet,50abfd837728
+Claude Opus 4,Anthropic,Anthropic,2025-05-22,https://www.anthropic.com/claude/opus,0f14dddf3c3c
+Gemini 2.5 Pro (May 2025),Google,Google DeepMind,2025-05-06,https://blog.google/technology/google-deepmind/gemini-model-thinking-updates-march-2025/#gemini-2-5-thinking,fd620457e2e3
+Qwen3-235B-A22B,Alibaba,Alibaba,2025-04-29,https://qwenlm.github.io/blog/qwen3/,32b8158ff23a
+Llama 4 Scout,Meta,Meta AI,2025-04-05,https://ai.meta.com/blog/llama-4-multimodal-intelligence/,3b403d4e34dc
+Llama 4 Maverick,Meta,Meta AI,2025-04-05,https://ai.meta.com/blog/llama-4-multimodal-intelligence/,3b403d4e34dc
+Llama 4 Behemoth (preview),Meta,Meta AI,2025-04-05,https://ai.meta.com/blog/llama-4-multimodal-intelligence/,3b403d4e34dc
+GPT-4o (Mar 2025),OpenAI,OpenAI,2025-03-27,https://help.openai.com/en/articles/6825453-chatgpt-release-notes,cb6abc3bd12f
+Gemini 2.5 Pro (Mar 2025),Google,Google DeepMind,2025-03-25,https://blog.google/technology/google-deepmind/gemini-model-thinking-updates-march-2025/#gemini-2-5-thinking,fd620457e2e3
+DeepSeek-V3 (Mar 2025),DeepSeek,DeepSeek,2025-03-24,https://arxiv.org/abs/2412.19437,d7650744d57d
+o1-pro,OpenAI,OpenAI,2025-03-19,https://openai.com/index/introducing-chatgpt-pro/,93c4a9aac2d7
+QwQ-32B,Alibaba,Alibaba,2025-03-06,https://qwenlm.github.io/blog/qwq-32b/,409b9f2b100c
+Mistral OCR,Mistral,Mistral AI,2025-03-06,https://mistral.ai/news/mistral-ocr,fee2e15d9b39
+GPT-4.5,OpenAI,OpenAI,2025-02-27,https://openai.com/index/introducing-gpt-4-5/,e4a0df6e9c4e
+Claude 3.7 Sonnet,Anthropic,Anthropic,2025-02-24,https://www.anthropic.com/news/claude-3-7-sonnet,80d76661dadf
+Grok 3,xAI,xAI,2025-02-17,https://x.ai/blog/grok-3,ebd2cf2442c2
+o3-mini,OpenAI,OpenAI,2025-01-31,https://openai.com/index/openai-o3-mini/,548f6b55e486
+GPT-4o (Jan 2025),OpenAI,OpenAI,2025-01-29,https://help.openai.com/en/articles/9624314-model-release-notes,deb166954d2b
+Computer-Using Agent (CUA),OpenAI,OpenAI,2025-01-23,https://openai.com/index/computer-using-agent/,440bf7456409
+Kimi k1.5,Moonshot,Moonshot,2025-01-22,https://arxiv.org/abs/2501.12599v1,8a1417b66d41
+Eagle 2,NVIDIA,"Nvidia,Nanjing University,Tsinghua University,Hong Kong Polytechnic University,Johns Hopkins University,New York University (NYU)",2025-01-20,arxiv.org/abs/2501.14818,cd34b2946e83
+DeepSeek-R1,DeepSeek,DeepSeek,2025-01-20,https://api-docs.deepseek.com/news/news250120,df28cd964ef3
+DeepSeek-V3,DeepSeek,DeepSeek,2024-12-24,https://arxiv.org/abs/2412.19437,d7650744d57d
+o3,OpenAI,OpenAI,2024-12-20,https://openai.com/index/introducing-o3-and-o4-mini/,24cd9dd18b7f
+Apollo 7B,Meta,"Meta AI,Stanford University",2024-12-13,https://arxiv.org/abs/2412.10360,1d12ed6f5467
+Gemini 2.0 Pro,Google,Google DeepMind,2024-12-11,https://deepmind.google/technologies/gemini/pro/,3f403eac3274
+Llama 3.3 70B,Meta,Meta AI,2024-12-06,https://www.llama.com/docs/model-cards-and-prompt-formats/llama3_3/,090a0264a879
+o1,OpenAI,OpenAI,2024-12-05,https://openai.com/index/introducing-chatgpt-pro/,93c4a9aac2d7
+NVILA 15B,NVIDIA,"Nvidia,Massachusetts Institute of Technology (MIT),University of California (UC) Berkeley,University of California San Diego,University of Washington,Tsinghua University",2024-12-05,https://arxiv.org/abs/2412.04468,78a8c83cc1e6
+Fugatto 1,NVIDIA,Nvidia,2024-11-25,https://research.nvidia.com/publication/2024-11_fugatto-1-foundational-generative-audio-transformer-opus-1,5f1845575777
+GPT-4o (Nov 2024),OpenAI,OpenAI,2024-11-20,https://help.openai.com/en/articles/9624314-model-release-notes,deb166954d2b
+Pixtral Large,Mistral,Mistral AI,2024-11-18,https://mistral.ai/news/pixtral-large/,608d9a4f2afd
+k0-math,Moonshot,Moonshot,2024-11-16,https://web.archive.org/web/20250124103542/https://www.globaltimes.cn/page/202411/1323248.shtml,cc0e4aaca726
+Gemini-Exp-1114,Google,Google DeepMind,2024-11-15,https://www.tomsguide.com/ai/google-gemini/google-drops-new-gemini-model-and-it-goes-straight-to-the-top-of-the-llm-leaderboard,c34c287d6790
+NVLM-X 72B,NVIDIA,Nvidia,2024-10-22,https://arxiv.org/abs/2409.11402,756e71833785
+NVLM-H 72B,NVIDIA,Nvidia,2024-10-22,https://arxiv.org/abs/2409.11402,756e71833785
+NVLM-D 72B,NVIDIA,Nvidia,2024-10-22,https://arxiv.org/abs/2409.11402,756e71833785
+Llama-3.1-Nemotron-70B-Instruct,Meta,"Nvidia,Meta AI",2024-10-12,https://catalog.ngc.nvidia.com/orgs/nim/teams/nvidia/containers/llama-3.1-nemotron-70b-instruct,7148c3445502
+Llama 3.2 11B,Meta,Meta AI,2024-09-24,https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/,1771a14db80a
+Qwen2.5-72B,Alibaba,Alibaba,2024-09-19,https://qwenlm.github.io/blog/qwen2.5/,386c6f9991a4
+Qwen2.5 Instruct (72B),Alibaba,Alibaba,2024-09-19,https://qwenlm.github.io/blog/qwen2.5/,386c6f9991a4
+Qwen2.5-32B,Alibaba,Alibaba,2024-09-17,https://qwenlm.github.io/blog/qwen2.5/,386c6f9991a4
+o1-preview,OpenAI,OpenAI,2024-09-12,https://openai.com/index/introducing-openai-o1-preview/,c97ee3466cd9
+o1-mini,OpenAI,OpenAI,2024-09-12,https://openai.com/index/learning-to-reason-with-llms/,35480cf490f5
+DeepSeek-V2.5,DeepSeek,DeepSeek,2024-09-06,https://huggingface.co/deepseek-ai/DeepSeek-V2.5,52ba80fc0505
+GLM-4-Plus,Zhipu,Z.ai (Zhipu AI),2024-08-29,https://bigmodel.cn/dev/howuse/glm-4,551a609de67a
+Grok-2,xAI,xAI,2024-08-13,https://x.ai/blog/grok-2,4e67dff19fe5
+GPT-4o (Aug 2024),OpenAI,OpenAI,2024-08-06,https://help.openai.com/en/articles/9624314-model-release-notes,deb166954d2b
+Mistral Large 2,Mistral,Mistral AI,2024-07-24,https://mistral.ai/news/mistral-large-2407/,7cbdda698b3e
+Llama 3.1-405B,Meta,Meta AI,2024-07-23,https://ai.meta.com/research/publications/the-llama-3-herd-of-models/,6445360ae433
+GPT-4o mini,OpenAI,OpenAI,2024-07-18,https://openai.com/index/gpt-4o-mini-advancing-cost-efficient-intelligence/,b9491733dfe0
+Mathstral,Mistral,Mistral AI,2024-07-16,https://huggingface.co/mistralai/Mathstral-7B-v0.1,13f6fe03934e
+Claude 3.5 Sonnet,Anthropic,Anthropic,2024-06-20,https://www-cdn.anthropic.com/fed9cc193a14b84131812372d8d5857f8f304c52/Model_Card_Claude_3_Addendum.pdf,4ed7ea770710
+DeepSeek-Coder-V2 236B,DeepSeek,DeepSeek,2024-06-17,https://github.com/deepseek-ai/DeepSeek-Coder-V2,04cfbe972993
+Nemotron-4 340B,NVIDIA,Nvidia,2024-06-14,https://blogs.nvidia.com/blog/nemotron-4-synthetic-data-generation-llm-training/,0904f6539e5b
+OpenVLA,Google,"Stanford University,University of California (UC) Berkeley,Toyota Research Institute,Google DeepMind,Massachusetts Institute of Technology (MIT),Physical Intelligence",2024-06-13,https://openvla.github.io/,70e6350fb5b9
+Qwen2-72B,Alibaba,Alibaba,2024-06-07,https://qwenlm.github.io/blog/qwen2/,7545943511c8
+GLM-4 (0520),Zhipu,Z.ai (Zhipu AI),2024-05-20,https://arxiv.org/abs/2406.12793,4643614d41ad
+GPT-4o,OpenAI,OpenAI,2024-05-13,https://openai.com/index/hello-gpt-4o/,13c06a9201dd
+VILA1.5-13B,NVIDIA,"Nvidia,Massachusetts Institute of Technology (MIT)",2024-05-03,https://huggingface.co/Efficient-Large-Model/VILA1.5-13b,445cc903ed35
+Llama 3-70B,Meta,Meta AI,2024-04-18,https://ai.meta.com/blog/meta-llama-3/,a1b4ecba8dbe
+GPT-4 Turbo (Apr 2024),OpenAI,OpenAI,2024-04-09,https://x.com/OpenAI/status/1778574613813006610,a34ffc29de0b
+Claude 3 Sonnet,Anthropic,Anthropic,2024-03-04,https://www-cdn.anthropic.com/de8ba9b01c9ab7cbabf5c33b80b7bbc618857627/Model_Card_Claude_3.pdf,6e86cb139d09
+Claude 3 Opus,Anthropic,Anthropic,2024-03-04,https://www-cdn.anthropic.com/de8ba9b01c9ab7cbabf5c33b80b7bbc618857627/Model_Card_Claude_3.pdf,6e86cb139d09
+Mistral Large,Mistral,Mistral AI,2024-02-26,https://mistral.ai/news/mistral-large/,599f11ef4d2e
+Gemini 1.5 Pro,Google,Google DeepMind,2024-02-15,https://storage.googleapis.com/deepmind-media/gemini/gemini_v1_5_report.pdf,49ab4305f7af
+Qwen1.5-72B,Alibaba,Alibaba,2024-02-04,https://qwenlm.github.io/blog/qwen1.5/,88ac314ddcdc
+Qwen-VL-Max,Alibaba,Alibaba,2024-01-25,https://qwenlm.github.io/blog/qwen-vl/,efc243fcbe7a
+Kimi Explorer,Moonshot,Moonshot,2024-01-01,https://www.53ai.com/news/LargeLanguageModel/2024101137012.html,131d4639853e
+GQA-8-XXL,Google,Google Research,2023-12-23,https://arxiv.org/abs/2305.13245,c30811197f4a
+Gemini Nano-2,Google,Google DeepMind,2023-12-19,https://arxiv.org/abs/2312.11805,4c13734dbfa6
+Gemini Nano-1,Google,Google DeepMind,2023-12-19,https://arxiv.org/abs/2312.11805,4c13734dbfa6
+FunSearch,Google,Google DeepMind,2023-12-14,https://www.nature.com/articles/s41586-023-06924-6,e3f93b0f895e
+CogAgent,Zhipu,"Tsinghua University,Z.ai (Zhipu AI)",2023-12-14,https://arxiv.org/abs/2312.08914,19e9d83c4396
+VILA-13B,NVIDIA,"Nvidia,Massachusetts Institute of Technology (MIT)",2023-12-12,https://arxiv.org/abs/2312.07533,b5a332991fa3
+Mixtral 8x7B,Mistral,Mistral AI,2023-12-11,https://mistral.ai/news/mixtral-of-experts/,573d76ac8bd4
+Llama Guard,Meta,Meta AI,2023-12-07,https://arxiv.org/abs/2312.06674,e471810d993b
+Gemini 1.0 Ultra,Google,Google DeepMind,2023-12-06,https://storage.googleapis.com/deepmind-media/gemini/gemini_1_report.pdf,0453ae158a21
+Gemini 1.0 Pro,Google,Google DeepMind,2023-12-06,https://storage.googleapis.com/deepmind-media/gemini/gemini_1_report.pdf,0453ae158a21
+Qwen-72B,Alibaba,Alibaba,2023-11-30,https://huggingface.co/Qwen/Qwen-72B,85d4fb0369c1
+Claude 2.1,Anthropic,Anthropic,2023-11-21,https://www.anthropic.com/index/claude-2-1,a0753dfd9531
+Nemotron-3-8B,NVIDIA,Nvidia,2023-11-15,https://developer.nvidia.com/blog/nvidia-ai-foundation-models-build-custom-enterprise-chatbots-and-co-pilots-with-production-ready-llms/,bc43590ac757
+Qwen-Audio-Chat,Alibaba,Alibaba,2023-11-14,https://arxiv.org/abs/2311.07919,304bf96e48e2
+mPLUG-Owl2,Alibaba,Alibaba,2023-11-07,https://arxiv.org/abs/2311.04257,e9b0b2df7967
+GPT-4 Turbo (Nov 2023),OpenAI,OpenAI,2023-11-06,https://openai.com/blog/new-models-and-developer-products-announced-at-devday,2e54493f29ce
+CogVLM-17B,Zhipu,"Tsinghua University,Z.ai (Zhipu AI),Beihang University",2023-11-06,https://arxiv.org/abs/2311.03079,a86a6f45815a
+LLaVA 1.5,Microsoft,"University of Wisconsin Madison,Microsoft Research",2023-11-05,https://arxiv.org/abs/2310.03744,98d38a5f86c4
+Grok-1,xAI,xAI,2023-11-04,https://x.ai/model-card/,1c4fe327e69f
+ChatGLM3-6B,Zhipu,Z.ai (Zhipu AI),2023-10-27,https://www.zhipuai.cn/en/news/76,83a1f9904aae
+CODEFUSION (Python),Microsoft,"Microsoft,Microsoft Research",2023-10-26,https://arxiv.org/abs/2310.17680,39546cddf2d4
+PaLI-3,Google,"Google DeepMind,Google Research,Google Cloud",2023-10-17,https://arxiv.org/abs/2310.09199,5a1d64f4e85a
+GPT-3.5 Turbo Instruct,OpenAI,OpenAI,2023-09-28,https://platform.openai.com/docs/models/gpt-3.5-turbo,eab9ed418ba2
+GPT-4V,OpenAI,OpenAI,2023-09-25,https://cdn.openai.com/papers/GPTV_System_Card.pdf,212ca209bf51
+Qwen-VL,Alibaba,Alibaba,2023-08-24,https://arxiv.org/abs/2308.12966,bebac1b94736
+Llama 2-70B,Meta,Meta AI,2023-07-18,https://ai.meta.com/research/publications/llama-2-open-foundation-and-fine-tuned-chat-models/,9eb1f6a3bb01
+Llama 2-7B,Meta,Meta AI,2023-07-18,https://ai.meta.com/research/publications/llama-2-open-foundation-and-fine-tuned-chat-models/,9eb1f6a3bb01
+Claude 2,Anthropic,Anthropic,2023-07-11,https://www.anthropic.com/index/claude-2,d522919387e6
+GPT-4 (Jun 2023),OpenAI,OpenAI,2023-06-13,https://arxiv.org/abs/2303.08774,fe6a74baa273
+GPT-3.5 Turbo,OpenAI,OpenAI,2023-06-13,https://platform.openai.com/docs/models/gpt-3.5-turbo,eab9ed418ba2
+PaLI-X,Google,Google Research,2023-05-29,https://arxiv.org/abs/2305.18565,d4320773a93f
+ONE-PEACE,Alibaba,"Alibaba,Huazhong University of Science and Technology",2023-05-18,https://arxiv.org/abs/2305.11172v1,bf645a94de0e
+Med-PaLM 2,Google,"Google Research,DeepMind",2023-05-16,https://arxiv.org/abs/2305.09617,d2f1ead0f3e3
+PaLM 2,Google,Google,2023-05-10,https://arxiv.org/abs/2305.10403,55377cff8676
+ImageBind,Meta,Meta AI,2023-05-09,https://arxiv.org/abs/2305.05665,60089d02a457
+LLaVA,Microsoft,"University of Wisconsin Madison,Microsoft Research,Columbia University",2023-04-17,https://arxiv.org/abs/2304.08485,0b4c16631391
+GPT-4 (Mar 2023),OpenAI,OpenAI,2023-03-15,https://arxiv.org/abs/2303.08774,fe6a74baa273
+Claude,Anthropic,Anthropic,2023-03-14,https://www.anthropic.com/index/introducing-claude,052b93dc9766
+PaLM-E,Google,"Google,TU Berlin",2023-03-06,https://arxiv.org/abs/2303.03378,622deb41456c
+LLaMA-65B,Meta,Meta AI,2023-02-24,https://arxiv.org/abs/2302.13971,0e792eba0b1c
+ProteinDT,NVIDIA,"University of California (UC) Berkeley,California Institute of Technology,University of Toronto,University of Wisconsin Madison,Texas A&M,Nvidia,Mila - Quebec AI (originally Montreal Institute for Learning Algorithms)",2023-02-09,https://arxiv.org/abs/2302.04611,7e060a4b1420

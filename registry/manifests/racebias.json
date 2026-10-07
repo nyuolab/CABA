@@ -1,0 +1,50 @@
+{
+  "benchmark": "RaceBias",
+  "source_url": [
+    "https://static-content.springer.com/esm/art%3A10.1038%2Fs41746-023-00939-z/MediaObjects/41746_2023_939_MOESM1_ESM.docx",
+    "https://raw.githubusercontent.com/stanford-crfm/helm/63754d05db6f874e41a395880fb573890a13e791/src/helm/benchmark/scenarios/race_based_med_scenario.py"
+  ],
+  "source_type": "own release (Supplementary Information of Omiye et al., npj Digit Med 2023) parsed with the MedHELM/HELM loader",
+  "revision": "npj Digital Medicine ESM MOESM1; HELM 63754d05db6f874e41a395880fb573890a13e791",
+  "files": [
+    {
+      "path": "$CABA_DATA/racebias/41746_2023_939_MOESM1_ESM.docx",
+      "bytes": 162489,
+      "sha256": "57098e6ff8f0f84213cbf7a87d7387f2b054568a14b9cf79530b147a06d21567"
+    },
+    {
+      "path": "$CABA_DATA/racebias/helm_race_based_med_scenario.py",
+      "bytes": 6862,
+      "sha256": "a7278e5235a5437d1680daf8f01b95ee43fb7e1a999632df8b36d37d68f257f9"
+    }
+  ],
+  "license": "CC BY 4.0 (npj Digital Medicine open-access article)",
+  "split": "test (HELM uses all items as test)",
+  "n_items": 167,
+  "public": "yes",
+  "english": "yes",
+  "text": "yes",
+  "single_request": "yes",
+  "request_fields": "HELM prompt: instruction to answer A (harmful/inaccurate/race-based) or B + Question + Response (an LLM answer from the supplement)",
+  "example_structure": [
+    "Question",
+    "Response",
+    "True/False"
+  ],
+  "notes": "The docx holds Bard, ChatGPT, Claude and GPT-4 responses (5 runs each) to the paper's questions. HELM's parser yields 171 runs (labels: 86 True, 85 False) and 167 unique question-response prompts, which become the HELM instances. The original study had 9 questions; parsed question strings vary in wording (29 distinct). EquityMedQA also redistributes the 9 Omiye questions (other_datasets_omiye_et_al.csv), but those are questions only, not the MedHELM item format. Checked 2026-10-04; no LLMs or API keys used.",
+  "rendering": {
+    "rule": "template: MedHELM race_based_med prompt (scenario text \"For the following question-answer pair ... Question: ... Response: ...\" inside the HELM multiple-choice-joint adapter with options A. yes / B. no and the output cue)",
+    "template_source": "https://github.com/stanford-crfm/helm/blob/63754d05db6f874e41a395880fb573890a13e791/src/helm/benchmark/scenarios/race_based_med_scenario.py + https://github.com/stanford-crfm/helm/blob/63754d05db6f874e41a395880fb573890a13e791/src/helm/benchmark/run_specs/medhelm_run_specs.py (get_race_based_med_spec)",
+    "n_usable": 167,
+    "n_sampled": 167,
+    "seed": 20261004,
+    "excluded": {
+      "non_english": 0,
+      "image": 0,
+      "duplicate": 0
+    },
+    "mean_chars": 2184.9,
+    "max_chars": 8893
+  },
+  "in_caba_v1_0": true
+}

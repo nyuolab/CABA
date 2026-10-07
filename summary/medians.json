@@ -1,0 +1,72 @@
+{
+ "even_spread_overlap": 0.55345,
+ "rcq_doc_admin": 0.361583,
+ "rcq_diagnosis": 0.036921,
+ "groups": {
+  "frontier": {
+   "n": 12,
+   "overlap": {
+    "median": 0.4029808846153846,
+    "q1": 0.35962900000000003,
+    "q3": 0.5011725274725274
+   },
+   "doc_admin": {
+    "median": 0.0,
+    "q1": 0.0,
+    "q3": 0.012362637362637362
+   },
+   "diagnosis": {
+    "median": 0.0675,
+    "q1": 0.03671703296703297,
+    "q3": 0.1525
+   },
+   "n_doc_ge_5pct": 2,
+   "n_diag_above_rcq": 9
+  },
+  "practice": {
+   "n": 29,
+   "overlap": {
+    "median": 0.347613,
+    "q1": 0.258382,
+    "q3": 0.38662899999999994
+   },
+   "doc_admin": {
+    "median": 0.0,
+    "q1": 0.0,
+    "q3": 0.25
+   },
+   "diagnosis": {
+    "median": 0.0,
+    "q1": 0.0,
+    "q3": 0.06
+   },
+   "n_doc_ge_5pct": 9,
+   "n_diag_above_rcq": 10
+  },
+  "all": {
+   "n": 58,
+   "overlap": {
+    "median": 0.3100043378378379,
+    "q1": 0.211261,
+    "q3": 0.38537899999999997
+   },
+   "doc_admin": {
+    "median": 0.0,
+    "q1": 0.0,
+    "q3": 0.02625
+   },
+   "diagnosis": {
+    "median": 0.005,
+    "q1": 0.0,
+    "q3": 0.0764423076923077
+   },
+   "n_doc_ge_5pct": 13,
+   "n_diag_above_rcq": 22
+  }
+ },
+ "practice_minus_frontier_median_overlap": {
+  "diff": -0.05536788461538461,
+  "lo": -0.21176737926937922,
+  "hi": 0.002501550000000008
+ }
+}

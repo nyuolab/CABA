@@ -1,0 +1,45 @@
+{
+  "benchmark": "Hospitalization Summarization",
+  "source_url": [
+    "https://raw.githubusercontent.com/AI-in-Health/ClinicBench/57138be8a73f09bef8980f849789baf57570c5cf/Hospitalization-Summarization.json",
+    "https://raw.githubusercontent.com/AI-in-Health/ClinicBench/57138be8a73f09bef8980f849789baf57570c5cf/README.md",
+    "https://raw.githubusercontent.com/AI-in-Health/ClinicBench/57138be8a73f09bef8980f849789baf57570c5cf/LICENSE"
+  ],
+  "source_type": "own release (ClinicBench)",
+  "revision": "57138be8a73f09bef8980f849789baf57570c5cf",
+  "files": [
+    {
+      "path": "$CABA_DATA/hospitalization_summarization/Hospitalization-Summarization.json",
+      "bytes": 4822154,
+      "sha256": "ff3b2872b5e6c684f38c5a0e346c06d096468207b4debaf0a84ef96688ac3fb3"
+    },
+    {
+      "path": "$CABA_DATA/hospitalization_summarization/README.md",
+      "bytes": 6218,
+      "sha256": "c440695a1f61e7e7c1a0f0f8f760e6ffe67f32ca1e83cb337917091825e70731"
+    },
+    {
+      "path": "$CABA_DATA/hospitalization_summarization/LICENSE",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    }
+  ],
+  "license": "Apache-2.0 (ClinicBench repository LICENSE); source notes derived from MIMIC-IV (PhysioNet credentialed, DUA)",
+  "split": "whole set (no split; evaluation-only dataset)",
+  "n_items": 382,
+  "public": "yes",
+  "english": "yes",
+  "text": "yes",
+  "single_request": "yes",
+  "request_fields": "task prompt (paper Table 8: summarise hospitalization in <=200 words) + instruct (discharge-summary text, prefixed \"Input:\")",
+  "example_structure": [
+    "age",
+    "answer",
+    "gender",
+    "hadm_id",
+    "instruct",
+    "subject_id"
+  ],
+  "notes": "Benchmark exists only as part of the ClinicBench release (Liu et al., EMNLP 2024; ClinicBench is the suite and the own release). Prompt text per task is in Table 8 of the paper (https://aclanthology.org/2024.emnlp-main.759.pdf); the release ships items without the prompt. 382 items, matches the 382 in Table 1. Items are MIMIC-IV discharge notes (hadm_id/subject_id retained, \"___\" de-identification). They download from GitHub without credentials, so public=yes on the criterion as written, but redistribution of MIMIC-IV text is outside the PhysioNet DUA; flag for a decision. Inputs are long (median ~10k characters). Checked 2026-10-04; no LLMs or API keys used.",
+  "in_caba_v1_0": false
+}

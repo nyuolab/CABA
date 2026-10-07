@@ -1,0 +1,60 @@
+{
+  "benchmark": "LiveQA",
+  "source_url": [
+    "https://raw.githubusercontent.com/abachaa/LiveQA_MedicalTask_TREC2017/725a2d914e9794afbb897ac2006e3b0c6a7834c4/Readme.txt",
+    "https://raw.githubusercontent.com/abachaa/LiveQA_MedicalTask_TREC2017/725a2d914e9794afbb897ac2006e3b0c6a7834c4/TestDataset/TREC-2017-LiveQA-Medical-Test-Questions-w-summaries.xml",
+    "https://raw.githubusercontent.com/abachaa/LiveQA_MedicalTask_TREC2017/725a2d914e9794afbb897ac2006e3b0c6a7834c4/TestDataset/TREC-2017-LiveQA-Medical-Test.xml"
+  ],
+  "source_type": "own release",
+  "revision": "725a2d914e9794afbb897ac2006e3b0c6a7834c4",
+  "files": [
+    {
+      "path": "$CABA_DATA/liveqa/Readme.txt",
+      "bytes": 5623,
+      "sha256": "4feed09bae664322cb04c8028bb107b1938ad9790d1bf1783b395ed39c797106"
+    },
+    {
+      "path": "$CABA_DATA/liveqa/TestDataset/TREC-2017-LiveQA-Medical-Test-Questions-w-summaries.xml",
+      "bytes": 266041,
+      "sha256": "f6384fcf03e9b1bd0d9a15f6ea1a1aafc9491082e63fef0922ae2d6bc451805b"
+    },
+    {
+      "path": "$CABA_DATA/liveqa/TestDataset/TREC-2017-LiveQA-Medical-Test.xml",
+      "bytes": 256744,
+      "sha256": "be321b6708d1cfffe7117ac36fb98c88ad0b457185b48cc6cec80fbf810e8046"
+    }
+  ],
+  "license": "CC BY 4.0 (Readme.txt)",
+  "split": "TREC 2017 LiveQA Medical test set",
+  "n_items": 104,
+  "public": "yes",
+  "english": "yes",
+  "text": "yes",
+  "single_request": "yes",
+  "request_fields": "Original-Question SUBJECT + MESSAGE (consumer question as sent to NLM)",
+  "example_structure": [
+    "ANNOTATIONS",
+    "MESSAGE",
+    "NIST-PARAPHRASE",
+    "NLM-QUESTION@qid",
+    "NLM-Summary",
+    "ReferenceAnswers",
+    "SUBJECT"
+  ],
+  "notes": "104 consumer health test questions with reference answers (the LiveQA test set used by MultiMedQA). Training files (634 QA pairs) are not in this repo version and were not downloaded. The qrels file (judged participant answers) was not downloaded. Messages are real consumer emails: some have typos and run-on text. Checked 2026-10-04; no LLMs or API keys used.",
+  "rendering": {
+    "rule": "Item text as released: the original consumer question, SUBJECT line then MESSAGE (SUBJECT omitted when empty).",
+    "template_source": "none",
+    "n_usable": 104,
+    "n_sampled": 104,
+    "seed": 20261004,
+    "excluded": {
+      "non_english": 0,
+      "image": 0,
+      "duplicate": 0
+    },
+    "mean_chars": 181.4,
+    "max_chars": 893
+  },
+  "in_caba_v1_0": true
+}

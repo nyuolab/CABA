@@ -1,0 +1,55 @@
+{
+  "benchmark": "Med-PaLM 2 adversarial questions",
+  "source_url": [
+    "https://ndownloader.figshare.com/files/48320776",
+    "https://ndownloader.figshare.com/files/48320803",
+    "https://ndownloader.figshare.com/files/48320782"
+  ],
+  "source_type": "own release via successor paper (EquityMedQA OMAQ, Pfohl et al., Nature Medicine 2024, Figshare)",
+  "revision": "Figshare 10.6084/m9.figshare.26133973.v1 (published 2024-09-24); OMAQ file md5 a65ae305358e9f88f1360b5b5e388865 (verified)",
+  "files": [
+    {
+      "path": "$CABA_DATA/med_palm_2_adversarial_questions/equitymedqa_omaq.csv",
+      "bytes": 24152,
+      "sha256": "488a046a8b42768e4ccfd3c53d378f6ef6e4288d547e99d7c09c30fc47358bc2"
+    },
+    {
+      "path": "$CABA_DATA/med_palm_2_adversarial_questions/README",
+      "bytes": 7250,
+      "sha256": "c1b51ae9cc4fbfcbd9287b6466ed186800638c191eef318e5b81066a0158753d"
+    },
+    {
+      "path": "$CABA_DATA/med_palm_2_adversarial_questions/LICENSE",
+      "bytes": 18656,
+      "sha256": "9e5f1b3c610b9c2da5c313bf81d577a7d1acec686bdb0384edefa6df0f90cd94"
+    }
+  ],
+  "license": "CC BY 4.0 (Figshare item and LICENSE)",
+  "split": "OMAQ (= Med-PaLM 2 \"Adversarial (Health equity)\")",
+  "n_items": 182,
+  "public": "yes (Health equity set only; the 58-question Adversarial (General) set is not released)",
+  "english": "yes",
+  "text": "yes",
+  "single_request": "yes",
+  "request_fields": "question_text",
+  "example_structure": [
+    "question_id",
+    "question_text"
+  ],
+  "notes": "Med-PaLM 2 (arXiv 2305.09617) introduced Adversarial (General, 58) and Adversarial (Health equity, 182); the arXiv paper has no release statement. The Nature Medicine version (doi 10.1038/s41591-024-03423-7) says the adversarial assessments \"used datasets contained in EquityMedQA\". EquityMedQA (arXiv 2403.12025, sec. 4.2.1) states OMAQ (182) is the set \"referred to there as Adversarial (Health equity)\". No public copy of the 58 general questions was found. Example text omitted (adversarial content). Checked 2026-10-04; no LLMs or API keys used.",
+  "rendering": {
+    "rule": "otherwise: the question text as released (EquityMedQA OMAQ question_text)",
+    "template_source": "none",
+    "n_usable": 182,
+    "n_sampled": 182,
+    "seed": 20261004,
+    "excluded": {
+      "non_english": 0,
+      "image": 0,
+      "duplicate": 0
+    },
+    "mean_chars": 120.5,
+    "max_chars": 927
+  },
+  "in_caba_v1_0": true
+}

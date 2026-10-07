@@ -1,0 +1,13 @@
+The CABA registry, manifests, frontier report records, labels, summaries and website data
+(registry/, labels/, summary/, reference/, site/data/) are licensed under the Creative Commons
+Attribution 4.0 International License (CC BY 4.0): https://creativecommons.org/licenses/by/4.0/
+
+Copyright (c) 2026 The CABA authors
+
+registry/frontier_reports/epoch_notable_ai_models_2026-10-04.csv is a snapshot of Epoch AI's
+Notable AI Models database, redistributed under its own CC BY 4.0 license; see
+registry/frontier_reports/ATTRIBUTION.md.
+
+The benchmarks cataloged here are not part of this repository and keep their own licenses, as
+recorded in registry/caba_v1.0.csv and registry/manifests/. CABA does not redistribute benchmark
+items; the scripts rebuild them from each benchmark's own release, under that benchmark's terms.

@@ -1,0 +1,73 @@
+{
+  "benchmark": "HealthBench",
+  "source_url": [
+    "https://openaipublic.blob.core.windows.net/simple-evals/healthbench/2025-05-07-06-14-12_oss_eval.jsonl"
+  ],
+  "source_type": "own release (OpenAI simple-evals blob)",
+  "revision": "Azure blob ETag 0x8DD9176E8C2022D, Last-Modified 2025-05-12, Content-MD5 WG5ihzNmgj88RcJMS+YHuA== (verified); referenced by openai/simple-evals 652c89d0ca9df547706735883097e9537d40dc47 healthbench_eval.py",
+  "files": [
+    {
+      "path": "$CABA_DATA/healthbench/2025-05-07-06-14-12_oss_eval.jsonl",
+      "bytes": 60258154,
+      "sha256": "e99dd3c6372c10d6fcc5e385c5fae69d0dd40392dae56836ef9493ae324ecd2f"
+    }
+  ],
+  "license": "MIT (openai/simple-evals; HF openai/healthbench card: mit)",
+  "split": "full eval set (oss_eval)",
+  "n_items": 5000,
+  "public": "yes",
+  "english": "partly (no language field; a stopword/script heuristic classes about 4,260 of 5,000 first user turns (85%) as English, the rest Spanish, Portuguese, French, CJK, Cyrillic, Arabic, Hindi and others)",
+  "text": "yes",
+  "single_request": "yes",
+  "request_fields": "prompt (list of messages; 2,915 single-turn; first user turn = prompt[0].content)",
+  "example_structure": [
+    "canary",
+    "example_tags",
+    "ideal_completions_data",
+    "prompt",
+    "prompt_id",
+    "rubrics"
+  ],
+  "notes": "HealthBench Hard (https://openaipublic.blob.core.windows.net/simple-evals/healthbench/hard_2025-05-08-21-00-10.jsonl, 1,000) and Consensus (https://openaipublic.blob.core.windows.net/simple-evals/healthbench/consensus_2025-05-09-20-00-46.jsonl) are subsets of these 5,000 and were not downloaded. English share is a heuristic estimate; a proper language ID pass is needed before restricting to English. No example text in this manifest (canary-marked eval). Checked 2026-10-04; no LLMs or API keys used.",
+  "rendering": {
+    "rule": "conversation: the first user turn only; language identified with lingua-language-detector 2.1.1 (LanguageDetectorBuilder.from_all_languages().with_preloaded_language_models().build()); an item is non-English only if compute_language_confidence_values on the first user turn gives a top language other than ENGLISH with confidence >= 0.80, every other item (including short ones) counts as English",
+    "template_source": "none",
+    "n_usable": 4412,
+    "n_sampled": 200,
+    "seed": 20261004,
+    "excluded": {
+      "non_english": 588,
+      "image": 0,
+      "duplicate": 0
+    },
+    "mean_chars": 143.2,
+    "max_chars": 967,
+    "language_id": {
+      "package": "lingua-language-detector",
+      "version": "2.1.1",
+      "rule": "non-English iff top language != ENGLISH and confidence >= 0.80 (first user turn)",
+      "n_excluded_non_english": 588,
+      "non_english_counts": {
+        "spanish": 142,
+        "portuguese": 116,
+        "russian": 95,
+        "french": 81,
+        "chinese": 41,
+        "german": 27,
+        "arabic": 21,
+        "italian": 19,
+        "turkish": 19,
+        "korean": 11,
+        "japanese": 7,
+        "indonesian": 2,
+        "tagalog": 2,
+        "ukrainian": 1,
+        "latin": 1,
+        "estonian": 1,
+        "gujarati": 1,
+        "hindi": 1
+      }
+    }
+  },
+  "in_caba_v1_0": true
+}

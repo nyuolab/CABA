@@ -1,0 +1,73 @@
+{
+  "benchmark": "MedCalc-Bench",
+  "source_url": [
+    "https://huggingface.co/datasets/ncbi/MedCalc-Bench/resolve/83a1a56d6b53f8d4c0e03f0ba9699becf524a595/test_data_11_18_final.csv",
+    "https://huggingface.co/datasets/ncbi/MedCalc-Bench/resolve/83a1a56d6b53f8d4c0e03f0ba9699becf524a595/README.md"
+  ],
+  "source_type": "own release",
+  "revision": "83a1a56d6b53f8d4c0e03f0ba9699becf524a595",
+  "files": [
+    {
+      "path": "$CABA_DATA/medcalc_bench/test_data_11_18_final.csv",
+      "bytes": 5350557,
+      "sha256": "c9d219a30e43f50646b73fa5fe5fe86d1ef47e7d9b2c7403a0edb7f3e5290e3a",
+      "url": "https://huggingface.co/datasets/ncbi/MedCalc-Bench/resolve/83a1a56d6b53f8d4c0e03f0ba9699becf524a595/test_data_11_18_final.csv",
+      "role": "items"
+    },
+    {
+      "path": "$CABA_DATA/medcalc_bench/_card/ncbi__MedCalc-Bench_README.md",
+      "bytes": 5634,
+      "sha256": "e128ac0d56c2d159c9708b09b67271dc078510118cdbccaffbf3d2d1a8ae2f1e",
+      "url": "https://huggingface.co/datasets/ncbi/MedCalc-Bench/resolve/83a1a56d6b53f8d4c0e03f0ba9699becf524a595/README.md",
+      "role": "dataset card"
+    }
+  ],
+  "license": "cc-by-sa-4.0",
+  "split": "test (test_data_11_18_final.csv; train_data not downloaded)",
+  "n_items": 1100,
+  "public": "yes",
+  "english": "yes",
+  "text": "yes",
+  "single_request": "yes",
+  "request_fields": "Patient Note + Question",
+  "example_structure": [
+    "example",
+    "fields"
+  ],
+  "notes": "Current Hub version (v1.2, lastModified 2025-12-18) has 1,100 test items across 55 calculators (the original paper reported 1,047). The card points to a newer MedCalc-Bench-Verified (nsk7153/MedCalc-Bench-Verified), not downloaded.",
+  "hf_repo": "ncbi/MedCalc-Bench",
+  "checked_on": "2026-10-04",
+  "rendering": {
+    "rule": "vignette + question: Patient Note, a blank line, then Question.",
+    "template_source": "none",
+    "n_usable": 1099,
+    "n_sampled": 200,
+    "seed": 20261004,
+    "excluded": {
+      "non_english": 0,
+      "image": 0,
+      "duplicate": 1
+    },
+    "image_rule": "Exclude an item as needing an unreleased picture only if (i) a released image field marks it (HEAD-QA 'image'), or (ii) its question stem (the part that asks the question: MCQ question text, MedCalc 'Question', MedHallu 'Question', Med-HALT reasoning 'question', a patient's own question in HealthCareMagic/iCliniq/MEDIQA-RQE) matches, case-insensitively, any of: (a) shown/seen/depicted/displayed/illustrated/pictured/presented/visualized + in/on/below/above + [the/this] [accompanying/following/attached/adjacent] + figure|image|picture|photo(graph)|(photo)micrograph|exhibit|illustration|diagram|graph; (b) see/refer to + [the/this/these] [accompanying/following/attached] + a word of (a), or look at + [the/this/these/my] [accompanying/following/attached] + a visual word (the list in (a) plus radiograph|x-ray|ECG|EKG|electrocardiogram|tracing|smear|scan); (c) 'the following/accompanying/attached/adjacent' + a visual word, unless preceded by 'which of'; (d) this/these + image|photo(graph)|(photo)micrograph|exhibit|illustration|diagram|graph (not 'figure' or 'picture', which in stems mostly mean numbers or a clinical picture); (e) figure/fig./image + a number, or + a space and a capital letter A-H (e.g. 'Figure 1', 'Figures A-C', 'image # 6'); (f) a visual word + shown|attached|enclosed|below; (g) attached/enclosed/uploaded/sent (or attaching/uploading/sending) + [herewith] [determiner] [one word other than for/to/in/out] + picture|photo(graph)|image|x-ray|radiograph. Documents the item asks about (case reports, patient notes, news articles, abstracts, radiology reports, conversations, MedS-Bench inputs, MedHallu Knowledge, MedCaseReasoning case_prompt, Med-HALT IR fields) are not scanned. Regex: (?:\\b(?:shown|seen|depicted|displayed|illustrated|pictured|presented|visuali[sz]ed)\\s+(?:in|on|below|above)\\s+(?:the\\s+|this\\s+)?(?:accompanying\\s+|following\\s+|attached\\s+|adjacent\\s+)?(?:figures?|fig\\.|images?|pictures?|photos?|photographs?|photomicrographs?|micrographs?|exhibits?|illustrations?|diagrams?|graphs?)\\b)|(?:\\b(?:see|refer\\s+to)\\s+(?:the\\s+|this\\s+|these\\s+)?(?:accompanying\\s+|following\\s+|attached\\s+)?(?:figures?|fig\\.|images?|pictures?|photos?|photographs?|photomicrographs?|micrographs?|exhibits?|illustrations?|diagrams?|graphs?)\\b)|(?:\\blook\\s+at\\s+(?:the\\s+|this\\s+|these\\s+|my\\s+)?(?:accompanying\\s+|following\\s+|attached\\s+)?(?:figures?|fig\\.|images?|pictures?|photos?|photographs?|photomicrographs?|micrographs?|exhibits?|illustrations?|diagrams?|graphs?|radiographs?|x-?rays?|ecgs?|ekgs?|electrocardiograms?|tracings?|smears?|scans?)\\b)|(?:(?<!which of )(?<!which of\\s)\\bthe\\s+(?:following|accompanying|attached|adjacent)\\s+(?:figures?|fig\\.|images?|pictures?|photos?|photographs?|photomicrographs?|micrographs?|exhibits?|illustrations?|diagrams?|graphs?|radiographs?|x-?rays?|ecgs?|ekgs?|electrocardiograms?|tracings?|smears?|scans?)\\b)|(?:\\b(?:this|these)\\s+(?:images?|photos?|photographs?|photomicrographs?|micrographs?|exhibits?|illustrations?|diagrams?|graphs?)\\b)|(?:\\b(?:figures?|figs?\\.|images?)(?:\\s*#?\\s*\\d+|\\s+(?-i:[A-H])(?:\\s*(?:-|–|and|,)\\s*(?-i:[A-H]))?)\\b)|(?:\\b(?:figures?|fig\\.|images?|pictures?|photos?|photographs?|photomicrographs?|micrographs?|exhibits?|illustrations?|diagrams?|graphs?|radiographs?|x-?rays?|ecgs?|ekgs?|electrocardiograms?|tracings?|smears?|scans?)\\s+(?:shown|attached|enclosed|below)\\b)|(?:\\b(?:attached|enclosed|uploaded|sent|sending|attaching|uploading)\\s+(?:herewith\\s+)?(?:(?:this|these|the|a|an|my|his|her|some|few|a\\s+few)\\s+)?(?:(?!for\\b|to\\b|in\\b|out\\b)\\w+\\s+)?(?:pictures?|photos?|photographs?|images?|x-?rays?|radiographs?)\\b)",
+    "mean_chars": 3009.5,
+    "max_chars": 8632,
+    "n_released_rendered": 1100,
+    "n_unrenderable": 0,
+    "rendered_file": "$CABA_DATA/rendered/medcalc_bench.jsonl",
+    "version": 2,
+    "v1": {
+      "n_usable": 1073,
+      "n_sampled": 200,
+      "mean_chars": 2760.5,
+      "max_chars": 6575,
+      "excluded": {
+        "non_english": 0,
+        "image": 26,
+        "duplicate": 1
+      },
+      "template_source": "none"
+    },
+    "sample_vs_v1": "changed (32 of 200 items in common)"
+  },
+  "in_caba_v1_0": true
+}

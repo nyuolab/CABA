@@ -1,0 +1,82 @@
+{
+  "benchmark": "CareQA",
+  "source_url": [
+    "https://huggingface.co/datasets/HPAI-BSC/CareQA/resolve/1d976cc544ccb9dfc96e14439e6840e8a810cec5/CareQA_en.json",
+    "https://huggingface.co/datasets/HPAI-BSC/CareQA/resolve/1d976cc544ccb9dfc96e14439e6840e8a810cec5/CareQA_en_open.json",
+    "https://huggingface.co/datasets/HPAI-BSC/CareQA/resolve/1d976cc544ccb9dfc96e14439e6840e8a810cec5/README.md"
+  ],
+  "source_type": "own release",
+  "revision": "1d976cc544ccb9dfc96e14439e6840e8a810cec5",
+  "files": [
+    {
+      "path": "$CABA_DATA/careqa/CareQA_en.json",
+      "bytes": 3417943,
+      "sha256": "1d694124ee73130d0fcff7bafa9f61d0de26d0f2f9398a24559e53bb9aea3c40",
+      "url": "https://huggingface.co/datasets/HPAI-BSC/CareQA/resolve/1d976cc544ccb9dfc96e14439e6840e8a810cec5/CareQA_en.json",
+      "role": "items"
+    },
+    {
+      "path": "$CABA_DATA/careqa/CareQA_en_open.json",
+      "bytes": 875448,
+      "sha256": "05e88784c5565917e622e398b0c653d7c193eb44e518c3518ca1fb0aa9e1fe26",
+      "url": "https://huggingface.co/datasets/HPAI-BSC/CareQA/resolve/1d976cc544ccb9dfc96e14439e6840e8a810cec5/CareQA_en_open.json",
+      "role": "items"
+    },
+    {
+      "path": "$CABA_DATA/careqa/_card/HPAI-BSC__CareQA_README.md",
+      "bytes": 15186,
+      "sha256": "bcb21b225b9ee91fad1668174d3fad2e7e086638c46ac0c89cb76dcabaf28605",
+      "url": "https://huggingface.co/datasets/HPAI-BSC/CareQA/resolve/1d976cc544ccb9dfc96e14439e6840e8a810cec5/README.md",
+      "role": "dataset card"
+    }
+  ],
+  "license": "apache-2.0",
+  "split": "test (only split; closed-ended English file CareQA_en.json)",
+  "n_items": 5621,
+  "public": "yes",
+  "english": "yes (English version from the authors, GPT-4-translated from the Spanish FSE exams; CareQA_es.json not downloaded)",
+  "text": "yes",
+  "single_request": "yes",
+  "request_fields": "question + op1..op4",
+  "example_structure": [
+    "example",
+    "fields"
+  ],
+  "notes": "Closed-ended MCQ, 5,621 items (Pharmacology, Biology, Psychology, Chemistry, Nursing, Medicine; exams 2020-2024). Also downloaded the open-ended English version CareQA_en_open.json (2769 items; question -> free answer; rephrased from the MCQ set). Image files on the repo are logos, not items.",
+  "n_items_open_ended": 2769,
+  "hf_repo": "HPAI-BSC/CareQA",
+  "checked_on": "2026-10-04",
+  "rendering": {
+    "rule": "multiple choice: question, then options op1-op4 one per line lettered A-D (source has no letters).",
+    "template_source": "none",
+    "n_usable": 5621,
+    "n_sampled": 200,
+    "seed": 20261004,
+    "excluded": {
+      "non_english": 0,
+      "image": 0,
+      "duplicate": 0
+    },
+    "image_rule": "Exclude an item as needing an unreleased picture only if (i) a released image field marks it (HEAD-QA 'image'), or (ii) its question stem (the part that asks the question: MCQ question text, MedCalc 'Question', MedHallu 'Question', Med-HALT reasoning 'question', a patient's own question in HealthCareMagic/iCliniq/MEDIQA-RQE) matches, case-insensitively, any of: (a) shown/seen/depicted/displayed/illustrated/pictured/presented/visualized + in/on/below/above + [the/this] [accompanying/following/attached/adjacent] + figure|image|picture|photo(graph)|(photo)micrograph|exhibit|illustration|diagram|graph; (b) see/refer to + [the/this/these] [accompanying/following/attached] + a word of (a), or look at + [the/this/these/my] [accompanying/following/attached] + a visual word (the list in (a) plus radiograph|x-ray|ECG|EKG|electrocardiogram|tracing|smear|scan); (c) 'the following/accompanying/attached/adjacent' + a visual word, unless preceded by 'which of'; (d) this/these + image|photo(graph)|(photo)micrograph|exhibit|illustration|diagram|graph (not 'figure' or 'picture', which in stems mostly mean numbers or a clinical picture); (e) figure/fig./image + a number, or + a space and a capital letter A-H (e.g. 'Figure 1', 'Figures A-C', 'image # 6'); (f) a visual word + shown|attached|enclosed|below; (g) attached/enclosed/uploaded/sent (or attaching/uploading/sending) + [herewith] [determiner] [one word other than for/to/in/out] + picture|photo(graph)|image|x-ray|radiograph. Documents the item asks about (case reports, patient notes, news articles, abstracts, radiology reports, conversations, MedS-Bench inputs, MedHallu Knowledge, MedCaseReasoning case_prompt, Med-HALT IR fields) are not scanned. Regex: (?:\\b(?:shown|seen|depicted|displayed|illustrated|pictured|presented|visuali[sz]ed)\\s+(?:in|on|below|above)\\s+(?:the\\s+|this\\s+)?(?:accompanying\\s+|following\\s+|attached\\s+|adjacent\\s+)?(?:figures?|fig\\.|images?|pictures?|photos?|photographs?|photomicrographs?|micrographs?|exhibits?|illustrations?|diagrams?|graphs?)\\b)|(?:\\b(?:see|refer\\s+to)\\s+(?:the\\s+|this\\s+|these\\s+)?(?:accompanying\\s+|following\\s+|attached\\s+)?(?:figures?|fig\\.|images?|pictures?|photos?|photographs?|photomicrographs?|micrographs?|exhibits?|illustrations?|diagrams?|graphs?)\\b)|(?:\\blook\\s+at\\s+(?:the\\s+|this\\s+|these\\s+|my\\s+)?(?:accompanying\\s+|following\\s+|attached\\s+)?(?:figures?|fig\\.|images?|pictures?|photos?|photographs?|photomicrographs?|micrographs?|exhibits?|illustrations?|diagrams?|graphs?|radiographs?|x-?rays?|ecgs?|ekgs?|electrocardiograms?|tracings?|smears?|scans?)\\b)|(?:(?<!which of )(?<!which of\\s)\\bthe\\s+(?:following|accompanying|attached|adjacent)\\s+(?:figures?|fig\\.|images?|pictures?|photos?|photographs?|photomicrographs?|micrographs?|exhibits?|illustrations?|diagrams?|graphs?|radiographs?|x-?rays?|ecgs?|ekgs?|electrocardiograms?|tracings?|smears?|scans?)\\b)|(?:\\b(?:this|these)\\s+(?:images?|photos?|photographs?|photomicrographs?|micrographs?|exhibits?|illustrations?|diagrams?|graphs?)\\b)|(?:\\b(?:figures?|figs?\\.|images?)(?:\\s*#?\\s*\\d+|\\s+(?-i:[A-H])(?:\\s*(?:-|–|and|,)\\s*(?-i:[A-H]))?)\\b)|(?:\\b(?:figures?|fig\\.|images?|pictures?|photos?|photographs?|photomicrographs?|micrographs?|exhibits?|illustrations?|diagrams?|graphs?|radiographs?|x-?rays?|ecgs?|ekgs?|electrocardiograms?|tracings?|smears?|scans?)\\s+(?:shown|attached|enclosed|below)\\b)|(?:\\b(?:attached|enclosed|uploaded|sent|sending|attaching|uploading)\\s+(?:herewith\\s+)?(?:(?:this|these|the|a|an|my|his|her|some|few|a\\s+few)\\s+)?(?:(?!for\\b|to\\b|in\\b|out\\b)\\w+\\s+)?(?:pictures?|photos?|photographs?|images?|x-?rays?|radiographs?)\\b)",
+    "mean_chars": 338.7,
+    "max_chars": 1383,
+    "n_released_rendered": 5621,
+    "n_unrenderable": 0,
+    "rendered_file": "$CABA_DATA/rendered/careqa.jsonl",
+    "version": 2,
+    "v1": {
+      "n_usable": 5618,
+      "n_sampled": 200,
+      "mean_chars": 350.6,
+      "max_chars": 1031,
+      "excluded": {
+        "non_english": 0,
+        "image": 3,
+        "duplicate": 0
+      },
+      "template_source": "none"
+    },
+    "sample_vs_v1": "changed (4 of 200 items in common)"
+  },
+  "in_caba_v1_0": true
+}

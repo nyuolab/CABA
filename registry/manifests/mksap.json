@@ -1,0 +1,18 @@
+{
+  "benchmark": "MKSAP",
+  "source_url": [],
+  "source_type": "none (commercial product)",
+  "revision": null,
+  "files": [],
+  "license": "proprietary (American College of Physicians)",
+  "split": null,
+  "n_items": null,
+  "public": "no (paid subscription: ACP MKSAP, formerly MKSAP 20; 1-year $415-$849 per acponline.org/featured-products/acp-mksap)",
+  "english": "not checked (items unavailable)",
+  "text": "not checked (items unavailable)",
+  "single_request": "not checked (product is a multiple-choice question bank)",
+  "request_fields": null,
+  "example_structure": [],
+  "notes": "ACP's Medical Knowledge Self-Assessment Program is sold as a subscription; no free public item set was found on the product page. Not downloaded (payment required). Checked 2026-10-04; no LLMs or API keys used.",
+  "in_caba_v1_0": false
+}

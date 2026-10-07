@@ -1,0 +1,44 @@
+{
+  "benchmark": "RCT-Text",
+  "source_url": [
+    "https://huggingface.co/datasets/Henrychur/MedS-Bench-SPLIT/resolve/bae9b49bb23ffcd5b1b64345f021d4d5b803b503/Text_summarization/task110_rct_text_summurization.json"
+  ],
+  "source_type": "suite release (MedS-Bench, SPLIT subset only, instruction version)",
+  "revision": "HF Henrychur/MedS-Bench 6945b14e0f408082aecb6a77a185b9ebdd5fb413; HF Henrychur/MedS-Bench-SPLIT bae9b49bb23ffcd5b1b64345f021d4d5b803b503 (GitHub MAGIC-AI4Med/MedS-Ins 185cfc04a27023983e48b357a6f2fd525049b9af)",
+  "files": [
+    {
+      "path": "$CABA_DATA/rct_text/MedS-Bench-SPLIT/task110_rct_text_summurization.json",
+      "bytes": 752456,
+      "sha256": "e75d049593d96f6a735f233e0572a9695d82310743ccd2cbd1423a4b1468ea95"
+    }
+  ],
+  "license": "MedS-Ins/MedS-Bench GitHub LICENSE: \"CC BY-SA\" (MAGIC consortium); HF dataset cards declare no license; task-file Instance License: none given; source \"RCT\" via huggingface.co/datasets/allenai/mslr2022 (Cochrane subset; Wallace et al. 2020, arXiv 2008.11293)",
+  "split": "MedS-Bench-SPLIT test file (not in the full MedS-Bench release)",
+  "n_items": 100,
+  "public": "yes",
+  "english": "yes",
+  "text": "yes",
+  "single_request": "yes",
+  "request_fields": "Definition (\"summarize the main conclusions of the studies\") + instance input (Study1..StudyN titles and abstracts)",
+  "example_structure": [
+    "Definition",
+    "Instances[].input",
+    "Instances[].output"
+  ],
+  "notes": "MedS-Bench (Wu et al., npj Digit Med 2024; arXiv 2408.12547) recasts the dataset as an instruction task. Henrychur/MedS-Bench holds the full test files (\"the official benchmark\"); Henrychur/MedS-Bench-SPLIT holds the subsample used for the paper's results. n_items counts the MedS-Bench file. Only the SPLIT release has the summarization tasks; Henrychur/MedS-Bench has no Text_summarization folder. MedS-Ins has a training version (task110), not downloaded. Inputs concatenate the titles and abstracts of several RCTs (median about 4,350 characters). Checked 2026-10-04; no LLMs or API keys used.",
+  "rendering": {
+    "rule": "instruction-style (MedS-Bench): the task Definition, a blank line, then the instance input (few-shot examples and outputs omitted)",
+    "template_source": "none (instruction and input as released in the MedS-Bench task files)",
+    "n_usable": 100,
+    "n_sampled": 100,
+    "seed": 20261004,
+    "excluded": {
+      "non_english": 0,
+      "image": 0,
+      "duplicate": 0
+    },
+    "mean_chars": 7079.1,
+    "max_chars": 19767
+  },
+  "in_caba_v1_0": true
+}

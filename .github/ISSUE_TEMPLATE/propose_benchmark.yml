@@ -1,0 +1,55 @@
+name: Propose a benchmark
+description: Suggest a clinical AI benchmark for the next CABA version.
+title: "[benchmark] "
+labels: ["benchmark proposal"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        CABA includes public, English, text-based benchmarks built for health care whose items are single requests (see docs/protocol.md). Please do not paste benchmark items here.
+  - type: input
+    id: name
+    attributes:
+      label: Benchmark name
+    validations:
+      required: true
+  - type: input
+    id: paper
+    attributes:
+      label: Paper or preprint (DOI or URL)
+  - type: input
+    id: data
+    attributes:
+      label: Where the evaluation items can be downloaded
+      description: Repository, dataset page or supplement, ideally with a version or commit.
+    validations:
+      required: true
+  - type: input
+    id: licence
+    attributes:
+      label: License of the items
+  - type: dropdown
+    id: access
+    attributes:
+      label: Access
+      options:
+        - Open download
+        - Free registration or terms acceptance
+        - Credentialed access, application or data use agreement
+        - Not released
+    validations:
+      required: true
+  - type: textarea
+    id: use
+    attributes:
+      label: Where it is used
+      description: Evaluation suites or model reports that report results on it, if any.
+  - type: checkboxes
+    id: criteria
+    attributes:
+      label: Eligibility
+      options:
+        - label: Items are in English, or the authors released an English version
+        - label: Items can be answered from text alone (or have a text-only subset)
+        - label: It was built for health care, not drawn from a general-domain benchmark
+        - label: Items are single requests (questions, instructions, vignettes or conversations), not agent environments or token labelling
